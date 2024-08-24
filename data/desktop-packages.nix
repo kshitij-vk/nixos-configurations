@@ -34,6 +34,8 @@
     picom
     python311Packages.sparklines
     pywal
+    poppins
+    meslo-lgf-nf
     rofi
     slstatus
     st

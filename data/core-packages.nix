@@ -12,6 +12,7 @@
     #google-chrome
     #wpsoffice
     alacritty
+    ansible
     arandr
     arc-theme
     avahi
@@ -21,15 +22,16 @@
     bibata-cursors
     blueberry
     btop
+    bison
+    ccache    
     chromium
     curl
     dex
     discord
     dmenu
-    dropbox
+    docker
     duf
     edid-decode
-    etcher
     evince
     feh
     filezilla
@@ -42,6 +44,7 @@
     gnome.dconf-editor
     gnome.gnome-disk-utility
     gnome.gvfs
+    gradle
     hack-font
     hblock
     hw-probe
@@ -50,23 +53,28 @@
     inkscape
     insync
     inxi
+    jdk
+    jenkins
     killall
     kitty
+    libxcrypt
+    libxml2
     lm_sensors
     lollypop
     lshw
+    maven
     meld
     most
-    neofetch
+    fastfetch
     networkmanagerapplet
     nixos-generators
     nomacs
+    ninja
     numlockx
-    obs-studio
-    ookla-speedtest
-    qbittorrent-qt5
+    perl
     platinum-searcher
     polybar
+    pngcrush
     qt6Packages.qtstyleplugin-kvantum
     ripgrep
     rxvt-unicode
@@ -77,6 +85,9 @@
     telegram-desktop
     tree
     variety
+    vlc
+    volumeicon
+    vscode
     vivaldi
     vivaldi-ffmpeg-codecs
     vlc
@@ -89,5 +100,6 @@
     zsh
     zsh-completions
     zsh-syntax-highlighting
+    unzip
   ];
 }

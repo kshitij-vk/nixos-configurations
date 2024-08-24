@@ -11,24 +11,11 @@
       ./hardware-configuration.nix
       ./core-packages.nix
       ./desktop-packages.nix
-      #./home-manager.nix
       #./nvidia.nix
-      #<home-manager/nixos>
-      #./samba.nix
       ./env-vars.nix
       #./virtualbox.nix
-      #./desktops/awesome.nix
-      #./desktops/i3wm.nix
-      #./desktops/bspwm.nix
-      #./desktops/hyprland.nix
-      #./desktops/dwm.nix
-      #./desktops/chadwm.nix             #does not work
-      #./desktops/qtile.nix
-      #./desktops/hlwm.nix               #does not work
-      #./desktops/openbox.nix
-      #./desktops/leftwm.nix
-      #./desktops/dusk.nix		           #does not work
-	  #./desktops/wordpress.nix
+      ./desktops/bspwm.nix
+      ./desktops/hyprland.nix
     ];
 
   # Bootloader.
@@ -39,7 +26,7 @@
   boot.kernel.sysctl = { "vm.swappiness" = 10;};
 
   # Kernel
-  boot.kernelPackages = pkgs.linuxPackages_latest;
+  boot.kernelPackages = pkgs.linuxPackages_lqx;
 
   networking.hostName = "nixos-data"; # Define your hostname.
   # networking.wireless.enable = true;  # Enables wireless support via wpa_supplicant.
@@ -57,6 +44,19 @@
   # Select internationalisation properties.
   i18n.defaultLocale = "en_US.UTF-8";
 
+  i18n.extraLocaleSettings = {
+    LC_ALL =  "en_US.UTF-8";
+    LC_ADDRESS = "en_US.UTF-8";
+    LC_IDENTIFICATION = "en_US.UTF-8";
+    LC_MEASUREMENT = "en_US.UTF-8";
+    LC_MONETARY = "en_US.UTF-8";
+    LC_NAME = "en_US.UTF-8";
+    LC_NUMERIC = "en_US.UTF-8";
+    LC_PAPER = "en_US.UTF-8";
+    LC_TELEPHONE = "en_US.UTF-8";
+    LC_TIME = "en_US.UTF-8";
+  };
+
   # Enable the X11 windowing system.
   services.xserver.enable = true;
 
@@ -70,41 +70,12 @@
   # for wayland dark theme  
   #programs.dconf.enable = true;
 
-  # https://mynixos.com/options/services.xserver.desktopManager
-  
-  #services.xserver.desktopManager.budgie
-  #services.xserver.desktopManager.cde
-  #services.xserver.desktopManager.cinnamon
-  #services.xserver.desktopManager.deepin
-  #services.xserver.desktopManager.enlightenment
-  #services.xserver.desktopManager.gnome
-  #services.xserver.desktopManager.kodi
-  #services.xserver.desktopManager.lumina
-  #services.xserver.desktopManager.lxqt
-  #services.xserver.desktopManager.mate
-  #services.xserver.desktopManager.pantheon
-  #services.xserver.desktopManager.phosh
-  #services.xserver.desktopManager.plasma
-  #services.xserver.desktopManager.retroarch
-  #services.xserver.desktopManager.surf-display
-  #services.xserver.desktopManager.wallpaper
-  #services.xserver.desktopManager.xfce
-  #services.xserver.desktopManager.xterm
-
   #https://mynixos.com/options/services.xserver.windowManager
 
   # Configure keymap in X11
   services.xserver = {
-    layout = "be";
+    layout = "us";
     xkbVariant = "";
-  };
-
-  # Select internationalisation properties.
-  console = {
-    keyMap = "be-latin1";
-    packages=[ pkgs.terminus_font ];
-    font="${pkgs.terminus_font}/share/consolefonts/ter-i22b.psf.gz";
-    #useXkbConfig = true; # use xkbOptions in tty.
   };
 
   # Enable CUPS to print documents.
@@ -134,8 +105,8 @@
   # Define a user account. Don't forget to set a password with ‘passwd’.
   users.users.erik = {
     isNormalUser = true;
-    description = "erik";
-    extraGroups = [ "mlocate" "networkmanager" "wheel" "samba" "vboxusers" ];
+    description = "roxor";
+    extraGroups = [ "mlocate" "networkmanager" "wheel" "extraGroups" "docker" ];
     packages = with pkgs; [
       firefox
     ];
@@ -143,7 +114,7 @@
 
   # Enable automatic login for the user.
   services.xserver.displayManager.autoLogin.enable = true;
-  services.xserver.displayManager.autoLogin.user = "erik";
+  services.xserver.displayManager.autoLogin.user = "roxor";
 
   # Allow unfree packages
   nixpkgs.config.allowUnfree = true;
@@ -193,12 +164,31 @@
     };
   };
 
-  programs.bash = {
-	enableCompletion = true;
-    shellInit = ''
-      . ~/.bashrc-personal
-    '';
+  programs.zsh = {
+    enable = true;
+    autosuggestions.enable = true;
+    zsh-autoenv.enable = true;
+    enableCompletion = true;
+    syntaxHighlighting.enable = true;
+    ohMyZsh = {
+        enable = true;
+        theme = "robbyrussell";
+        plugins = [
+          "git"
+          "npm"
+          "history"
+          "node"
+          "rust"
+          "deno"
+        ];
+    };
   };
+
+  # for global user
+  users.defaultUserShell=pkgs.zsh;
+
+  # For a specific user
+  users.users.roxor.shell = pkgs.zsh;
 
   #programs.steam.enable =  true;
 
@@ -247,9 +237,9 @@
   # this value at the release version of the first install of this system.
   # Before changing this value read the documentation for this option
   # (e.g. man configuration.nix or on https://nixos.org/nixos/options.html).
-  system.stateVersion = "23.11"; # Did you read the comment?
+  system.stateVersion = "24.05"; # Did you read the comment?
 
  nixpkgs.config.permittedInsecurePackages = [
-	"openssl-1.1.1w" "electron-19.1.9"
+	"openssl-1.1.1w" "electron-19.1.9" "python3.11-youtube-dl-2021.12.17"
 ];
 }
