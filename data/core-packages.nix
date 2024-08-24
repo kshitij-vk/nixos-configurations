@@ -4,15 +4,9 @@
 
 { config, pkgs, ... }:
 
-# never put virtualbox,mlocate in this list
-
 {
   environment.systemPackages = with pkgs; [
-    #ckb-next
-    #google-chrome
-    #wpsoffice
     alacritty
-    ansible
     arandr
     arc-theme
     avahi
@@ -22,14 +16,10 @@
     bibata-cursors
     blueberry
     btop
-    bison
-    ccache    
-    chromium
     curl
     dex
     discord
     dmenu
-    docker
     duf
     edid-decode
     evince
@@ -44,7 +34,6 @@
     gnome.dconf-editor
     gnome.gnome-disk-utility
     gnome.gvfs
-    gradle
     hack-font
     hblock
     hw-probe
@@ -53,28 +42,20 @@
     inkscape
     insync
     inxi
-    jdk
-    jenkins
     killall
     kitty
-    libxcrypt
-    libxml2
     lm_sensors
     lollypop
     lshw
-    maven
     meld
     most
-    fastfetch
+    neofetch
     networkmanagerapplet
     nixos-generators
     nomacs
-    ninja
     numlockx
-    perl
     platinum-searcher
     polybar
-    pngcrush
     qt6Packages.qtstyleplugin-kvantum
     ripgrep
     rxvt-unicode
@@ -85,9 +66,6 @@
     telegram-desktop
     tree
     variety
-    vlc
-    volumeicon
-    vscode
     vivaldi
     vivaldi-ffmpeg-codecs
     vlc
@@ -100,6 +78,5 @@
     zsh
     zsh-completions
     zsh-syntax-highlighting
-    unzip
   ];
 }

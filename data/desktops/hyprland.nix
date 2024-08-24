@@ -16,4 +16,3 @@
     #enableNvidiaPatches = true;
   };
 }
-

@@ -8,4 +8,3 @@
   #services.xserver.displayManager.defaultSession = "none+bspwm";
   services.xserver.windowManager.bspwm.enable = true;
 }
-

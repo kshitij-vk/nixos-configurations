@@ -4,11 +4,10 @@
 
 { config, pkgs, ... }:
 
-# Plasma + Awesome, Bspwm, i3wm and more
+# Plasma + Bspwm + hyprland
 
 {
   environment.systemPackages = with pkgs; [
-    #obs-studio-plugins.wlrobs
     arc-kde-theme
     btop
     cava
@@ -27,16 +26,16 @@
     lxappearance
     mako
     materia-kde-theme
+#    meslo-lgf-nf
     micro
     nitrogen
     ocs-url
     pavucontrol
     picom
+    poppins
     python311Packages.sparklines
     pywal
-    poppins
-    meslo-lgf-nf
-    rofi
+    rofi-wayland
     slstatus
     st
     sddm-kcm
