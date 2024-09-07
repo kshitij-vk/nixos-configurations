@@ -9,6 +9,7 @@
 {
   environment.systemPackages = with pkgs; [
     alacritty
+    amdvlk
     arandr
     arc-theme
     avahi
@@ -24,10 +25,10 @@
     discord
     dmenu
     docker
+    docker-compose
     duf
     edid-decode
     evince
-    etcd
     feh
     filezilla
     firefox
@@ -47,12 +48,11 @@
     inkscape
     insync
     inxi
-    istioctl
-    kona
     killall
     kitty
+    kompose
     kubectl
-    k6
+    lact
     lm_sensors
     lollypop
     lshw
@@ -89,4 +89,23 @@
     zsh-completions
     zsh-syntax-highlighting
   ];
+
+  #amdgpu
+  hardware.opengl = {
+    extraPackages = with pkgs; [
+      rocmPackages.clr.icd
+      libvdpau-va-gl
+      libva
+      libva-vdpau-driver
+    ];
+    # For 32 bit applications
+    extraPackages32 = with pkgs.driversi686Linux; [
+      libvdpau-va-gl
+      libva-vdpau-driver
+    ];
+    enable = true;
+    # driSupport = true;
+    driSupport32Bit = true;
+  };
+
 }

@@ -8,7 +8,6 @@
 
 {
   environment.systemPackages = with pkgs; [
-    arc-kde-theme
     btop
     cava
     cmatrix
@@ -25,10 +24,10 @@
     jetbrains-mono
     kate
     ksuperkey
+    libnotify
     lolcat
     lxappearance
     mako
-    materia-kde-theme
     micro
     nitrogen
     ocs-url

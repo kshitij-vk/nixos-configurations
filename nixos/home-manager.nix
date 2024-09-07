@@ -1,8 +1,8 @@
 { config, pkgs, ... }:
 {
-  users.users.erik.isNormalUser = true;
+  users.users.roxor.isNormalUser = true;
 
-  home-manager.users.erik = { pkgs, ... }: {
+  home-manager.users.roxor = { pkgs, ... }: {
     home.packages = [ pkgs.atool pkgs.httpie ];
     programs.bash.enable = true;
 

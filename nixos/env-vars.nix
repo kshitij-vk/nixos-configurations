@@ -7,7 +7,7 @@
 {
   environment.variables = {
     EDITOR = "nano";
-    BROWSER = "firefox";
+    BROWSER = "chromium";
     QT_QPA_PLATFORM = "xcb";
     #QT_QPA_PLATFORMTHEME = lib.mkForce "qt5ct";
   };
@@ -24,4 +24,10 @@
       "${XDG_BIN_HOME}"
     ];
   };	
+
+  environment.sessionVariables = {
+    LIBVA_DRIVER_NAME="radeonsi";
+    VDPAU_DRIVER = "radeonsi";
+  };
+
 }

@@ -11,23 +11,44 @@
       <home-manager/nixos>
       ./core.nix
       ./desktop.nix
-      ./desktops/bspwm.nix
       ./desktops/hyprland.nix
     ];
 
   # Bootloader.
-  boot.loader.systemd-boot.enable = true;
+  boot.loader.systemd-boot.enable = false;
   boot.loader.efi.canTouchEfiVariables = true;
+  boot.loader.grub.enable = true;
+  boot.loader.grub.device = "nodev";
+  boot.loader.grub.useOSProber = true;
+  boot.loader.grub.efiSupport = true;
+  boot.loader.efi.efiSysMountPoint = "/boot";
+  boot.loader.grub.timeout = 12;
+  boot.loader.grub.extraConfig = ''
+  set gfxmode=1920x1080
+  set gfxpayload=keep
+  '';
+
+  boot.loader.grub.extraEntries = ''
+    menuentry "Windows Boot Manager" {
+      search --file --no-floppy --set=root /efi/Microsoft/Boot/bootmgfw.efi
+      chainloader /efi/Microsoft/Boot/bootmgfw.efi
+    }
+  '';
+
+  boot.loader.grub.default = "Windows Boot Manager";
 
   # Swappiness
   boot.kernel.sysctl = { "vm.swappiness" = 10;};
 
   # Kernel
   boot.kernelPackages = pkgs.linuxPackages_xanmod_stable;
+  hardware.cpu.amd.updateMicrocode = true;
 
   nix.settings.experimental-features = [ "nix-command" "flakes" ];
 
   nix.settings.auto-optimise-store = true;
+
+  programs.steam.enable = true;
 
   networking.hostName = "nixos"; # Define your hostname.
   # networking.wireless.enable = true;  # Enables wireless support via wpa_supplicant.
@@ -58,11 +79,15 @@
   };
 
   # Enable the X11 windowing system.
+  # You can disable this if you're only using the Wayland session.
   services.xserver.enable = true;
+  services.xserver.videoDrivers = [ "amdgpu" ];
+  systemd.packages = with pkgs; [ lact ];
+  systemd.services.lactd.wantedBy = ["multi-user.target"];
 
-  # Enable the GNOME Desktop Environment.
-  services.xserver.displayManager.gdm.enable = true;
-  services.xserver.desktopManager.gnome.enable = true;
+  # Enable the KDE Plasma Desktop Environment.
+  services.displayManager.sddm.enable = true;
+  services.desktopManager.plasma6.enable = true;
 
   # Configure keymap in X11
   services.xserver.xkb = {
@@ -92,6 +117,7 @@
   # Enable touchpad support (enabled default in most desktopManager).
   # services.xserver.libinput.enable = true;
 
+
   # Auto system update
   system.autoUpgrade = {
       enable = true;
@@ -108,8 +134,9 @@
   users.users.roxor = {
     isNormalUser = true;
     description = "Roxor";
-    extraGroups = [ "networkmanager" "wheel" "docker"];
+    extraGroups = [ "networkmanager" "wheel" "docker" "jenkins" ];
     packages = with pkgs; [
+      kdePackages.kate
     #  thunderbird
     ];
   };
@@ -130,7 +157,20 @@
   # Enable Docker on system startup
   systemd.services.docker.wantedBy = [ "multi-user.target" ];
 
-##MINIKUBE
+
+##JENKINS
+  # Enable Jenkins service
+  services.jenkins = {
+    enable = true;
+    user = "jenkins";  # You can change this if you prefer
+    group = "jenkins";
+    home = "/var/lib/jenkins";
+  };
+
+  # Optionally, open the Jenkins port if you have a firewall enabled
+  networking.firewall.allowedTCPPorts = [ 8080 ];
+
+  # Optionally, configure Minikube to start on system boot
   systemd.services.minikube = {
     enable = true;
     description = "Minikube service";
@@ -241,7 +281,8 @@
   # this value at the release version of the first install of this system.
   # Before changing this value read the documentation for this option
   # (e.g. man configuration.nix or on https://nixos.org/nixos/options.html).
-  system.stateVersion = "24.05"; # Did you read the comment?
+  system.stateVersion = "24.11"; # Did you read the comment?
+
   nixpkgs.config.permittedInsecurePackages = [
         "openssl-1.1.1w" "electron-19.1.9" "python3.11-youtube-dl-2021.12.17"
   ];
