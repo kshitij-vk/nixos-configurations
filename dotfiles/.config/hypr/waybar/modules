@@ -117,7 +117,7 @@
     "tooltip-format": "<big>{:%B %Y}</big>\n<tt><small>{calendar}</small></tt>",
     "format": "{:%d %b, %H:%M}",
     "format-alt": " {:%a %b %d, %G}",
-    "on-click-right": "~/.config/hypr/scripts/changewallpaper",
+    "on-click-right": "~/.config/hypr/scripts/changeWallpaper",
   },
   "cpu": {
     // "interval": 5,
@@ -188,7 +188,7 @@
   },
   "custom/cycle_wall": {
     "format": "",
-    "on-click": "~/.config/hypr/scripts/changewallpaper",
+    "on-click": "~/.config/hypr/scripts/changeWallpaper",
     "tooltip-format": "Change wallpaper",
   },
   "pulseaudio": {

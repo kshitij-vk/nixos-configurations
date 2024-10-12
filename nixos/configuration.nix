@@ -12,6 +12,8 @@
       ./core.nix
       ./desktop.nix
       ./desktops/hyprland.nix
+      ./env-vars.nix
+      ./tunnels.nix
     ];
 
   # Bootloader.
@@ -50,7 +52,7 @@
 
   programs.steam.enable = true;
 
-  networking.hostName = "nixos"; # Define your hostname.
+  networking.hostName = "roxnix"; # Define your hostname.
   # networking.wireless.enable = true;  # Enables wireless support via wpa_supplicant.
 
   # Configure network proxy if necessary
@@ -79,15 +81,14 @@
   };
 
   # Enable the X11 windowing system.
-  # You can disable this if you're only using the Wayland session.
   services.xserver.enable = true;
   services.xserver.videoDrivers = [ "amdgpu" ];
   systemd.packages = with pkgs; [ lact ];
   systemd.services.lactd.wantedBy = ["multi-user.target"];
 
-  # Enable the KDE Plasma Desktop Environment.
+  # Enable the XFCE Desktop Environment.
   services.displayManager.sddm.enable = true;
-  services.desktopManager.plasma6.enable = true;
+  services.xserver.desktopManager.xfce.enable = true;
 
   # Configure keymap in X11
   services.xserver.xkb = {
@@ -117,34 +118,19 @@
   # Enable touchpad support (enabled default in most desktopManager).
   # services.xserver.libinput.enable = true;
 
-
-  # Auto system update
-  system.autoUpgrade = {
-      enable = true;
-  };
-
-  # Automatic Garbage Collection
-  nix.gc = {
-  automatic = true;
-  dates = "weekly";
-  options = "--delete-older-than 7d";
-  };
-
   # Define a user account. Don't forget to set a password with ‘passwd’.
   users.users.roxor = {
     isNormalUser = true;
     description = "Roxor";
     extraGroups = [ "networkmanager" "wheel" "docker" "jenkins" ];
     packages = with pkgs; [
-      kdePackages.kate
     #  thunderbird
     ];
   };
-
 ##HOME-MANAGER
 
   home-manager.users.roxor = { pkgs, ... }: {
-    home.packages = with pkgs; [ ansible bison ccache gradle github-desktop jdk libxcrypt libxml2 maven ninja nwg-look vscodium zsh zsh-completions zsh-syntax-highlighting zsh-autosuggestions ];
+    home.packages = with pkgs; [ android-tools android-file-transfer ansible bison ccache gradle github-desktop jdk libxcrypt libxml2 maven ninja nwg-look zsh zsh-completions zsh-syntax-highlighting zsh-autosuggestions ];
     home.stateVersion = "24.11";
 
   };
@@ -212,12 +198,26 @@
   # Allow unfree packages
   nixpkgs.config.allowUnfree = true;
 
+  programs.seahorse.enable = true;
   # List packages installed in system profile. To search, run:
   # $ nix search wget
   environment.systemPackages = with pkgs; [
   #  vim # Do not forget to add an editor to edit configuration.nix! The Nano editor is also installed by default.
   #  wget
   ];
+
+
+  # Auto system update
+  system.autoUpgrade = {
+      enable = true;
+  };
+
+  # Automatic Garbage Collection
+  nix.gc = {
+  automatic = true;
+  dates = "weekly";
+  options = "--delete-older-than 7d";
+  };
 
   # Some programs need SUID wrappers, can be configured further or are
   # started in user sessions.
@@ -226,6 +226,8 @@
   #   enable = true;
   #   enableSSHSupport = true;
   # };
+
+  # List services that you want to enable:
 
   # List services that you want to enable:
   services.avahi = {

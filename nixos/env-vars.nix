@@ -30,4 +30,20 @@
     VDPAU_DRIVER = "radeonsi";
   };
 
+  services.mysql = {
+    enable = true;
+    package = pkgs.mariadb;
+  };
+
+  programs.git = {
+    enable = true;
+    package = pkgs.gitFull;
+    config.credential.helper = "libsecret";
+  };
+
+  nixpkgs.config = {
+    chromium = {
+    enableWideVine = true;
+    };
+  };
 }

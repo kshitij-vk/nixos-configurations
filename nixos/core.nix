@@ -36,7 +36,8 @@
     font-manager
     fsearch
     gimp
-    git
+    gitFull
+    git-lfs
     gnome.dconf-editor
     gnome.gnome-disk-utility
     gnome.gvfs
@@ -48,6 +49,8 @@
     inkscape
     insync
     inxi
+    jq
+    libsForQt5.kdeconnect-kde
     killall
     kitty
     kompose
@@ -72,7 +75,6 @@
     scrot
     simplescreenrecorder
     spotify
-    sublime4
     telegram-desktop
     tree
     variety
@@ -84,7 +86,6 @@
     wget
     widevine-cdm
     xorg.xkill
-    yakuake
     zsh
     zsh-completions
     zsh-syntax-highlighting

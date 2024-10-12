@@ -9,6 +9,7 @@
 {
   environment.systemPackages = with pkgs; [
     btop
+    catppuccin
     cava
     cmatrix
     dash
@@ -17,6 +18,8 @@
     font-awesome
     font-awesome_4
     font-awesome_5
+    gnome.file-roller
+    gnome.gnome-keyring
     gnumake
     grim
     i3lock-fancy-rapid
@@ -30,6 +33,7 @@
     mako
     micro
     nitrogen
+    numix-icon-theme
     ocs-url
     pavucontrol
     picom
@@ -49,7 +53,12 @@
     xcbuild
     xfce.thunar
     xfce.thunar-archive-plugin
+    xfce.xfce4-notifyd
+    xfce.xfce4-panel
+    xfce.xfce4-power-manager
     xfce.xfce4-terminal
+    xfce.xfce4-weather-plugin
+    xfce.xfce4-whiskermenu-plugin
     xorg.libX11.dev
     xorg.libXft
     xorg.libXinerama
