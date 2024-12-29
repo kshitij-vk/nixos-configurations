@@ -13,7 +13,6 @@
       ./desktop.nix
       ./desktops/hyprland.nix
       ./env-vars.nix
-      ./tunnels.nix
     ];
 
   # Bootloader.
@@ -24,12 +23,8 @@
   boot.loader.grub.useOSProber = true;
   boot.loader.grub.efiSupport = true;
   boot.loader.efi.efiSysMountPoint = "/boot";
-  boot.loader.grub.timeout = 12;
-  boot.loader.grub.extraConfig = ''
-  set gfxmode=1920x1080
-  set gfxpayload=keep
-  '';
-
+  boot.loader.timeout = 12;
+  boot.loader.grub.gfxmodeEfi = "1920x1080";
   boot.loader.grub.extraEntries = ''
     menuentry "Windows Boot Manager" {
       search --file --no-floppy --set=root /efi/Microsoft/Boot/bootmgfw.efi
@@ -37,22 +32,25 @@
     }
   '';
 
-  boot.loader.grub.default = "Windows Boot Manager";
+  boot.loader.grub.default = 1;
+
 
   # Swappiness
   boot.kernel.sysctl = { "vm.swappiness" = 10;};
 
   # Kernel
-  boot.kernelPackages = pkgs.linuxPackages_xanmod_stable;
+  boot.kernelPackages = pkgs.linuxPackages_xanmod_latest;
   hardware.cpu.amd.updateMicrocode = true;
 
+  # Nix-Expermental
   nix.settings.experimental-features = [ "nix-command" "flakes" ];
-
   nix.settings.auto-optimise-store = true;
 
+  # Steam
   programs.steam.enable = true;
 
-  networking.hostName = "roxnix"; # Define your hostname.
+
+  networking.hostName = "nixos"; # Define your hostname.
   # networking.wireless.enable = true;  # Enables wireless support via wpa_supplicant.
 
   # Configure network proxy if necessary
@@ -69,26 +67,31 @@
   i18n.defaultLocale = "en_US.UTF-8";
 
   i18n.extraLocaleSettings = {
-    LC_ADDRESS = "en_US.UTF-8";
-    LC_IDENTIFICATION = "en_US.UTF-8";
-    LC_MEASUREMENT = "en_US.UTF-8";
-    LC_MONETARY = "en_US.UTF-8";
-    LC_NAME = "en_US.UTF-8";
-    LC_NUMERIC = "en_US.UTF-8";
-    LC_PAPER = "en_US.UTF-8";
-    LC_TELEPHONE = "en_US.UTF-8";
-    LC_TIME = "en_US.UTF-8";
+    LC_ADDRESS = "en_IN";
+    LC_IDENTIFICATION = "en_IN";
+    LC_MEASUREMENT = "en_IN";
+    LC_MONETARY = "en_IN";
+    LC_NAME = "en_IN";
+    LC_NUMERIC = "en_IN";
+    LC_PAPER = "en_IN";
+    LC_TELEPHONE = "en_IN";
+    LC_TIME = "en_IN";
   };
 
   # Enable the X11 windowing system.
+  # You can disable this if you're only using the Wayland session.
   services.xserver.enable = true;
   services.xserver.videoDrivers = [ "amdgpu" ];
   systemd.packages = with pkgs; [ lact ];
   systemd.services.lactd.wantedBy = ["multi-user.target"];
 
-  # Enable the XFCE Desktop Environment.
-  services.displayManager.sddm.enable = true;
-  services.xserver.desktopManager.xfce.enable = true;
+  # Enable the KDE Plasma Desktop Environment.
+  services.displayManager.sddm = {
+  enable = true;
+  theme = "catppuccin-mocha";
+  wayland.enable = true;
+  };
+  services.desktopManager.plasma6.enable = true;
 
   # Configure keymap in X11
   services.xserver.xkb = {
@@ -122,20 +125,34 @@
   users.users.roxor = {
     isNormalUser = true;
     description = "Roxor";
-    extraGroups = [ "networkmanager" "wheel" "docker" "jenkins" ];
+    extraGroups = [ "networkmanager" "wheel" "docker" "jenkins" "warp-svc" ];
     packages = with pkgs; [
+      kdePackages.kate
     #  thunderbird
     ];
   };
-##HOME-MANAGER
+
+
+  # Home-Manager
 
   home-manager.users.roxor = { pkgs, ... }: {
-    home.packages = with pkgs; [ android-tools android-file-transfer ansible bison ccache gradle github-desktop jdk libxcrypt libxml2 maven ninja nwg-look zsh zsh-completions zsh-syntax-highlighting zsh-autosuggestions ];
+    home.packages = with pkgs; [ ];
     home.stateVersion = "24.11";
 
   };
 
-##DOCKER
+  # Install firefox.
+  programs.firefox.enable = true;
+
+  # Allow unfree packages
+  nixpkgs.config.allowUnfree = true;
+
+  # List packages installed in system profile. To search, run:
+  
+  # Kde-Connect
+  programs.kdeconnect.enable = true;
+
+#DOCKER
 
   # Enable Docker
   virtualisation.docker.enable = true;
@@ -144,7 +161,7 @@
   systemd.services.docker.wantedBy = [ "multi-user.target" ];
 
 
-##JENKINS
+  # Jenkins
   # Enable Jenkins service
   services.jenkins = {
     enable = true;
@@ -165,7 +182,8 @@
     serviceConfig.Restart = "always";
   };
 
-##ZSH
+  #ZSH
+users.defaultUserShell = pkgs.zsh;
   programs.zsh = {
     enable = true;
     autosuggestions.enable = true;
@@ -173,43 +191,16 @@
     enableCompletion = true;
     syntaxHighlighting.enable = true;
     ohMyZsh = {
-        enable = true;
-        theme = "robbyrussell";
-        plugins = [
-          "git"
-          "npm"
-          "history"
-          "node"
-          "rust"
-          "deno"
-        ];
-    };
-  };
-
-  # for global user
-  users.defaultUserShell=pkgs.zsh;
-
-  # For a specific user
-  users.users.roxor.shell = pkgs.zsh;
-
-  # Install firefox.
-  programs.firefox.enable = true;
-
-  # Allow unfree packages
-  nixpkgs.config.allowUnfree = true;
-
-  programs.seahorse.enable = true;
-  # List packages installed in system profile. To search, run:
-  # $ nix search wget
-  environment.systemPackages = with pkgs; [
-  #  vim # Do not forget to add an editor to edit configuration.nix! The Nano editor is also installed by default.
-  #  wget
-  ];
-
-
-  # Auto system update
-  system.autoUpgrade = {
       enable = true;
+      plugins = [
+        "git"
+        "npm"
+        "history"
+        "node"
+        "rust"
+        "deno"
+      ];
+    };
   };
 
   # Automatic Garbage Collection
@@ -219,17 +210,7 @@
   options = "--delete-older-than 7d";
   };
 
-  # Some programs need SUID wrappers, can be configured further or are
-  # started in user sessions.
-  # programs.mtr.enable = true;
-  # programs.gnupg.agent = {
-  #   enable = true;
-  #   enableSSHSupport = true;
-  # };
-
-  # List services that you want to enable:
-
-  # List services that you want to enable:
+  # Network
   services.avahi = {
     enable = true;
     #nssmdns = true;
@@ -242,6 +223,7 @@
         };
   };
 
+  # Bluetooth
   hardware.bluetooth.enable = true; # enables support for Bluetooth
   hardware.bluetooth.powerOnBoot = true; # powers up the default Bluetooth controller on boot
   hardware.bluetooth.settings = {
@@ -251,6 +233,7 @@
     };
   };
 
+  # Polkit
   security.polkit.enable = true;
   systemd = {
     user.services.polkit-gnome-authentication-agent-1 = {
@@ -261,12 +244,32 @@
       serviceConfig = {
         Type = "simple";
         ExecStart = "${pkgs.polkit_gnome}/libexec/polkit-gnome-authentication-agent-1";
+        Environment = "WAYLAND_DISPLAY=wayland-1";  # Set the correct Wayland socket using "echo $WAYLAND_DISPLAY"
         Restart = "on-failure";
         RestartSec = 1;
         TimeoutStopSec = 10;
       };
     };
   };
+
+  nixpkgs.config.permittedInsecurePackages = [
+        "openssl-1.1.1w" "electron-19.1.9" "python3.11-youtube-dl-2021.12.17"
+  ];
+  # $ nix search wget
+  environment.systemPackages = with pkgs; [
+  #  vim # Do not forget to add an editor to edit configuration.nix! The Nano editor is also installed by default.
+  #  wget
+  ];
+
+  # Some programs need SUID wrappers, can be configured further or are
+  # started in user sessions.
+  # programs.mtr.enable = true;
+  # programs.gnupg.agent = {
+  #   enable = true;
+  #   enableSSHSupport = true;
+  # };
+
+  # List services that you want to enable:
 
   # Enable the OpenSSH daemon.
   # services.openssh.enable = true;
@@ -285,7 +288,9 @@
   # (e.g. man configuration.nix or on https://nixos.org/nixos/options.html).
   system.stateVersion = "24.11"; # Did you read the comment?
 
-  nixpkgs.config.permittedInsecurePackages = [
-        "openssl-1.1.1w" "electron-19.1.9" "python3.11-youtube-dl-2021.12.17"
-  ];
+  security.pam.services.login.kwallet.enable = true;
+  systemd.services.kwallet = {
+    wantedBy = [ "default.target" ];
+  };
+
 }

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE khotnewstuff3>
+<hotnewstuffregistry>
+ <stuff category="717">
+  <name>Willow Dark Plasma 6</name>
+  <providerid>api.kde-look.org</providerid>
+  <author>doncsugar</author>
+  <homepage>https://store.kde.org/p/2134749</homepage>
+  <licence></licence>
+  <version>.1</version>
+  <rating>58</rating>
+  <downloads>21483</downloads>
+  <installedfile>/home/roxor/.local/share/aurorae/themes/WillowDark/*</installedfile>
+  <installedfile>/home/roxor/.local/share/aurorae/themes/WillowDarkShader/*</installedfile>
+  <installedfile>/home/roxor/.local/share/aurorae/themes/WillowDarkAltShader/*</installedfile>
+  <installedfile>/home/roxor/.local/share/aurorae/themes/WillowDarkAlt/*</installedfile>
+  <installedfile>/home/roxor/.local/share/aurorae/themes/WillowDarkBlur/*</installedfile>
+  <installedfile>/home/roxor/.local/share/aurorae/themes/WillowDarkBlurAlt/*</installedfile>
+  <id>2134749</id>
+  <releasedate>2024-03-04</releasedate>
+  <summary>A Windows 11 style demo decoration for Plasma 6. Choose "No side borders" for best results. Willow has not been ported to Plasma 6 yet, but see &lt;a href="https://www.pling.com/p/1735447/" target="_blank" rel="nofollow">Willow Desktop&lt;/a> for other dependencies.&lt;br />
+&lt;br />
+Comes with opaque...</summary>
+  <changelog></changelog>
+  <preview>https://images.pling.com/cache/100x100-0/img/00/00/54/12/88/2134749/willowdarklogo.png</preview>
+  <previewBig>https://images.pling.com/cache/770x540-0/img/00/00/54/12/88/2134749/willowdarklogo.png</previewBig>
+  <payload>https://files06.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjE3MDk1MzAwMjYiLCJvIjoiMSIsInMiOiJkZjQ3YzRlMzMzMDM4MjM4NTAxZGMyMDJiNmM3MTRlZDcyNGY4YzIyOTAxNDAwZTA1NTYxMjc0ZDcyMGFkOGNiOGQwMWE1ZjNlMWViMTZjYWQwMTNmZDhjMWY5MWFhZjBhYTdlMjNhNmQ2MmQ2ODEyODM5MjQ5ZmQxYjQ1NWQ1ZiIsInQiOjE3MzM4MzY3MjYsInN0ZnAiOm51bGwsInN0aXAiOiI0OS4zNi45OS4yMzgifQ.hMU4ddljd3frAmcaK3GPpdaAOOfj8D08PJhMeL4TFVA/WillowDark.zip</payload>
+  <tags>gplv3,linux,kde,willow,windows,plasma,original-product,unix,theme,dark</tags>
+  <status>installed</status>
+ </stuff>
+ <stuff category="114">
+  <name>Ant-Dracula KDE</name>
+  <providerid>api.kde-look.org</providerid>
+  <author>eliverlara</author>
+  <homepage>https://store.kde.org/p/1370682</homepage>
+  <licence></licence>
+  <version></version>
+  <rating>55</rating>
+  <downloads>330798</downloads>
+  <installedfile>/home/roxor/.local/share/aurorae/themes/Dracula/*</installedfile>
+  <id>1370682</id>
+  <releasedate>2024-12-08</releasedate>
+  <summary>A dark theme created using the awesome &lt;a href="https://draculatheme.com/" target="_blank" rel="nofollow">Dracula&lt;/a> color palette.&lt;br />
+&lt;br />
+&lt;h2>&lt;strong>&lt;span style="color: #FF0000;">¡IMPORTANT!&lt;/span>&lt;/strong>&lt;/h2>&lt;br />
+&lt;strong> Hi, if you are really enjoying these themes from me and also from other authors please consider &lt;span> &lt;a href="https://www.pling.com/support-predefined?section_id=5&amp;amp;amount_predefined=1" target="_blank" rel="nofollow"> becoming a supporter for the  KDE Themes and Extensions section &lt;/a> &lt;/span>, I'm sure that me and others creators would be very grateful with your sponsorship since that help us to  keep mantaining and creating new themes for the community :)  &lt;/strong>&lt;br />
+&lt;br />
+&lt;a href="https://www.pling.com/support-predefined?section_id=5&amp;amp;amount_predefined=1" target="_blank" rel="nofollow">&lt;strong> Become a supporter here &lt;/strong>&lt;/a>&lt;br />
+&lt;br />
+Suggested setings: &lt;br />
+&lt;br />
+&lt;a href="https://store.kde.org/p/1370681/" target="_blank" rel="nofollow">Dracula Kvantum theme&lt;/a>&lt;br />
+&lt;br />
+&lt;a href="https://store.kde.org/p/1370687/" target="_blank" rel="nofollow">Dracula Plasma theme&lt;/a>&lt;br />
+&lt;br />
+&lt;a href="https://store.kde.org/p/1370679/" target="_blank" rel="nofollow">Dracula colorscheme&lt;/a></summary>
+  <changelog></changelog>
+  <preview>https://images.pling.com/cache/100x100-0/img/00/00/36/61/48/1370682/de1573784da87ee7dd6656902af631e3bd8b.png</preview>
+  <previewBig>https://images.pling.com/cache/770x540-0/img/00/00/36/61/48/1370682/de1573784da87ee7dd6656902af631e3bd8b.png</previewBig>
+  <payload>https://files06.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjE1OTM2MzIzMjMiLCJvIjoiMSIsInMiOiJjOWUyMGM0MGQ3MWExMjgxOWFjMjQ1MmM5NTFlNmMzN2RlZmYwMTM1YTI5NTUzNjg0ODlkNzI4ZDE2ZDIyMzQ3ZWVlMzRmYzMwZDY0NzNmYjAzYzVhMDg2MzYzMzlmYjJkNzgzYzEyMmJhMzAyZDFjNjgzOWYxYWRiYTY1NWJjNCIsInQiOjE3MzM4MzQ3NDMsInN0ZnAiOm51bGwsInN0aXAiOiI0OS4zNi45OS4yMzgifQ.n0PRsaenuJhTVbrZ46ZKnFfPCFX6SAL_tqn02Br3m2I/Dracula.tar.xz</payload>
+  <tags>unix,plasma,theme,gplv3,linux,kde</tags>
+  <status>installed</status>
+ </stuff>
+</hotnewstuffregistry>

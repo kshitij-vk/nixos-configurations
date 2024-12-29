@@ -1,11 +1,27 @@
-[$Version]
-update_info=ksmserver_update_loginMode_value.upd:ksmserver_update_loginMode_value_default_enum
-
-[General]
-loginMode=emptySession
-
 [LegacySession: saved at previous logout]
 count=0
 
 [Session: saved at previous logout]
-count=0
+clientId1=10e169786f000173531252900000053820006
+clientId2=10e169786f000173385001800000063080009
+clientId3=10e169786f000173384999900000063080008
+clientId4=10e169786f000173531257500000053820007
+count=4
+discardCommand2[$e]=rm,$HOME/.config/session/konsole_10e169786f000173385001800000063080009_1735312604_187890
+discardCommand3[$e]=rm,$HOME/.config/session/dolphin_10e169786f000173384999900000063080008_1735312604_187896
+program1=/run/current-system/sw/bin/kalendarac
+program2=/run/current-system/sw/bin/konsole
+program3=/run/current-system/sw/bin/dolphin
+program4=/run/current-system/sw/bin/kdeconnect-app
+restartCommand1=/run/current-system/sw/bin/kalendarac,-session,10e169786f000173531252900000053820006_1735312604_187890,-name,kalendarac
+restartCommand2=/run/current-system/sw/bin/konsole,-session,10e169786f000173385001800000063080009_1735312604_187890,-name,konsole
+restartCommand3=/run/current-system/sw/bin/dolphin,-session,10e169786f000173384999900000063080008_1735312604_187896,-name,dolphin
+restartCommand4=/run/current-system/sw/bin/kdeconnect-app,-session,10e169786f000173531257500000053820007_1735312604_187966,-name,kdeconnect-app
+restartStyleHint1=0
+restartStyleHint2=0
+restartStyleHint3=0
+restartStyleHint4=0
+userId1=roxor
+userId2=roxor
+userId3=roxor
+userId4=roxor

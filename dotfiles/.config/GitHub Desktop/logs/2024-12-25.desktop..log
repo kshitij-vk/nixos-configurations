@@ -1,0 +1,438 @@
+2024-12-25T03:32:11.442Z - info: [ui] [AppStore] loading 7 repositories from store
+2024-12-25T03:32:11.520Z - info: [ui] launching: 3.4.2-linux1 (Linux 6.11.11-xanmod1)
+2024-12-25T03:32:11.521Z - info: [ui] execPath: '/nix/store/w2m5ijgrsgki21yd9qjx3wrw2b3scjv1-github-desktop-3.4.2/opt/github-desktop'
+2024-12-25T03:32:12.270Z - info: [ui] Stats reported.
+2024-12-25T03:32:46.566Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand origin (took 2.422s)
+2024-12-25T03:32:48.904Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a origin (took 2.338s)
+2024-12-25T03:32:59.610Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand origin (took 2.377s)
+2024-12-25T03:33:01.944Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a origin (took 2.334s)
+2024-12-25T03:33:12.708Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand origin (took 2.337s)
+2024-12-25T03:33:15.062Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a origin (took 2.354s)
+2024-12-25T03:34:58.987Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 6 repositories took 18.8s of which 116.2s paused, total 135.0s
+2024-12-25T04:07:10.484Z - info: [main] Received possible protocol arguments: 2
+2024-12-25T04:07:15.917Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand origin (took 2.365s)
+2024-12-25T04:07:18.261Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a origin (took 2.344s)
+2024-12-25T04:07:21.947Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand origin (took 2.370s)
+2024-12-25T04:07:24.291Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a origin (took 2.338s)
+2024-12-25T04:07:28.340Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand origin (took 2.338s)
+2024-12-25T04:07:30.688Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a origin (took 2.348s)
+2024-12-25T04:07:33.660Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 6 repositories took 16.8s of which 3.4s paused, total 20.3s
+2024-12-25T04:27:50.608Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 6 repositories took 1.7s of which 0.0s paused, total 1.7s
+2024-12-25T04:59:54.132Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand origin (took 2.413s)
+2024-12-25T04:59:56.492Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a origin (took 2.360s)
+2024-12-25T05:20:22.619Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand origin (took 30.129s)
+2024-12-25T06:07:01.524Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand origin (took 76.692s)
+2024-12-25T06:07:03.874Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a origin (took 2.344s)
+2024-12-25T06:11:36.577Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand origin (took 2.415s)
+2024-12-25T06:11:38.957Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a origin (took 2.373s)
+2024-12-25T06:11:58.124Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 6 repositories took 121.9s of which 4204.5s paused, total 4326.5s
+2024-12-25T06:36:09.347Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand origin (took 258.728s)
+2024-12-25T06:36:11.732Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a origin (took 2.378s)
+2024-12-25T06:39:56.746Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand origin (took 2.393s)
+2024-12-25T06:39:59.094Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a origin (took 2.347s)
+2024-12-25T06:39:59.136Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 6 repositories took 267.2s of which 221.4s paused, total 488.6s
+2024-12-25T06:48:05.455Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand origin (took 2.349s)
+2024-12-25T06:48:07.844Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a origin (took 2.389s)
+2024-12-25T06:48:16.131Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 6 repositories took 6.2s of which 7.1s paused, total 13.3s
+2024-12-25T06:48:16.259Z - error: [ui] `git show e05f9a73e16dadccc96395d731e9724a684f29b4:media/img_utils/include/img_utils/TagDefinitions.h` exited with an unexpected code: 128.
+stderr:
+fatal: path 'media/img_utils/include/img_utils/TagDefinitions.h' does not exist in 'e05f9a73e16dadccc96395d731e9724a684f29b4'
+
+(The error was parsed as 33: The path does not exist on disk.)
+2024-12-25T06:48:16.624Z - error: [ui] Could not load new contents for syntax highlighting
+GitError: The path does not exist on disk.
+    at /home/roxor/webpack:/app/src/lib/git/core.ts:256:13
+    at /home/roxor/webpack:/app/src/lib/trampoline/trampoline-environment.ts:127:13
+    at /home/roxor/webpack:/app/src/lib/trampoline/trampoline-tokens.ts:33:5
+    at /home/roxor/webpack:/app/src/lib/git/show.ts:93:9
+    at async Promise.all (index 1)
+    at /home/roxor/webpack:/app/src/ui/diff/syntax-highlighting/index.ts:111:23
+    at k_.loadFileContentsIfNeeded (/home/roxor/webpack:/app/src/ui/diff/seamless-diff-switcher.tsx:283:11)
+2024-12-25T06:48:16.625Z - error: [ui] `git show e05f9a73e16dadccc96395d731e9724a684f29b4^:media/img_utils/include/img_utils/TagDefinitions.h` exited with an unexpected code: 128.
+stderr:
+fatal: invalid object name 'e05f9a73e16dadccc96395d731e9724a684f29b4^'.
+
+(The error was parsed as 34: The object was not found in the Git repository.)
+2024-12-25T06:48:16.625Z - error: [ui] Could not load old contents for syntax highlighting
+GitError: The object was not found in the Git repository.
+    at /home/roxor/webpack:/app/src/lib/git/core.ts:256:13
+    at /home/roxor/webpack:/app/src/lib/trampoline/trampoline-environment.ts:127:13
+    at /home/roxor/webpack:/app/src/lib/trampoline/trampoline-tokens.ts:33:5
+    at /home/roxor/webpack:/app/src/lib/git/show.ts:93:9
+    at async Promise.all (index 0)
+    at /home/roxor/webpack:/app/src/ui/diff/syntax-highlighting/index.ts:111:23
+    at k_.loadFileContentsIfNeeded (/home/roxor/webpack:/app/src/ui/diff/seamless-diff-switcher.tsx:283:11)
+2024-12-25T06:49:25.160Z - info: [ui] No submodules found. Skipping "git submodule status"
+2024-12-25T07:22:50.456Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand origin (took 2.376s)
+2024-12-25T07:22:52.792Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a origin (took 2.332s)
+2024-12-25T07:22:55.206Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand origin (took 2.378s)
+2024-12-25T07:22:57.561Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a origin (took 2.354s)
+2024-12-25T07:23:02.930Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand origin (took 2.367s)
+2024-12-25T07:23:05.277Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a origin (took 2.346s)
+2024-12-25T07:23:07.871Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand cr (took 1.316s)
+2024-12-25T07:23:12.718Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 6 repositories took 19.3s of which 5.6s paused, total 24.9s
+2024-12-25T07:38:40.179Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 6 repositories took 1.1s of which 12.5s paused, total 13.6s
+2024-12-25T09:00:16.881Z - info: [ui] [AppStore] loading 7 repositories from store
+2024-12-25T09:00:17.337Z - info: [ui] launching: 3.4.2-linux1 (Linux 6.11.11-xanmod1)
+2024-12-25T09:00:17.337Z - info: [ui] execPath: '/nix/store/w2m5ijgrsgki21yd9qjx3wrw2b3scjv1-github-desktop-3.4.2/opt/github-desktop'
+2024-12-25T09:01:10.414Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand origin (took 31.981s)
+2024-12-25T09:01:12.804Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a origin (took 2.393s)
+2024-12-25T09:01:15.280Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand origin (took 2.380s)
+2024-12-25T09:01:17.664Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a origin (took 2.383s)
+2024-12-25T09:01:43.854Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand origin (took 2.530s)
+2024-12-25T09:01:46.195Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a origin (took 2.341s)
+2024-12-25T09:02:02.826Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand cr (took 1.316s)
+2024-12-25T09:02:02.954Z - info: [ui] Executing getRecentBranches: git log -g --no-abbrev-commit --pretty=oneline HEAD -n 2500 -- (took 1.269s)
+2024-12-25T09:02:15.703Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 6 repositories took 57.1s of which 40.2s paused, total 97.3s
+2024-12-25T09:38:21.480Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand origin (took 2.355s)
+2024-12-25T09:38:23.824Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a origin (took 2.348s)
+2024-12-25T09:38:30.653Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand origin (took 2.367s)
+2024-12-25T09:38:33.029Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a origin (took 2.370s)
+2024-12-25T09:38:34.151Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 6 repositories took 15.2s of which 0.0s paused, total 15.2s
+2024-12-25T09:38:38.113Z - error: [ui] `git revert 9d1964c884b93c2c10368d0bd10fa3ac9d2a3d68` exited with an unexpected code: 1.
+stdout:
+CONFLICT (modify/delete): res/layout/settings_card_bottom.xml deleted in parent of 9d1964c884b (Settings: Settings Dashboard Customisations [2/3]) and modified in HEAD.  Version HEAD of res/layout/settings_card_bottom.xml left in tree.
+CONFLICT (modify/delete): res/layout/settings_card_custom_middle.xml deleted in parent of 9d1964c884b (Settings: Settings Dashboard Customisations [2/3]) and modified in HEAD.  Version HEAD of res/layout/settings_card_custom_middle.xml left in tree.
+CONFLICT (modify/delete): res/layout/settings_card_google_colored.xml deleted in parent of 9d1964c884b (Settings: Settings Dashboard Customisations [2/3]) and modified in HEAD.  Version HEAD of res/layout/settings_card_google_colored.xml left in tree.
+CONFLICT (modify/delete): res/layout/settings_card_google_gradient.xml deleted in parent of 9d1964c884b (Settings: Settings Dashboard Customisations [2/3]) and modified in HEAD.  Version HEAD of res/layout/settings_card_google_gradient.xml left in tree.
+CONFLICT (modify/delete): res/layout/settings_card_middle.xml deleted in parent of 9d1964c884b (Settings: Settings Dashboard Customisations [2/3]) and modified in HEAD.  Version HEAD of res/layout/settings_card_middle.xml left in tree.
+CONFLICT (modify/delete): res/layout/settings_card_top.xml deleted in parent of 9d1964c884b (Settings: Settings Dashboard Customisations [2/3]) and modified in HEAD.  Version HEAD of res/layout/settings_card_top.xml left in tree.
+CONFLICT (modify/delete): res/layout/settings_card_wellbeing_colored.xml deleted in parent of 9d1964c884b (Settings: Settings Dashboard Customisations [2/3]) and modified in HEAD.  Version HEAD of res/layout/settings_card_wellbeing_colored.xml left in tree.
+CONFLICT (modify/delete): res/layout/settings_card_wellbeing_gradient.xml deleted in parent of 9d1964c884b (Settings: Settings Dashboard Customisations [2/3]) and modified in HEAD.  Version HEAD of res/layout/settings_card_wellbeing_gradient.xml left in tree.
+Auto-merging res/xml/top_level_settings.xml
+CONFLICT (content): Merge conflict in res/xml/top_level_settings.xml
+Auto-merging src/com/android/settings/homepage/TopLevelSettings.java
+CONFLICT (content): Merge conflict in src/com/android/settings/homepage/TopLevelSettings.java
+CONFLICT (modify/delete): src/com/android/settings/tenx/BackgroundView.java deleted in parent of 9d1964c884b (Settings: Settings Dashboard Customisations [2/3]) and modified in HEAD.  Version HEAD of src/com/android/settings/tenx/BackgroundView.java left in tree.
+
+stderr:
+error: could not revert 9d1964c884b... Settings: Settings Dashboard Customisations [2/3]
+hint: After resolving the conflicts, mark them with
+hint: "git add/rm <pathspec>", then run
+hint: "git revert --continue".
+hint: You can instead skip this commit with "git revert --skip".
+hint: To abort and get back to the state before "git revert",
+hint: run "git revert --abort".
+hint: Disable this message with "git config advice.mergeConflict false"
+Recorded preimage for 'res/xml/top_level_settings.xml'
+Recorded preimage for 'src/com/android/settings/homepage/TopLevelSettings.java'
+
+(The error was parsed as 8: We found some conflicts while trying to merge. Please resolve the conflicts and commit the changes.)
+2024-12-25T09:38:50.864Z - info: [ui] No submodules found. Skipping "git submodule status"
+2024-12-25T09:39:00.927Z - error: [ui] `git revert 9d1964c884b93c2c10368d0bd10fa3ac9d2a3d68` exited with an unexpected code: 1.
+stdout:
+CONFLICT (modify/delete): res/layout/settings_card_bottom.xml deleted in parent of 9d1964c884b (Settings: Settings Dashboard Customisations [2/3]) and modified in HEAD.  Version HEAD of res/layout/settings_card_bottom.xml left in tree.
+CONFLICT (modify/delete): res/layout/settings_card_custom_middle.xml deleted in parent of 9d1964c884b (Settings: Settings Dashboard Customisations [2/3]) and modified in HEAD.  Version HEAD of res/layout/settings_card_custom_middle.xml left in tree.
+CONFLICT (modify/delete): res/layout/settings_card_google_colored.xml deleted in parent of 9d1964c884b (Settings: Settings Dashboard Customisations [2/3]) and modified in HEAD.  Version HEAD of res/layout/settings_card_google_colored.xml left in tree.
+CONFLICT (modify/delete): res/layout/settings_card_google_gradient.xml deleted in parent of 9d1964c884b (Settings: Settings Dashboard Customisations [2/3]) and modified in HEAD.  Version HEAD of res/layout/settings_card_google_gradient.xml left in tree.
+CONFLICT (modify/delete): res/layout/settings_card_middle.xml deleted in parent of 9d1964c884b (Settings: Settings Dashboard Customisations [2/3]) and modified in HEAD.  Version HEAD of res/layout/settings_card_middle.xml left in tree.
+CONFLICT (modify/delete): res/layout/settings_card_top.xml deleted in parent of 9d1964c884b (Settings: Settings Dashboard Customisations [2/3]) and modified in HEAD.  Version HEAD of res/layout/settings_card_top.xml left in tree.
+CONFLICT (modify/delete): res/layout/settings_card_wellbeing_colored.xml deleted in parent of 9d1964c884b (Settings: Settings Dashboard Customisations [2/3]) and modified in HEAD.  Version HEAD of res/layout/settings_card_wellbeing_colored.xml left in tree.
+CONFLICT (modify/delete): res/layout/settings_card_wellbeing_gradient.xml deleted in parent of 9d1964c884b (Settings: Settings Dashboard Customisations [2/3]) and modified in HEAD.  Version HEAD of res/layout/settings_card_wellbeing_gradient.xml left in tree.
+Auto-merging res/xml/top_level_settings.xml
+CONFLICT (content): Merge conflict in res/xml/top_level_settings.xml
+Auto-merging src/com/android/settings/homepage/TopLevelSettings.java
+CONFLICT (content): Merge conflict in src/com/android/settings/homepage/TopLevelSettings.java
+CONFLICT (modify/delete): src/com/android/settings/tenx/BackgroundView.java deleted in parent of 9d1964c884b (Settings: Settings Dashboard Customisations [2/3]) and modified in HEAD.  Version HEAD of src/com/android/settings/tenx/BackgroundView.java left in tree.
+
+stderr:
+error: could not revert 9d1964c884b... Settings: Settings Dashboard Customisations [2/3]
+hint: After resolving the conflicts, mark them with
+hint: "git add/rm <pathspec>", then run
+hint: "git revert --continue".
+hint: You can instead skip this commit with "git revert --skip".
+hint: To abort and get back to the state before "git revert",
+hint: run "git revert --abort".
+hint: Disable this message with "git config advice.mergeConflict false"
+Recorded preimage for 'res/xml/top_level_settings.xml'
+Recorded preimage for 'src/com/android/settings/homepage/TopLevelSettings.java'
+
+(The error was parsed as 8: We found some conflicts while trying to merge. Please resolve the conflicts and commit the changes.)
+2024-12-25T09:41:30.493Z - info: [ui] [Timing] Action 'create commit' for 'TenX' took 0.075s
+2024-12-25T09:41:40.862Z - info: [ui] [Timing] Action 'create commit' for 'base' took 0.589s
+2024-12-25T10:23:43.723Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 6 repositories took 0.0s of which 0.0s paused, total 0.0s
+2024-12-25T12:07:03.211Z - error: [ui] `git show 63fc0238ad6ff353f26a9258d99b72ab0cae66d5^:packages/SystemUI/src/com/android/systemui/statusbar/phone/CentralSurfacesImpl.java` exited with an unexpected code: 128.
+stderr:
+fatal: invalid object name '63fc0238ad6ff353f26a9258d99b72ab0cae66d5^'.
+
+(The error was parsed as 34: The object was not found in the Git repository.)
+2024-12-25T12:07:03.857Z - error: [ui] Could not load old contents for syntax highlighting
+GitError: The object was not found in the Git repository.
+    at /home/roxor/webpack:/app/src/lib/git/core.ts:256:13
+    at /home/roxor/webpack:/app/src/lib/trampoline/trampoline-environment.ts:127:13
+    at /home/roxor/webpack:/app/src/lib/trampoline/trampoline-tokens.ts:33:5
+    at /home/roxor/webpack:/app/src/lib/git/show.ts:93:9
+    at async Promise.all (index 0)
+    at /home/roxor/webpack:/app/src/ui/diff/syntax-highlighting/index.ts:111:23
+    at k_.loadFileContentsIfNeeded (/home/roxor/webpack:/app/src/ui/diff/seamless-diff-switcher.tsx:283:11)
+2024-12-25T12:07:04.653Z - error: [ui] `git fetch --progress --prune --recurse-submodules=on-demand origin` exited with an unexpected code: 128.
+stderr:
+fatal: 'origin' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+(The error was parsed as 3: Authentication failed. Some common reasons include:
+
+- You are not logged in to your account: see File > Options.
+- You may need to log out and log back in to refresh your token.
+- You do not have permission to access this repository.
+- The repository is archived on GitHub. Check the repository settings to confirm you are still permitted to push commits.
+- If you use SSH authentication, check that your key is added to the ssh-agent and associated with your account.
+- If you use SSH authentication, ensure the host key verification passes for your repository hosting service.
+- If you used username / password authentication, you might need to use a Personal Access Token instead of your account password. Check the documentation of your repository hosting service.)
+2024-12-25T12:07:04.915Z - error: [ui] `git fetch --progress --prune --recurse-submodules=on-demand origin` exited with an unexpected code: 128.
+stderr:
+fatal: 'origin' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+(The error was parsed as 3: Authentication failed. Some common reasons include:
+
+- You are not logged in to your account: see File > Options.
+- You may need to log out and log back in to refresh your token.
+- You do not have permission to access this repository.
+- The repository is archived on GitHub. Check the repository settings to confirm you are still permitted to push commits.
+- If you use SSH authentication, check that your key is added to the ssh-agent and associated with your account.
+- If you use SSH authentication, ensure the host key verification passes for your repository hosting service.
+- If you used username / password authentication, you might need to use a Personal Access Token instead of your account password. Check the documentation of your repository hosting service.)
+2024-12-25T12:07:05.025Z - error: [ui] `git fetch --progress --prune --recurse-submodules=on-demand origin` exited with an unexpected code: 128.
+stderr:
+fatal: 'origin' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+(The error was parsed as 3: Authentication failed. Some common reasons include:
+
+- You are not logged in to your account: see File > Options.
+- You may need to log out and log back in to refresh your token.
+- You do not have permission to access this repository.
+- The repository is archived on GitHub. Check the repository settings to confirm you are still permitted to push commits.
+- If you use SSH authentication, check that your key is added to the ssh-agent and associated with your account.
+- If you use SSH authentication, ensure the host key verification passes for your repository hosting service.
+- If you used username / password authentication, you might need to use a Personal Access Token instead of your account password. Check the documentation of your repository hosting service.)
+2024-12-25T12:07:07.420Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand origin (took 2.379s)
+2024-12-25T12:07:09.769Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a origin (took 2.348s)
+2024-12-25T12:08:04.640Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand github (took 54.683s)
+2024-12-25T12:08:29.590Z - error: [ui] `git fetch --progress --prune --recurse-submodules=on-demand cr` exited with an unexpected code: 128.
+stderr:
+fatal: 'cr' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+(The error was parsed as 3: Authentication failed. Some common reasons include:
+
+- You are not logged in to your account: see File > Options.
+- You may need to log out and log back in to refresh your token.
+- You do not have permission to access this repository.
+- The repository is archived on GitHub. Check the repository settings to confirm you are still permitted to push commits.
+- If you use SSH authentication, check that your key is added to the ssh-agent and associated with your account.
+- If you use SSH authentication, ensure the host key verification passes for your repository hosting service.
+- If you used username / password authentication, you might need to use a Personal Access Token instead of your account password. Check the documentation of your repository hosting service.)
+2024-12-25T12:08:29.591Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 7 repositories took 63.4s of which 24.0s paused, total 87.4s
+2024-12-25T12:33:23.344Z - error: [ui] `git fetch --progress --prune --recurse-submodules=on-demand origin` exited with an unexpected code: 128.
+stderr:
+fatal: 'origin' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+(The error was parsed as 3: Authentication failed. Some common reasons include:
+
+- You are not logged in to your account: see File > Options.
+- You may need to log out and log back in to refresh your token.
+- You do not have permission to access this repository.
+- The repository is archived on GitHub. Check the repository settings to confirm you are still permitted to push commits.
+- If you use SSH authentication, check that your key is added to the ssh-agent and associated with your account.
+- If you use SSH authentication, ensure the host key verification passes for your repository hosting service.
+- If you used username / password authentication, you might need to use a Personal Access Token instead of your account password. Check the documentation of your repository hosting service.)
+2024-12-25T12:33:23.494Z - error: [ui] `git fetch --progress --prune --recurse-submodules=on-demand cr` exited with an unexpected code: 128.
+stderr:
+fatal: 'cr' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+(The error was parsed as 3: Authentication failed. Some common reasons include:
+
+- You are not logged in to your account: see File > Options.
+- You may need to log out and log back in to refresh your token.
+- You do not have permission to access this repository.
+- The repository is archived on GitHub. Check the repository settings to confirm you are still permitted to push commits.
+- If you use SSH authentication, check that your key is added to the ssh-agent and associated with your account.
+- If you use SSH authentication, ensure the host key verification passes for your repository hosting service.
+- If you used username / password authentication, you might need to use a Personal Access Token instead of your account password. Check the documentation of your repository hosting service.)
+2024-12-25T12:33:23.494Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 6 repositories took 0.5s of which 0.0s paused, total 0.5s
+2024-12-25T12:37:39.219Z - error: [ui] `git revert 970d8d10aa027e5c2d88f3cb33034f060a5cd026` exited with an unexpected code: 1.
+stdout:
+Auto-merging services/camera/libcameraservice/Android.bp
+CONFLICT (content): Merge conflict in services/camera/libcameraservice/Android.bp
+Auto-merging services/camera/libcameraservice/CameraService.cpp
+Auto-merging services/camera/libcameraservice/device3/Camera3Device.cpp
+CONFLICT (content): Merge conflict in services/camera/libcameraservice/device3/Camera3Device.cpp
+
+stderr:
+error: could not revert 970d8d10aa... libcameraservice: Add support to set vendor tag with client package name
+hint: After resolving the conflicts, mark them with
+hint: "git add/rm <pathspec>", then run
+hint: "git revert --continue".
+hint: You can instead skip this commit with "git revert --skip".
+hint: To abort and get back to the state before "git revert",
+hint: run "git revert --abort".
+hint: Disable this message with "git config advice.mergeConflict false"
+Recorded preimage for 'services/camera/libcameraservice/Android.bp'
+Recorded preimage for 'services/camera/libcameraservice/device3/Camera3Device.cpp'
+
+(The error was parsed as 8: We found some conflicts while trying to merge. Please resolve the conflicts and commit the changes.)
+2024-12-25T12:47:49.659Z - error: [ui] Could not load old contents for syntax highlighting
+RangeError [ERR_CHILD_PROCESS_STDIO_MAXBUFFER]: stdout maxBuffer length exceeded
+    at Socket.onChildStdout (node:child_process:490:14)
+    at Socket.emit (node:events:531:35)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+    at Socket.Readable.push (node:internal/streams/readable:390:5)
+    at Pipe.onStreamRead (node:internal/stream_base_commons:191:23)
+2024-12-25T12:47:49.693Z - error: [ui] Could not load new contents for syntax highlighting
+RangeError [ERR_CHILD_PROCESS_STDIO_MAXBUFFER]: stdout maxBuffer length exceeded
+    at Socket.onChildStdout (node:child_process:490:14)
+    at Socket.emit (node:events:531:35)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+    at Socket.Readable.push (node:internal/streams/readable:390:5)
+    at Pipe.onStreamRead (node:internal/stream_base_commons:191:23)
+2024-12-25T12:48:05.294Z - error: [ui] Could not load old contents for syntax highlighting
+RangeError [ERR_CHILD_PROCESS_STDIO_MAXBUFFER]: stdout maxBuffer length exceeded
+    at Socket.onChildStdout (node:child_process:490:14)
+    at Socket.emit (node:events:531:35)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+    at Socket.Readable.push (node:internal/streams/readable:390:5)
+    at Pipe.onStreamRead (node:internal/stream_base_commons:191:23)
+2024-12-25T12:48:05.300Z - error: [ui] Could not load new contents for syntax highlighting
+RangeError [ERR_CHILD_PROCESS_STDIO_MAXBUFFER]: stdout maxBuffer length exceeded
+    at Socket.onChildStdout (node:child_process:490:14)
+    at Socket.emit (node:events:531:35)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+    at Socket.Readable.push (node:internal/streams/readable:390:5)
+    at Pipe.onStreamRead (node:internal/stream_base_commons:191:23)
+2024-12-25T12:53:03.413Z - error: [ui] `git show HEAD:core/java/com/android/internal/util/crdroid/PixelPropsUtils.java` exited with an unexpected code: 128.
+stderr:
+fatal: path 'core/java/com/android/internal/util/crdroid/PixelPropsUtils.java' does not exist in 'HEAD'
+
+(The error was parsed as 33: The path does not exist on disk.)
+2024-12-25T12:53:03.414Z - error: [ui] Could not load old contents for syntax highlighting
+GitError: The path does not exist on disk.
+    at /home/roxor/webpack:/app/src/lib/git/core.ts:256:13
+    at /home/roxor/webpack:/app/src/lib/trampoline/trampoline-environment.ts:127:13
+    at /home/roxor/webpack:/app/src/lib/trampoline/trampoline-tokens.ts:33:5
+    at /home/roxor/webpack:/app/src/lib/git/show.ts:93:9
+    at async Promise.all (index 0)
+    at /home/roxor/webpack:/app/src/ui/diff/syntax-highlighting/index.ts:111:23
+    at k_.loadFileContentsIfNeeded (/home/roxor/webpack:/app/src/ui/diff/seamless-diff-switcher.tsx:283:11)
+2024-12-25T12:53:03.428Z - error: [ui] Could not load new contents for syntax highlighting
+Error: ENOENT: no such file or directory, open '/home/roxor/source/tenx/frameworks/base/core/java/com/android/internal/util/crdroid/PixelPropsUtils.java'
+2024-12-25T12:53:03.446Z - error: [ui] `git fetch --progress --prune --recurse-submodules=on-demand origin` exited with an unexpected code: 128.
+stderr:
+fatal: 'origin' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+(The error was parsed as 3: Authentication failed. Some common reasons include:
+
+- You are not logged in to your account: see File > Options.
+- You may need to log out and log back in to refresh your token.
+- You do not have permission to access this repository.
+- The repository is archived on GitHub. Check the repository settings to confirm you are still permitted to push commits.
+- If you use SSH authentication, check that your key is added to the ssh-agent and associated with your account.
+- If you use SSH authentication, ensure the host key verification passes for your repository hosting service.
+- If you used username / password authentication, you might need to use a Personal Access Token instead of your account password. Check the documentation of your repository hosting service.)
+2024-12-25T12:53:05.850Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand origin (took 2.345s)
+2024-12-25T12:53:08.195Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a origin (took 2.345s)
+2024-12-25T12:57:29.834Z - error: [ui] `git fetch --progress --prune --recurse-submodules=on-demand cr` exited with an unexpected code: 128.
+stderr:
+fatal: 'cr' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+(The error was parsed as 3: Authentication failed. Some common reasons include:
+
+- You are not logged in to your account: see File > Options.
+- You may need to log out and log back in to refresh your token.
+- You do not have permission to access this repository.
+- The repository is archived on GitHub. Check the repository settings to confirm you are still permitted to push commits.
+- If you use SSH authentication, check that your key is added to the ssh-agent and associated with your account.
+- If you use SSH authentication, ensure the host key verification passes for your repository hosting service.
+- If you used username / password authentication, you might need to use a Personal Access Token instead of your account password. Check the documentation of your repository hosting service.)
+2024-12-25T12:57:29.835Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 6 repositories took 6.3s of which 261.3s paused, total 267.7s
+2024-12-25T12:57:30.472Z - error: [ui] Could not load old contents for syntax highlighting
+RangeError [ERR_CHILD_PROCESS_STDIO_MAXBUFFER]: stdout maxBuffer length exceeded
+    at Socket.onChildStdout (node:child_process:490:14)
+    at Socket.emit (node:events:531:35)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+    at Socket.Readable.push (node:internal/streams/readable:390:5)
+    at Pipe.onStreamRead (node:internal/stream_base_commons:191:23)
+2024-12-25T12:57:30.473Z - error: [ui] Could not load new contents for syntax highlighting
+RangeError [ERR_CHILD_PROCESS_STDIO_MAXBUFFER]: stdout maxBuffer length exceeded
+    at Socket.onChildStdout (node:child_process:490:14)
+    at Socket.emit (node:events:531:35)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+    at Socket.Readable.push (node:internal/streams/readable:390:5)
+    at Pipe.onStreamRead (node:internal/stream_base_commons:191:23)
+2024-12-25T13:34:23.326Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand origin (took 12.611s)
+2024-12-25T13:37:46.321Z - error: [ui] `git fetch --progress --prune --recurse-submodules=on-demand origin` exited with an unexpected code: 128.
+stderr:
+fatal: 'origin' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+(The error was parsed as 3: Authentication failed. Some common reasons include:
+
+- You are not logged in to your account: see File > Options.
+- You may need to log out and log back in to refresh your token.
+- You do not have permission to access this repository.
+- The repository is archived on GitHub. Check the repository settings to confirm you are still permitted to push commits.
+- If you use SSH authentication, check that your key is added to the ssh-agent and associated with your account.
+- If you use SSH authentication, ensure the host key verification passes for your repository hosting service.
+- If you used username / password authentication, you might need to use a Personal Access Token instead of your account password. Check the documentation of your repository hosting service.)
+2024-12-25T14:21:19.854Z - error: [ui] `git fetch --progress --prune --recurse-submodules=on-demand origin` exited with an unexpected code: 128.
+stderr:
+fatal: 'origin' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+(The error was parsed as 3: Authentication failed. Some common reasons include:
+
+- You are not logged in to your account: see File > Options.
+- You may need to log out and log back in to refresh your token.
+- You do not have permission to access this repository.
+- The repository is archived on GitHub. Check the repository settings to confirm you are still permitted to push commits.
+- If you use SSH authentication, check that your key is added to the ssh-agent and associated with your account.
+- If you use SSH authentication, ensure the host key verification passes for your repository hosting service.
+- If you used username / password authentication, you might need to use a Personal Access Token instead of your account password. Check the documentation of your repository hosting service.)
+2024-12-25T14:26:13.346Z - info: [ui] [AppStore] loading 7 repositories from store
+2024-12-25T14:26:13.443Z - info: [ui] launching: 3.4.2-linux1 (Linux 6.11.11-xanmod1)
+2024-12-25T14:26:13.444Z - info: [ui] execPath: '/nix/store/w2m5ijgrsgki21yd9qjx3wrw2b3scjv1-github-desktop-3.4.2/opt/github-desktop'
+2024-12-25T14:28:10.965Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a github (took 1.109s)
+2024-12-25T14:28:42.906Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand github (took 31.896s)
+2024-12-25T14:29:02.905Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a github (took 19.991s)
+2024-12-25T15:21:50.756Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand cr (took 10.542s)

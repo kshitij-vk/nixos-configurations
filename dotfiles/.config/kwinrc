@@ -1,36 +1,15 @@
-[$Version]
-update_info=kwin.upd:replace-scalein-with-scale,kwin.upd:port-minimizeanimation-effect-to-js,kwin.upd:port-scale-effect-to-js,kwin.upd:port-dimscreen-effect-to-js,kwin.upd:auto-bordersize,kwin.upd:animation-speed,kwin.upd:desktop-grid-click-behavior,kwin.upd:no-swap-encourage,kwin.upd:make-translucency-effect-disabled-by-default,kwin.upd:remove-flip-switch-effect,kwin.upd:remove-cover-switch-effect,kwin.upd:remove-cubeslide-effect,kwin.upd:remove-xrender-backend,kwin.upd:enable-scale-effect-by-default,kwin.upd:overview-group-plugin-id,kwin.upd:animation-speed-cleanup,kwin.upd:replace-cascaded-zerocornered
-
 [Desktops]
-Id_1=3ecc69d2-d092-4829-89bf-f52f0f24af30
-Id_2=ff89bc8b-7e5f-4fd2-b268-d8481580aa97
-Id_3=f03e7e33-b797-4a04-b569-52377fe1095d
-Id_4=e20f2039-598d-4f12-8e11-3fe6503780bb
-Number=4
-Rows=2
-
-[Effect-wobblywindows]
-Drag=85
-Stiffness=10
-WobblynessLevel=1
-
-[Plugins]
-desktopchangeosdEnabled=true
-wobblywindowsEnabled=true
+Id_1=54940bd5-ea12-4a6d-9a7b-56e254c34971
+Number=1
+Rows=1
 
 [Tiling]
 padding=4
 
-[Tiling][3aaa40db-fe9d-5c3c-8827-906b585f6fd3]
+[Tiling][55e10466-e7ef-5b76-9db5-103f9c5733f0]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
-[Tiling][54065627-1050-59f0-b233-7ec341a5242e]
-tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
-
-[Tiling][5717a8e9-c368-5b7b-932a-92d26350fe64]
-tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
-
-[Tiling][71686170-fc23-5914-b7f1-981ad60f34e1]
+[Tiling][76fdb6c3-5bf4-5e73-893b-beb441a119d1]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
 [Xwayland]

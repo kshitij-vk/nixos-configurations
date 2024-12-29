@@ -8,61 +8,69 @@
 
 {
   environment.systemPackages = with pkgs; [
+    brightnessctl
     btop
     catppuccin
-    cava
+    catppuccin-sddm
     cmatrix
     dash
+    dart-sass
+    dejavu_fonts
     eww
     feh
     font-awesome
     font-awesome_4
     font-awesome_5
-    gnome.file-roller
-    gnome.gnome-keyring
+    file-roller
+    gnome-keyring
+    gnome-tweaks
     gnumake
+    gpustat
     grim
+    hyprsunset
+    hypridle
     i3lock-fancy-rapid
     imlib2
     jetbrains-mono
     kate
     ksuperkey
+    libgtop
     libnotify
+    libsecret
+    lightly-boehs
     lolcat
     lxappearance
+    matugen
     mako
+    meslo-lgs-nf
     micro
     nitrogen
     numix-icon-theme
     ocs-url
     pavucontrol
     picom
-    python311Packages.sparklines
+    python312Packages.sparklines
+    python312Packages.gpustat
     pywal
     poppins
     rofi-wayland
     slstatus
     st
-    sddm-kcm
     swaybg
     swaylock
     sxhkd
     waybar
     wdisplays
+    windows10-icons
+    wl-clipboard
     wofi
     xcbuild
-    xfce.thunar
-    xfce.thunar-archive-plugin
-    xfce.xfce4-notifyd
-    xfce.xfce4-panel
-    xfce.xfce4-power-manager
-    xfce.xfce4-terminal
-    xfce.xfce4-weather-plugin
-    xfce.xfce4-whiskermenu-plugin
     xorg.libX11.dev
     xorg.libXft
     xorg.libXinerama
     xorg.libxcb.dev
     yad
+    kdePackages.qtbase
+    libsForQt5.qt5.qtbase
 ];
 }

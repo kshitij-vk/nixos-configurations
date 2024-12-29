@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE khotnewstuff3>
+<hotnewstuffregistry>
+ <stuff category="101">
+  <name>Sugar Candy for SDDM</name>
+  <providerid>api.kde-look.org</providerid>
+  <author>marianarlt</author>
+  <homepage>https://store.kde.org/p/1312658</homepage>
+  <licence></licence>
+  <version>1.6</version>
+  <rating>90</rating>
+  <downloads>328192</downloads>
+  <installedfile>/tmp/sugar-candy.tar.gz</installedfile>
+  <id>1312658</id>
+  <releasedate>2020-02-01</releasedate>
+  <summary>So extremely sweet your pancreas will have difficulties digesting its awesomeness.  &lt;br />
+&lt;br />
+Sweeten the login experience for your users, your family and yourself. Sugar Candy works on almost all major distributions—see below—and focuses on a straight forward user experience and superb...</summary>
+  <changelog></changelog>
+  <preview>https://images.pling.com/cache/100x100-0/img/00/00/44/96/51/1312658/089f113ce5ee3c4a56389e40ad7752982f86.png</preview>
+  <previewBig>https://images.pling.com/cache/770x540-0/img/00/00/44/96/51/1312658/089f113ce5ee3c4a56389e40ad7752982f86.png</previewBig>
+  <payload>https://files06.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjE1ODA1ODg4MzQiLCJvIjoiMSIsInMiOiI4OGFmMWFhODIwZTU5YTRkMzJjOGJkOTcyYzdmN2RkYWY3MTFjZjUxNDNhMWY5ODZkZmM4Y2Y1MDU2MzU2YjQ5OTlhZmVjMTgwOTdmZTNlOGM1OWU0YjVmZjBiMGI2ODEyYTYzMGI5ZmQ1NTk5ZjA3OGZmOTljMGI1Y2U5MWM3ZiIsInQiOjE3MzM4Mzk3NzUsInN0ZnAiOm51bGwsInN0aXAiOiI0OS4zNi45OS4yMzgifQ.x8yp8xqEJm74_oIbhpruWs27DCjDI05v4PWZy50aaJc/sugar-candy.tar.gz</payload>
+  <tags>original-product,gplv3,linux,sddm,theme,unix,awesome</tags>
+  <status>installed</status>
+ </stuff>
+ <stuff category="101">
+  <name>Dracula SDDM Plasma 6</name>
+  <providerid>api.kde-look.org</providerid>
+  <author>eliverlara</author>
+  <homepage>https://store.kde.org/p/2150918</homepage>
+  <licence></licence>
+  <version></version>
+  <rating>50</rating>
+  <downloads>10129</downloads>
+  <installedfile>/tmp/Dracula-Plasma6.tar.xz</installedfile>
+  <id>2150918</id>
+  <releasedate>2024-12-08</releasedate>
+  <summary>A dark theme created using the awesome &lt;a href="https://draculatheme.com/" target="_blank" rel="nofollow">Dracula&lt;/a> color palette.&lt;br />
+&lt;br />
+Suggested setings: &lt;br />
+&lt;br />
+&lt;a href="https://store.kde.org/p/1370681/" target="_blank" rel="nofollow">Dracula Kvantum theme&lt;/a>&lt;br />
+&lt;br />
+&lt;a...</summary>
+  <changelog></changelog>
+  <preview>https://images.pling.com/cache/100x100-0/img/00/00/36/61/48/2150918/preview.png</preview>
+  <previewBig>https://images.pling.com/cache/770x540-0/img/00/00/36/61/48/2150918/preview.png</previewBig>
+  <payload>https://files06.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjE3MTQ0MzYyNjYiLCJvIjoiMSIsInMiOiI0ZGU1MDk3NDY3ZmFjYzUwZjViODY5YzFjOTcxOWExZjg5YWMzNTdmZTFiNTZjMDU2MDBhMDYyODhjYmVlOWU5MTQ4ZWM5MmY0NGI2ZTQ1ZGQ3NTM5Y2JkZWE0MDE0NGM2NzcxYzBiZjFlYmFlNTZjNTQ2ZjBkOTE5ZWQwZTdmOCIsInQiOjE3MzM4MzgwMTgsInN0ZnAiOm51bGwsInN0aXAiOiI0OS4zNi45OS4yMzgifQ.h06GTu1AC1rYgit9AZBQTp4JVUxMUDYRc4mfBH0a23o/Dracula-Plasma6.tar.xz</payload>
+  <tags>linux,gplv3,unix</tags>
+  <status>installed</status>
+ </stuff>
+</hotnewstuffregistry>

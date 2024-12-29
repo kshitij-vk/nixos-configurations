@@ -1,0 +1,161 @@
+[Document 0]
+URL=file:///home/roxor/source/tenx/vendor/lineage/prebuilt/common/Android.bp
+
+[Kate Plugins]
+cmaketoolsplugin=false
+compilerexplorer=false
+eslintplugin=false
+externaltoolsplugin=true
+formatplugin=false
+katebacktracebrowserplugin=false
+katebuildplugin=false
+katecloseexceptplugin=false
+katecolorpickerplugin=false
+katectagsplugin=false
+katefilebrowserplugin=false
+katefiletreeplugin=true
+kategdbplugin=false
+kategitblameplugin=false
+katekonsoleplugin=true
+kateprojectplugin=true
+katereplicodeplugin=false
+katesearchplugin=true
+katesnippetsplugin=false
+katesqlplugin=false
+katesymbolviewerplugin=false
+katexmlcheckplugin=false
+katexmltoolsplugin=false
+keyboardmacrosplugin=false
+ktexteditorpreviewplugin=false
+latexcompletionplugin=false
+lspclientplugin=true
+openlinkplugin=false
+rainbowparens=false
+rbqlplugin=false
+tabswitcherplugin=true
+textfilterplugin=true
+
+[MainWindow0]
+Active ViewSpace=0
+Kate-MDI-H-Splitter=0,426,0
+Kate-MDI-Sidebar-0-Bar-0-TvList=kate_private_plugin_katefiletreeplugin,kateproject,kateprojectgit,lspclient_symbol_outline
+Kate-MDI-Sidebar-0-LastSize=200
+Kate-MDI-Sidebar-0-SectSizes=0
+Kate-MDI-Sidebar-0-Splitter=398
+Kate-MDI-Sidebar-1-Bar-0-TvList=
+Kate-MDI-Sidebar-1-LastSize=200
+Kate-MDI-Sidebar-1-SectSizes=0
+Kate-MDI-Sidebar-1-Splitter=907
+Kate-MDI-Sidebar-2-Bar-0-TvList=
+Kate-MDI-Sidebar-2-LastSize=200
+Kate-MDI-Sidebar-2-SectSizes=0
+Kate-MDI-Sidebar-2-Splitter=1858
+Kate-MDI-Sidebar-3-Bar-0-TvList=output,diagnostics,kate_plugin_katesearch,kateprojectinfo,kate_private_plugin_katekonsoleplugin
+Kate-MDI-Sidebar-3-LastSize=200
+Kate-MDI-Sidebar-3-SectSizes=0
+Kate-MDI-Sidebar-3-Splitter=160
+Kate-MDI-Sidebar-Style=2
+Kate-MDI-Sidebar-Visible=true
+Kate-MDI-ToolView-diagnostics-Position=3
+Kate-MDI-ToolView-diagnostics-Show-Button-In-Sidebar=true
+Kate-MDI-ToolView-diagnostics-Visible=false
+Kate-MDI-ToolView-kate_plugin_katesearch-Position=3
+Kate-MDI-ToolView-kate_plugin_katesearch-Show-Button-In-Sidebar=true
+Kate-MDI-ToolView-kate_plugin_katesearch-Visible=false
+Kate-MDI-ToolView-kate_private_plugin_katefiletreeplugin-Position=0
+Kate-MDI-ToolView-kate_private_plugin_katefiletreeplugin-Show-Button-In-Sidebar=true
+Kate-MDI-ToolView-kate_private_plugin_katefiletreeplugin-Visible=false
+Kate-MDI-ToolView-kate_private_plugin_katekonsoleplugin-Position=3
+Kate-MDI-ToolView-kate_private_plugin_katekonsoleplugin-Show-Button-In-Sidebar=true
+Kate-MDI-ToolView-kate_private_plugin_katekonsoleplugin-Visible=false
+Kate-MDI-ToolView-kateproject-Position=0
+Kate-MDI-ToolView-kateproject-Show-Button-In-Sidebar=true
+Kate-MDI-ToolView-kateproject-Visible=false
+Kate-MDI-ToolView-kateprojectgit-Position=0
+Kate-MDI-ToolView-kateprojectgit-Show-Button-In-Sidebar=true
+Kate-MDI-ToolView-kateprojectgit-Visible=false
+Kate-MDI-ToolView-kateprojectinfo-Position=3
+Kate-MDI-ToolView-kateprojectinfo-Show-Button-In-Sidebar=true
+Kate-MDI-ToolView-kateprojectinfo-Visible=false
+Kate-MDI-ToolView-lspclient_symbol_outline-Position=0
+Kate-MDI-ToolView-lspclient_symbol_outline-Show-Button-In-Sidebar=true
+Kate-MDI-ToolView-lspclient_symbol_outline-Visible=false
+Kate-MDI-ToolView-output-Position=3
+Kate-MDI-ToolView-output-Show-Button-In-Sidebar=true
+Kate-MDI-ToolView-output-Visible=false
+Kate-MDI-V-Splitter=0,398,0
+ToolBarsMovable=Disabled
+
+[MainWindow0 Settings]
+ToolBarsMovable=Disabled
+WindowState=8
+
+[MainWindow0-Splitter 0]
+Children=MainWindow0-ViewSpace 0
+Orientation=1
+Sizes=426
+
+[MainWindow0-ViewSpace 0]
+Active View=0
+Count=1
+Documents=0
+View 0=0
+
+[MainWindow0-ViewSpace 0 0]
+CursorColumn=1
+CursorLine=0
+
+[Open Documents]
+Count=1
+
+[Open MainWindows]
+Count=1
+
+[Plugin:kateprojectplugin:]
+projects=
+
+[Plugin:katesearchplugin:MainWindow:0]
+BinaryFiles=false
+CurrentExcludeFilter=-1
+CurrentFilter=-1
+ExcludeFilters=
+ExpandSearchResults=false
+Filters=
+FollowSymLink=false
+HiddenFiles=false
+MatchCase=false
+Place=1
+Recursive=true
+Replaces=
+Search=
+SearchAsYouTypeAllProjects=true
+SearchAsYouTypeCurrentFile=true
+SearchAsYouTypeFolder=true
+SearchAsYouTypeOpenFiles=true
+SearchAsYouTypeProject=true
+SearchDiskFiles=
+SearchDiskFiless=
+SizeLimit=128
+UseRegExp=false
+
+[Recent Files]
+File1[$e]=/run/media/roxor/New Volume/nixos/core-packages.nix
+File10[$e]=$HOME/source/tenx/vendor/lineage/prebuilt/common/Android.bp
+File2[$e]=/run/media/roxor/New Volume/nixos/desktop-packages.nix
+File3[$e]=/run/media/roxor/New Volume/nixos/env-vars.nix
+File4[$e]=/run/media/roxor/New Volume/nixos-backup-Dec-2024/nixos/configuration.nix
+File5[$e]=/run/media/roxor/New Volume/nixos-backup-Dec-2024/nixos/desktops/hyprland.nix
+File6[$e]=/run/media/roxor/New Volume/nixos-backup-Dec-2024/nixos/env-vars.nix
+File7[$e]=/run/media/roxor/New Volume/nixos-backup-Dec-2024/nixos/desktop.nix
+File8[$e]=/run/media/roxor/New Volume/nixos-backup-Dec-2024/nixos/core.nix
+File9[$e]=$HOME/nixos/.config/hypr/hyprland.conf
+Name1[$e]=core-packages.nix
+Name10[$e]=Android.bp
+Name2[$e]=desktop-packages.nix
+Name3[$e]=env-vars.nix
+Name4[$e]=configuration.nix
+Name5[$e]=hyprland.nix
+Name6[$e]=env-vars.nix
+Name7[$e]=desktop.nix
+Name8[$e]=core.nix
+Name9[$e]=hyprland.conf

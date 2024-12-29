@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 yad --width=100 --height=100 \
 --center \

@@ -1,0 +1,6 @@
+[Desktop Entry]
+Exec=code
+MimeType=text/x-go;
+Name=code
+NoDisplay=true
+Type=Application

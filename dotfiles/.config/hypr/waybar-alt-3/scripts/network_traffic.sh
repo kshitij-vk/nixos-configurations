@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 # network_traffic.sh [-tPOLLING_INTERVAL] [NETWORK_INTERFACE...]
 

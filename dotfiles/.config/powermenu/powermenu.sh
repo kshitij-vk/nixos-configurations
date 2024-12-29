@@ -11,7 +11,7 @@ dir="$HOME/.config/powermenu/"
 theme='style-default'
 
 # CMDs
-uptime="`uptime -p | sed -e 's/up //g'`"
+uptime="`uptime | sed -e 's/up //g'`"
 host=`hostname`
 
 # Options

@@ -1,5 +1,5 @@
-[Module-device_automounter]
+[Module-browserintegrationreminder]
 autoload=false
 
-[PlasmaBrowserIntegration]
-shownCount=1
+[Module-device_automounter]
+autoload=false

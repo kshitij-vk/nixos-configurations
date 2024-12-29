@@ -1,7 +1,39 @@
 [Added Associations]
-application/x-shellscript=sublime_text.desktop;
-text/plain=sublime_text.desktop;
+application/pdf=vivaldi-2.desktop;vivaldi.desktop;
+application/vnd.kde.kxmlguirc=code-19.desktop;
+application/x-shellscript=code-20.desktop;
+application/xml=code-2.desktop;
+text/plain=code-5.desktop;
+text/x-c++src=code-15.desktop;code-13.desktop;code-7.desktop;
+text/x-chdr=code-14.desktop;code-12.desktop;code-11.desktop;code-10.desktop;code-9.desktop;code-8.desktop;
+text/x-csrc=code-4.desktop;code-3.desktop;
+text/x-go=code-21.desktop;
+text/x-java=code-18.desktop;code-16.desktop;
+text/x-kotlin=code-17.desktop;
+text/x-makefile=code-6.desktop;
+text/x-python3=code-22.desktop;
+video/x-matroska=vlc-2.desktop;
+x-scheme-handler/tg=org.telegram.desktop.desktop;
+x-scheme-handler/tonsite=org.telegram.desktop.desktop;
+x-scheme-handler/x-github-client=github-desktop.desktop;GitHub Desktop.desktop;
+x-scheme-handler/x-github-desktop-auth=github-desktop.desktop;GitHub Desktop.desktop;
 
 [Default Applications]
-application/x-shellscript=sublime_text.desktop;
-text/plain=sublime_text.desktop;
+application/pdf=vivaldi-2.desktop;
+application/vnd.kde.kxmlguirc=code-19.desktop;
+application/x-shellscript=code-20.desktop;
+application/xml=code-2.desktop;
+text/plain=code-5.desktop;
+text/x-c++src=code-15.desktop;
+text/x-chdr=code-14.desktop;
+text/x-csrc=code-4.desktop;
+text/x-go=code-21.desktop;
+text/x-java=code-18.desktop;
+text/x-kotlin=code-17.desktop;
+text/x-makefile=code-6.desktop;
+text/x-python3=code-22.desktop;
+video/x-matroska=vlc-2.desktop;
+x-scheme-handler/tg=org.telegram.desktop.desktop
+x-scheme-handler/tonsite=org.telegram.desktop.desktop
+x-scheme-handler/x-github-client=github-desktop.desktop
+x-scheme-handler/x-github-desktop-auth=github-desktop.desktop
