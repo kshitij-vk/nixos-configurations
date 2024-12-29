@@ -1,0 +1,361 @@
+2024-12-26T06:46:42.994Z - info: [ui] [AppStore] loading 7 repositories from store
+2024-12-26T06:46:43.300Z - info: [ui] launching: 3.4.2-linux1 (Linux 6.11.11-xanmod1)
+2024-12-26T06:46:43.300Z - info: [ui] execPath: '/nix/store/w2m5ijgrsgki21yd9qjx3wrw2b3scjv1-github-desktop-3.4.2/opt/github-desktop'
+2024-12-26T06:46:50.356Z - info: [ui] No submodules found. Skipping "git submodule status"
+2024-12-26T09:29:57.975Z - info: [ui] [AppStore] loading 7 repositories from store
+2024-12-26T09:29:58.281Z - info: [ui] launching: 3.4.2-linux1 (Linux 6.11.11-xanmod1)
+2024-12-26T09:29:58.281Z - info: [ui] execPath: '/nix/store/w2m5ijgrsgki21yd9qjx3wrw2b3scjv1-github-desktop-3.4.2/opt/github-desktop'
+2024-12-26T09:29:58.655Z - error: [ui] Error reporting stats:
+TypeError: Failed to fetch
+    at hU.constructor.Dx [as post] (/home/roxor/webpack:/app/src/lib/stats/stats-store.ts:434:3)
+    at hU.constructor.reportStats (/home/roxor/webpack:/app/src/lib/stats/stats-store.ts:508:35)
+2024-12-26T09:30:01.748Z - error: [ui] Could not load old contents for syntax highlighting
+RangeError [ERR_CHILD_PROCESS_STDIO_MAXBUFFER]: stdout maxBuffer length exceeded
+    at Socket.onChildStdout (node:child_process:490:14)
+    at Socket.emit (node:events:531:35)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+    at Socket.Readable.push (node:internal/streams/readable:390:5)
+    at Pipe.onStreamRead (node:internal/stream_base_commons:191:23)
+2024-12-26T09:30:01.748Z - error: [ui] Could not load new contents for syntax highlighting
+RangeError [ERR_CHILD_PROCESS_STDIO_MAXBUFFER]: stdout maxBuffer length exceeded
+    at Socket.onChildStdout (node:child_process:490:14)
+    at Socket.emit (node:events:531:35)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+    at Socket.Readable.push (node:internal/streams/readable:390:5)
+    at Pipe.onStreamRead (node:internal/stream_base_commons:191:23)
+2024-12-26T09:30:14.321Z - error: [ui] `git fetch --progress --prune --recurse-submodules=on-demand origin` exited with an unexpected code: 128.
+stderr:
+fatal: unable to access 'https://github.com/TenX-OS/vendor_TenX/': Could not resolve host: github.com
+
+2024-12-26T09:30:14.390Z - error: [ui] `git fetch --progress --prune --recurse-submodules=on-demand github` exited with an unexpected code: 128.
+stderr:
+fatal: unable to access 'https://github.com/LineageOS/android_packages_apps_Settings/': Could not resolve host: github.com
+
+2024-12-26T09:30:14.451Z - error: [ui] `git fetch --progress --prune --recurse-submodules=on-demand cr` exited with an unexpected code: 128.
+stderr:
+fatal: unable to access 'https://github.com/crdroidandroid/android_frameworks_av/': Could not resolve host: github.com
+
+2024-12-26T09:30:14.506Z - error: [ui] `git fetch --progress --prune --recurse-submodules=on-demand github` exited with an unexpected code: 128.
+stderr:
+fatal: unable to access 'https://github.com/LineageOS/android_frameworks_native/': Could not resolve host: github.com
+
+2024-12-26T09:30:14.550Z - error: [ui] `git fetch --progress --prune --recurse-submodules=on-demand origin` exited with an unexpected code: 128.
+stderr:
+ssh: Could not resolve hostname github.com: Name or service not known
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+(The error was parsed as 3: Authentication failed. Some common reasons include:
+
+- You are not logged in to your account: see File > Options.
+- You may need to log out and log back in to refresh your token.
+- You do not have permission to access this repository.
+- The repository is archived on GitHub. Check the repository settings to confirm you are still permitted to push commits.
+- If you use SSH authentication, check that your key is added to the ssh-agent and associated with your account.
+- If you use SSH authentication, ensure the host key verification passes for your repository hosting service.
+- If you used username / password authentication, you might need to use a Personal Access Token instead of your account password. Check the documentation of your repository hosting service.)
+2024-12-26T09:30:14.606Z - error: [ui] `git fetch --progress --prune --recurse-submodules=on-demand cr` exited with an unexpected code: 128.
+stderr:
+fatal: unable to access 'https://github.com/crdroidandroid/android_system_core/': Could not resolve host: github.com
+
+2024-12-26T09:30:14.606Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 6 repositories took 0.3s of which 0.0s paused, total 0.3s
+2024-12-26T09:32:20.384Z - error: [ui] `git revert c5f283ea8fef0957c965cea4084d4f9409f3727a` exited with an unexpected code: 1.
+stdout:
+Auto-merging packages/SystemUI/res/values/tenx_strings.xml
+CONFLICT (content): Merge conflict in packages/SystemUI/res/values/tenx_strings.xml
+
+stderr:
+error: could not revert c5f283ea8fef... SystemUI: Introduce preferred network tile
+hint: After resolving the conflicts, mark them with
+hint: "git add/rm <pathspec>", then run
+hint: "git revert --continue".
+hint: You can instead skip this commit with "git revert --skip".
+hint: To abort and get back to the state before "git revert",
+hint: run "git revert --abort".
+hint: Disable this message with "git config advice.mergeConflict false"
+Recorded preimage for 'packages/SystemUI/res/values/tenx_strings.xml'
+
+(The error was parsed as 8: We found some conflicts while trying to merge. Please resolve the conflicts and commit the changes.)
+2024-12-26T10:01:04.027Z - info: [main] Received possible protocol arguments: 2
+2024-12-26T10:01:17.917Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand github (took 4.083s)
+2024-12-26T10:01:22.180Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand origin (took 2.426s)
+2024-12-26T10:01:24.536Z - error: [ui] Could not load old contents for syntax highlighting
+RangeError [ERR_CHILD_PROCESS_STDIO_MAXBUFFER]: stdout maxBuffer length exceeded
+    at Socket.onChildStdout (node:child_process:490:14)
+    at Socket.emit (node:events:531:35)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+    at Socket.Readable.push (node:internal/streams/readable:390:5)
+    at Pipe.onStreamRead (node:internal/stream_base_commons:191:23)
+2024-12-26T10:01:24.536Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a origin (took 2.354s)
+2024-12-26T10:01:24.549Z - error: [ui] Could not load new contents for syntax highlighting
+RangeError [ERR_CHILD_PROCESS_STDIO_MAXBUFFER]: stdout maxBuffer length exceeded
+    at Socket.onChildStdout (node:child_process:490:14)
+    at Socket.emit (node:events:531:35)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+    at Socket.Readable.push (node:internal/streams/readable:390:5)
+    at Pipe.onStreamRead (node:internal/stream_base_commons:191:23)
+2024-12-26T10:01:25.635Z - error: [ui] `git revert 0271b650a3aafa5553b098da9418fa2ca4ace906` exited with an unexpected code: 1.
+stdout:
+Auto-merging res/values/tenx_strings.xml
+CONFLICT (content): Merge conflict in res/values/tenx_strings.xml
+
+stderr:
+error: could not revert 0271b650a3a... Settings: support per-app volume [3/3]
+hint: After resolving the conflicts, mark them with
+hint: "git add/rm <pathspec>", then run
+hint: "git revert --continue".
+hint: You can instead skip this commit with "git revert --skip".
+hint: To abort and get back to the state before "git revert",
+hint: run "git revert --abort".
+hint: Disable this message with "git config advice.mergeConflict false"
+Recorded preimage for 'res/values/tenx_strings.xml'
+
+(The error was parsed as 8: We found some conflicts while trying to merge. Please resolve the conflicts and commit the changes.)
+2024-12-26T10:01:25.946Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 7 repositories took 15.7s of which 0.0s paused, total 15.7s
+2024-12-26T11:06:31.080Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand origin (took 2.358s)
+2024-12-26T11:06:33.428Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a origin (took 2.346s)
+2024-12-26T11:06:34.541Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 7 repositories took 11.9s of which 0.0s paused, total 11.9s
+2024-12-26T11:06:47.703Z - error: [ui] Could not load old contents for syntax highlighting
+RangeError [ERR_CHILD_PROCESS_STDIO_MAXBUFFER]: stdout maxBuffer length exceeded
+    at Socket.onChildStdout (node:child_process:490:14)
+    at Socket.emit (node:events:531:35)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+    at Socket.Readable.push (node:internal/streams/readable:390:5)
+    at Pipe.onStreamRead (node:internal/stream_base_commons:191:23)
+2024-12-26T11:06:47.704Z - error: [ui] Could not load new contents for syntax highlighting
+RangeError [ERR_CHILD_PROCESS_STDIO_MAXBUFFER]: stdout maxBuffer length exceeded
+    at Socket.onChildStdout (node:child_process:490:14)
+    at Socket.emit (node:events:531:35)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+    at Socket.Readable.push (node:internal/streams/readable:390:5)
+    at Pipe.onStreamRead (node:internal/stream_base_commons:191:23)
+2024-12-26T11:07:45.830Z - error: [ui] `git revert dd9b6d40af3d1ad76ee4a2677d7309746202cd66` exited with an unexpected code: 1.
+stdout:
+Auto-merging packages/SystemUI/res/values/tenx_strings.xml
+CONFLICT (content): Merge conflict in packages/SystemUI/res/values/tenx_strings.xml
+
+stderr:
+error: could not revert dd9b6d40af3d... SystemUI: Add Sound tile
+hint: After resolving the conflicts, mark them with
+hint: "git add/rm <pathspec>", then run
+hint: "git revert --continue".
+hint: You can instead skip this commit with "git revert --skip".
+hint: To abort and get back to the state before "git revert",
+hint: run "git revert --abort".
+hint: Disable this message with "git config advice.mergeConflict false"
+Recorded preimage for 'packages/SystemUI/res/values/tenx_strings.xml'
+
+(The error was parsed as 8: We found some conflicts while trying to merge. Please resolve the conflicts and commit the changes.)
+2024-12-26T12:55:47.805Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand origin (took 2.440s)
+2024-12-26T12:55:50.180Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a origin (took 2.379s)
+2024-12-26T12:55:51.338Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 6 repositories took 11.0s of which 0.0s paused, total 11.0s
+2024-12-26T13:19:02.645Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 6 repositories took 0.7s of which 0.0s paused, total 0.7s
+2024-12-26T13:29:59.820Z - info: [ui] Stats reported.
+2024-12-26T14:21:18.309Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a github (took 1.286s)
+2024-12-26T14:21:21.816Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand origin (took 2.357s)
+2024-12-26T14:21:24.185Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a origin (took 2.362s)
+2024-12-26T14:21:25.423Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 6 repositories took 11.9s of which 0.0s paused, total 11.9s
+2024-12-26T14:21:31.962Z - info: [ui] [squash] - invalid tip state - could not perform squash.
+2024-12-26T14:21:31.962Z - info: [ui] [Timing] Action 'create commit' for 'native' took 0.000s
+2024-12-26T14:22:49.056Z - error: [ui] Could not load old contents for syntax highlighting
+RangeError [ERR_CHILD_PROCESS_STDIO_MAXBUFFER]: stdout maxBuffer length exceeded
+    at Socket.onChildStdout (node:child_process:490:14)
+    at Socket.emit (node:events:531:35)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+    at Socket.Readable.push (node:internal/streams/readable:390:5)
+    at Pipe.onStreamRead (node:internal/stream_base_commons:191:23)
+2024-12-26T14:22:49.056Z - error: [ui] Could not load new contents for syntax highlighting
+RangeError [ERR_CHILD_PROCESS_STDIO_MAXBUFFER]: stdout maxBuffer length exceeded
+    at Socket.onChildStdout (node:child_process:490:14)
+    at Socket.emit (node:events:531:35)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+    at Socket.Readable.push (node:internal/streams/readable:390:5)
+    at Pipe.onStreamRead (node:internal/stream_base_commons:191:23)
+2024-12-26T14:39:18.343Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 6 repositories took 1.1s of which 0.0s paused, total 1.1s
+2024-12-26T15:23:50.472Z - info: [ui] [AppStore] loading 7 repositories from store
+2024-12-26T15:23:50.739Z - info: [ui] launching: 3.4.2-linux1 (Linux 6.11.11-xanmod1)
+2024-12-26T15:23:50.739Z - info: [ui] execPath: '/nix/store/w2m5ijgrsgki21yd9qjx3wrw2b3scjv1-github-desktop-3.4.2/opt/github-desktop'
+2024-12-26T15:25:29.653Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 6 repositories took 7.1s of which 84.3s paused, total 91.3s
+2024-12-26T15:27:48.723Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2024-12-26T15:27:48.724Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2024-12-26T15:27:48.724Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2024-12-26T15:27:48.724Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2024-12-26T15:27:48.724Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2024-12-26T15:27:48.724Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2024-12-26T15:27:48.730Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2024-12-26T15:27:48.730Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2024-12-26T15:27:48.730Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2024-12-26T15:27:48.730Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2024-12-26T15:27:48.730Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2024-12-26T15:27:48.730Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2024-12-26T15:27:48.740Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2024-12-26T15:27:48.740Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2024-12-26T15:27:48.740Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2024-12-26T15:27:48.740Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2024-12-26T15:27:48.740Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2024-12-26T15:27:48.741Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2024-12-26T15:27:48.743Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2024-12-26T15:27:48.744Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2024-12-26T15:27:48.744Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2024-12-26T15:27:48.744Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2024-12-26T15:27:48.744Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2024-12-26T15:27:48.744Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2024-12-26T15:27:48.752Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2024-12-26T15:27:48.753Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2024-12-26T15:27:48.753Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2024-12-26T15:27:48.753Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2024-12-26T15:27:48.753Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2024-12-26T15:27:48.753Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2024-12-26T15:27:48.765Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2024-12-26T15:27:48.765Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2024-12-26T15:27:48.765Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2024-12-26T15:27:48.765Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2024-12-26T15:27:48.765Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2024-12-26T15:27:48.765Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2024-12-26T15:27:48.796Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2024-12-26T15:27:48.796Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2024-12-26T15:27:48.796Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2024-12-26T15:27:48.796Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2024-12-26T15:27:48.796Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2024-12-26T15:27:48.796Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2024-12-26T15:32:58.734Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2024-12-26T15:32:58.741Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2024-12-26T15:32:58.742Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2024-12-26T15:32:58.742Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2024-12-26T15:32:58.742Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2024-12-26T15:32:58.742Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2024-12-26T15:32:58.742Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2024-12-26T15:32:58.742Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2024-12-26T15:32:58.749Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2024-12-26T15:32:58.749Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2024-12-26T15:32:58.750Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2024-12-26T15:32:58.750Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2024-12-26T15:32:58.750Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2024-12-26T15:32:58.750Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2024-12-26T15:32:58.750Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2024-12-26T15:32:58.750Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2024-12-26T15:32:58.761Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2024-12-26T15:32:58.761Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2024-12-26T15:32:58.762Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2024-12-26T15:32:58.762Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2024-12-26T15:32:58.762Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2024-12-26T15:32:58.762Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2024-12-26T15:32:58.762Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2024-12-26T15:32:58.762Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2024-12-26T15:32:58.766Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2024-12-26T15:32:58.766Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2024-12-26T15:32:58.766Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2024-12-26T15:32:58.766Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2024-12-26T15:32:58.766Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2024-12-26T15:32:58.766Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2024-12-26T15:32:58.766Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2024-12-26T15:32:58.766Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2024-12-26T15:32:58.777Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2024-12-26T15:32:58.777Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2024-12-26T15:32:58.777Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2024-12-26T15:32:58.777Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2024-12-26T15:32:58.777Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2024-12-26T15:32:58.777Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2024-12-26T15:32:58.777Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2024-12-26T15:32:58.777Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2024-12-26T15:32:58.790Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2024-12-26T15:32:58.790Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2024-12-26T15:32:58.790Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2024-12-26T15:32:58.790Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2024-12-26T15:32:58.790Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2024-12-26T15:32:58.790Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2024-12-26T15:32:58.790Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2024-12-26T15:32:58.791Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2024-12-26T15:32:58.822Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2024-12-26T15:32:58.822Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2024-12-26T15:32:58.822Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2024-12-26T15:32:58.822Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2024-12-26T15:32:58.822Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2024-12-26T15:32:58.822Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2024-12-26T15:32:58.822Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2024-12-26T15:32:58.822Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2024-12-26T15:33:39.928Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2024-12-26T15:33:39.934Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2024-12-26T15:33:39.935Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2024-12-26T15:33:39.935Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2024-12-26T15:33:39.935Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2024-12-26T15:33:39.935Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2024-12-26T15:33:39.935Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2024-12-26T15:33:39.935Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2024-12-26T15:33:39.935Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2024-12-26T15:33:39.942Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2024-12-26T15:33:39.943Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2024-12-26T15:33:39.943Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2024-12-26T15:33:39.943Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2024-12-26T15:33:39.943Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2024-12-26T15:33:39.943Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2024-12-26T15:33:39.943Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2024-12-26T15:33:39.943Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2024-12-26T15:33:39.943Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2024-12-26T15:33:39.954Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2024-12-26T15:33:39.954Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2024-12-26T15:33:39.954Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2024-12-26T15:33:39.954Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2024-12-26T15:33:39.954Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2024-12-26T15:33:39.954Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2024-12-26T15:33:39.954Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2024-12-26T15:33:39.954Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2024-12-26T15:33:39.954Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2024-12-26T15:33:39.958Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2024-12-26T15:33:39.958Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2024-12-26T15:33:39.958Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2024-12-26T15:33:39.958Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2024-12-26T15:33:39.958Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2024-12-26T15:33:39.958Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2024-12-26T15:33:39.958Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2024-12-26T15:33:39.959Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2024-12-26T15:33:39.959Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2024-12-26T15:33:39.969Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2024-12-26T15:33:39.969Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2024-12-26T15:33:39.969Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2024-12-26T15:33:39.969Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2024-12-26T15:33:39.969Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2024-12-26T15:33:39.969Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2024-12-26T15:33:39.969Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2024-12-26T15:33:39.970Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2024-12-26T15:33:39.970Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2024-12-26T15:33:39.982Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2024-12-26T15:33:39.982Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2024-12-26T15:33:39.982Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2024-12-26T15:33:39.982Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2024-12-26T15:33:39.982Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2024-12-26T15:33:39.982Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2024-12-26T15:33:39.982Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2024-12-26T15:33:39.983Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2024-12-26T15:33:39.983Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2024-12-26T15:33:40.012Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2024-12-26T15:33:40.013Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2024-12-26T15:33:40.013Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2024-12-26T15:33:40.013Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2024-12-26T15:33:40.013Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2024-12-26T15:33:40.013Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2024-12-26T15:33:40.013Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2024-12-26T15:33:40.013Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2024-12-26T15:33:40.013Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2024-12-26T15:57:20.887Z - info: [ui] [AppStore] loading 7 repositories from store
+2024-12-26T15:57:21.179Z - info: [ui] launching: 3.4.2-linux1 (Linux 6.11.11-xanmod1)
+2024-12-26T15:57:21.180Z - info: [ui] execPath: '/nix/store/w2m5ijgrsgki21yd9qjx3wrw2b3scjv1-github-desktop-3.4.2/opt/github-desktop'
+2024-12-26T15:57:33.404Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 6 repositories took 7.0s of which 0.0s paused, total 7.0s
+2024-12-26T16:15:14.108Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 6 repositories took 0.4s of which 0.0s paused, total 0.4s
+2024-12-26T16:33:10.212Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand cr (took 5.567s)
+2024-12-26T16:34:04.530Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 6 repositories took 12.2s of which 177.3s paused, total 189.5s
+2024-12-26T16:42:40.148Z - info: [main] Received possible protocol arguments: 2
+2024-12-26T16:50:08.122Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand origin (took 2.364s)
+2024-12-26T16:50:10.473Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a origin (took 2.351s)
+2024-12-26T16:50:53.142Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 6 repositories took 5.1s of which 159.2s paused, total 164.3s
+2024-12-26T17:13:59.082Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 6 repositories took 6.0s of which 583.9s paused, total 589.9s

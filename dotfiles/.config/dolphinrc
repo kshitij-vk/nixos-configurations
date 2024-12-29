@@ -1,12 +1,13 @@
 MenuBar=Disabled
 
-[$Version]
-update_info=dolphin_detailsmodesettings.upd:rename-leading-padding,dolphin_detailsmodesettings.upd:move-content-display
+[ExtractDialog]
+1920x1080 screen: Height=625
+1920x1080 screen: Width=1427
+DirHistory[$e]=$HOME/Downloads/,$HOME/
 
 [General]
-RememberOpenedTabs=false
 Version=202
-ViewPropsTimestamp=2024,1,12,22,24,30.3
+ViewPropsTimestamp=2024,12,10,16,53,45.091
 
 [KFileDialog Settings]
 Places Icons Auto-resize=false
@@ -15,6 +16,3 @@ Places Icons Static Size=22
 [MainWindow]
 MenuBar=Disabled
 ToolBarsMovable=Disabled
-
-[PreviewSettings]
-Plugins=audiothumbnail,blenderthumbnail,comicbookthumbnail,cursorthumbnail,djvuthumbnail,ebookthumbnail,exrthumbnail,directorythumbnail,fontthumbnail,imagethumbnail,jpegthumbnail,kraorathumbnail,windowsexethumbnail,windowsimagethumbnail,mobithumbnail,opendocumentthumbnail,gsthumbnail,rawthumbnail,svgthumbnail,ffmpegthumbs

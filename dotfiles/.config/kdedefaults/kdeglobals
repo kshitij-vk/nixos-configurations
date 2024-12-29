@@ -1,8 +1,8 @@
 [General]
-ColorScheme=ArcDark
+ColorScheme=Dracula
 
 [Icons]
-Theme=Surfn-Plasma-Dark-Tela
+Theme=candy-icons
 
 [KDE]
 widgetStyle=kvantum

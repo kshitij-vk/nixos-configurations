@@ -1,0 +1,273 @@
+2024-12-27T04:45:59.092Z - info: [ui] [AppStore] loading 7 repositories from store
+2024-12-27T04:45:59.376Z - info: [ui] launching: 3.4.2-linux1 (Linux 6.11.11-xanmod1)
+2024-12-27T04:45:59.377Z - info: [ui] execPath: '/nix/store/w2m5ijgrsgki21yd9qjx3wrw2b3scjv1-github-desktop-3.4.2/opt/github-desktop'
+2024-12-27T04:48:40.938Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand github (took 1.375s)
+2024-12-27T04:48:45.015Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand origin (took 2.366s)
+2024-12-27T04:48:47.361Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a origin (took 2.346s)
+2024-12-27T04:48:58.993Z - info: [ui] [AppStore] adding repository at /home/roxor/source/tenx/vendor/extra to store
+2024-12-27T04:49:03.976Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand cr (took 5.580s)
+2024-12-27T04:49:21.582Z - info: [ui] [AppStore] adding repository at /home/roxor/source/tenx/vendor/overlays/Elegance to store
+2024-12-27T04:49:23.991Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand origin (took 2.356s)
+2024-12-27T04:49:26.348Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a origin (took 2.357s)
+2024-12-27T04:49:27.850Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 9 repositories took 23.8s of which 27.0s paused, total 50.8s
+2024-12-27T04:50:24.069Z - info: [ui] [AppStore] adding repository at /home/roxor/source/tenx/system/libhwbinder to store
+2024-12-27T04:50:35.960Z - error: [ui] Could not load old contents for syntax highlighting
+RangeError [ERR_CHILD_PROCESS_STDIO_MAXBUFFER]: stdout maxBuffer length exceeded
+    at Socket.onChildStdout (node:child_process:490:14)
+    at Socket.emit (node:events:531:35)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+    at Socket.Readable.push (node:internal/streams/readable:390:5)
+    at Pipe.onStreamRead (node:internal/stream_base_commons:191:23)
+2024-12-27T04:51:07.191Z - error: [ui] Could not load old contents for syntax highlighting
+RangeError [ERR_CHILD_PROCESS_STDIO_MAXBUFFER]: stdout maxBuffer length exceeded
+    at Socket.onChildStdout (node:child_process:490:14)
+    at Socket.emit (node:events:531:35)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+    at Socket.Readable.push (node:internal/streams/readable:390:5)
+    at Pipe.onStreamRead (node:internal/stream_base_commons:191:23)
+2024-12-27T04:51:07.191Z - error: [ui] Could not load new contents for syntax highlighting
+RangeError [ERR_CHILD_PROCESS_STDIO_MAXBUFFER]: stdout maxBuffer length exceeded
+    at Socket.onChildStdout (node:child_process:490:14)
+    at Socket.emit (node:events:531:35)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+    at Socket.Readable.push (node:internal/streams/readable:390:5)
+    at Pipe.onStreamRead (node:internal/stream_base_commons:191:23)
+2024-12-27T04:51:08.861Z - error: [ui] Could not load old contents for syntax highlighting
+RangeError [ERR_CHILD_PROCESS_STDIO_MAXBUFFER]: stdout maxBuffer length exceeded
+    at Socket.onChildStdout (node:child_process:490:14)
+    at Socket.emit (node:events:531:35)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+    at Socket.Readable.push (node:internal/streams/readable:390:5)
+    at Pipe.onStreamRead (node:internal/stream_base_commons:191:23)
+2024-12-27T04:51:08.861Z - error: [ui] Could not load new contents for syntax highlighting
+RangeError [ERR_CHILD_PROCESS_STDIO_MAXBUFFER]: stdout maxBuffer length exceeded
+    at Socket.onChildStdout (node:child_process:490:14)
+    at Socket.emit (node:events:531:35)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+    at Socket.Readable.push (node:internal/streams/readable:390:5)
+    at Pipe.onStreamRead (node:internal/stream_base_commons:191:23)
+2024-12-27T04:58:15.888Z - info: [ui] [AppStore] adding repository at /home/roxor/source/tenx/build/soong to store
+2024-12-27T05:04:58.810Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand aosp (took 1.560s)
+2024-12-27T05:05:04.647Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 11 repositories took 3.5s of which 45.0s paused, total 48.5s
+2024-12-27T06:38:56.799Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a github (took 1.462s)
+2024-12-27T06:39:17.114Z - info: [ui] [AppStore] loading 11 repositories from store
+2024-12-27T06:39:17.404Z - info: [ui] launching: 3.4.2-linux1 (Linux 6.11.11-xanmod1)
+2024-12-27T06:39:17.405Z - info: [ui] execPath: '/nix/store/w2m5ijgrsgki21yd9qjx3wrw2b3scjv1-github-desktop-3.4.2/opt/github-desktop'
+2024-12-27T06:39:19.827Z - error: [ui] Could not load old contents for syntax highlighting
+RangeError [ERR_CHILD_PROCESS_STDIO_MAXBUFFER]: stdout maxBuffer length exceeded
+    at Socket.onChildStdout (node:child_process:490:14)
+    at Socket.emit (node:events:531:35)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+    at Socket.Readable.push (node:internal/streams/readable:390:5)
+    at Pipe.onStreamRead (node:internal/stream_base_commons:191:23)
+2024-12-27T06:39:27.631Z - error: [ui] Could not load old contents for syntax highlighting
+RangeError [ERR_CHILD_PROCESS_STDIO_MAXBUFFER]: stdout maxBuffer length exceeded
+    at Socket.onChildStdout (node:child_process:490:14)
+    at Socket.emit (node:events:531:35)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+    at Socket.Readable.push (node:internal/streams/readable:390:5)
+    at Pipe.onStreamRead (node:internal/stream_base_commons:191:23)
+2024-12-27T06:39:39.754Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand origin (took 2.347s)
+2024-12-27T06:39:41.987Z - error: [ui] Could not load old contents for syntax highlighting
+RangeError [ERR_CHILD_PROCESS_STDIO_MAXBUFFER]: stdout maxBuffer length exceeded
+    at Socket.onChildStdout (node:child_process:490:14)
+    at Socket.emit (node:events:531:35)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+    at Socket.Readable.push (node:internal/streams/readable:390:5)
+    at Pipe.onStreamRead (node:internal/stream_base_commons:191:23)
+2024-12-27T06:39:41.987Z - error: [ui] Could not load new contents for syntax highlighting
+RangeError [ERR_CHILD_PROCESS_STDIO_MAXBUFFER]: stdout maxBuffer length exceeded
+    at Socket.onChildStdout (node:child_process:490:14)
+    at Socket.emit (node:events:531:35)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+    at Socket.Readable.push (node:internal/streams/readable:390:5)
+    at Pipe.onStreamRead (node:internal/stream_base_commons:191:23)
+2024-12-27T06:39:42.108Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a origin (took 2.354s)
+2024-12-27T06:39:43.446Z - error: [ui] Could not load old contents for syntax highlighting
+RangeError [ERR_CHILD_PROCESS_STDIO_MAXBUFFER]: stdout maxBuffer length exceeded
+    at Socket.onChildStdout (node:child_process:490:14)
+    at Socket.emit (node:events:531:35)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+    at Socket.Readable.push (node:internal/streams/readable:390:5)
+    at Pipe.onStreamRead (node:internal/stream_base_commons:191:23)
+2024-12-27T06:39:43.447Z - error: [ui] Could not load new contents for syntax highlighting
+RangeError [ERR_CHILD_PROCESS_STDIO_MAXBUFFER]: stdout maxBuffer length exceeded
+    at Socket.onChildStdout (node:child_process:490:14)
+    at Socket.emit (node:events:531:35)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+    at Socket.Readable.push (node:internal/streams/readable:390:5)
+    at Pipe.onStreamRead (node:internal/stream_base_commons:191:23)
+2024-12-27T06:39:45.714Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 10 repositories took 9.7s of which 0.0s paused, total 9.7s
+2024-12-27T08:10:03.250Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand origin (took 2.406s)
+2024-12-27T08:10:05.619Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a origin (took 2.371s)
+2024-12-27T08:10:09.336Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand origin (took 2.388s)
+2024-12-27T08:10:11.731Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a origin (took 2.395s)
+2024-12-27T08:10:12.348Z - info: [ui] [Timing] Action 'create commit' for 'Settings' took 0.301s
+2024-12-27T08:10:12.429Z - error: [ui] Could not load old contents for syntax highlighting
+RangeError [ERR_CHILD_PROCESS_STDIO_MAXBUFFER]: stdout maxBuffer length exceeded
+    at Socket.onChildStdout (node:child_process:490:14)
+    at Socket.emit (node:events:531:35)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+    at Socket.Readable.push (node:internal/streams/readable:390:5)
+    at Pipe.onStreamRead (node:internal/stream_base_commons:191:23)
+2024-12-27T08:10:17.336Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 10 repositories took 22.8s of which 0.0s paused, total 22.8s
+2024-12-27T08:11:04.984Z - error: [ui] Could not load old contents for syntax highlighting
+RangeError [ERR_CHILD_PROCESS_STDIO_MAXBUFFER]: stdout maxBuffer length exceeded
+    at Socket.onChildStdout (node:child_process:490:14)
+    at Socket.emit (node:events:531:35)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+    at Socket.Readable.push (node:internal/streams/readable:390:5)
+    at Pipe.onStreamRead (node:internal/stream_base_commons:191:23)
+2024-12-27T08:11:24.332Z - error: [ui] Could not load old contents for syntax highlighting
+RangeError [ERR_CHILD_PROCESS_STDIO_MAXBUFFER]: stdout maxBuffer length exceeded
+    at Socket.onChildStdout (node:child_process:490:14)
+    at Socket.emit (node:events:531:35)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+    at Socket.Readable.push (node:internal/streams/readable:390:5)
+    at Pipe.onStreamRead (node:internal/stream_base_commons:191:23)
+2024-12-27T08:11:45.612Z - error: [ui] Could not load old contents for syntax highlighting
+RangeError [ERR_CHILD_PROCESS_STDIO_MAXBUFFER]: stdout maxBuffer length exceeded
+    at Socket.onChildStdout (node:child_process:490:14)
+    at Socket.emit (node:events:531:35)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+    at Socket.Readable.push (node:internal/streams/readable:390:5)
+    at Pipe.onStreamRead (node:internal/stream_base_commons:191:23)
+2024-12-27T08:11:45.613Z - error: [ui] Could not load new contents for syntax highlighting
+RangeError [ERR_CHILD_PROCESS_STDIO_MAXBUFFER]: stdout maxBuffer length exceeded
+    at Socket.onChildStdout (node:child_process:490:14)
+    at Socket.emit (node:events:531:35)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+    at Socket.Readable.push (node:internal/streams/readable:390:5)
+    at Pipe.onStreamRead (node:internal/stream_base_commons:191:23)
+2024-12-27T08:11:51.153Z - error: [ui] Could not load old contents for syntax highlighting
+RangeError [ERR_CHILD_PROCESS_STDIO_MAXBUFFER]: stdout maxBuffer length exceeded
+    at Socket.onChildStdout (node:child_process:490:14)
+    at Socket.emit (node:events:531:35)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+    at Socket.Readable.push (node:internal/streams/readable:390:5)
+    at Pipe.onStreamRead (node:internal/stream_base_commons:191:23)
+2024-12-27T08:11:51.153Z - error: [ui] Could not load new contents for syntax highlighting
+RangeError [ERR_CHILD_PROCESS_STDIO_MAXBUFFER]: stdout maxBuffer length exceeded
+    at Socket.onChildStdout (node:child_process:490:14)
+    at Socket.emit (node:events:531:35)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+    at Socket.Readable.push (node:internal/streams/readable:390:5)
+    at Pipe.onStreamRead (node:internal/stream_base_commons:191:23)
+2024-12-27T08:11:55.033Z - error: [ui] Could not load old contents for syntax highlighting
+RangeError [ERR_CHILD_PROCESS_STDIO_MAXBUFFER]: stdout maxBuffer length exceeded
+    at Socket.onChildStdout (node:child_process:490:14)
+    at Socket.emit (node:events:531:35)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+    at Socket.Readable.push (node:internal/streams/readable:390:5)
+    at Pipe.onStreamRead (node:internal/stream_base_commons:191:23)
+2024-12-27T08:12:00.591Z - error: [ui] Could not load old contents for syntax highlighting
+RangeError [ERR_CHILD_PROCESS_STDIO_MAXBUFFER]: stdout maxBuffer length exceeded
+    at Socket.onChildStdout (node:child_process:490:14)
+    at Socket.emit (node:events:531:35)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+    at Socket.Readable.push (node:internal/streams/readable:390:5)
+    at Pipe.onStreamRead (node:internal/stream_base_commons:191:23)
+2024-12-27T08:12:00.592Z - error: [ui] Could not load new contents for syntax highlighting
+RangeError [ERR_CHILD_PROCESS_STDIO_MAXBUFFER]: stdout maxBuffer length exceeded
+    at Socket.onChildStdout (node:child_process:490:14)
+    at Socket.emit (node:events:531:35)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+    at Socket.Readable.push (node:internal/streams/readable:390:5)
+    at Pipe.onStreamRead (node:internal/stream_base_commons:191:23)
+2024-12-27T08:12:25.608Z - error: [ui] Could not load old contents for syntax highlighting
+RangeError [ERR_CHILD_PROCESS_STDIO_MAXBUFFER]: stdout maxBuffer length exceeded
+    at Socket.onChildStdout (node:child_process:490:14)
+    at Socket.emit (node:events:531:35)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+    at Socket.Readable.push (node:internal/streams/readable:390:5)
+    at Pipe.onStreamRead (node:internal/stream_base_commons:191:23)
+2024-12-27T08:12:25.608Z - error: [ui] Could not load new contents for syntax highlighting
+RangeError [ERR_CHILD_PROCESS_STDIO_MAXBUFFER]: stdout maxBuffer length exceeded
+    at Socket.onChildStdout (node:child_process:490:14)
+    at Socket.emit (node:events:531:35)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+    at Socket.Readable.push (node:internal/streams/readable:390:5)
+    at Pipe.onStreamRead (node:internal/stream_base_commons:191:23)
+2024-12-27T08:12:39.778Z - info: [ui] [Timing] Action 'create commit' for 'TenX' took 0.169s
+2024-12-27T08:12:48.762Z - info: [ui] [Timing] Action 'create commit' for 'lineage' took 0.174s
+2024-12-27T08:13:09.763Z - info: [ui] [Timing] Action 'create commit' for 'extra' took 0.316s
+2024-12-27T08:13:27.777Z - info: [ui] [Timing] Action 'create commit' for 'Elegance' took 1.050s
+2024-12-27T08:28:38.398Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 10 repositories took 2.5s of which 48.0s paused, total 50.6s
+2024-12-27T09:10:38.607Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand origin (took 2.380s)
+2024-12-27T09:10:40.973Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a origin (took 2.365s)
+2024-12-27T09:49:28.621Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand origin (took 2.356s)
+2024-12-27T09:49:30.960Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a origin (took 2.339s)
+2024-12-27T09:50:03.672Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand aosp (took 5.796s)
+2024-12-27T09:50:31.608Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 10 repositories took 24.0s of which 3566.6s paused, total 3590.6s
+2024-12-27T10:00:32.878Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand origin (took 2.338s)
+2024-12-27T10:00:35.263Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a origin (took 2.384s)
+2024-12-27T10:00:36.373Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 11 repositories took 11.8s of which 2.1s paused, total 13.9s
+2024-12-27T10:00:39.875Z - error: [ui] Could not load old contents for syntax highlighting
+RangeError [ERR_CHILD_PROCESS_STDIO_MAXBUFFER]: stdout maxBuffer length exceeded
+    at Socket.onChildStdout (node:child_process:490:14)
+    at Socket.emit (node:events:531:35)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+    at Socket.Readable.push (node:internal/streams/readable:390:5)
+    at Pipe.onStreamRead (node:internal/stream_base_commons:191:23)
+2024-12-27T10:00:39.876Z - error: [ui] Could not load new contents for syntax highlighting
+RangeError [ERR_CHILD_PROCESS_STDIO_MAXBUFFER]: stdout maxBuffer length exceeded
+    at Socket.onChildStdout (node:child_process:490:14)
+    at Socket.emit (node:events:531:35)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+    at Socket.Readable.push (node:internal/streams/readable:390:5)
+    at Pipe.onStreamRead (node:internal/stream_base_commons:191:23)
+2024-12-27T11:23:06.112Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand origin (took 7.681s)
+2024-12-27T11:23:08.467Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a origin (took 2.349s)
+2024-12-27T11:25:36.461Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand origin (took 2.364s)
+2024-12-27T11:25:38.819Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a origin (took 2.358s)
+2024-12-27T11:28:10.083Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand origin (took 2.341s)
+2024-12-27T11:28:12.429Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a origin (took 2.346s)
+2024-12-27T11:28:45.777Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand origin (took 2.356s)
+2024-12-27T11:28:48.134Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a origin (took 2.357s)
+2024-12-27T11:28:52.140Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 10 repositories took 31.6s of which 322.2s paused, total 353.8s
+2024-12-27T12:36:43.906Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand origin (took 2.368s)
+2024-12-27T12:36:46.247Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a origin (took 2.334s)
+2024-12-27T12:39:42.648Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand origin (took 2.371s)
+2024-12-27T12:39:45.025Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a origin (took 2.377s)
+2024-12-27T12:41:58.402Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand origin (took 2.355s)
+2024-12-27T12:42:00.755Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a origin (took 2.353s)
+2024-12-27T12:43:01.154Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand origin (took 2.385s)
+2024-12-27T12:43:03.577Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a origin (took 2.421s)
+2024-12-27T12:45:48.405Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 10 repositories took 26.3s of which 520.7s paused, total 546.9s
+2024-12-27T12:55:37.624Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 10 repositories took 0.3s of which 0.0s paused, total 0.3s
+2024-12-27T13:16:22.471Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand origin (took 2.510s)
+2024-12-27T13:16:25.017Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a origin (took 2.538s)
+2024-12-27T13:16:55.731Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a github (took 1.351s)
+2024-12-27T13:48:45.543Z - info: [ui] [AppStore] loading 11 repositories from store
+2024-12-27T13:48:45.686Z - info: [ui] launching: 3.4.2-linux1 (Linux 6.11.11-xanmod1)
+2024-12-27T13:48:45.686Z - info: [ui] execPath: '/nix/store/w2m5ijgrsgki21yd9qjx3wrw2b3scjv1-github-desktop-3.4.2/opt/github-desktop'
+2024-12-27T13:48:46.579Z - info: [ui] Stats reported.
+2024-12-27T13:48:54.238Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand origin (took 2.345s)
+2024-12-27T13:48:56.589Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a origin (took 2.351s)
+2024-12-27T13:48:59.025Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand origin (took 2.388s)
+2024-12-27T13:49:01.449Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a origin (took 2.424s)

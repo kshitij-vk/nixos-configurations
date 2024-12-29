@@ -1,0 +1,51 @@
+2024-12-29T04:01:13.470Z - info: [ui] [AppStore] loading 11 repositories from store
+2024-12-29T04:01:13.558Z - info: [ui] launching: 3.4.2-linux1 (Linux 6.11.11-xanmod1)
+2024-12-29T04:01:13.559Z - info: [ui] execPath: '/nix/store/w2m5ijgrsgki21yd9qjx3wrw2b3scjv1-github-desktop-3.4.2/opt/github-desktop'
+2024-12-29T04:01:13.919Z - error: [ui] Could not load old contents for syntax highlighting
+RangeError [ERR_CHILD_PROCESS_STDIO_MAXBUFFER]: stdout maxBuffer length exceeded
+    at Socket.onChildStdout (node:child_process:490:14)
+    at Socket.emit (node:events:531:35)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+    at Socket.Readable.push (node:internal/streams/readable:390:5)
+    at Pipe.onStreamRead (node:internal/stream_base_commons:191:23)
+2024-12-29T04:01:14.322Z - info: [ui] Stats reported.
+2024-12-29T04:06:08.195Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand origin (took 2.433s)
+2024-12-29T04:06:10.650Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a origin (took 2.455s)
+2024-12-29T04:06:13.303Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand origin (took 2.383s)
+2024-12-29T04:06:15.776Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a origin (took 2.473s)
+2024-12-29T04:06:32.684Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand origin (took 2.472s)
+2024-12-29T04:06:35.098Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a origin (took 2.413s)
+2024-12-29T04:06:57.672Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand origin (took 2.476s)
+2024-12-29T04:07:00.040Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a origin (took 2.368s)
+2024-12-29T04:07:08.630Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand origin (took 2.504s)
+2024-12-29T04:07:10.998Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a origin (took 2.368s)
+2024-12-29T04:07:15.603Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand origin (took 2.927s)
+2024-12-29T04:07:18.342Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a origin (took 2.739s)
+2024-12-29T04:07:25.394Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand origin (took 2.396s)
+2024-12-29T04:07:27.876Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a origin (took 2.481s)
+2024-12-29T04:07:42.413Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand origin (took 2.474s)
+2024-12-29T04:07:44.792Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a origin (took 2.378s)
+2024-12-29T04:07:54.648Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand origin (took 2.535s)
+2024-12-29T04:07:56.999Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a origin (took 2.351s)
+2024-12-29T04:08:03.719Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand origin (took 2.391s)
+2024-12-29T04:08:06.153Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a origin (took 2.434s)
+2024-12-29T04:08:14.308Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 10 repositories took 50.5s of which 78.1s paused, total 128.6s
+2024-12-29T04:08:49.589Z - info: [ui] No submodules found. Skipping "git submodule status"
+2024-12-29T04:09:01.075Z - info: [ui] No submodules found. Skipping "git submodule status"
+2024-12-29T04:09:20.189Z - info: [ui] No submodules found. Skipping "git submodule status"
+2024-12-29T04:09:32.046Z - error: [ui] Could not load old contents for syntax highlighting
+RangeError [ERR_CHILD_PROCESS_STDIO_MAXBUFFER]: stdout maxBuffer length exceeded
+    at Socket.onChildStdout (node:child_process:490:14)
+    at Socket.emit (node:events:531:35)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+    at Socket.Readable.push (node:internal/streams/readable:390:5)
+    at Pipe.onStreamRead (node:internal/stream_base_commons:191:23)
+2024-12-29T05:35:20.973Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand origin (took 2.475s)
+2024-12-29T05:35:23.370Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a origin (took 2.396s)
+2024-12-29T06:22:32.465Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand origin (took 2.460s)
+2024-12-29T06:22:34.849Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a origin (took 2.384s)
+2024-12-29T06:22:46.900Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand origin (took 2.422s)
+2024-12-29T06:22:49.349Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a origin (took 2.449s)
+2024-12-29T06:22:58.187Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand origin (took 2.412s)

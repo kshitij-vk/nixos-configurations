@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 DIR=$HOME/.config/hypr/bg
 random_wallpaper=$(find $DIR -type f | sort -R | head -1)
@@ -10,3 +10,4 @@ killall -q swaybg
 while pgrep -x swaybg >/dev/null; do sleep 1; done
 
 swaybg -m fill -i $random_wallpaper &
+notify-send "$random_wallpaper" &

@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 # Set the path to the config and style files
 config_file="${HOME}/.config/hypr/waybar/config"

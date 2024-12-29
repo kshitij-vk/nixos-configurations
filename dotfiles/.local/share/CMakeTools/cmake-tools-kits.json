@@ -1,0 +1,10 @@
+[
+  {
+    "name": "GCC 13.3.0 x86_64-unknown-linux-gnu",
+    "compilers": {
+      "C": "/run/current-system/sw/bin/gcc",
+      "CXX": "/run/current-system/sw/bin/g++"
+    },
+    "isTrusted": true
+  }
+]

@@ -9,16 +9,22 @@
 {
   environment.systemPackages = with pkgs; [
     alacritty
+    ansible
     amdvlk
     arandr
     arc-theme
     avahi
+    autoconf
+    automake
     baobab
     bash-completion
     bat
     bibata-cursors
+    bison
     blueberry
     btop
+    cacert
+    ccache
     chromium
     curl
     dex
@@ -38,45 +44,75 @@
     gimp
     gitFull
     git-lfs
-    gnome.dconf-editor
-    gnome.gnome-disk-utility
-    gnome.gvfs
+    dconf-editor
+    gcc
+    gdb
+    gnome-disk-utility
+    gnumake
+    gradle
+    gvfs
     hack-font
     hblock
     hw-probe
     hwinfo
+    hyprpolkitagent
     i3lock-fancy
     inkscape
     insync
     inxi
+    jdk
     jq
-    libsForQt5.kdeconnect-kde
+    kdePackages.kauth
+    kdePackages.kcmutils
+    kdePackages.kfilemetadata
+    kdePackages.kglobalaccel
+    kdePackages.kglobalacceld
+    kdePackages.kirigami
+    kdePackages.knewstuff
+    kdePackages.packagekit-qt
+    kdePackages.polkit-kde-agent-1
+    kdePackages.sddm-kcm
     killall
     kitty
     kompose
     kubectl
     lact
+    libtool
+    libGL
+    libGLU
+    libsForQt5.kglobalaccel
+    libxcrypt
+    libxml2
     lm_sensors
     lollypop
     lshw
+    maven
+    m4
     meld
+    mesa
     minikube
     most
     fastfetch
+    networkmanager
     networkmanagerapplet
+    ninja
     nixos-generators
     nomacs
     numlockx
+    nwg-look
     platinum-searcher
+    polkit_gnome
     polybar
     qt6Packages.qtstyleplugin-kvantum
     ripgrep
     rxvt-unicode
+    scilab-bin
     scrot
     simplescreenrecorder
     spotify
     telegram-desktop
     tree
+    unzip
     variety
     vivaldi
     vivaldi-ffmpeg-codecs
@@ -85,9 +121,14 @@
     vscode
     wget
     widevine-cdm
+    xdg-desktop-portal
+    xdg-desktop-portal-hyprland
     xorg.xkill
+    zip
     zsh
+    zsh-autosuggestions 
     zsh-completions
+    zsh-powerlevel10k
     zsh-syntax-highlighting
   ];
 

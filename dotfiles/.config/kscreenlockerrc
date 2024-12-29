@@ -1,12 +1,4 @@
-[$Version]
-update_info=kscreenlocker.upd:0.1-autolock
-
 [Daemon]
-LockGrace=300
-Timeout=30
-
-[Greeter]
-WallpaperPlugin=org.kde.slideshow
-
-[Greeter][Wallpaper][org.kde.slideshow][General]
-SlidePaths=/usr/share/backgrounds/arcolinux
+Autolock=false
+LockOnResume=false
+Timeout=0

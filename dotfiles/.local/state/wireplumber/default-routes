@@ -1,0 +1,4 @@
+[default-routes]
+alsa_card.usb-Corsair_Corsair_HS65_SURROUND-00:input:analog-input-mic={"latencyOffsetNsec":0, "channelMap":["MONO"], "channelVolumes":[1.000000], "mute":false}
+alsa_card.usb-Corsair_Corsair_HS65_SURROUND-00:output:analog-output-speaker={"latencyOffsetNsec":0, "channelMap":["FL", "FR"], "channelVolumes":[1.000000, 1.000000], "mute":false}
+alsa_card.usb-Corsair_Corsair_HS65_SURROUND-00:profile:output:analog-stereo+input:mono-fallback=["analog-output-speaker", "analog-input-mic"]

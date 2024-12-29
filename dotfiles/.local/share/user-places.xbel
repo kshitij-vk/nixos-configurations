@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE xbel>
-<xbel xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info" xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks" xmlns:kdepriv="http://www.kde.org/kdepriv">
+<xbel xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks" xmlns:kdepriv="http://www.kde.org/kdepriv" xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info">
  <info>
   <metadata owner="http://www.kde.org">
    <kde_places_version>4</kde_places_version>
@@ -15,109 +15,39 @@
    <GroupState-SearchFor-IsHidden>false</GroupState-SearchFor-IsHidden>
   </metadata>
  </info>
- <bookmark href="file:///home/erik">
+ <bookmark href="file:///home/roxor">
   <title>Home</title>
   <info>
    <metadata owner="http://freedesktop.org">
     <bookmark:icon name="user-home"/>
    </metadata>
    <metadata owner="http://www.kde.org">
-    <ID>1705092348/0</ID>
+    <ID>1733829537/0</ID>
     <isSystemItem>true</isSystemItem>
    </metadata>
   </info>
  </bookmark>
- <bookmark href="file:///home/erik/Desktop">
+ <bookmark href="file:///home/roxor/Desktop">
   <title>Desktop</title>
   <info>
    <metadata owner="http://freedesktop.org">
-    <bookmark:icon name="user-desktop"/>
+    <bookmark:icon name="computer-symbolic"/>
    </metadata>
    <metadata owner="http://www.kde.org">
-    <ID>1705092348/1</ID>
-    <isSystemItem>true</isSystemItem>
+    <ID>1733833595/3</ID>
+    <OnlyInApp>dolphin</OnlyInApp>
    </metadata>
   </info>
  </bookmark>
- <bookmark href="file:///home/erik/Documents">
-  <title>Documents</title>
-  <info>
-   <metadata owner="http://freedesktop.org">
-    <bookmark:icon name="folder-documents"/>
-   </metadata>
-   <metadata owner="http://www.kde.org">
-    <ID>1705092348/2</ID>
-    <isSystemItem>true</isSystemItem>
-   </metadata>
-  </info>
- </bookmark>
- <bookmark href="file:///home/erik/Documents/nixos-configurations">
-  <title>nixos-configurations</title>
-  <info>
-   <metadata owner="http://freedesktop.org">
-    <bookmark:icon name="inode-directory"/>
-   </metadata>
-   <metadata owner="http://www.kde.org">
-    <ID>1705479566/8</ID>
-   </metadata>
-  </info>
- </bookmark>
- <bookmark href="file:///home/erik/Documents/nixos-configurations/dotfiles">
-  <title>dotfiles</title>
-  <info>
-   <metadata owner="http://freedesktop.org">
-    <bookmark:icon name="inode-directory"/>
-   </metadata>
-   <metadata owner="http://www.kde.org">
-    <ID>1705141600/1</ID>
-   </metadata>
-  </info>
- </bookmark>
- <bookmark href="file:///home/erik/Downloads">
+ <bookmark href="file:///home/roxor/Downloads">
   <title>Downloads</title>
   <info>
    <metadata owner="http://freedesktop.org">
-    <bookmark:icon name="folder-downloads"/>
+    <bookmark:icon name="folder-downloads-symbolic"/>
    </metadata>
    <metadata owner="http://www.kde.org">
-    <ID>1705092348/3</ID>
-    <isSystemItem>true</isSystemItem>
-   </metadata>
-  </info>
- </bookmark>
- <bookmark href="file:///home/erik/Music">
-  <title>Music</title>
-  <info>
-   <metadata owner="http://freedesktop.org">
-    <bookmark:icon name="folder-music"/>
-   </metadata>
-   <metadata owner="http://www.kde.org">
-    <ID>1705092348/6</ID>
-    <isSystemItem>true</isSystemItem>
-   </metadata>
-  </info>
- </bookmark>
- <bookmark href="file:///home/erik/Pictures">
-  <title>Pictures</title>
-  <info>
-   <metadata owner="http://freedesktop.org">
-    <bookmark:icon name="folder-pictures"/>
-   </metadata>
-   <metadata owner="http://www.kde.org">
-    <ID>1705092348/7</ID>
-    <isSystemItem>true</isSystemItem>
-   </metadata>
-  </info>
- </bookmark>
- <bookmark href="file:///home/erik/Videos">
-  <title>Videos</title>
-  <info>
-   <metadata owner="http://freedesktop.org">
-    <bookmark:icon name="folder-videos"/>
-   </metadata>
-   <metadata owner="http://www.kde.org">
-    <ID>1705092348/8</ID>
-    <isSystemItem>true</isSystemItem>
+    <ID>1733833530/2</ID>
+    <OnlyInApp>dolphin</OnlyInApp>
    </metadata>
   </info>
  </bookmark>
@@ -128,7 +58,7 @@
     <bookmark:icon name="folder-network"/>
    </metadata>
    <metadata owner="http://www.kde.org">
-    <ID>1705092348/4</ID>
+    <ID>1733829537/1</ID>
     <isSystemItem>true</isSystemItem>
    </metadata>
   </info>
@@ -140,107 +70,8 @@
     <bookmark:icon name="user-trash"/>
    </metadata>
    <metadata owner="http://www.kde.org">
-    <ID>1705092348/5</ID>
+    <ID>1733829537/2</ID>
     <isSystemItem>true</isSystemItem>
-   </metadata>
-  </info>
- </bookmark>
- <bookmark href="file:///home/erik/.config">
-  <title>.config</title>
-  <info>
-   <metadata owner="http://freedesktop.org">
-    <bookmark:icon name="inode-directory"/>
-   </metadata>
-   <metadata owner="http://www.kde.org">
-    <ID>1705479493/0</ID>
-   </metadata>
-  </info>
- </bookmark>
- <bookmark href="file:///home/erik/.config/awesome">
-  <title>awesome</title>
-  <info>
-   <metadata owner="http://freedesktop.org">
-    <bookmark:icon name="inode-directory"/>
-   </metadata>
-   <metadata owner="http://www.kde.org">
-    <ID>1705479510/1</ID>
-   </metadata>
-  </info>
- </bookmark>
- <bookmark href="file:///home/erik/.config/bspwm">
-  <title>bspwm</title>
-  <info>
-   <metadata owner="http://freedesktop.org">
-    <bookmark:icon name="inode-directory"/>
-   </metadata>
-   <metadata owner="http://www.kde.org">
-    <ID>1705479518/2</ID>
-   </metadata>
-  </info>
- </bookmark>
- <bookmark href="file:///home/erik/.config/arco-chadwm">
-  <title>arco-chadwm</title>
-  <info>
-   <metadata owner="http://freedesktop.org">
-    <bookmark:icon name="inode-directory"/>
-   </metadata>
-   <metadata owner="http://www.kde.org">
-    <ID>1705479533/4</ID>
-   </metadata>
-  </info>
- </bookmark>
- <bookmark href="file:///home/erik/.config/arco-dwm">
-  <title>arco-dwm</title>
-  <info>
-   <metadata owner="http://freedesktop.org">
-    <bookmark:icon name="inode-directory"/>
-   </metadata>
-   <metadata owner="http://www.kde.org">
-    <ID>1705479525/3</ID>
-   </metadata>
-  </info>
- </bookmark>
- <bookmark href="file:///home/erik/.config/hypr">
-  <title>hypr</title>
-  <info>
-   <metadata owner="http://freedesktop.org">
-    <bookmark:icon name="inode-directory"/>
-   </metadata>
-   <metadata owner="http://www.kde.org">
-    <ID>1705479544/5</ID>
-   </metadata>
-  </info>
- </bookmark>
- <bookmark href="file:///home/erik/.config/i3">
-  <title>i3</title>
-  <info>
-   <metadata owner="http://freedesktop.org">
-    <bookmark:icon name="inode-directory"/>
-   </metadata>
-   <metadata owner="http://www.kde.org">
-    <ID>1705479547/6</ID>
-   </metadata>
-  </info>
- </bookmark>
- <bookmark href="file:///home/erik/.config/qtile">
-  <title>qtile</title>
-  <info>
-   <metadata owner="http://freedesktop.org">
-    <bookmark:icon name="inode-directory"/>
-   </metadata>
-   <metadata owner="http://www.kde.org">
-    <ID>1705479553/7</ID>
-   </metadata>
-  </info>
- </bookmark>
- <bookmark href="file:///home/erik/.local">
-  <title>.local</title>
-  <info>
-   <metadata owner="http://freedesktop.org">
-    <bookmark:icon name="inode-directory"/>
-   </metadata>
-   <metadata owner="http://www.kde.org">
-    <ID>1705149177/0</ID>
    </metadata>
   </info>
  </bookmark>
@@ -251,7 +82,7 @@
     <bookmark:icon name="document-open-recent"/>
    </metadata>
    <metadata owner="http://www.kde.org">
-    <ID>1705092348/9</ID>
+    <ID>1733829537/3</ID>
     <isSystemItem>true</isSystemItem>
    </metadata>
   </info>
@@ -263,7 +94,7 @@
     <bookmark:icon name="folder-open-recent"/>
    </metadata>
    <metadata owner="http://www.kde.org">
-    <ID>1705092348/10</ID>
+    <ID>1733829537/4</ID>
     <isSystemItem>true</isSystemItem>
    </metadata>
   </info>
@@ -271,9 +102,88 @@
  <separator>
   <info>
    <metadata owner="http://www.kde.org">
-    <UDI>/org/freedesktop/UDisks2/block_devices/sda2</UDI>
+    <UDI>/org/freedesktop/UDisks2/block_devices/nvme0n1p7</UDI>
     <isSystemItem>true</isSystemItem>
+    <uuid>6c1ae0fd1ae0c564</uuid>
    </metadata>
   </info>
  </separator>
+ <separator>
+  <info>
+   <metadata owner="http://www.kde.org">
+    <UDI>/org/freedesktop/UDisks2/block_devices/sda5</UDI>
+    <isSystemItem>true</isSystemItem>
+    <uuid>fa583b1b583ad5db</uuid>
+   </metadata>
+  </info>
+ </separator>
+ <separator>
+  <info>
+   <metadata owner="http://www.kde.org">
+    <UDI>/org/freedesktop/UDisks2/block_devices/nvme0n1p2</UDI>
+    <isSystemItem>true</isSystemItem>
+    <uuid>a452f4f952f4d152</uuid>
+   </metadata>
+  </info>
+ </separator>
+ <separator>
+  <info>
+   <metadata owner="http://www.kde.org">
+    <UDI>/org/freedesktop/UDisks2/block_devices/sda3</UDI>
+    <isSystemItem>true</isSystemItem>
+    <uuid>a85645c9564598c8</uuid>
+   </metadata>
+  </info>
+ </separator>
+ <separator>
+  <info>
+   <metadata owner="http://www.kde.org">
+    <UDI>/org/freedesktop/UDisks2/block_devices/sdb1</UDI>
+    <isSystemItem>true</isSystemItem>
+    <uuid>4e21-0000</uuid>
+   </metadata>
+  </info>
+ </separator>
+ <separator>
+  <info>
+   <metadata owner="http://www.kde.org">
+    <UDI>/org/freedesktop/UDisks2/block_devices/sda6</UDI>
+    <isSystemItem>true</isSystemItem>
+    <uuid>ec26a6e226a6acd0</uuid>
+   </metadata>
+  </info>
+ </separator>
+ <separator>
+  <info>
+   <metadata owner="http://www.kde.org">
+    <UDI>/org/freedesktop/UDisks2/block_devices/nvme0n1p3</UDI>
+    <isSystemItem>true</isSystemItem>
+    <uuid>d3e174d8-5c71-47d0-b341-1b79b0be0452</uuid>
+   </metadata>
+  </info>
+ </separator>
+ <bookmark href="file:///home/roxor/Videos">
+  <title>Videos</title>
+  <info>
+   <metadata owner="http://freedesktop.org">
+    <bookmark:icon name="folder-videos-symbolic"/>
+   </metadata>
+   <metadata owner="http://www.kde.org">
+    <ID>1733833459/1</ID>
+    <OnlyInApp>dolphin</OnlyInApp>
+   </metadata>
+  </info>
+ </bookmark>
+ <bookmark href="file:///home/roxor/Pictures">
+  <title>Pictures</title>
+  <info>
+   <metadata owner="http://freedesktop.org">
+    <bookmark:icon name="folder-picture-symbolic"/>
+   </metadata>
+   <metadata owner="http://www.kde.org">
+    <ID>1733847111/0</ID>
+    <OnlyInApp>dolphin</OnlyInApp>
+   </metadata>
+  </info>
+ </bookmark>
 </xbel>
