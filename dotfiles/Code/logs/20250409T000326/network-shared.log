@@ -1,0 +1,4 @@
+2025-04-09 00:20:51.209 [error] #26: https://vscode-sync.trafficmanager.net/v1/manifest - error GET net::ERR_TIMED_OUT
+2025-04-09 00:46:57.929 [error] #101: https://vscode-sync.trafficmanager.net/v1/manifest - error GET net::ERR_TIMED_OUT
+2025-04-09 01:36:54.152 [error] #148: https://vscode-sync.trafficmanager.net/v1/manifest - error GET net::ERR_TIMED_OUT
+2025-04-09 02:02:03.528 [error] #173: https://vscode-sync.trafficmanager.net/v1/manifest - error GET net::ERR_TIMED_OUT

@@ -1,0 +1,115 @@
+<application>
+  <component name="ActionsLocalSummary">
+    <e n="$Copy">
+      <i c="7" l="1741673471110" />
+    </e>
+    <e n="$SelectAll">
+      <i c="2" l="1742012022261" />
+    </e>
+    <e n="$Undo">
+      <i c="53" l="1742043031929" />
+    </e>
+    <e n="CommentByLineComment">
+      <i c="1" l="1742041879235" />
+    </e>
+    <e n="CopyElement">
+      <i c="1" l="1741955851863" />
+    </e>
+    <e n="EditorBackSpace">
+      <i c="633" l="1742043267157" />
+    </e>
+    <e n="EditorChooseLookupItem">
+      <i c="26" l="1742042131176" />
+    </e>
+    <e n="EditorCut">
+      <i c="5" l="1742043070175" />
+    </e>
+    <e n="EditorDelete">
+      <i c="200" l="1742043067171" />
+    </e>
+    <e n="EditorDown">
+      <i c="87" l="1742043261248" />
+    </e>
+    <e n="EditorDuplicate">
+      <i c="1" l="1741671275079" />
+    </e>
+    <e n="EditorEnter">
+      <i c="122" l="1742043272424" />
+    </e>
+    <e n="EditorEscape">
+      <i c="1" l="1742042743195" />
+    </e>
+    <e n="EditorLeft">
+      <i c="216" l="1742043238830" />
+    </e>
+    <e n="EditorLineEnd">
+      <i c="61" l="1742043272105" />
+    </e>
+    <e n="EditorLineStart">
+      <i c="7" l="1742041911456" />
+    </e>
+    <e n="EditorPageDown">
+      <i c="4" l="1742043270041" />
+    </e>
+    <e n="EditorPaste">
+      <i c="10" l="1742043071423" />
+    </e>
+    <e n="EditorRight">
+      <i c="158" l="1742043250838" />
+    </e>
+    <e n="EditorRightWithSelection">
+      <i c="26" l="1741956978125" />
+    </e>
+    <e n="EditorTab">
+      <i c="4" l="1741668214521" />
+    </e>
+    <e n="EditorToggleColumnMode">
+      <i c="2" l="1741673353301" />
+    </e>
+    <e n="EditorToggleInsertState">
+      <i c="3" l="1742012803123" />
+    </e>
+    <e n="EditorUp">
+      <i c="87" l="1742043271056" />
+    </e>
+    <e n="NewDir">
+      <i c="1" l="1741664854018" />
+    </e>
+    <e n="NewPythonFile">
+      <i c="9" l="1741950748675" />
+    </e>
+    <e n="Run">
+      <i c="8" l="1742793648722" />
+    </e>
+    <e n="RunClass">
+      <i c="118" l="1742793539216" />
+    </e>
+    <e n="SaveAll">
+      <i c="126" l="1742043494850" />
+    </e>
+    <e n="SelectIn">
+      <i c="17" l="1742793650388" />
+    </e>
+    <e n="ShowIntentionActions">
+      <i c="4" l="1741957128334" />
+    </e>
+    <e n="com.intellij.notification.NotificationAction$Simple">
+      <i c="1" l="1741264711565" />
+    </e>
+    <e n="com.intellij.openapi.fileEditor.impl.tabActions.CloseTab">
+      <i c="12" l="1742006380459" />
+    </e>
+    <e n="com.intellij.openapi.wm.impl.SquareAnActionButton">
+      <i c="20" l="1742012815511" />
+    </e>
+    <e n="com.intellij.openapi.wm.impl.welcomeScreen.ActionGroupPanelWrapper$6">
+      <i c="1" l="1741264718680" />
+    </e>
+    <e n="com.intellij.toolWindow.ToolWindowHeader$HideAction">
+      <i c="1" l="1741265045654" />
+    </e>
+    <e n="com.intellij.ui.dsl.builder.components.SegmentedButtonAction">
+      <i c="4" l="1741264744211" />
+    </e>
+  </component>
+</application>

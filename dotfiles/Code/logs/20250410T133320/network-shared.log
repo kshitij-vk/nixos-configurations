@@ -1,0 +1,2 @@
+2025-04-10 13:49:15.235 [error] #37: https://main.vscode-cdn.net/extensions/marketplace.json - error GET net::ERR_NAME_NOT_RESOLVED
+2025-04-10 14:34:08.396 [error] #65: https://vscode-sync.trafficmanager.net/v1/manifest - error GET net::ERR_NAME_NOT_RESOLVED

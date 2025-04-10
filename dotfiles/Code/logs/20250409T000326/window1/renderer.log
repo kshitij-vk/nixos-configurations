@@ -1,0 +1,64 @@
+2025-04-09 00:03:27.069 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vscode.vscode-selfhost-test-provider' wants API proposal 'attributableCoverage' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-04-09 00:03:27.069 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.python' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-04-09 00:03:27.069 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.debugpy' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-04-09 00:03:27.069 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'redhat.java' wants API proposal 'documentPaste' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-04-09 00:03:27.341 [info] Started local extension host with pid 248677.
+2025-04-09 00:03:28.042 [info] Settings Sync: Token updated for the account kshitij-vk
+2025-04-09 00:03:28.048 [info] Settings Sync: Account status changed from uninitialized to available
+2025-04-09 00:03:29.990 [info] [perf] Render performance baseline is 18ms
+2025-04-09 00:03:30.401 [error] [/home/roxor/.vscode/extensions/github.copilot-1.282.0]: Extension is not compatible with Code 1.97.2. Extension requires: ^1.98.0.
+2025-04-09 00:03:30.402 [error] [/home/roxor/.vscode/extensions/github.copilot-1.288.0]: Extension is not compatible with Code 1.97.2. Extension requires: ^1.98.0.
+2025-04-09 00:03:30.402 [error] [/home/roxor/.vscode/extensions/github.copilot-1.293.0]: Extension is not compatible with Code 1.97.2. Extension requires: ^1.98.0.
+2025-04-09 00:03:30.402 [error] [/home/roxor/.vscode/extensions/github.copilot-1.296.0]: Extension is not compatible with Code 1.97.2. Extension requires: ^1.98.0.
+2025-04-09 00:03:49.334 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vscode.vscode-selfhost-test-provider' wants API proposal 'attributableCoverage' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-04-09 00:03:49.334 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.python' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-04-09 00:03:49.334 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.debugpy' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-04-09 00:03:49.334 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'redhat.java' wants API proposal 'documentPaste' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-04-09 00:03:49.463 [info] Started local extension host with pid 248877.
+2025-04-09 00:03:49.943 [info] Settings Sync: Token updated for the account kshitij-vk
+2025-04-09 00:03:49.975 [info] Settings Sync: Account status changed from uninitialized to available
+2025-04-09 00:03:52.084 [info] [perf] Render performance baseline is 18ms
+2025-04-09 00:03:52.536 [error] [/home/roxor/.vscode/extensions/github.copilot-1.282.0]: Extension is not compatible with Code 1.97.2. Extension requires: ^1.98.0.
+2025-04-09 00:03:52.536 [error] [/home/roxor/.vscode/extensions/github.copilot-1.288.0]: Extension is not compatible with Code 1.97.2. Extension requires: ^1.98.0.
+2025-04-09 00:03:52.537 [error] [/home/roxor/.vscode/extensions/github.copilot-1.293.0]: Extension is not compatible with Code 1.97.2. Extension requires: ^1.98.0.
+2025-04-09 00:03:52.537 [error] [/home/roxor/.vscode/extensions/github.copilot-1.296.0]: Extension is not compatible with Code 1.97.2. Extension requires: ^1.98.0.
+2025-04-09 00:03:52.731 [warning] [twxs.cmake]: Cannot register 'cmake.cmakePath'. This property is already registered.
+2025-04-09 00:03:55.487 [error] No registered selector for ID: copilot-chat.fixWithCopilot
+2025-04-09 00:03:55.488 [error] No registered selector for ID: copilot-chat.generateCommitMessage
+2025-04-09 00:03:55.502 [error] No registered selector for ID: copilot-chat.terminalToDebugging
+2025-04-09 00:03:55.502 [error] No registered selector for ID: copilot-chat.terminalToDebuggingSuccess
+2025-04-09 00:03:59.693 [error] Cannot read the extension from /home/roxor/.vscode/extensions/github.copilot-1.297.0: ScanningExtension: Cannot read the extension from /home/roxor/.vscode/extensions/github.copilot-1.297.0
+    at dh.scanLocalExtension (file:///nix/store/09k7b0bhiz2rjd9980lwjj22750jrm58-vscode-1.97.2/lib/vscode/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:74:72155)
+    at async ph.h (file:///nix/store/09k7b0bhiz2rjd9980lwjj22750jrm58-vscode-1.97.2/lib/vscode/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:74:77331)
+2025-04-09 00:14:10.930 [error] [Extension Host] Failed to load message bundle for file /home/roxor/.vscode/extensions/ms-edgedevtools.vscode-edge-devtools-2.1.8/out/extension
+2025-04-09 00:14:10.931 [error] [Extension Host] Failed to load message bundle for file /home/roxor/.vscode/extensions/ms-edgedevtools.vscode-edge-devtools-2.1.8/out/extension
+2025-04-09 00:14:10.931 [error] [Extension Host] Failed to load message bundle for file /home/roxor/.vscode/extensions/ms-edgedevtools.vscode-edge-devtools-2.1.8/out/extension
+2025-04-09 00:14:10.931 [error] [Extension Host] Failed to load message bundle for file /home/roxor/.vscode/extensions/ms-edgedevtools.vscode-edge-devtools-2.1.8/out/extension
+2025-04-09 00:14:10.932 [error] [Extension Host] Failed to load message bundle for file /home/roxor/.vscode/extensions/ms-edgedevtools.vscode-edge-devtools-2.1.8/out/extension
+2025-04-09 00:14:10.932 [error] [Extension Host] Failed to load message bundle for file /home/roxor/.vscode/extensions/ms-edgedevtools.vscode-edge-devtools-2.1.8/out/extension
+2025-04-09 00:14:10.932 [error] [Extension Host] Failed to load message bundle for file /home/roxor/.vscode/extensions/ms-edgedevtools.vscode-edge-devtools-2.1.8/out/extension
+2025-04-09 00:14:10.934 [error] [Extension Host] Failed to load message bundle for file /home/roxor/.vscode/extensions/ms-edgedevtools.vscode-edge-devtools-2.1.8/out/extension
+2025-04-09 00:15:19.208 [info] Started local extension host with pid 254737.
+2025-04-09 00:15:19.670 [info] Settings Sync: Token updated for the account kshitij-vk
+2025-04-09 00:16:35.948 [error] No registered selector for ID: copilot-chat.fixWithCopilot
+2025-04-09 00:16:35.949 [error] No registered selector for ID: copilot-chat.generateCommitMessage
+2025-04-09 00:16:35.964 [error] No registered selector for ID: copilot-chat.terminalToDebugging
+2025-04-09 00:16:35.964 [error] No registered selector for ID: copilot-chat.terminalToDebuggingSuccess
+2025-04-09 00:34:11.553 [warning] Settings pattern "issueReporter.*" doesn't match any settings
+2025-04-09 00:34:12.202 [warning] Settings pattern "GitHub.copilot.manageExtension" doesn't match any settings
+2025-04-09 00:34:25.418 [warning] Settings pattern "issueReporter.*" doesn't match any settings
+2025-04-09 00:34:25.510 [warning] Settings pattern "GitHub.copilot.manageExtension" doesn't match any settings
+2025-04-09 00:34:31.631 [warning] Settings pattern "issueReporter.*" doesn't match any settings
+2025-04-09 00:34:31.703 [warning] Settings pattern "GitHub.copilot.manageExtension" doesn't match any settings
+2025-04-09 01:04:00.851 [warning] Settings pattern "issueReporter.*" doesn't match any settings
+2025-04-09 01:04:00.932 [warning] Settings pattern "GitHub.copilot.manageExtension" doesn't match any settings
+2025-04-09 01:05:18.108 [error] Cannot read the extension from /home/roxor/.vscode/extensions/github.copilot-1.297.0: ScanningExtension: Cannot read the extension from /home/roxor/.vscode/extensions/github.copilot-1.297.0
+    at dh.scanLocalExtension (file:///nix/store/09k7b0bhiz2rjd9980lwjj22750jrm58-vscode-1.97.2/lib/vscode/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:74:72155)
+2025-04-09 01:05:19.648 [warning] Settings pattern "issueReporter.*" doesn't match any settings
+2025-04-09 01:05:19.712 [warning] Settings pattern "GitHub.copilot.manageExtension" doesn't match any settings
+2025-04-09 02:01:17.176 [error] No registered selector for ID: copilot-chat.fixWithCopilot
+2025-04-09 02:01:17.176 [error] No registered selector for ID: copilot-chat.generateCommitMessage
+2025-04-09 02:01:17.189 [error] No registered selector for ID: copilot-chat.terminalToDebugging
+2025-04-09 02:01:17.189 [error] No registered selector for ID: copilot-chat.terminalToDebuggingSuccess
+2025-04-09 02:01:18.719 [warning] Settings pattern "issueReporter.*" doesn't match any settings
+2025-04-09 02:01:18.800 [warning] Settings pattern "GitHub.copilot.manageExtension" doesn't match any settings

@@ -1,0 +1,236 @@
+2025-03-09T03:11:45.248Z - info: [ui] [AppStore] loading 3 repositories from store
+2025-03-09T03:11:45.327Z - info: [ui] launching: 3.4.2-linux1 (Linux 6.6.80)
+2025-03-09T03:11:45.328Z - info: [ui] execPath: '/nix/store/6sndrkg2lkc6fxghykyc2vhzcyrjghvj-github-desktop-3.4.2/opt/github-desktop'
+2025-03-09T03:13:56.177Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand luna (took 7.577s)
+2025-03-09T03:13:58.800Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a luna (took 2.623s)
+2025-03-09T03:14:01.181Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand luna (took 2.302s)
+2025-03-09T03:14:03.488Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a luna (took 2.306s)
+2025-03-09T03:14:03.488Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 2 repositories took 15.4s of which 0.0s paused, total 15.4s
+2025-03-09T03:19:05.002Z - info: [ui] [AppStore] adding repository at /home/roxor/matrixx/vendor/lineage to store
+2025-03-09T03:20:23.097Z - info: [ui] [AppStore] loading 4 repositories from store
+2025-03-09T03:20:23.376Z - info: [ui] launching: 3.4.2-linux1 (Linux 6.6.80)
+2025-03-09T03:20:23.377Z - info: [ui] execPath: '/nix/store/6sndrkg2lkc6fxghykyc2vhzcyrjghvj-github-desktop-3.4.2/opt/github-desktop'
+2025-03-09T03:20:47.699Z - info: [ui] [AppStore] adding repository at /home/roxor/matrixx/packages/apps/crDroidSettings to store
+2025-03-09T03:20:47.769Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand gitlab (took 1.137s)
+2025-03-09T03:20:48.881Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a gitlab (took 1.111s)
+2025-03-09T03:20:50.624Z - info: [ui] No submodules found. Skipping "git submodule status"
+2025-03-09T03:20:55.864Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand matrixx (took 5.810s)
+2025-03-09T03:20:56.759Z - info: [ui] No submodules found. Skipping "git submodule status"
+2025-03-09T03:20:59.388Z - info: [ui] No submodules found. Skipping "git submodule status"
+2025-03-09T03:21:21.376Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a matrixx (took 25.511s)
+2025-03-09T03:21:21.377Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 5 repositories took 35.0s of which 0.0s paused, total 35.0s
+2025-03-09T03:22:11.921Z - info: [ui] No submodules found. Skipping "git submodule status"
+2025-03-09T03:53:00.490Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand luna (took 2.568s)
+2025-03-09T03:53:03.103Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a luna (took 2.615s)
+2025-03-09T03:53:05.469Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand luna (took 2.304s)
+2025-03-09T03:53:07.718Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a luna (took 2.249s)
+2025-03-09T03:53:09.922Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 4 repositories took 12.5s of which 0.0s paused, total 12.5s
+2025-03-09T04:15:19.561Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 4 repositories took 0.8s of which 0.0s paused, total 0.8s
+2025-03-09T04:15:32.810Z - info: [ui] [squash] - invalid tip state - could not perform squash.
+2025-03-09T04:15:32.811Z - info: [ui] [Timing] Action 'create commit' for 'Settings' took 0.000s
+2025-03-09T04:16:37.659Z - info: [ui] [Timing] Action 'checkout branch from list' for 'Settings' took 0.175s
+2025-03-09T04:16:43.672Z - info: [ui] [Timing] Action 'checkout branch from list' for 'Settings' took 1.126s
+2025-03-09T04:16:47.043Z - info: [ui] [Timing] Action 'checkout branch from list' for 'Settings' took 0.848s
+2025-03-09T04:18:27.001Z - info: [ui] No submodules found. Skipping "git submodule status"
+2025-03-09T04:19:29.690Z - info: [ui] [continueRebase] continuing rebase for 963435de691e000cc8762eed0530f9e6ea787721
+2025-03-09T04:19:29.804Z - warn: [ui] [rebase] no tracked changes to commit for dcd0309ff4c319dfd65379af1a31e3ca66976909, continuing rebase but skipping this commit
+2025-03-09T04:19:29.864Z - info: [ui] [continueRebase] completed rebase - got CompletedWithoutError and on tip 963435de691e000cc8762eed0530f9e6ea787721 - kind Valid
+2025-03-09T04:34:00.464Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand luna (took 30.077s)
+2025-03-09T04:34:00.466Z - error: [ui] `git fetch --progress --prune --recurse-submodules=on-demand luna` exited with an unexpected code: 128.
+stderr:
+ssh: Could not resolve hostname github.com: Temporary failure in name resolution
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+(The error was parsed as 3: Authentication failed. Some common reasons include:
+
+- You are not logged in to your account: see File > Options.
+- You may need to log out and log back in to refresh your token.
+- You do not have permission to access this repository.
+- The repository is archived on GitHub. Check the repository settings to confirm you are still permitted to push commits.
+- If you use SSH authentication, check that your key is added to the ssh-agent and associated with your account.
+- If you use SSH authentication, ensure the host key verification passes for your repository hosting service.
+- If you used username / password authentication, you might need to use a Personal Access Token instead of your account password. Check the documentation of your repository hosting service.)
+2025-03-09T04:35:42.527Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand gitlab (took 1.640s)
+2025-03-09T04:35:44.722Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a gitlab (took 2.194s)
+2025-03-09T04:39:37.425Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 4 repositories took 35.7s of which 331.6s paused, total 367.3s
+2025-03-09T04:46:43.084Z - info: [ui] Executing getRecentBranches: git log -g --no-abbrev-commit --pretty=oneline HEAD -n 2500 -- (took 1.139s)
+2025-03-09T04:46:43.186Z - info: [ui] Executing getBranches: git for-each-ref --format=%00%(refname)%00%(refname:short)%00%(upstream:short)%00%(objectname)%00%(author)%00%(symref)%00 refs/heads refs/remotes (took 1.165s)
+2025-03-09T04:54:36.236Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand luna (took 8.160s)
+2025-03-09T04:54:38.873Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a luna (took 2.638s)
+2025-03-09T05:47:51.168Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand gitlab (took 6.141s)
+2025-03-09T05:47:53.570Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a gitlab (took 2.395s)
+2025-03-09T06:15:41.406Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand luna (took 2.293s)
+2025-03-09T06:15:43.649Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a luna (took 2.242s)
+2025-03-09T06:17:54.396Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand matrixx (took 5.489s)
+2025-03-09T06:25:32.606Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 4 repositories took 33.8s of which 5432.4s paused, total 5466.2s
+2025-03-09T06:32:44.737Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand luna (took 2.610s)
+2025-03-09T06:32:47.384Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a luna (took 2.637s)
+2025-03-09T06:44:07.966Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand gitlab (took 2.496s)
+2025-03-09T06:44:10.159Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a gitlab (took 2.191s)
+2025-03-09T06:45:53.108Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 4 repositories took 11.3s of which 780.2s paused, total 791.5s
+2025-03-09T06:48:15.190Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 4 repositories took 2.4s of which 3.5s paused, total 5.9s
+2025-03-09T06:55:53.044Z - info: [ui] Executing getStashEntries: git log -g -z --format=%gD%x00%H%x00%gs%x00%T%x00%P refs/stash (took 1.248s)
+2025-03-09T06:55:54.455Z - info: [ui] Executing getCommits: git log matrixx/15.0..15.0 --date=raw --max-count=100 -z --format=%H%x00%h%x00%s%x00%b%x00%an <%ae> %ad%x00%cn <%ce> %cd%x00%P%x00%(trailers:unfold,only)%x00%D --no-show-signature --no-color -- (took 1.579s)
+2025-03-09T08:26:03.048Z - info: [ui] [AppStore] loading 5 repositories from store
+2025-03-09T08:26:03.141Z - info: [ui] launching: 3.4.2-linux1 (Linux 6.6.80)
+2025-03-09T08:26:03.141Z - info: [ui] execPath: '/nix/store/6sndrkg2lkc6fxghykyc2vhzcyrjghvj-github-desktop-3.4.2/opt/github-desktop'
+2025-03-09T08:26:09.941Z - info: [ui] Stats reported.
+2025-03-09T08:26:11.108Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand luna (took 2.563s)
+2025-03-09T08:26:13.698Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a luna (took 2.589s)
+2025-03-09T08:26:23.115Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand luna (took 2.261s)
+2025-03-09T08:26:25.363Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a luna (took 2.249s)
+2025-03-09T08:27:00.279Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 4 repositories took 13.6s of which 38.8s paused, total 52.3s
+2025-03-09T08:29:00.476Z - info: [ui] [Timing] Action 'create commit' for 'gms' took 0.127s
+2025-03-09T08:31:45.929Z - info: [ui] [Timing] Action 'create commit' for 'gms' took 0.124s
+2025-03-09T09:19:59.181Z - info: [ui] [AppStore] loading 5 repositories from store
+2025-03-09T09:19:59.262Z - info: [ui] launching: 3.4.2-linux1 (Linux 6.6.80)
+2025-03-09T09:19:59.262Z - info: [ui] execPath: '/nix/store/6sndrkg2lkc6fxghykyc2vhzcyrjghvj-github-desktop-3.4.2/opt/github-desktop'
+2025-03-09T09:20:37.549Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand gitlab (took 16.895s)
+2025-03-09T09:20:39.299Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a gitlab (took 1.749s)
+2025-03-09T09:20:59.972Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand luna (took 2.248s)
+2025-03-09T09:21:02.253Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a luna (took 2.281s)
+2025-03-09T09:28:55.286Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 4 repositories took 26.5s of which 488.2s paused, total 514.7s
+2025-03-09T09:28:59.842Z - info: [ui] [SignInStore] initializing OAuth flow
+2025-03-09T09:28:59.846Z - info: [main] opening in browser: https://github.com/login/oauth/authorize?client_id=3a723b10ac5575cc5bb9&scope=repo%20user%20workflow&state=f0fa4b78-cc35-4295-933b-e889ab91bf7a
+2025-03-09T09:28:59.847Z - info: [ui] [SignInStore] account resolved
+2025-03-09T09:29:05.159Z - info: [main] Received possible protocol arguments: 3
+2025-03-09T09:29:05.160Z - info: [main] Processing protocol url
+2025-03-09T09:29:05.223Z - info: [main] Received possible protocol arguments: 2
+2025-03-09T09:29:05.227Z - info: [main] Processing protocol url
+2025-03-09T09:29:07.350Z - info: [ui] [SignInStore] initializing OAuth flow
+2025-03-09T09:29:07.355Z - info: [main] opening in browser: https://github.com/login/oauth/authorize?client_id=3a723b10ac5575cc5bb9&scope=repo%20user%20workflow&state=3ab814e1-a0d9-4fd4-86f8-532f63adfdb1
+2025-03-09T09:29:07.356Z - info: [ui] [SignInStore] account resolved
+2025-03-09T09:29:11.468Z - warn: [ui] fetchEmails: failed with endpoint https://api.github.com
+Error: Bad credentials
+    at dn (/home/roxor/webpack:/app/src/lib/http.ts:178:11)
+    at er.fetchEmails (/home/roxor/webpack:/app/src/lib/api.ts:1051:13)
+    at nr (/home/roxor/webpack:/app/src/lib/api.ts:2041:11)
+    at Lp.resolveOAuthRequest (/home/roxor/webpack:/app/src/lib/stores/sign-in-store.ts:570:13)
+    at Object.dispatchURLAction (/home/roxor/webpack:/app/src/ui/dispatcher/dispatcher.ts:1873:12)
+2025-03-09T09:29:11.468Z - info: [ui] [AppStore] adding account kshitij-vk (Kshitij Koyande ) to store
+2025-03-09T09:29:11.479Z - error: [ui] Error adding account 'kshitij-vk'
+Error: Object does not exist at path “/org/freedesktop/secrets/collection/login”
+2025-03-09T09:29:11.729Z - info: [ui] Executing push: git push origin 15.0 --set-upstream --progress (took 14.438s)
+2025-03-09T09:29:11.944Z - info: [main] Received possible protocol arguments: 3
+2025-03-09T09:29:11.944Z - info: [main] Processing protocol url
+2025-03-09T09:29:12.005Z - info: [main] Received possible protocol arguments: 2
+2025-03-09T09:29:12.008Z - info: [main] Processing protocol url
+2025-03-09T09:32:48.492Z - error: [ui] Could not load old contents for syntax highlighting
+RangeError [ERR_CHILD_PROCESS_STDIO_MAXBUFFER]: stdout maxBuffer length exceeded
+    at Socket.onChildStdout (node:child_process:490:14)
+    at Socket.emit (node:events:531:35)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+    at Socket.Readable.push (node:internal/streams/readable:390:5)
+    at Pipe.onStreamRead (node:internal/stream_base_commons:191:23)
+2025-03-09T09:32:48.492Z - error: [ui] Could not load new contents for syntax highlighting
+RangeError [ERR_CHILD_PROCESS_STDIO_MAXBUFFER]: stdout maxBuffer length exceeded
+    at Socket.onChildStdout (node:child_process:490:14)
+    at Socket.emit (node:events:531:35)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+    at Socket.Readable.push (node:internal/streams/readable:390:5)
+    at Pipe.onStreamRead (node:internal/stream_base_commons:191:23)
+2025-03-09T09:33:44.098Z - info: [ui] [Timing] Action 'checkout branch from list' for 'base' took 0.425s
+2025-03-09T09:34:03.291Z - info: [ui] [Timing] Action 'checkout branch from list' for 'base' took 0.406s
+2025-03-09T09:34:05.033Z - info: [ui] [Timing] Action 'checkout branch from list' for 'base' took 0.413s
+2025-03-09T09:35:54.923Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 4 repositories took 0.2s of which 0.0s paused, total 0.2s
+2025-03-09T09:39:08.184Z - info: [ui] [Timing] Action 'create commit' for 'base' took 0.459s
+2025-03-09T09:40:04.690Z - error: [ui] Could not load old contents for syntax highlighting
+RangeError [ERR_CHILD_PROCESS_STDIO_MAXBUFFER]: stdout maxBuffer length exceeded
+    at Socket.onChildStdout (node:child_process:490:14)
+    at Socket.emit (node:events:531:35)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+    at Socket.Readable.push (node:internal/streams/readable:390:5)
+    at Pipe.onStreamRead (node:internal/stream_base_commons:191:23)
+2025-03-09T09:40:06.416Z - info: [ui] [Timing] Action 'create commit' for 'base' took 0.451s
+2025-03-09T09:43:59.017Z - info: [ui] [Timing] Action 'create commit' for 'crDroidSettings' took 0.061s
+2025-03-09T09:55:11.823Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand luna (took 2.272s)
+2025-03-09T09:55:14.106Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a luna (took 2.283s)
+2025-03-09T09:55:15.358Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand gitlab (took 1.209s)
+2025-03-09T09:55:16.579Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a gitlab (took 1.220s)
+2025-03-09T09:55:16.734Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 5 repositories took 8.4s of which 0.0s paused, total 8.4s
+2025-03-09T10:08:05.303Z - info: [ui] [Timing] Action 'create commit' for 'lineage' took 0.085s
+2025-03-09T10:11:14.211Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand origin (took 2.300s)
+2025-03-09T10:11:16.460Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a origin (took 2.249s)
+2025-03-09T10:12:14.405Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand origin (took 2.899s)
+2025-03-09T10:12:16.653Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a origin (took 2.248s)
+2025-03-09T10:15:26.299Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 5 repositories took 10.1s of which 244.5s paused, total 254.6s
+2025-03-09T20:33:13.928Z - info: [ui] [AppStore] loading 5 repositories from store
+2025-03-09T20:33:14.117Z - info: [ui] launching: 3.4.2-linux1 (Linux 6.12.15-xanmod1)
+2025-03-09T20:33:14.117Z - info: [ui] execPath: '/nix/store/6sndrkg2lkc6fxghykyc2vhzcyrjghvj-github-desktop-3.4.2/opt/github-desktop'
+2025-03-09T20:33:19.796Z - info: [ui] [SignInStore] initializing OAuth flow
+2025-03-09T20:33:19.801Z - info: [main] opening in browser: https://github.com/login/oauth/authorize?client_id=3a723b10ac5575cc5bb9&scope=repo%20user%20workflow&state=f5a4f1d4-8562-4868-ae0e-87067aabdc84
+2025-03-09T20:33:19.801Z - info: [ui] [SignInStore] account resolved
+2025-03-09T20:33:23.285Z - info: [main] Received possible protocol arguments: 3
+2025-03-09T20:33:23.286Z - info: [main] Processing protocol url
+2025-03-09T20:33:23.373Z - info: [main] Received possible protocol arguments: 2
+2025-03-09T20:33:23.376Z - info: [main] Processing protocol url
+2025-03-09T20:33:24.264Z - info: [ui] [AppStore] adding account kshitij-vk (Kshitij Koyande ) to store
+2025-03-09T20:33:24.280Z - error: [ui] Error adding account 'kshitij-vk'
+Error: Object does not exist at path “/org/freedesktop/secrets/collection/login”
+2025-03-09T20:35:16.900Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand origin (took 2.341s)
+2025-03-09T20:35:19.131Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a origin (took 2.231s)
+2025-03-09T20:35:22.050Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand origin (took 2.652s)
+2025-03-09T20:35:25.222Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a origin (took 3.172s)
+2025-03-09T20:35:43.398Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand origin (took 12.745s)
+2025-03-09T20:35:45.625Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a origin (took 2.220s)
+2025-03-09T20:35:50.847Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand origin (took 2.258s)
+2025-03-09T20:35:53.073Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a origin (took 2.226s)
+2025-03-09T20:36:04.233Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 4 repositories took 31.9s of which 18.5s paused, total 50.4s
+2025-03-09T20:37:03.410Z - info: [ui] [AppStore] loading 5 repositories from store
+2025-03-09T20:37:03.695Z - info: [ui] launching: 3.4.2-linux1 (Linux 6.12.15-xanmod1)
+2025-03-09T20:37:03.695Z - info: [ui] execPath: '/nix/store/6sndrkg2lkc6fxghykyc2vhzcyrjghvj-github-desktop-3.4.2/opt/github-desktop'
+2025-03-09T20:37:07.671Z - info: [ui] [SignInStore] initializing OAuth flow
+2025-03-09T20:37:07.674Z - info: [main] opening in browser: https://github.com/login/oauth/authorize?client_id=3a723b10ac5575cc5bb9&scope=repo%20user%20workflow&state=ce86e049-fe38-42a0-8be0-f205a99e9c3b
+2025-03-09T20:37:07.674Z - info: [ui] [SignInStore] account resolved
+2025-03-09T20:37:12.170Z - info: [main] Received possible protocol arguments: 3
+2025-03-09T20:37:12.171Z - info: [main] Processing protocol url
+2025-03-09T20:37:12.400Z - info: [main] Received possible protocol arguments: 3
+2025-03-09T20:37:12.400Z - info: [main] Processing protocol url
+2025-03-09T20:37:12.401Z - warn: [ui] requestAuthenticatedUser was not called with valid OAuth state. This is likely due to a browser reloading the callback URL. Contact GitHub Support if you believe this is an error
+2025-03-09T20:37:12.498Z - info: [main] Received possible protocol arguments: 2
+2025-03-09T20:37:13.255Z - info: [ui] [AppStore] adding account kshitij-vk (Kshitij Koyande ) to store
+2025-03-09T20:37:13.268Z - error: [ui] Error adding account 'kshitij-vk'
+Error: Object does not exist at path “/org/freedesktop/secrets/collection/login”
+2025-03-09T20:39:51.308Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 4 repositories took 0.4s of which 6.1s paused, total 6.5s
+2025-03-09T20:41:08.333Z - info: [ui] [SignInStore] initializing OAuth flow
+2025-03-09T20:41:08.337Z - info: [main] opening in browser: https://github.com/login/oauth/authorize?client_id=3a723b10ac5575cc5bb9&scope=repo%20user%20workflow&state=71e8de25-e522-4844-b539-5058d07f31e4
+2025-03-09T20:41:08.337Z - info: [ui] [SignInStore] account resolved
+2025-03-09T20:41:11.606Z - info: [main] Received possible protocol arguments: 3
+2025-03-09T20:41:11.606Z - info: [main] Processing protocol url
+2025-03-09T20:41:11.692Z - info: [main] Received possible protocol arguments: 2
+2025-03-09T20:41:11.696Z - info: [main] Processing protocol url
+2025-03-09T20:41:12.576Z - info: [ui] [AppStore] adding account kshitij-vk (Kshitij Koyande ) to store
+2025-03-09T20:41:12.588Z - error: [ui] Error adding account 'kshitij-vk'
+Error: Object does not exist at path “/org/freedesktop/secrets/collection/login”
+2025-03-09T20:41:52.246Z - info: [ui] [AppStore] loading 5 repositories from store
+2025-03-09T20:41:52.502Z - info: [ui] launching: 3.4.2-linux1 (Linux 6.12.15-xanmod1)
+2025-03-09T20:41:52.503Z - info: [ui] execPath: '/nix/store/6sndrkg2lkc6fxghykyc2vhzcyrjghvj-github-desktop-3.4.2/opt/github-desktop'
+2025-03-09T20:41:57.394Z - info: [ui] [SignInStore] initializing OAuth flow
+2025-03-09T20:41:57.399Z - info: [main] opening in browser: https://github.com/login/oauth/authorize?client_id=3a723b10ac5575cc5bb9&scope=repo%20user%20workflow&state=c56a9c55-6093-46c2-9086-3a7761a67f41
+2025-03-09T20:41:57.399Z - info: [ui] [SignInStore] account resolved
+2025-03-09T20:42:00.772Z - info: [main] Received possible protocol arguments: 3
+2025-03-09T20:42:00.772Z - info: [main] Processing protocol url
+2025-03-09T20:42:00.857Z - info: [main] Received possible protocol arguments: 2
+2025-03-09T20:42:00.860Z - info: [main] Processing protocol url
+2025-03-09T20:42:01.755Z - info: [ui] [AppStore] adding account kshitij-vk (Kshitij Koyande ) to store
+2025-03-09T20:42:01.768Z - error: [ui] Error adding account 'kshitij-vk'
+Error: Object does not exist at path “/org/freedesktop/secrets/collection/login”
+2025-03-09T20:42:46.535Z - info: [ui] [AppStore] loading 5 repositories from store
+2025-03-09T20:42:46.786Z - info: [ui] launching: 3.4.2-linux1 (Linux 6.12.15-xanmod1)
+2025-03-09T20:42:46.786Z - info: [ui] execPath: '/nix/store/6sndrkg2lkc6fxghykyc2vhzcyrjghvj-github-desktop-3.4.2/opt/github-desktop'
+2025-03-09T20:43:02.814Z - info: [ui] [SignInStore] initializing OAuth flow
+2025-03-09T20:43:02.817Z - info: [main] opening in browser: https://github.com/login/oauth/authorize?client_id=3a723b10ac5575cc5bb9&scope=repo%20user%20workflow&state=9f39ba4a-feb1-46e5-8cd3-77abdd15041f
+2025-03-09T20:43:02.817Z - info: [ui] [SignInStore] account resolved
+2025-03-09T20:43:06.599Z - info: [main] Received possible protocol arguments: 3
+2025-03-09T20:43:06.600Z - info: [main] Processing protocol url
+2025-03-09T20:43:06.693Z - info: [main] Received possible protocol arguments: 2
+2025-03-09T20:43:06.697Z - info: [main] Processing protocol url
+2025-03-09T20:43:08.017Z - info: [ui] [AppStore] adding account kshitij-vk (Kshitij Koyande ) to store
+2025-03-09T20:43:08.031Z - error: [ui] Error adding account 'kshitij-vk'
+Error: Object does not exist at path “/org/freedesktop/secrets/collection/login”

@@ -1,0 +1,18 @@
+{
+    "author": "Lerone Pieters",
+    "authorURL": "https://unsplash.com/@leronep?utm_source=Variety+Wallpaper+Changer&utm_medium=referral",
+    "description": null,
+    "extraData": {
+        "unsplashDownloadLocation": "https://api.unsplash.com/photos/5DpiPNdBNcE/download?ixid=M3wxMjIxfDB8MXxyYW5kb218fHx8fHx8fHwxNzQxMDA1NTMwfA",
+        "unsplashDownloadReported": false
+    },
+    "imageURL": "https://images.unsplash.com/photo-1739382121445-19b3460a9e7a?crop=entropy&cs=srgb&fm=jpg&ixid=M3wxMjIxfDB8MXxyYW5kb218fHx8fHx8fHwxNzQxMDA1NTMwfA&ixlib=rb-4.0.3&q=85&w=2304",
+    "keywords": [
+        "street-photography"
+    ],
+    "sfwRating": 100,
+    "sourceLocation": "https://unsplash.com",
+    "sourceName": "Unsplash.com",
+    "sourceType": "unsplash",
+    "sourceURL": "https://unsplash.com/photos/a-woman-walking-down-a-street-past-a-tall-building-5DpiPNdBNcE?utm_source=Variety+Wallpaper+Changer&utm_medium=referral"
+}

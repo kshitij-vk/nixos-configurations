@@ -1,0 +1,5 @@
+<application>
+  <component name="PySdkSettings">
+    <option name="PREFERRED_VIRTUALENV_BASE_SDK" value="/run/current-system/sw/bin/python" />
+  </component>
+</application>

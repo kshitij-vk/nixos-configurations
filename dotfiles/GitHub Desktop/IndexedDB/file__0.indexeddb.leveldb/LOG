@@ -1,0 +1,6 @@
+2025/04/10-11:28:42.432 11786 Reusing MANIFEST /home/roxor/.config/GitHub Desktop/IndexedDB/file__0.indexeddb.leveldb/MANIFEST-000001
+2025/04/10-11:28:42.432 11786 Recovering log #7
+2025/04/10-11:28:42.467 11786 Reusing old log /home/roxor/.config/GitHub Desktop/IndexedDB/file__0.indexeddb.leveldb/000007.log 
+2025/04/10-11:32:32.831 11786 Level-0 table #12: started
+2025/04/10-11:32:32.842 11786 Level-0 table #12: 1081056 bytes OK
+2025/04/10-11:32:32.843 11786 Delete type=0 #7

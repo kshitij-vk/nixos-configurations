@@ -1,0 +1,17 @@
+[ExtractDialog]
+1920x1080 screen: Height=263
+1920x1080 screen: Width=839
+1920x1080 screen: Window-Maximized=true
+DirHistory[$e]=$HOME/Downloads/newmeme/,$HOME/Downloads/ofox/,$HOME/Downloads/
+
+[General]
+Version=202
+ViewPropsTimestamp=2025,3,3,13,57,48.265
+
+[KFileDialog Settings]
+Places Icons Auto-resize=false
+Places Icons Static Size=22
+
+[MainWindow]
+MenuBar=Disabled
+ToolBarsMovable=Disabled

@@ -1,0 +1,194 @@
+19:40:18.386: Using EGL/X11
+19:40:18.387: CPU Name: AMD Ryzen 5 5600X 6-Core Processor
+19:40:18.387: CPU Speed: 3714.718MHz
+19:40:18.387: Physical Cores: 6, Logical Cores: 12
+19:40:18.387: Physical Memory: 15917MB Total, 6812MB Free
+19:40:18.387: Kernel Version: Linux 6.12.15-xanmod1
+19:40:18.387: Distribution: NixOS "24.11"
+19:40:18.387: Desktop Environment: Hyprland (Hyprland)
+19:40:18.387: Session Type: wayland
+19:40:18.387: Window System: X11.0, Vendor: The X.Org Foundation, Version: 1.24.1
+19:40:18.388: Qt Version: 6.8.2 (runtime), 6.8.2 (compiled)
+19:40:18.388: Portable mode: false
+19:40:18.414: OBS 30.2.3 (linux)
+19:40:18.414: ---------------------------------
+19:40:18.415: ---------------------------------
+19:40:18.415: audio settings reset:
+19:40:18.415: 	samples per sec: 48000
+19:40:18.415: 	speakers:        2
+19:40:18.415: 	max buffering:   960 milliseconds
+19:40:18.415: 	buffering type:  dynamically increasing
+19:40:18.423: ---------------------------------
+19:40:18.423: Initializing OpenGL...
+19:40:18.519: Loading up OpenGL on adapter AMD AMD Radeon RX 6700 XT (radeonsi, navi22, LLVM 18.1.8, DRM 3.60, 6.12.15-xanmod1)
+19:40:18.519: OpenGL loaded successfully, version 4.6 (Core Profile) Mesa 24.2.8, shading language 4.60
+19:40:18.615: ---------------------------------
+19:40:18.615: video settings reset:
+19:40:18.615: 	base resolution:   1920x1080
+19:40:18.615: 	output resolution: 1280x720
+19:40:18.615: 	downscale filter:  Bicubic
+19:40:18.615: 	fps:               30/1
+19:40:18.615: 	format:            NV12
+19:40:18.615: 	YUV mode:          Rec. 709/Partial
+19:40:18.615: NV12 texture support enabled
+19:40:18.615: P010 texture support not available
+19:40:18.617: Audio monitoring device:
+19:40:18.617: 	name: Default
+19:40:18.617: 	id: default
+19:40:18.618: ---------------------------------
+19:40:18.635: Failed to load 'en-US' text for module: 'decklink-captions.so'
+19:40:18.652: Failed to load 'en-US' text for module: 'decklink-output-ui.so'
+19:40:18.666: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+19:40:18.666: Failed to initialize module 'decklink.so'
+19:40:18.921: [pipewire] Available capture sources:
+19:40:18.921: [pipewire]     - Monitor source
+19:40:18.921: [pipewire]     - Window source
+19:40:18.956: v4l2loopback not installed, virtual camera not registered
+19:40:18.975: [obs-browser]: Version 2.23.6
+19:40:18.975: [obs-browser]: CEF Version 121.0.6167.184 (runtime), 121.3.13+g5c4a81b+chromium-121.0.6167.184 (compiled)
+19:40:19.080: LIBVA_DRIVER_NAME variable is set, this could prevent FFmpeg VAAPI from working correctly
+19:40:19.085: VAAPI: API version 1.22
+19:40:19.085: FFmpeg VAAPI H264 encoding supported
+19:40:19.089: FFmpeg VAAPI AV1 encoding not supported
+19:40:19.093: FFmpeg VAAPI HEVC encoding supported
+19:40:19.275: [obs-websocket] [obs_module_load] you can haz websockets (Version: 5.5.2 | RPC Version: 1)
+19:40:19.275: [obs-websocket] [obs_module_load] Qt version (compile-time): 6.8.2 | Qt version (run-time): 6.8.2
+19:40:19.275: [obs-websocket] [obs_module_load] Linked ASIO Version: 102400
+19:40:19.275: [obs-websocket] [Config::Load] Existing configuration not found, using defaults.
+19:40:19.275: [obs-websocket] [Config::Load] (FirstLoad) Generating new server password.
+19:40:19.279: [obs-websocket] [obs_module_load] Module loaded.
+19:40:19.345: [vlc-video]: VLC 3.0.21 Vetinari found, VLC video source enabled
+19:40:19.441: [obs-backgroundremoval] Plugin loaded successfully (version 1.1.13)
+19:40:19.441: [obs-backgroundremoval] Config folder does not exist, creating: /home/roxor/.config/obs-studio/plugin_config/obs-backgroundremoval/
+19:40:19.441: [obs-backgroundremoval] Failed to open config file /home/roxor/.config/obs-studio/plugin_config/obs-backgroundremoval/config.ini
+19:40:19.441: [obs-backgroundremoval] Failed to open config file /home/roxor/.config/obs-studio/plugin_config/obs-backgroundremoval/config.ini
+19:40:19.712: [obs-backgroundremoval] Latest release is 
+19:40:19.712: ---------------------------------
+19:40:19.712:   Loaded Modules:
+19:40:19.712:     obs-backgroundremoval.so
+19:40:19.712:     linux-pipewire-audio.so
+19:40:19.712:     libwlrobs.so
+19:40:19.712:     vlc-video.so
+19:40:19.712:     text-freetype2.so
+19:40:19.712:     rtmp-services.so
+19:40:19.712:     obs-x264.so
+19:40:19.712:     obs-websocket.so
+19:40:19.712:     obs-webrtc.so
+19:40:19.712:     obs-vst.so
+19:40:19.712:     obs-transitions.so
+19:40:19.712:     obs-qsv11.so
+19:40:19.712:     obs-outputs.so
+19:40:19.712:     obs-libfdk.so
+19:40:19.712:     obs-filters.so
+19:40:19.712:     obs-ffmpeg.so
+19:40:19.712:     obs-browser.so
+19:40:19.712:     linux-v4l2.so
+19:40:19.712:     linux-pulseaudio.so
+19:40:19.712:     linux-pipewire.so
+19:40:19.712:     linux-jack.so
+19:40:19.712:     linux-capture.so
+19:40:19.712:     linux-alsa.so
+19:40:19.712:     image-source.so
+19:40:19.712:     frontend-tools.so
+19:40:19.712:     decklink-output-ui.so
+19:40:19.712:     decklink-captions.so
+19:40:19.712: ---------------------------------
+19:40:19.712: ---------------------------------
+19:40:19.712: Available Encoders:
+19:40:19.712:   Video Encoders:
+19:40:19.712: 	- ffmpeg_svt_av1 (SVT-AV1)
+19:40:19.712: 	- ffmpeg_aom_av1 (AOM AV1)
+19:40:19.712: 	- ffmpeg_vaapi_tex (FFmpeg VAAPI H.264)
+19:40:19.712: 	- hevc_ffmpeg_vaapi_tex (FFmpeg VAAPI HEVC)
+19:40:19.712: 	- obs_x264 (x264)
+19:40:19.712:   Audio Encoders:
+19:40:19.712: 	- ffmpeg_aac (FFmpeg AAC)
+19:40:19.712: 	- ffmpeg_opus (FFmpeg Opus)
+19:40:19.712: 	- ffmpeg_pcm_s16le (FFmpeg PCM (16-bit))
+19:40:19.712: 	- ffmpeg_pcm_s24le (FFmpeg PCM (24-bit))
+19:40:19.712: 	- ffmpeg_pcm_f32le (FFmpeg PCM (32-bit float))
+19:40:19.712: 	- ffmpeg_alac (FFmpeg ALAC (24-bit))
+19:40:19.712: 	- ffmpeg_flac (FFmpeg FLAC (16-bit))
+19:40:19.712: 	- libfdk_aac (libfdk AAC)
+19:40:19.712: ==== Startup complete ===============================================
+19:40:19.716: No scene file found, creating default scene
+19:40:19.759: All scene data cleared
+19:40:19.759: ------------------------------------------------
+19:40:19.767: pulse-input: Server name: 'PulseAudio (on PipeWire 1.2.7) 15.0.0'
+19:40:19.768: pulse-input: Audio format: s24le, 48000 Hz, 2 channels
+19:40:19.768: pulse-input: Sample format s24le not supported by OBS,using float32le instead for recording
+19:40:19.768: pulse-input: Started recording from 'alsa_output.usb-Corsair_Corsair_HS65_SURROUND-00.pro-output-0.monitor' (default)
+19:40:19.768: pulse-input: Server name: 'PulseAudio (on PipeWire 1.2.7) 15.0.0'
+19:40:19.768: pulse-input: Audio format: s24le, 48000 Hz, 1 channels
+19:40:19.768: pulse-input: Sample format s24le not supported by OBS,using float32le instead for recording
+19:40:19.768: pulse-input: Started recording from 'alsa_input.usb-Corsair_Corsair_HS65_SURROUND-00.pro-input-0' (default)
+19:40:19.769: Switched to scene 'Scene'
+19:40:19.769: Failed to glob scene collections
+19:40:20.161: [rtmp-services plugin] Successfully updated file 'services.json' (version 265)
+19:40:20.161: [rtmp-services plugin] Successfully updated package (version 265)
+19:40:20.314: adding 21 milliseconds of audio buffering, total audio buffering is now 21 milliseconds (source: Desktop Audio)
+19:40:20.314: 
+19:40:40.114: 
+19:40:40.114: ==== Auto-config wizard testing commencing ======
+
+19:40:40.118: Number of remaining views: 1
+19:40:40.118: ---------------------------------
+19:40:40.118: video settings reset:
+19:40:40.118: 	base resolution:   1920x1080
+19:40:40.118: 	output resolution: 1920x1080
+19:40:40.118: 	downscale filter:  Bicubic
+19:40:40.118: 	fps:               60/1
+19:40:40.118: 	format:            NV12
+19:40:40.118: 	YUV mode:          Rec. 709/Partial
+19:40:40.118: NV12 texture support enabled
+19:40:40.118: P010 texture support not available
+19:40:40.120: Output 'null': Tried to use obs_output_set_media on an encoded output
+19:40:40.120: ---------------------------------
+19:40:40.120: [x264 encoder: 'test_x264'] preset: veryfast
+19:40:40.120: [x264 encoder: 'test_x264'] profile: high
+19:40:40.120: [x264 encoder: 'test_x264'] settings:
+19:40:40.120: 	rate_control: CRF
+19:40:40.120: 	bitrate:      0
+19:40:40.120: 	buffer size:  0
+19:40:40.120: 	crf:          20
+19:40:40.120: 	fps_num:      60
+19:40:40.120: 	fps_den:      1
+19:40:40.120: 	width:        1920
+19:40:40.120: 	height:       1080
+19:40:40.120: 	keyint:       250
+19:40:40.120: 
+19:40:40.130: ---------------------------------
+19:40:40.131: [FFmpeg aac encoder: 'test_aac'] bitrate: 32, channels: 2, channel_layout: stereo
+19:40:40.131: 
+19:40:45.135: Output 'null': stopping
+19:40:45.135: Output 'null': Total frames output: 267
+19:40:45.135: Output 'null': Total drawn frames: 300
+19:40:45.205: Number of remaining views: 1
+19:40:45.205: ---------------------------------
+19:40:45.205: video settings reset:
+19:40:45.205: 	base resolution:   1920x1080
+19:40:45.205: 	output resolution: 1280x720
+19:40:45.205: 	downscale filter:  Bicubic
+19:40:45.205: 	fps:               60/1
+19:40:45.205: 	format:            NV12
+19:40:45.205: 	YUV mode:          Rec. 709/Partial
+19:40:45.205: NV12 texture support enabled
+19:40:45.205: P010 texture support not available
+19:40:45.206: Output 'null': Tried to use obs_output_set_media on an encoded output
+19:40:45.206: ---------------------------------
+19:40:45.206: [x264 encoder: 'test_x264'] preset: veryfast
+19:40:45.206: [x264 encoder: 'test_x264'] profile: high
+19:40:45.206: [x264 encoder: 'test_x264'] settings:
+19:40:45.206: 	rate_control: CRF
+19:40:45.206: 	bitrate:      0
+19:40:45.206: 	buffer size:  0
+19:40:45.206: 	crf:          20
+19:40:45.206: 	fps_num:      60
+19:40:45.206: 	fps_den:      1
+19:40:45.206: 	width:        1280
+19:40:45.206: 	height:       720
+19:40:45.206: 	keyint:       250
+19:40:45.206: 
+19:40:45.210: ---------------------------------
+19:40:45.211: [FFmpeg aac encoder: 'test_aac'] bitrate: 32, channels: 2, channel_layout: stereo
+19:40:45.211: 

@@ -1,0 +1,22 @@
+2025-04-01T05:24:58.941Z - info: [ui] [AppStore] loading 3 repositories from store
+2025-04-01T05:24:58.943Z - info: [ui] [AppStore] found account: kshitij-vk (Kshitij Koyande )
+2025-04-01T05:24:58.962Z - info: [ui] [BranchPruner] Last prune took place 19 hours ago - skipping
+2025-04-01T05:24:59.313Z - warn: [ui] Error refreshing account 'kshitij-vk'
+Error: Cannot update an account which doesn't have a token: kshitij-vk
+    at at (/home/roxor/webpack:/app/src/lib/fatal-error.ts:3:9)
+    at /home/roxor/webpack:/app/src/lib/stores/accounts-store.ts:216:12
+    at Lp.tryUpdateAccount (/home/roxor/webpack:/app/src/lib/stores/accounts-store.ts:135:20)
+    at /home/roxor/webpack:/app/src/lib/stores/accounts-store.ts:115:37
+    at Array.map (<anonymous>)
+    at Lp.refresh (/home/roxor/webpack:/app/src/lib/stores/accounts-store.ts:115:21)
+    at Lp.loadInitialState (/home/roxor/webpack:/app/src/lib/stores/app-store.ts:2259:24)
+2025-04-01T05:24:59.372Z - info: [ui] launching: 3.4.2-linux1 (Linux 6.12.15-xanmod1)
+2025-04-01T05:24:59.373Z - info: [ui] execPath: '/nix/store/6sndrkg2lkc6fxghykyc2vhzcyrjghvj-github-desktop-3.4.2/opt/github-desktop'
+2025-04-01T05:24:59.588Z - warn: [ui] Alive channel request failed: Error: Not Found
+2025-04-01T05:24:59.614Z - warn: [ui] Alive channel request failed: Error: Not Found
+2025-04-01T05:24:59.627Z - warn: [ui] Alive channel request failed: Error: Not Found
+2025-04-01T05:24:59.638Z - warn: [ui] Alive channel request failed: Error: Not Found
+2025-04-01T05:25:00.425Z - info: [ui] Stats reported.
+2025-04-01T05:25:37.163Z - info: [ui] [AppStore] adding repository at /home/roxor/matrixx/android_vendor_crdroid to store
+2025-04-01T05:25:37.725Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 4 repositories took 1.6s of which 0.0s paused, total 1.6s
+2025-04-01T05:45:37.551Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 4 repositories took 7.9s of which 1.2s paused, total 9.1s

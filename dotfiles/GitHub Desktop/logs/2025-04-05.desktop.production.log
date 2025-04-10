@@ -1,0 +1,72 @@
+2025-04-05T19:55:51.553Z - info: [ui] [AppStore] loading 4 repositories from store
+2025-04-05T19:55:51.556Z - info: [ui] [AppStore] found account: kshitij-vk (Kshitij Koyande )
+2025-04-05T19:55:51.861Z - warn: [ui] Error refreshing account 'kshitij-vk'
+Error: Cannot update an account which doesn't have a token: kshitij-vk
+    at at (/run/host/etc/nixos/webpack:/app/src/lib/fatal-error.ts:3:9)
+    at /run/host/etc/nixos/webpack:/app/src/lib/stores/accounts-store.ts:248:12
+    at Fp.tryUpdateAccount (/run/host/etc/nixos/webpack:/app/src/lib/stores/accounts-store.ts:136:20)
+    at /run/host/etc/nixos/webpack:/app/src/lib/stores/accounts-store.ts:116:37
+    at Array.map (<anonymous>)
+    at Fp.refresh (/run/host/etc/nixos/webpack:/app/src/lib/stores/accounts-store.ts:116:21)
+    at Fp.loadInitialState (/run/host/etc/nixos/webpack:/app/src/lib/stores/app-store.ts:2332:24)
+2025-04-05T19:55:51.889Z - info: [ui] launching: 3.4.14-linux1 (Linux 6.12.15-xanmod1)
+2025-04-05T19:55:51.890Z - info: [ui] execPath: '/opt/github-desktop/github-desktop'
+2025-04-05T19:55:52.283Z - warn: [ui] Alive channel request failed: Error: Not Found
+2025-04-05T19:55:52.325Z - warn: [ui] Alive channel request failed: Error: Not Found
+2025-04-05T19:55:52.335Z - warn: [ui] Alive channel request failed: Error: Not Found
+2025-04-05T19:55:52.345Z - warn: [ui] Alive channel request failed: Error: Not Found
+2025-04-05T19:55:52.534Z - info: [ui] Stats reported.
+2025-04-05T19:56:30.058Z - error: [ui] Failed to validate path: /run/current-system/sw/bin/code
+Error: ENOENT: no such file or directory, lstat '/run/current-system/sw/bin/code'
+2025-04-05T20:07:06.483Z - info: [ui] [AppStore] loading 4 repositories from store
+2025-04-05T20:07:06.487Z - info: [ui] [AppStore] found account: kshitij-vk (Kshitij Koyande )
+2025-04-05T20:07:06.763Z - warn: [ui] Error refreshing account 'kshitij-vk'
+Error: Cannot update an account which doesn't have a token: kshitij-vk
+    at at (/home/roxor/webpack:/app/src/lib/fatal-error.ts:3:9)
+    at /home/roxor/webpack:/app/src/lib/stores/accounts-store.ts:248:12
+    at Fp.tryUpdateAccount (/home/roxor/webpack:/app/src/lib/stores/accounts-store.ts:136:20)
+    at /home/roxor/webpack:/app/src/lib/stores/accounts-store.ts:116:37
+    at Array.map (<anonymous>)
+    at Fp.refresh (/home/roxor/webpack:/app/src/lib/stores/accounts-store.ts:116:21)
+    at Fp.loadInitialState (/home/roxor/webpack:/app/src/lib/stores/app-store.ts:2332:24)
+2025-04-05T20:07:06.782Z - info: [ui] launching: 3.4.14-linux1 (Linux 6.12.15-xanmod1)
+2025-04-05T20:07:06.782Z - info: [ui] execPath: '/opt/github-desktop/github-desktop'
+2025-04-05T20:07:07.182Z - warn: [ui] Alive channel request failed: Error: Not Found
+2025-04-05T20:07:07.203Z - warn: [ui] Alive channel request failed: Error: Not Found
+2025-04-05T20:07:07.212Z - warn: [ui] Alive channel request failed: Error: Not Found
+2025-04-05T20:07:07.220Z - warn: [ui] Alive channel request failed: Error: Not Found
+2025-04-05T20:07:58.380Z - error: [ui] Branch fast-forwarding failed
+Error: ENOENT: Git failed to execute. This typically means that the path provided doesn't exist or that the Git executable could not be found which could indicate a problem with the packaging of dugite. Verify that resolveGitBinary returns a valid path to the git binary.
+    at /home/roxor/webpack:/app/node_modules/dugite/build/lib/exec.js:37:20
+    at exithandler (node:child_process:430:5)
+    at ChildProcess.errorhandler (node:child_process:442:5)
+    at ChildProcess.emit (node:events:518:28)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:291:12)
+    at onErrorNT (node:internal/child_process:483:16)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21)
+2025-04-05T20:07:59.341Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 3 repositories took 0.0s of which 0.0s paused, total 0.0s
+2025-04-05T20:08:00.285Z - error: [ui] Branch fast-forwarding failed
+Error: ENOENT: Git failed to execute. This typically means that the path provided doesn't exist or that the Git executable could not be found which could indicate a problem with the packaging of dugite. Verify that resolveGitBinary returns a valid path to the git binary.
+    at /home/roxor/webpack:/app/node_modules/dugite/build/lib/exec.js:37:20
+    at exithandler (node:child_process:430:5)
+    at ChildProcess.errorhandler (node:child_process:442:5)
+    at ChildProcess.emit (node:events:518:28)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:291:12)
+    at onErrorNT (node:internal/child_process:483:16)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21)
+2025-04-05T20:08:01.457Z - error: [ui] Branch fast-forwarding failed
+Error: ENOENT: Git failed to execute. This typically means that the path provided doesn't exist or that the Git executable could not be found which could indicate a problem with the packaging of dugite. Verify that resolveGitBinary returns a valid path to the git binary.
+    at /home/roxor/webpack:/app/node_modules/dugite/build/lib/exec.js:37:20
+    at exithandler (node:child_process:430:5)
+    at ChildProcess.errorhandler (node:child_process:442:5)
+    at ChildProcess.emit (node:events:518:28)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:291:12)
+    at onErrorNT (node:internal/child_process:483:16)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21)
+2025-04-05T20:08:15.997Z - info: [ui] [AppStore] adding repository at /home/roxor/matrixx/vendor/xiaomi/alioth to store
+2025-04-05T20:08:53.470Z - info: [ui] [AppStore] removing account kshitij-vk (Kshitij Koyande ) from store
+2025-04-05T20:08:53.470Z - warn: [ui] fetchAll: 'user/repos' returned a 401
+2025-04-05T20:08:55.837Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand origin (took 2.263s)
+2025-04-05T20:08:57.410Z - info: [ui] [SignInStore] initializing OAuth flow
+2025-04-05T20:08:57.413Z - info: [main] opening in browser: https://github.com/login/oauth/authorize?client_id=3a723b10ac5575cc5bb9&scope=repo%20user%20workflow&state=27862583-bf15-4ce8-afa9-37bdeecb8df7
+2025-04-05T20:08:58.083Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a origin (took 2.246s)

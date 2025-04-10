@@ -1,0 +1,12 @@
+2025-04-07T04:51:25.872Z - info: [ui] [AppStore] loading 1 repositories from store
+2025-04-07T04:51:25.960Z - info: [ui] launching: 3.4.14-linux1 (Linux 6.12.15-xanmod1)
+2025-04-07T04:51:25.961Z - info: [ui] execPath: '/opt/github-desktop/github-desktop'
+2025-04-07T04:51:26.797Z - info: [ui] Stats reported.
+2025-04-07T04:51:30.646Z - info: [ui] [SignInStore] initializing OAuth flow
+2025-04-07T04:51:30.649Z - info: [main] opening in browser: https://github.com/login/oauth/authorize?client_id=3a723b10ac5575cc5bb9&scope=repo%20user%20workflow&state=63c7f84d-1684-475c-91a2-705999e4d9b9
+2025-04-07T04:51:38.062Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand origin (took 2.555s)
+2025-04-07T04:51:47.720Z - info: [ui] [SignInStore] OAuth error but session has changed: Error: cancelled
+2025-04-07T04:53:56.483Z - info: [ui] [AppStore] loading 1 repositories from store
+2025-04-07T04:53:56.508Z - info: [ui] [BranchPruner] Last prune took place 3 minutes ago - skipping
+2025-04-07T04:53:56.616Z - info: [ui] launching: 3.4.14-linux1 (Linux 6.12.15-xanmod1)
+2025-04-07T04:53:56.616Z - info: [ui] execPath: '/opt/github-desktop/github-desktop'

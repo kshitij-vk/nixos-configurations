@@ -1,0 +1,30 @@
+2025-04-10 13:33:23.966 [info] [2025-04-10 08:03:23.872] [        122ms] [/home/roxor/sci/WebDev] git rev-parse --show-toplevel • FAILED
+2025-04-10 13:33:23.966 [info] 
+Error: Command failed: /run/current-system/sw/bin/git -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+
+
+2025-04-10 13:33:23.966 [info] [2025-04-10 08:03:23.935] [         15ms] [/home/roxor/sci/WebDev] git rev-parse --show-toplevel • FAILED
+2025-04-10 13:33:23.966 [info] 
+Error: Command failed: /run/current-system/sw/bin/git -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+
+
+2025-04-10 13:33:23.966 [info] [2025-04-10 08:03:23.935] [          3ms] [/home/roxor/sci/WebDev] git rev-parse --show-toplevel (waiting) • FAILED
+2025-04-10 13:33:23.967 [info] 
+Error: Command failed: /run/current-system/sw/bin/git -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+
+
+2025-04-10 13:33:23.967 [info] [2025-04-10 08:03:23.935] [          3ms] [/home/roxor/sci/WebDev] git rev-parse --show-toplevel (waiting) • FAILED
+2025-04-10 13:33:23.967 [info] 
+Error: Command failed: /run/current-system/sw/bin/git -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+
+
+2025-04-10 14:45:45.146 [info] [2025-04-10 09:15:45.145] [         23ms] [/home/roxor/sci/WebDev] git rev-parse --show-toplevel • FAILED
+2025-04-10 14:45:45.146 [info] 
+Error: Command failed: /run/current-system/sw/bin/git -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+
+

@@ -1,0 +1,35 @@
+2025-03-03T15:21:37.386Z - info: [ui] [AppStore] loading 0 repositories from store
+2025-03-03T15:21:37.504Z - info: [ui] [Welcome] no sign in step found. ignoring...
+2025-03-03T15:21:37.507Z - info: [ui] launching: 3.4.2-linux1 (Linux 6.6.80)
+2025-03-03T15:21:37.508Z - info: [ui] execPath: '/nix/store/y8wbapq4p5hwwh2wjf1slc3c1hk26saz-github-desktop-3.4.2/opt/github-desktop'
+2025-03-03T15:21:38.002Z - info: [ui] Opt in reported.
+2025-03-03T15:21:38.055Z - info: [ui] [Welcome] no sign in step found. ignoring...
+2025-03-03T15:21:40.563Z - info: [ui] [Welcome] advancing to step: SignInToDotComWithBrowser
+2025-03-03T15:21:40.571Z - info: [ui] [SignInStore] initializing OAuth flow
+2025-03-03T15:21:40.571Z - info: [main] opening in browser: https://github.com/login/oauth/authorize?client_id=3a723b10ac5575cc5bb9&scope=repo%20user%20workflow&state=b3b40690-9608-48ab-a271-361c45716080
+2025-03-03T15:21:40.571Z - info: [ui] [SignInStore] account resolved
+2025-03-03T15:21:40.571Z - info: [ui] [Welcome] current sign in state not found. ignoring...
+2025-03-03T15:21:41.893Z - info: [ui] [Welcome] advancing to step: SignInToDotComWithBrowser
+2025-03-03T15:21:41.894Z - info: [ui] [SignInStore] initializing OAuth flow
+2025-03-03T15:21:41.907Z - info: [main] opening in browser: https://github.com/login/oauth/authorize?client_id=3a723b10ac5575cc5bb9&scope=repo%20user%20workflow&state=51374d9a-e163-4818-91ba-e3d4fd7ba713
+2025-03-03T15:21:41.907Z - info: [ui] [SignInStore] account resolved
+2025-03-03T15:21:41.907Z - info: [ui] [SignInStore] OAuth error but session has changed: Error: cancelled
+2025-03-03T15:21:41.908Z - info: [ui] [Welcome] kind Authentication is the same as Authentication. ignoring...
+2025-03-03T15:21:42.427Z - info: [ui] [Welcome] advancing to step: SignInToDotComWithBrowser
+2025-03-03T15:21:42.428Z - info: [ui] [SignInStore] initializing OAuth flow
+2025-03-03T15:21:42.438Z - info: [main] opening in browser: https://github.com/login/oauth/authorize?client_id=3a723b10ac5575cc5bb9&scope=repo%20user%20workflow&state=513a02a7-fc46-4b8e-922c-8fce8c50a59d
+2025-03-03T15:21:42.440Z - info: [ui] [SignInStore] account resolved
+2025-03-03T15:21:42.440Z - info: [ui] [SignInStore] OAuth error but session has changed: Error: cancelled
+2025-03-03T15:21:42.440Z - info: [ui] [Welcome] kind Authentication is the same as Authentication. ignoring...
+2025-03-03T15:21:43.387Z - info: [ui] [Welcome] kind Authentication is the same as Authentication. ignoring...
+2025-03-03T15:21:48.845Z - info: [main] Received possible protocol arguments: 3
+2025-03-03T15:21:48.845Z - info: [main] Processing protocol url
+2025-03-03T15:21:48.853Z - info: [ui] [Welcome] kind Authentication is the same as Authentication. ignoring...
+2025-03-03T15:21:49.042Z - info: [main] Received possible protocol arguments: 2
+2025-03-03T15:21:49.072Z - info: [main] Processing protocol url
+2025-03-03T15:21:49.142Z - info: [ui] [Welcome] kind Authentication is the same as Authentication. ignoring...
+2025-03-03T15:21:49.942Z - info: [ui] [AppStore] adding account kshitij-vk (Kshitij Koyande ) to store
+2025-03-03T15:21:49.943Z - info: [ui] [Welcome] advancing to step: ConfigureGit
+2025-03-03T15:21:50.001Z - error: [ui] Error adding account 'kshitij-vk'
+Error: Object does not exist at path “/org/freedesktop/secrets/collection/login”
+2025-03-03T15:21:50.004Z - info: [ui] [Welcome] no sign in step found. ignoring...

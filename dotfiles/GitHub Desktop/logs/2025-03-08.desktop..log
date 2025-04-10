@@ -1,0 +1,137 @@
+2025-03-08T04:37:13.690Z - info: [ui] [AppStore] loading 0 repositories from store
+2025-03-08T04:37:13.727Z - info: [ui] launching: 3.4.2-linux1 (Linux 6.6.80)
+2025-03-08T04:37:13.727Z - info: [ui] execPath: '/nix/store/6sndrkg2lkc6fxghykyc2vhzcyrjghvj-github-desktop-3.4.2/opt/github-desktop'
+2025-03-08T04:37:20.673Z - info: [ui] Stats reported.
+2025-03-08T04:37:28.123Z - info: [ui] [AppStore] adding repository at /home/roxor/matrixx/frameworks/base to store
+2025-03-08T04:37:59.375Z - info: [main] opening in browser: https://code.visualstudio.com
+2025-03-08T04:40:01.480Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 1 repositories took 0.4s of which 0.0s paused, total 0.4s
+2025-03-08T04:54:22.447Z - info: [main] opening in browser: https://code.visualstudio.com
+2025-03-08T04:56:12.168Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 1 repositories took 0.4s of which 0.0s paused, total 0.4s
+2025-03-08T04:56:31.729Z - info: [ui] [SignInStore] initializing OAuth flow
+2025-03-08T04:56:31.735Z - info: [main] opening in browser: https://github.com/login/oauth/authorize?client_id=3a723b10ac5575cc5bb9&scope=repo%20user%20workflow&state=32654041-aa76-4a4a-ab45-cad137e04db6
+2025-03-08T04:56:31.735Z - info: [ui] [SignInStore] account resolved
+2025-03-08T04:56:35.356Z - info: [main] Received possible protocol arguments: 3
+2025-03-08T04:56:35.356Z - info: [main] Processing protocol url
+2025-03-08T04:56:35.423Z - info: [main] Received possible protocol arguments: 2
+2025-03-08T04:56:35.427Z - info: [main] Processing protocol url
+2025-03-08T04:56:36.386Z - info: [ui] [AppStore] adding account kshitij-vk (Kshitij Koyande ) to store
+2025-03-08T04:56:36.436Z - error: [ui] Error adding account 'kshitij-vk'
+Error: Object does not exist at path “/org/freedesktop/secrets/collection/login”
+2025-03-08T05:12:16.505Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand luna (took 2.650s)
+2025-03-08T05:12:19.168Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a luna (took 2.663s)
+2025-03-08T05:12:19.168Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 1 repositories took 5.7s of which 0.0s paused, total 5.7s
+2025-03-08T05:28:41.047Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 1 repositories took 0.2s of which 0.0s paused, total 0.2s
+2025-03-08T05:29:04.236Z - info: [ui] [AppStore] adding repository at /home/roxor/matrixx/vendor/gms to store
+2025-03-08T05:29:31.090Z - error: [ui] `git revert acc1fa542e47728fc9b507946089a4ddf997d31a` exited with an unexpected code: 1.
+stdout:
+CONFLICT (modify/delete): common/proprietary/system_ext/priv-app/NexusLauncherRelease/NexusLauncherRelease.apk deleted in parent of acc1fa5 (gms: Build Nexus launcher conditionally) and modified in HEAD.  Version HEAD of common/proprietary/system_ext/priv-app/NexusLauncherRelease/NexusLauncherRelease.apk left in tree.
+
+stderr:
+error: could not revert acc1fa5... gms: Build Nexus launcher conditionally
+hint: After resolving the conflicts, mark them with
+hint: "git add/rm <pathspec>", then run
+hint: "git revert --continue".
+hint: You can instead skip this commit with "git revert --skip".
+hint: To abort and get back to the state before "git revert",
+hint: run "git revert --abort".
+hint: Disable this message with "git config advice.mergeConflict false"
+
+(The error was parsed as 41: null)
+2025-03-08T05:29:40.070Z - info: [ui] No submodules found. Skipping "git submodule status"
+2025-03-08T05:29:41.653Z - info: [ui] No submodules found. Skipping "git submodule status"
+2025-03-08T05:37:13.147Z - info: [ui] [Timing] Action 'create commit' for 'gms' took 0.120s
+2025-03-08T05:52:19.182Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand luna (took 2.311s)
+2025-03-08T05:52:21.795Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a luna (took 2.613s)
+2025-03-08T05:52:21.832Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 2 repositories took 5.2s of which 0.0s paused, total 5.2s
+2025-03-08T05:52:38.868Z - info: [ui] [AppStore] adding repository at /home/roxor/matrixx/packages/apps/Settings to store
+2025-03-08T05:52:41.936Z - info: [ui] No submodules found. Skipping "git submodule status"
+2025-03-08T05:52:43.336Z - info: [ui] No submodules found. Skipping "git submodule status"
+2025-03-08T05:52:53.744Z - info: [ui] No submodules found. Skipping "git submodule status"
+2025-03-08T05:52:54.658Z - info: [ui] No submodules found. Skipping "git submodule status"
+2025-03-08T05:52:57.952Z - info: [ui] No submodules found. Skipping "git submodule status"
+2025-03-08T05:53:01.044Z - info: [ui] No submodules found. Skipping "git submodule status"
+2025-03-08T05:53:45.466Z - info: [ui] No submodules found. Skipping "git submodule status"
+2025-03-08T05:53:52.645Z - info: [ui] No submodules found. Skipping "git submodule status"
+2025-03-08T06:01:38.111Z - info: [ui] No submodules found. Skipping "git submodule status"
+2025-03-08T06:01:45.450Z - info: [ui] No submodules found. Skipping "git submodule status"
+2025-03-08T06:07:53.570Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand gitlab (took 1.655s)
+2025-03-08T06:07:54.686Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a gitlab (took 1.115s)
+2025-03-08T06:07:54.725Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 3 repositories took 3.1s of which 0.0s paused, total 3.1s
+2025-03-08T13:08:29.973Z - info: [ui] [AppStore] loading 3 repositories from store
+2025-03-08T13:08:30.259Z - info: [ui] launching: 3.4.2-linux1 (Linux 6.6.80)
+2025-03-08T13:08:30.260Z - info: [ui] execPath: '/nix/store/6sndrkg2lkc6fxghykyc2vhzcyrjghvj-github-desktop-3.4.2/opt/github-desktop'
+2025-03-08T13:09:49.748Z - info: [ui] [Timing] Action 'create commit' for 'Settings' took 0.085s
+2025-03-08T13:10:09.615Z - info: [ui] [Timing] Action 'create commit' for 'base' took 0.434s
+2025-03-08T13:10:14.458Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand gitlab (took 1.733s)
+2025-03-08T13:10:15.614Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a gitlab (took 1.155s)
+2025-03-08T13:10:18.448Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand luna (took 2.805s)
+2025-03-08T13:10:20.822Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a luna (took 2.373s)
+2025-03-08T13:10:20.823Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 2 repositories took 8.1s of which 0.0s paused, total 8.1s
+2025-03-08T13:25:54.372Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 2 repositories took 0.2s of which 0.0s paused, total 0.2s
+2025-03-08T13:50:09.757Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand luna (took 3.386s)
+2025-03-08T13:50:12.385Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a luna (took 2.628s)
+2025-03-08T13:50:14.203Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand gitlab (took 1.675s)
+2025-03-08T13:50:15.885Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a gitlab (took 1.682s)
+2025-03-08T13:50:15.886Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 2 repositories took 10.3s of which 0.0s paused, total 10.3s
+2025-03-08T14:05:28.285Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 2 repositories took 0.6s of which 0.0s paused, total 0.6s
+2025-03-08T16:17:37.039Z - info: [ui] [AppStore] loading 3 repositories from store
+2025-03-08T16:17:37.125Z - info: [ui] launching: 3.4.2-linux1 (Linux 6.6.80)
+2025-03-08T16:17:37.125Z - info: [ui] execPath: '/nix/store/6sndrkg2lkc6fxghykyc2vhzcyrjghvj-github-desktop-3.4.2/opt/github-desktop'
+2025-03-08T16:18:15.431Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand luna (took 3.859s)
+2025-03-08T16:18:18.047Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a luna (took 2.616s)
+2025-03-08T16:18:19.814Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand gitlab (took 1.656s)
+2025-03-08T16:18:21.027Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a gitlab (took 1.212s)
+2025-03-08T16:18:21.027Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 2 repositories took 9.9s of which 0.0s paused, total 9.9s
+2025-03-08T16:19:57.675Z - info: [ui] No submodules found. Skipping "git submodule status"
+2025-03-08T16:33:40.304Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 2 repositories took 0.3s of which 0.0s paused, total 0.3s
+2025-03-08T16:49:34.445Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand luna (took 2.322s)
+2025-03-08T16:49:37.071Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a luna (took 2.626s)
+2025-03-08T16:51:39.679Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand gitlab (took 1.181s)
+2025-03-08T16:51:41.601Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a gitlab (took 1.921s)
+2025-03-08T17:20:13.022Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 2 repositories took 8.3s of which 1832.8s paused, total 1841.1s
+2025-03-08T17:28:54.161Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand luna (took 2.644s)
+2025-03-08T17:28:56.803Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a luna (took 2.633s)
+2025-03-08T17:49:22.336Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand gitlab (took 2.193s)
+2025-03-08T17:49:24.015Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a gitlab (took 1.678s)
+2025-03-08T17:49:26.934Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand luna (took 2.882s)
+2025-03-08T17:49:29.190Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a luna (took 2.248s)
+2025-03-08T17:49:29.190Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 3 repositories took 14.9s of which 1223.2s paused, total 1238.2s
+2025-03-08T17:49:55.446Z - info: [ui] [Timing] Action 'checkout branch from list' for 'gms' took 0.176s
+2025-03-08T17:49:58.390Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 2 repositories took 0.3s of which 0.0s paused, total 0.3s
+2025-03-08T17:49:59.983Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand gitlab (took 2.206s)
+2025-03-08T17:50:01.727Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a gitlab (took 1.743s)
+2025-03-08T17:50:45.157Z - error: [ui] `git revert acc1fa542e47728fc9b507946089a4ddf997d31a` exited with an unexpected code: 1.
+stdout:
+CONFLICT (modify/delete): common/proprietary/system_ext/priv-app/NexusLauncherRelease/NexusLauncherRelease.apk deleted in parent of acc1fa5 (gms: Build Nexus launcher conditionally) and modified in HEAD.  Version HEAD of common/proprietary/system_ext/priv-app/NexusLauncherRelease/NexusLauncherRelease.apk left in tree.
+
+stderr:
+error: could not revert acc1fa5... gms: Build Nexus launcher conditionally
+hint: After resolving the conflicts, mark them with
+hint: "git add/rm <pathspec>", then run
+hint: "git revert --continue".
+hint: You can instead skip this commit with "git revert --skip".
+hint: To abort and get back to the state before "git revert",
+hint: run "git revert --abort".
+hint: Disable this message with "git config advice.mergeConflict false"
+
+(The error was parsed as 41: null)
+2025-03-08T17:50:49.625Z - info: [ui] No submodules found. Skipping "git submodule status"
+2025-03-08T17:53:37.923Z - info: [ui] No submodules found. Skipping "git submodule status"
+2025-03-08T17:53:48.272Z - info: [ui] No submodules found. Skipping "git submodule status"
+2025-03-08T17:53:56.461Z - info: [ui] No submodules found. Skipping "git submodule status"
+2025-03-08T17:54:00.097Z - error: [ui] `git revert acc1fa542e47728fc9b507946089a4ddf997d31a` exited with an unexpected code: 1.
+stdout:
+CONFLICT (modify/delete): common/proprietary/system_ext/priv-app/NexusLauncherRelease/NexusLauncherRelease.apk deleted in parent of acc1fa5 (gms: Build Nexus launcher conditionally) and modified in HEAD.  Version HEAD of common/proprietary/system_ext/priv-app/NexusLauncherRelease/NexusLauncherRelease.apk left in tree.
+
+stderr:
+error: could not revert acc1fa5... gms: Build Nexus launcher conditionally
+hint: After resolving the conflicts, mark them with
+hint: "git add/rm <pathspec>", then run
+hint: "git revert --continue".
+hint: You can instead skip this commit with "git revert --skip".
+hint: To abort and get back to the state before "git revert",
+hint: run "git revert --abort".
+hint: Disable this message with "git config advice.mergeConflict false"
+
+(The error was parsed as 41: null)
+2025-03-08T17:54:11.803Z - info: [ui] No submodules found. Skipping "git submodule status"

@@ -1,0 +1,330 @@
+2025-04-09T09:46:06.991Z - info: [ui] [AppStore] loading 2 repositories from store
+2025-04-09T09:46:06.994Z - info: [ui] [AppStore] found account: kshitij-vk (Kshitij Koyande )
+2025-04-09T09:46:07.393Z - warn: [ui] Error refreshing account 'kshitij-vk'
+Error: Cannot update an account which doesn't have a token: kshitij-vk
+    at at (/home/roxor/webpack:/app/src/lib/fatal-error.ts:3:9)
+    at /home/roxor/webpack:/app/src/lib/stores/accounts-store.ts:216:12
+    at Lp.tryUpdateAccount (/home/roxor/webpack:/app/src/lib/stores/accounts-store.ts:135:20)
+    at /home/roxor/webpack:/app/src/lib/stores/accounts-store.ts:115:37
+    at Array.map (<anonymous>)
+    at Lp.refresh (/home/roxor/webpack:/app/src/lib/stores/accounts-store.ts:115:21)
+    at Lp.loadInitialState (/home/roxor/webpack:/app/src/lib/stores/app-store.ts:2259:24)
+2025-04-09T09:46:07.600Z - info: [ui] launching: 3.4.2-linux1 (Linux 6.12.15-xanmod1)
+2025-04-09T09:46:07.600Z - info: [ui] execPath: '/nix/store/6sndrkg2lkc6fxghykyc2vhzcyrjghvj-github-desktop-3.4.2/opt/github-desktop'
+2025-04-09T09:46:07.687Z - warn: [ui] Alive channel request failed: Error: Not Found
+2025-04-09T09:46:07.714Z - warn: [ui] Alive channel request failed: Error: Not Found
+2025-04-09T09:46:07.726Z - warn: [ui] Alive channel request failed: Error: Not Found
+2025-04-09T09:46:07.744Z - warn: [ui] Alive channel request failed: Error: Not Found
+2025-04-09T09:46:08.362Z - info: [ui] Stats reported.
+2025-04-09T09:46:12.320Z - error: [ui] Could not load old contents for syntax highlighting
+RangeError [ERR_CHILD_PROCESS_STDIO_MAXBUFFER]: stdout maxBuffer length exceeded
+    at Socket.onChildStdout (node:child_process:490:14)
+    at Socket.emit (node:events:531:35)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+    at Socket.Readable.push (node:internal/streams/readable:390:5)
+    at Pipe.onStreamRead (node:internal/stream_base_commons:191:23)
+2025-04-09T09:46:14.967Z - error: [ui] Could not load old contents for syntax highlighting
+RangeError [ERR_CHILD_PROCESS_STDIO_MAXBUFFER]: stdout maxBuffer length exceeded
+    at Socket.onChildStdout (node:child_process:490:14)
+    at Socket.emit (node:events:531:35)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+    at Socket.Readable.push (node:internal/streams/readable:390:5)
+    at Pipe.onStreamRead (node:internal/stream_base_commons:191:23)
+2025-04-09T09:48:21.278Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 1 repositories took 1.6s of which 3.8s paused, total 5.4s
+2025-04-09T10:05:26.212Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 1 repositories took 0.8s of which 17.5s paused, total 18.3s
+2025-04-09T10:10:34.168Z - error: [ui] Could not load old contents for syntax highlighting
+RangeError [ERR_CHILD_PROCESS_STDIO_MAXBUFFER]: stdout maxBuffer length exceeded
+    at Socket.onChildStdout (node:child_process:490:14)
+    at Socket.emit (node:events:531:35)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+    at Socket.Readable.push (node:internal/streams/readable:390:5)
+    at Pipe.onStreamRead (node:internal/stream_base_commons:191:23)
+2025-04-09T10:11:11.245Z - error: [ui] Could not load old contents for syntax highlighting
+RangeError [ERR_CHILD_PROCESS_STDIO_MAXBUFFER]: stdout maxBuffer length exceeded
+    at Socket.onChildStdout (node:child_process:490:14)
+    at Socket.emit (node:events:531:35)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+    at Socket.Readable.push (node:internal/streams/readable:390:5)
+    at Pipe.onStreamRead (node:internal/stream_base_commons:191:23)
+2025-04-09T10:11:23.576Z - error: [ui] Could not load new contents for syntax highlighting
+RangeError [ERR_CHILD_PROCESS_STDIO_MAXBUFFER]: stdout maxBuffer length exceeded
+    at Socket.onChildStdout (node:child_process:490:14)
+    at Socket.emit (node:events:531:35)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+    at Socket.Readable.push (node:internal/streams/readable:390:5)
+    at Pipe.onStreamRead (node:internal/stream_base_commons:191:23)
+2025-04-09T10:11:23.577Z - error: [ui] Could not load old contents for syntax highlighting
+RangeError [ERR_CHILD_PROCESS_STDIO_MAXBUFFER]: stdout maxBuffer length exceeded
+    at Socket.onChildStdout (node:child_process:490:14)
+    at Socket.emit (node:events:531:35)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+    at Socket.Readable.push (node:internal/streams/readable:390:5)
+    at Pipe.onStreamRead (node:internal/stream_base_commons:191:23)
+2025-04-09T10:21:41.956Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 1 repositories took 0.8s of which 7.5s paused, total 8.2s
+2025-04-09T10:23:05.843Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:05.844Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:05.844Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:05.844Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:05.844Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:05.844Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:05.844Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:05.844Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:05.845Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:05.845Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:05.845Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:05.845Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:05.855Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:05.856Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:05.856Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:05.856Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:05.856Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:05.856Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:05.856Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:05.856Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:05.856Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:05.856Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:05.856Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:05.856Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:05.867Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:05.868Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:05.868Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:05.868Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:05.868Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:05.868Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:05.868Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:05.868Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:05.868Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:05.868Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:05.868Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:05.872Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:05.873Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:05.873Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:05.873Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:05.873Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:05.873Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:05.873Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:05.873Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:05.873Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:05.873Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:05.873Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:06.006Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:06.007Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:06.007Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:06.007Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:06.007Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:06.007Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:06.007Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:06.007Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:06.007Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:06.007Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:06.007Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:06.013Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:06.014Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:06.014Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:06.014Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:06.014Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:06.014Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:06.014Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:06.014Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:06.014Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:06.014Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:06.014Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:06.021Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:06.021Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:06.021Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:06.021Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:06.021Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:06.022Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:06.022Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:06.022Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:06.022Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:06.022Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:06.022Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:06.027Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:06.027Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:06.027Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:06.027Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:06.027Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:06.028Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:06.028Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:06.028Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:06.028Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:06.028Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:06.028Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:06.037Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:06.037Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:06.037Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:06.037Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:06.037Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:06.037Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:06.037Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:06.037Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:06.037Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:06.037Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:06.037Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:06.043Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:06.043Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:06.043Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:06.043Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:06.043Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:06.043Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:06.043Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:06.043Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:06.043Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:06.043Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:06.043Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:06.050Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:06.051Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:06.051Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:06.051Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:06.051Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:06.051Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:06.051Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:06.051Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:06.051Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:06.051Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:06.051Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:06.058Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:06.059Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:06.059Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:06.059Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:06.059Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:06.059Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:06.059Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:06.059Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:06.059Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:06.059Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:06.059Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:06.066Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:06.066Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:06.066Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:06.066Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:06.067Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:06.067Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:06.067Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:06.067Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:06.067Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:06.067Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:06.067Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:06.078Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:06.078Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:06.078Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:06.078Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:06.078Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:06.078Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:06.079Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:06.079Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:06.079Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:06.079Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:06.079Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:06.081Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:06.081Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:06.081Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:06.081Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:06.081Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:06.082Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:06.082Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:06.082Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:06.082Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:06.082Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:06.082Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:06.094Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:06.094Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:06.094Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:06.094Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:06.094Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:06.094Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:06.094Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:06.094Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:06.094Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:06.094Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:06.094Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:06.097Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:06.097Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:06.097Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:06.097Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:06.097Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:06.097Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:06.098Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:06.098Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:06.098Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:06.098Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:06.098Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:06.099Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:06.100Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:06.100Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:06.100Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:06.100Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:06.100Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:06.100Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:06.100Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:06.100Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:06.100Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:06.100Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:06.108Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:06.108Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:06.108Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:06.108Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:06.108Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:06.108Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:06.108Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:06.109Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:06.109Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:06.109Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:06.109Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:06.116Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:06.117Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:06.117Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:06.117Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:06.117Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:06.117Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:06.117Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:06.117Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:06.117Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:06.117Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:06.117Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:06.135Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:06.136Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:06.136Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:06.136Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:06.136Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:06.136Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:06.136Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:06.137Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:06.137Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:06.137Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:06.137Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:06.141Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:06.141Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:06.141Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:06.141Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:06.142Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:06.142Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:06.142Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:06.142Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:06.142Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:06.142Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:06.142Z - warn: [ui] [Commit List] - Unable to lookup commit from sha - This should not happen.
+2025-04-09T10:23:08.337Z - error: [ui] Could not load old contents for syntax highlighting
+RangeError [ERR_CHILD_PROCESS_STDIO_MAXBUFFER]: stdout maxBuffer length exceeded
+    at Socket.onChildStdout (node:child_process:490:14)
+    at Socket.emit (node:events:531:35)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+    at Socket.Readable.push (node:internal/streams/readable:390:5)
+    at Pipe.onStreamRead (node:internal/stream_base_commons:191:23)
+2025-04-09T10:23:08.338Z - error: [ui] Could not load new contents for syntax highlighting
+RangeError [ERR_CHILD_PROCESS_STDIO_MAXBUFFER]: stdout maxBuffer length exceeded
+    at Socket.onChildStdout (node:child_process:490:14)
+    at Socket.emit (node:events:531:35)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+    at Socket.Readable.push (node:internal/streams/readable:390:5)
+    at Pipe.onStreamRead (node:internal/stream_base_commons:191:23)
+2025-04-09T10:23:11.617Z - info: [main] opening in browser: https://github.com/crdroidandroid/android_frameworks_base/compare/15.0

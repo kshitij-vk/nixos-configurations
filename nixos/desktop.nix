@@ -12,12 +12,10 @@
     btop
     catppuccin
     catppuccin-sddm
-    cmatrix
     dash
     dart-sass
     dejavu_fonts
     eww
-    feh
     font-awesome
     font-awesome_4
     font-awesome_5
@@ -27,6 +25,7 @@
     gnumake
     gpustat
     grim
+    gsettings-qt
     hyprsunset
     hypridle
     i3lock-fancy-rapid
@@ -37,6 +36,7 @@
     libgtop
     libnotify
     libsecret
+    libsForQt5.qt5ct
     lightly-boehs
     lolcat
     lxappearance
@@ -56,10 +56,11 @@
     rofi-wayland
     slstatus
     st
-    swaybg
     swaylock
+    swaybg
     sxhkd
     waybar
+    waypaper
     wdisplays
     windows10-icons
     wl-clipboard
@@ -70,7 +71,5 @@
     xorg.libXinerama
     xorg.libxcb.dev
     yad
-    kdePackages.qtbase
-    libsForQt5.qt5.qtbase
 ];
 }

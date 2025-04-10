@@ -1,0 +1,19 @@
+2025-04-09 00:03:28.771 [info] GitLens v17.0.1 activating in Visual Studio Code (1.97.2) on the desktop; language='en', logLevel='warn', defaultDateLocale='null' (8e529b8ec143254314bef2517213865576e499918b56e00341d79aa36582a652|f44733b1-25e8-4d82-b5e7-e9bfcb0467bf1744137207086)
+To enable debug logging, set `"gitlens.outputLevel": "debug"` or run "GitLens: Enable Debug Logging" from the Command Palette
+
+2025-04-09 00:03:50.710 [info] GitLens v17.0.1 activating in Visual Studio Code (1.97.2) on the desktop; language='en', logLevel='warn', defaultDateLocale='null' (8e529b8ec143254314bef2517213865576e499918b56e00341d79aa36582a652|7b5c6d00-c1f3-42c6-9b03-3d7a9683fc391744137229346)
+To enable debug logging, set `"gitlens.outputLevel": "debug"` or run "GitLens: Enable Debug Logging" from the Command Palette
+
+2025-04-09 00:03:53.588 [info] [2025-04-08 18:33:52.719] [GIT          ] [/home/roxor/sci/WebDev] git rev-parse --show-toplevel • Command failed: /run/current-system/sw/bin/git -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel • not a git repository (or any of the parent directories): .git [8ms]
+
+
+2025-04-09 00:12:01.126 [info] [2025-04-08 18:42:00.626] [GIT          ] [/home/roxor/sci/WebDev] git rev-parse --show-toplevel • Command failed: /run/current-system/sw/bin/git -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel • not a git repository (or any of the parent directories): .git [83ms]
+
+
+2025-04-09 00:15:22.157 [info] GitLens v17.0.1 activating in Visual Studio Code (1.97.2) on the desktop; language='en', logLevel='warn', defaultDateLocale='null' (8e529b8ec143254314bef2517213865576e499918b56e00341d79aa36582a652|7b5c6d00-c1f3-42c6-9b03-3d7a9683fc391744137229346)
+To enable debug logging, set `"gitlens.outputLevel": "debug"` or run "GitLens: Enable Debug Logging" from the Command Palette
+[2025-04-08 18:45:21.324] [GIT          ] [/home/roxor/sci/WebDev] git rev-parse --show-toplevel • Command failed: /run/current-system/sw/bin/git -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel • not a git repository (or any of the parent directories): .git [70ms]
+
+[2025-04-08 18:45:21.367] [GIT          ] [/home/roxor/sci/WebDev] git rev-parse --show-toplevel • Command failed: /run/current-system/sw/bin/git -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel • not a git repository (or any of the parent directories): .git [13ms]
+
+

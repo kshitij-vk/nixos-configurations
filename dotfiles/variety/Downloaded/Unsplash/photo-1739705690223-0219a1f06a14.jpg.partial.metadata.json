@@ -1,0 +1,18 @@
+{
+    "author": "Bob Brewer",
+    "authorURL": "https://unsplash.com/@brewbottle?utm_source=Variety+Wallpaper+Changer&utm_medium=referral",
+    "description": null,
+    "extraData": {
+        "unsplashDownloadLocation": "https://api.unsplash.com/photos/0bfSrm93Wlc/download?ixid=M3wxMjIxfDB8MXxyYW5kb218fHx8fHx8fHwxNzQwOTkzMTYzfA",
+        "unsplashDownloadReported": false
+    },
+    "imageURL": "https://images.unsplash.com/photo-1739705690223-0219a1f06a14?crop=entropy&cs=srgb&fm=jpg&ixid=M3wxMjIxfDB8MXxyYW5kb218fHx8fHx8fHwxNzQwOTkzMTYzfA&ixlib=rb-4.0.3&q=85&w=2304",
+    "keywords": [
+        "animals"
+    ],
+    "sfwRating": 100,
+    "sourceLocation": "https://unsplash.com",
+    "sourceName": "Unsplash.com",
+    "sourceType": "unsplash",
+    "sourceURL": "https://unsplash.com/photos/a-white-bird-flying-over-a-dry-grass-field-0bfSrm93Wlc?utm_source=Variety+Wallpaper+Changer&utm_medium=referral"
+}

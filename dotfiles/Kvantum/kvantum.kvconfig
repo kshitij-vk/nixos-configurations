@@ -1,0 +1,5 @@
+[General]
+theme=Win11OS-dark
+
+[Applications]
+Win11OS-dark=Dolphin

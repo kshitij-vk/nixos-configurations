@@ -9,7 +9,6 @@
 {
   environment.systemPackages = with pkgs; [
     alacritty
-    android-tools
     android-file-transfer
     ansible
     amdvlk
@@ -28,13 +27,13 @@
     cacert
     ccache
     chromium
-    cloudflare-warp
     curl
     dex
     discord
     dmenu
     docker
     docker-compose
+    distrobox
     duf
     edid-decode
     evince
@@ -44,17 +43,15 @@
     flameshot
     font-manager
     fsearch
-    gimp
     gitFull
-    github-desktop
-    gitkraken
     git-lfs
+    github-desktop
+    gparted
     dconf-editor
     gcc
     gdb
     gnome-disk-utility
     gnumake
-    gradle
     gvfs
     hack-font
     hblock
@@ -66,21 +63,10 @@
     insync
     inxi
     jdk
-    jetbrains-toolbox
+    jetbrains.pycharm-professional
     jq
-    kdePackages.kauth
-    kdePackages.kcmutils
-    kdePackages.kfilemetadata
-    kdePackages.kglobalaccel
-    kdePackages.kglobalacceld
-    kdePackages.kirigami
-    kdePackages.knewstuff
-    kdePackages.packagekit-qt
-    kdePackages.polkit-kde-agent-1
     kdePackages.sddm-kcm
     killall
-    kitty
-    kompose
     kubectl
     lact
     libtool
@@ -92,7 +78,6 @@
     lm_sensors
     lollypop
     lshw
-    maven
     m4
     meld
     mesa
@@ -110,27 +95,22 @@
     polkit_gnome
     polybar
     pipx
-    python313
-    python313Packages.pip
+    python3Full
     qt6Packages.qtstyleplugin-kvantum
     ripgrep
     rxvt-unicode
-    scilab-bin
     scrot
     simplescreenrecorder
-    spotify
     telegram-desktop
     tree
     unzip
-    variety
-    vivaldi
-    vivaldi-ffmpeg-codecs
     vlc
     volumeicon
     vscode
     wget
     widevine-cdm
     xdg-desktop-portal
+    xdg-desktop-portal-gtk
     xdg-desktop-portal-hyprland
     xorg.xkill
     xorg.libX11

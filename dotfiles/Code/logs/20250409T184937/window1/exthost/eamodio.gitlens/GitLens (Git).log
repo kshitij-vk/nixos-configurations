@@ -1,0 +1,36 @@
+2025-04-09 18:49:42.007 [info] [2025-04-09 13:19:41.689] [        428ms] [/home/roxor/sci/WebDev] git rev-parse --show-toplevel • FAILED
+2025-04-09 18:49:42.007 [info] 
+Error: Command failed: /run/current-system/sw/bin/git -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+
+
+2025-04-09 18:49:42.007 [info] [2025-04-09 13:19:41.989] [         45ms] [/home/roxor/sci/WebDev] git rev-parse --show-toplevel • FAILED
+2025-04-09 18:49:42.007 [info] 
+Error: Command failed: /run/current-system/sw/bin/git -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+
+
+2025-04-09 18:50:37.618 [info] [2025-04-09 13:20:37.564] [         46ms] [/home/roxor/sci/WebDev] git rev-parse --show-toplevel • FAILED
+2025-04-09 18:50:37.618 [info] 
+Error: Command failed: /run/current-system/sw/bin/git -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+
+
+2025-04-09 18:50:37.619 [info] [2025-04-09 13:20:37.619] [         16ms] [/home/roxor/sci/WebDev] git rev-parse --show-toplevel • FAILED
+2025-04-09 18:50:37.619 [info] 
+Error: Command failed: /run/current-system/sw/bin/git -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+
+
+2025-04-09 18:54:01.976 [info] [2025-04-09 13:24:01.976] [         76ms] [/home/roxor/sci/WebDev] git rev-parse --show-toplevel • FAILED
+2025-04-09 18:54:01.977 [info] 
+Error: Command failed: /run/current-system/sw/bin/git -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+
+
+2025-04-09 18:54:11.098 [info] [2025-04-09 13:24:11.098] [         27ms] [/home/roxor/sci/WebDev] git rev-parse --show-toplevel • FAILED
+2025-04-09 18:54:11.098 [info] 
+Error: Command failed: /run/current-system/sw/bin/git -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+
+

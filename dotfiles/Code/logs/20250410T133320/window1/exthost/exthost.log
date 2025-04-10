@@ -1,0 +1,148 @@
+2025-04-10 13:33:21.471 [info] Extension host with pid 19515 started
+2025-04-10 13:33:21.471 [info] Skipping acquiring lock for /home/roxor/.config/Code/User/workspaceStorage/cb9c671016d90de9fab6b4c681fa9ff0.
+2025-04-10 13:33:21.557 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-04-10 13:33:21.576 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-04-10 13:33:21.589 [info] ExtensionService#_doActivateExtension vscode.html-language-features, startup: false, activationEvent: 'onLanguage:html'
+2025-04-10 13:33:21.630 [info] ExtensionService#_doActivateExtension vscode.css-language-features, startup: false, activationEvent: 'onLanguage:css'
+2025-04-10 13:33:21.663 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:javascript'
+2025-04-10 13:33:22.142 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-04-10 13:33:22.162 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-04-10 13:33:22.228 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-04-10 13:33:22.336 [info] Eager extensions activated
+2025-04-10 13:33:22.388 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-04-10 13:33:22.395 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-04-10 13:33:22.414 [info] ExtensionService#_doActivateExtension Catppuccin.catppuccin-vsc, startup: false, activationEvent: 'onStartupFinished'
+2025-04-10 13:33:22.420 [info] ExtensionService#_doActivateExtension eamodio.gitlens, startup: false, activationEvent: 'onStartupFinished'
+2025-04-10 13:33:22.562 [info] ExtensionService#_doActivateExtension GitHub.copilot, startup: false, activationEvent: 'onStartupFinished'
+2025-04-10 13:33:22.887 [info] ExtensionService#_doActivateExtension GitHub.copilot-chat, startup: false, activationEvent: 'onStartupFinished'
+2025-04-10 13:33:23.305 [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer, startup: false, activationEvent: 'onStartupFinished'
+2025-04-10 13:33:23.825 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-04-10 13:33:23.834 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-04-10 15:03:31.326 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:markdown'
+2025-04-10 15:03:31.335 [info] ExtensionService#_doActivateExtension vscode.markdown-language-features, startup: false, activationEvent: 'onLanguage:markdown'
+2025-04-10 15:03:31.618 [info] ExtensionService#_doActivateExtension vscode.markdown-math, startup: false, activationEvent: 'api', root cause: vscode.markdown-language-features
+2025-04-10 15:30:15.985 [info] Extension host terminating: renderer closed the MessagePort
+2025-04-10 15:30:16.021 [error] An error occurred when disposing the subscriptions for extension 'eamodio.gitlens':
+2025-04-10 15:30:16.032 [error] TypeError: Cannot read properties of undefined (reading 'dispose')
+    at Object.dispose (file:///nix/store/09k7b0bhiz2rjd9980lwjj22750jrm58-vscode-1.97.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:135:120822)
+    at cv.<anonymous> (file:///nix/store/09k7b0bhiz2rjd9980lwjj22750jrm58-vscode-1.97.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:106:20084)
+    at cv.dispose (file:///nix/store/09k7b0bhiz2rjd9980lwjj22750jrm58-vscode-1.97.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:106:20180)
+    at Object.dispose (/home/roxor/.vscode/extensions/eamodio.gitlens-17.0.1/dist/gitlens.js:30:24001)
+    at /home/roxor/.vscode/extensions/eamodio.gitlens-17.0.1/dist/gitlens.js:301:15285
+    at Array.forEach (<anonymous>)
+    at Object.dispose (/home/roxor/.vscode/extensions/eamodio.gitlens-17.0.1/dist/gitlens.js:301:15267)
+    at ui (file:///nix/store/09k7b0bhiz2rjd9980lwjj22750jrm58-vscode-1.97.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:25:699)
+    at file:///nix/store/09k7b0bhiz2rjd9980lwjj22750jrm58-vscode-1.97.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:14992
+    at file:///nix/store/09k7b0bhiz2rjd9980lwjj22750jrm58-vscode-1.97.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:25:1009
+    at Object.dispose (file:///nix/store/09k7b0bhiz2rjd9980lwjj22750jrm58-vscode-1.97.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:8:705)
+    at PW.eb (file:///nix/store/09k7b0bhiz2rjd9980lwjj22750jrm58-vscode-1.97.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:11919)
+    at file:///nix/store/09k7b0bhiz2rjd9980lwjj22750jrm58-vscode-1.97.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:9874
+    at Array.map (<anonymous>)
+    at PW.$ (file:///nix/store/09k7b0bhiz2rjd9980lwjj22750jrm58-vscode-1.97.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:9862)
+    at PW.terminate (file:///nix/store/09k7b0bhiz2rjd9980lwjj22750jrm58-vscode-1.97.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:10105)
+    at wC.terminate (file:///nix/store/09k7b0bhiz2rjd9980lwjj22750jrm58-vscode-1.97.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:117:1434)
+    at ts (file:///nix/store/09k7b0bhiz2rjd9980lwjj22750jrm58-vscode-1.97.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:190:15080)
+    at MessagePortMain.<anonymous> (file:///nix/store/09k7b0bhiz2rjd9980lwjj22750jrm58-vscode-1.97.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:190:11628)
+    at MessagePortMain.emit (node:events:518:28)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949)
+    at Object.callbackTrampoline (node:internal/async_hooks:130:17)
+2025-04-10 15:30:16.049 [error] Canceled: Canceled
+    at new XR (file:///nix/store/09k7b0bhiz2rjd9980lwjj22750jrm58-vscode-1.97.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:110406)
+    at Uy.U (file:///nix/store/09k7b0bhiz2rjd9980lwjj22750jrm58-vscode-1.97.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:115016)
+    at Proxy.s.<computed>.n.charCodeAt.s.<computed> (file:///nix/store/09k7b0bhiz2rjd9980lwjj22750jrm58-vscode-1.97.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:112510)
+    at mw.g (file:///nix/store/09k7b0bhiz2rjd9980lwjj22750jrm58-vscode-1.97.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:112:32221)
+    at mw.executeCommand (file:///nix/store/09k7b0bhiz2rjd9980lwjj22750jrm58-vscode-1.97.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:112:31725)
+    at r.registerCommand.description (file:///nix/store/09k7b0bhiz2rjd9980lwjj22750jrm58-vscode-1.97.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:112:31055)
+    at mw.h (file:///nix/store/09k7b0bhiz2rjd9980lwjj22750jrm58-vscode-1.97.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:112:32741)
+    at mw.g (file:///nix/store/09k7b0bhiz2rjd9980lwjj22750jrm58-vscode-1.97.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:112:31818)
+    at mw.executeCommand (file:///nix/store/09k7b0bhiz2rjd9980lwjj22750jrm58-vscode-1.97.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:112:31725)
+    at Object.executeCommand (file:///nix/store/09k7b0bhiz2rjd9980lwjj22750jrm58-vscode-1.97.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:172:37254)
+    at w (/home/roxor/.vscode/extensions/eamodio.gitlens-17.0.1/dist/gitlens.js:365:3186)
+    at c (/home/roxor/.vscode/extensions/eamodio.gitlens-17.0.1/dist/gitlens.js:1:64500)
+    at ActionRunners._updateContextKeys (/home/roxor/.vscode/extensions/eamodio.gitlens-17.0.1/dist/gitlens.js:1495:30978)
+    at s (/home/roxor/.vscode/extensions/eamodio.gitlens-17.0.1/dist/gitlens.js:1495:29422)
+    at RegisteredActionRunner.unregister (/home/roxor/.vscode/extensions/eamodio.gitlens-17.0.1/dist/gitlens.js:1495:29565)
+    at RegisteredActionRunner.dispose (/home/roxor/.vscode/extensions/eamodio.gitlens-17.0.1/dist/gitlens.js:1495:28225)
+    at Object.dispose (/home/roxor/.vscode/extensions/eamodio.gitlens-17.0.1/dist/gitlens.js:1495:29659)
+    at ui (file:///nix/store/09k7b0bhiz2rjd9980lwjj22750jrm58-vscode-1.97.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:25:699)
+    at file:///nix/store/09k7b0bhiz2rjd9980lwjj22750jrm58-vscode-1.97.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:14992
+    at file:///nix/store/09k7b0bhiz2rjd9980lwjj22750jrm58-vscode-1.97.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:25:1009
+    at Object.dispose (file:///nix/store/09k7b0bhiz2rjd9980lwjj22750jrm58-vscode-1.97.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:8:705)
+    at PW.eb (file:///nix/store/09k7b0bhiz2rjd9980lwjj22750jrm58-vscode-1.97.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:11919)
+    at file:///nix/store/09k7b0bhiz2rjd9980lwjj22750jrm58-vscode-1.97.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:9874
+    at Array.map (<anonymous>)
+    at PW.$ (file:///nix/store/09k7b0bhiz2rjd9980lwjj22750jrm58-vscode-1.97.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:9862)
+    at PW.terminate (file:///nix/store/09k7b0bhiz2rjd9980lwjj22750jrm58-vscode-1.97.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:10105)
+    at wC.terminate (file:///nix/store/09k7b0bhiz2rjd9980lwjj22750jrm58-vscode-1.97.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:117:1434)
+    at ts (file:///nix/store/09k7b0bhiz2rjd9980lwjj22750jrm58-vscode-1.97.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:190:15080)
+    at MessagePortMain.<anonymous> (file:///nix/store/09k7b0bhiz2rjd9980lwjj22750jrm58-vscode-1.97.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:190:11628)
+    at MessagePortMain.emit (node:events:518:28)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949)
+    at Object.callbackTrampoline (node:internal/async_hooks:130:17) setContext undefined
+2025-04-10 15:30:16.050 [error] Canceled: Canceled
+    at new XR (file:///nix/store/09k7b0bhiz2rjd9980lwjj22750jrm58-vscode-1.97.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:110406)
+    at Uy.U (file:///nix/store/09k7b0bhiz2rjd9980lwjj22750jrm58-vscode-1.97.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:115016)
+    at Proxy.s.<computed>.n.charCodeAt.s.<computed> (file:///nix/store/09k7b0bhiz2rjd9980lwjj22750jrm58-vscode-1.97.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:112510)
+    at mw.g (file:///nix/store/09k7b0bhiz2rjd9980lwjj22750jrm58-vscode-1.97.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:112:32221)
+    at mw.executeCommand (file:///nix/store/09k7b0bhiz2rjd9980lwjj22750jrm58-vscode-1.97.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:112:31725)
+    at r.registerCommand.description (file:///nix/store/09k7b0bhiz2rjd9980lwjj22750jrm58-vscode-1.97.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:112:31055)
+    at mw.h (file:///nix/store/09k7b0bhiz2rjd9980lwjj22750jrm58-vscode-1.97.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:112:32741)
+    at mw.g (file:///nix/store/09k7b0bhiz2rjd9980lwjj22750jrm58-vscode-1.97.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:112:31818)
+    at mw.executeCommand (file:///nix/store/09k7b0bhiz2rjd9980lwjj22750jrm58-vscode-1.97.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:112:31725)
+    at Object.executeCommand (file:///nix/store/09k7b0bhiz2rjd9980lwjj22750jrm58-vscode-1.97.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:172:37254)
+    at w (/home/roxor/.vscode/extensions/eamodio.gitlens-17.0.1/dist/gitlens.js:365:3186)
+    at c (/home/roxor/.vscode/extensions/eamodio.gitlens-17.0.1/dist/gitlens.js:1:64500)
+    at ActionRunners._updateContextKeys (/home/roxor/.vscode/extensions/eamodio.gitlens-17.0.1/dist/gitlens.js:1495:30978)
+    at s (/home/roxor/.vscode/extensions/eamodio.gitlens-17.0.1/dist/gitlens.js:1495:29422)
+    at RegisteredActionRunner.unregister (/home/roxor/.vscode/extensions/eamodio.gitlens-17.0.1/dist/gitlens.js:1495:29565)
+    at RegisteredActionRunner.dispose (/home/roxor/.vscode/extensions/eamodio.gitlens-17.0.1/dist/gitlens.js:1495:28225)
+    at Object.dispose (/home/roxor/.vscode/extensions/eamodio.gitlens-17.0.1/dist/gitlens.js:1495:29659)
+    at ui (file:///nix/store/09k7b0bhiz2rjd9980lwjj22750jrm58-vscode-1.97.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:25:699)
+    at file:///nix/store/09k7b0bhiz2rjd9980lwjj22750jrm58-vscode-1.97.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:14992
+    at file:///nix/store/09k7b0bhiz2rjd9980lwjj22750jrm58-vscode-1.97.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:25:1009
+    at Object.dispose (file:///nix/store/09k7b0bhiz2rjd9980lwjj22750jrm58-vscode-1.97.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:8:705)
+    at PW.eb (file:///nix/store/09k7b0bhiz2rjd9980lwjj22750jrm58-vscode-1.97.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:11919)
+    at file:///nix/store/09k7b0bhiz2rjd9980lwjj22750jrm58-vscode-1.97.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:9874
+    at Array.map (<anonymous>)
+    at PW.$ (file:///nix/store/09k7b0bhiz2rjd9980lwjj22750jrm58-vscode-1.97.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:9862)
+    at PW.terminate (file:///nix/store/09k7b0bhiz2rjd9980lwjj22750jrm58-vscode-1.97.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:10105)
+    at wC.terminate (file:///nix/store/09k7b0bhiz2rjd9980lwjj22750jrm58-vscode-1.97.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:117:1434)
+    at ts (file:///nix/store/09k7b0bhiz2rjd9980lwjj22750jrm58-vscode-1.97.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:190:15080)
+    at MessagePortMain.<anonymous> (file:///nix/store/09k7b0bhiz2rjd9980lwjj22750jrm58-vscode-1.97.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:190:11628)
+    at MessagePortMain.emit (node:events:518:28)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949)
+    at Object.callbackTrampoline (node:internal/async_hooks:130:17) setContext undefined
+2025-04-10 15:30:16.050 [error] Canceled: Canceled
+    at new XR (file:///nix/store/09k7b0bhiz2rjd9980lwjj22750jrm58-vscode-1.97.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:110406)
+    at Uy.U (file:///nix/store/09k7b0bhiz2rjd9980lwjj22750jrm58-vscode-1.97.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:115016)
+    at Proxy.s.<computed>.n.charCodeAt.s.<computed> (file:///nix/store/09k7b0bhiz2rjd9980lwjj22750jrm58-vscode-1.97.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:112510)
+    at mw.g (file:///nix/store/09k7b0bhiz2rjd9980lwjj22750jrm58-vscode-1.97.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:112:32221)
+    at mw.executeCommand (file:///nix/store/09k7b0bhiz2rjd9980lwjj22750jrm58-vscode-1.97.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:112:31725)
+    at r.registerCommand.description (file:///nix/store/09k7b0bhiz2rjd9980lwjj22750jrm58-vscode-1.97.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:112:31055)
+    at mw.h (file:///nix/store/09k7b0bhiz2rjd9980lwjj22750jrm58-vscode-1.97.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:112:32741)
+    at mw.g (file:///nix/store/09k7b0bhiz2rjd9980lwjj22750jrm58-vscode-1.97.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:112:31818)
+    at mw.executeCommand (file:///nix/store/09k7b0bhiz2rjd9980lwjj22750jrm58-vscode-1.97.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:112:31725)
+    at Object.executeCommand (file:///nix/store/09k7b0bhiz2rjd9980lwjj22750jrm58-vscode-1.97.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:172:37254)
+    at w (/home/roxor/.vscode/extensions/eamodio.gitlens-17.0.1/dist/gitlens.js:365:3186)
+    at c (/home/roxor/.vscode/extensions/eamodio.gitlens-17.0.1/dist/gitlens.js:1:64500)
+    at ActionRunners._updateContextKeys (/home/roxor/.vscode/extensions/eamodio.gitlens-17.0.1/dist/gitlens.js:1495:30978)
+    at s (/home/roxor/.vscode/extensions/eamodio.gitlens-17.0.1/dist/gitlens.js:1495:29422)
+    at RegisteredActionRunner.unregister (/home/roxor/.vscode/extensions/eamodio.gitlens-17.0.1/dist/gitlens.js:1495:29565)
+    at RegisteredActionRunner.dispose (/home/roxor/.vscode/extensions/eamodio.gitlens-17.0.1/dist/gitlens.js:1495:28225)
+    at Object.dispose (/home/roxor/.vscode/extensions/eamodio.gitlens-17.0.1/dist/gitlens.js:1495:29659)
+    at ui (file:///nix/store/09k7b0bhiz2rjd9980lwjj22750jrm58-vscode-1.97.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:25:699)
+    at file:///nix/store/09k7b0bhiz2rjd9980lwjj22750jrm58-vscode-1.97.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:14992
+    at file:///nix/store/09k7b0bhiz2rjd9980lwjj22750jrm58-vscode-1.97.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:25:1009
+    at Object.dispose (file:///nix/store/09k7b0bhiz2rjd9980lwjj22750jrm58-vscode-1.97.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:8:705)
+    at PW.eb (file:///nix/store/09k7b0bhiz2rjd9980lwjj22750jrm58-vscode-1.97.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:11919)
+    at file:///nix/store/09k7b0bhiz2rjd9980lwjj22750jrm58-vscode-1.97.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:9874
+    at Array.map (<anonymous>)
+    at PW.$ (file:///nix/store/09k7b0bhiz2rjd9980lwjj22750jrm58-vscode-1.97.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:9862)
+    at PW.terminate (file:///nix/store/09k7b0bhiz2rjd9980lwjj22750jrm58-vscode-1.97.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:10105)
+    at wC.terminate (file:///nix/store/09k7b0bhiz2rjd9980lwjj22750jrm58-vscode-1.97.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:117:1434)
+    at ts (file:///nix/store/09k7b0bhiz2rjd9980lwjj22750jrm58-vscode-1.97.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:190:15080)
+    at MessagePortMain.<anonymous> (file:///nix/store/09k7b0bhiz2rjd9980lwjj22750jrm58-vscode-1.97.2/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:190:11628)
+    at MessagePortMain.emit (node:events:518:28)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949)
+    at Object.callbackTrampoline (node:internal/async_hooks:130:17) setContext undefined
+2025-04-10 15:30:16.054 [info] Extension host with pid 19515 exiting with code 0

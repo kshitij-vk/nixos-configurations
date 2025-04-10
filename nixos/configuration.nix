@@ -8,12 +8,13 @@
   imports =
     [ # Include the results of the hardware scan.
       ./hardware-configuration.nix
-      <home-manager/nixos>
       ./core.nix
       ./desktop.nix
       ./desktops/hyprland.nix
+      ./desktops/hyprland.nix
       ./env-vars.nix
     ];
+
 
   # Bootloader.
   boot.loader.systemd-boot.enable = false;
@@ -34,7 +35,6 @@
 
   boot.loader.grub.default = 1;
 
-
   # Swappiness
   boot.kernel.sysctl = { "vm.swappiness" = 10;};
 
@@ -45,10 +45,10 @@
   # Nix-Expermental
   nix.settings.experimental-features = [ "nix-command" "flakes" ];
   nix.settings.auto-optimise-store = true;
+  security.pam.services.login.enableGnomeKeyring = true;
 
   # Steam
-  programs.steam.enable = true;
-
+  # programs.steam.enable = true;
 
   networking.hostName = "nixos"; # Define your hostname.
   # networking.wireless.enable = true;  # Enables wireless support via wpa_supplicant.
@@ -59,6 +59,7 @@
 
   # Enable networking
   networking.networkmanager.enable = true;
+  networking.nameservers = [ "94.140.14.14" "94.140.15.15" ];
 
   # Set your time zone.
   time.timeZone = "Asia/Kolkata";
@@ -81,9 +82,6 @@
   # Enable the X11 windowing system.
   # You can disable this if you're only using the Wayland session.
   services.xserver.enable = true;
-  services.xserver.videoDrivers = [ "amdgpu" ];
-  systemd.packages = with pkgs; [ lact ];
-  systemd.services.lactd.wantedBy = ["multi-user.target"];
 
   # Enable the KDE Plasma Desktop Environment.
   services.displayManager.sddm = {
@@ -125,35 +123,19 @@
   users.users.roxor = {
     isNormalUser = true;
     description = "Roxor";
-    extraGroups = [ "networkmanager" "wheel" "docker" "jenkins" "warp-svc" ];
+    extraGroups = [ "networkmanager" "wheel" "docker" "jenkins" ];
     packages = with pkgs; [
       kdePackages.kate
     #  thunderbird
     ];
   };
 
-
-  # Home-Manager
-
-  home-manager.users.roxor = { pkgs, ... }: {
-    home.packages = with pkgs; [ ];
-    home.stateVersion = "24.11";
-
-  };
-
-  # Install firefox.
-  programs.firefox.enable = true;
-
-  # Allow unfree packages
-  nixpkgs.config.allowUnfree = true;
-
   # List packages installed in system profile. To search, run:
-  
+
   # Kde-Connect
   programs.kdeconnect.enable = true;
 
-#DOCKER
-
+  #DOCKER
   # Enable Docker
   virtualisation.docker.enable = true;
 
@@ -182,45 +164,17 @@
     serviceConfig.Restart = "always";
   };
 
-  #ZSH
-users.defaultUserShell = pkgs.zsh;
-  programs.zsh = {
-    enable = true;
-    autosuggestions.enable = true;
-    zsh-autoenv.enable = true;
-    enableCompletion = true;
-    syntaxHighlighting.enable = true;
-    ohMyZsh = {
-      enable = true;
-      plugins = [
-        "git"
-        "npm"
-        "history"
-        "node"
-        "rust"
-        "deno"
-      ];
-    };
-  };
+  # Install firefox.
+  programs.firefox.enable = true;
+
+  # Allow unfree packages
+  nixpkgs.config.allowUnfree = true;
 
   # Automatic Garbage Collection
   nix.gc = {
   automatic = true;
   dates = "weekly";
   options = "--delete-older-than 7d";
-  };
-
-  # Network
-  services.avahi = {
-    enable = true;
-    #nssmdns = true;
-    nssmdns4 = true;
-    ipv4 = true;
-    ipv6 = true;
-    publish = {
-                  enable = true;
-      workstation = true;
-        };
   };
 
   # Bluetooth
@@ -235,26 +189,49 @@ users.defaultUserShell = pkgs.zsh;
 
   # Polkit
   security.polkit.enable = true;
-  systemd = {
-    user.services.polkit-gnome-authentication-agent-1 = {
-      description = "polkit-gnome-authentication-agent-1";
-      wantedBy = [ "graphical-session.target" ];
-      wants = [ "graphical-session.target" ];
-      after = [ "graphical-session.target" ];
-      serviceConfig = {
-        Type = "simple";
-        ExecStart = "${pkgs.polkit_gnome}/libexec/polkit-gnome-authentication-agent-1";
-        Environment = "WAYLAND_DISPLAY=wayland-1";  # Set the correct Wayland socket using "echo $WAYLAND_DISPLAY"
-        Restart = "on-failure";
-        RestartSec = 1;
-        TimeoutStopSec = 10;
+    systemd = {
+      user.services.polkit-gnome-authentication-agent-1 = {
+        description = "polkit-gnome-authentication-agent-1";
+        wantedBy = [ "graphical-session.target" ];
+	wants = [ "graphical-session.target" ];
+	after = [ "graphical-session.target" ];
+	serviceConfig = {
+	Type = "simple";
+	ExecStart = "${pkgs.polkit_gnome}/libexec/polkit-gnome-authentication-agent-1";
+	Restart = "on-failure";
+	RestartSec = 1;
+	TimeoutStopSec = 10;
+	};
       };
     };
+
+  security.pam.services.login.kwallet.enable = true;
+  systemd.services.kwallet = {
+    wantedBy = [ "default.target" ];
   };
 
-  nixpkgs.config.permittedInsecurePackages = [
-        "openssl-1.1.1w" "electron-19.1.9" "python3.11-youtube-dl-2021.12.17"
-  ];
+  #ZSH
+  users.defaultUserShell = pkgs.zsh;
+    programs.zsh = {
+      enable = true;
+      autosuggestions.enable = true;
+      zsh-autoenv.enable = true;
+      enableCompletion = true;
+      syntaxHighlighting.enable = true;
+      ohMyZsh = {
+        enable = true;
+        plugins = [
+          "git"
+          "npm"
+          "history"
+          "node"
+          "rust"
+          "deno"
+        ];
+      };
+    };
+
+  # List packages installed in system profile. To search, run:
   # $ nix search wget
   environment.systemPackages = with pkgs; [
   #  vim # Do not forget to add an editor to edit configuration.nix! The Nano editor is also installed by default.
@@ -270,6 +247,13 @@ users.defaultUserShell = pkgs.zsh;
   # };
 
   # List services that you want to enable:
+
+  # Git Configuration
+  programs.git = {
+    enable = true;
+#    userName = "Kshitij Koyande";
+#    userEmail = "koyande72@gmail.com";
+  };
 
   # Enable the OpenSSH daemon.
   # services.openssh.enable = true;
@@ -288,9 +272,7 @@ users.defaultUserShell = pkgs.zsh;
   # (e.g. man configuration.nix or on https://nixos.org/nixos/options.html).
   system.stateVersion = "24.11"; # Did you read the comment?
 
-  security.pam.services.login.kwallet.enable = true;
-  systemd.services.kwallet = {
-    wantedBy = [ "default.target" ];
-  };
-
+  nixpkgs.config.permittedInsecurePackages = [
+        "openssl-1.1.1w" "electron-19.1.9" "python3.11-youtube-dl-2021.12.17"
+  ];
 }

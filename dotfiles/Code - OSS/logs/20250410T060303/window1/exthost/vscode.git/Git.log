@@ -1,0 +1,51 @@
+2025-04-10 06:03:04.645 [info] [main] Log level: Info
+2025-04-10 06:03:04.645 [info] [main] Validating found git in: "git"
+2025-04-10 06:03:04.645 [info] [main] Using git "2.49.0" from "git"
+2025-04-10 06:03:04.645 [info] [Model][doInitialScan] Initial repository scan started
+2025-04-10 06:03:04.645 [info] > git rev-parse --show-toplevel [3ms]
+2025-04-10 06:03:04.645 [info] > git rev-parse --git-dir --git-common-dir [1ms]
+2025-04-10 06:03:04.645 [info] [Model][openRepository] Opened repository: /home/roxor/android
+2025-04-10 06:03:04.646 [info] > git rev-parse --show-toplevel [2ms]
+2025-04-10 06:03:04.646 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-04-10 06:03:04.647 [info] > git config --get commit.template [7ms]
+2025-04-10 06:03:04.672 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/15.0 refs/remotes/15.0 [8ms]
+2025-04-10 06:03:04.676 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/roxor/android/.git/refs/remotes/origin/15.0'
+2025-04-10 06:03:04.677 [info] > git rev-parse refs/remotes/origin/15.0 [1ms]
+2025-04-10 06:03:04.685 [info] > git status -z -uall [5ms]
+2025-04-10 06:03:04.688 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2025-04-10 06:03:04.708 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/15.0 refs/remotes/15.0 [6ms]
+2025-04-10 06:03:04.712 [info] > git config --get commit.template [5ms]
+2025-04-10 06:03:04.730 [info] > git config --get --local branch.15.0.vscode-merge-base [18ms]
+2025-04-10 06:03:04.736 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/15.0 refs/remotes/origin/15.0 [2ms]
+2025-04-10 06:03:04.740 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/15.0 refs/remotes/15.0 [10ms]
+2025-04-10 06:03:04.744 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/roxor/android/.git/refs/remotes/origin/15.0'
+2025-04-10 06:03:04.745 [info] > git rev-parse refs/remotes/origin/15.0 [1ms]
+2025-04-10 06:03:04.752 [info] > git merge-base refs/heads/15.0 refs/remotes/origin/15.0 [13ms]
+2025-04-10 06:03:04.756 [info] > git status -z -uall [8ms]
+2025-04-10 06:03:04.757 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [5ms]
+2025-04-10 06:03:04.764 [info] > git merge-base refs/heads/15.0 refs/remotes/origin/15.0 [2ms]
+2025-04-10 06:03:04.768 [info] > git diff --name-status -z --diff-filter=ADMR 5e71a36314d212a793ca48250d3a4b932f53cb11...refs/remotes/origin/15.0 [12ms]
+2025-04-10 06:03:04.769 [info] > git diff --name-status -z --diff-filter=ADMR 5e71a36314d212a793ca48250d3a4b932f53cb11...refs/remotes/origin/15.0 [2ms]
+2025-04-10 06:03:05.154 [info] > git check-ignore -v -z --stdin [1ms]
+2025-04-10 06:03:05.744 [info] > git show --textconv :snippets/crdroid.xml [5ms]
+2025-04-10 06:03:05.745 [info] > git ls-files --stage -- snippets/crdroid.xml [1ms]
+2025-04-10 06:03:05.750 [info] > git cat-file -s 6853144b4113009e00ce8e90285e995756b72704 [1ms]
+2025-04-10 06:03:05.770 [info] > git blame --root --incremental 36e411a9961fd979508b402c970bddcda276fdd9 -- snippets/crdroid.xml [3ms]
+2025-04-10 06:03:20.842 [info] > git show --textconv :snippets/matrixx.xml [5ms]
+2025-04-10 06:03:20.843 [info] > git ls-files --stage -- snippets/matrixx.xml [1ms]
+2025-04-10 06:03:20.849 [info] > git cat-file -s d91341f9245f8631b75c987aea321457d40a6959 [3ms]
+2025-04-10 06:03:38.580 [info] > git blame --root --incremental 36e411a9961fd979508b402c970bddcda276fdd9 -- snippets/matrixx.xml [3ms]
+2025-04-10 06:03:45.522 [info] > git config --get commit.template [5ms]
+2025-04-10 06:03:45.523 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/15.0 refs/remotes/15.0 [1ms]
+2025-04-10 06:03:45.527 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/roxor/android/.git/refs/remotes/origin/15.0'
+2025-04-10 06:03:45.528 [info] > git rev-parse refs/remotes/origin/15.0 [1ms]
+2025-04-10 06:03:45.536 [info] > git status -z -uall [4ms]
+2025-04-10 06:03:45.537 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms]
+2025-04-10 06:04:42.372 [info] > git config --get commit.template [5ms]
+2025-04-10 06:04:42.373 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/15.0 refs/remotes/15.0 [1ms]
+2025-04-10 06:04:42.381 [info] > git status -z -uall [4ms]
+2025-04-10 06:04:42.382 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms]
+2025-04-10 06:04:51.814 [info] > git config --get commit.template [6ms]
+2025-04-10 06:04:51.814 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/15.0 refs/remotes/15.0 [1ms]
+2025-04-10 06:04:51.822 [info] > git status -z -uall [4ms]
+2025-04-10 06:04:51.824 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]

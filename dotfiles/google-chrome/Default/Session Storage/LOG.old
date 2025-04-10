@@ -1,0 +1,70 @@
+2025/04/10-03:46:13.467 5 Reusing MANIFEST /home/roxor/.config/google-chrome/Default/Session Storage/MANIFEST-000001
+2025/04/10-03:46:13.467 5 Recovering log #337
+2025/04/10-03:46:13.468 5 Reusing old log /home/roxor/.config/google-chrome/Default/Session Storage/000337.log 
+2025/04/10-03:53:35.967 5 Level-0 table #341: started
+2025/04/10-03:53:35.970 5 Level-0 table #341: 186008 bytes OK
+2025/04/10-03:53:35.972 5 Delete type=0 #337
+2025/04/10-04:03:13.767 5 Level-0 table #343: started
+2025/04/10-04:03:13.769 5 Level-0 table #343: 52201 bytes OK
+2025/04/10-04:03:13.771 5 Delete type=0 #340
+2025/04/10-04:03:13.771 5 Compacting 4@0 + 1@1 files
+2025/04/10-04:03:13.778 5 Generated table #344@0: 6264 keys, 350951 bytes
+2025/04/10-04:03:13.778 5 Compacted 4@0 + 1@1 files => 350951 bytes
+2025/04/10-04:03:13.779 5 compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/04/10-04:03:13.779 5 Delete type=2 #343
+2025/04/10-04:03:13.779 5 Delete type=2 #335
+2025/04/10-04:03:13.779 5 Delete type=2 #341
+2025/04/10-04:03:13.779 5 Delete type=2 #338
+2025/04/10-04:03:13.779 5 Delete type=2 #333
+2025/04/10-04:23:54.067 5 Level-0 table #346: started
+2025/04/10-04:23:54.069 5 Level-0 table #346: 35504 bytes OK
+2025/04/10-04:23:54.070 5 Delete type=0 #342
+2025/04/10-04:30:06.024 5 Level-0 table #348: started
+2025/04/10-04:30:06.031 5 Level-0 table #348: 518622 bytes OK
+2025/04/10-04:30:06.032 5 Delete type=0 #345
+2025/04/10-04:30:21.704 5 Level-0 table #350: started
+2025/04/10-04:30:21.707 5 Level-0 table #350: 386502 bytes OK
+2025/04/10-04:30:21.708 5 Delete type=0 #347
+2025/04/10-04:31:12.593 5 Level-0 table #352: started
+2025/04/10-04:31:12.599 5 Level-0 table #352: 548571 bytes OK
+2025/04/10-04:31:12.601 5 Delete type=0 #349
+2025/04/10-04:31:12.601 5 Compacting 4@0 + 1@1 files
+2025/04/10-04:31:12.619 5 Generated table #353@0: 6533 keys, 1832230 bytes
+2025/04/10-04:31:12.619 5 Compacted 4@0 + 1@1 files => 1832230 bytes
+2025/04/10-04:31:12.620 5 compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/04/10-04:31:12.620 5 Delete type=2 #350
+2025/04/10-04:31:12.620 5 Delete type=2 #346
+2025/04/10-04:31:12.621 5 Delete type=2 #344
+2025/04/10-04:31:12.621 5 Delete type=2 #348
+2025/04/10-04:31:12.621 5 Delete type=2 #352
+2025/04/10-04:32:50.722 5 Level-0 table #355: started
+2025/04/10-04:32:50.724 5 Level-0 table #355: 330630 bytes OK
+2025/04/10-04:32:50.725 5 Delete type=0 #351
+2025/04/10-04:35:27.343 5 Level-0 table #357: started
+2025/04/10-04:35:27.345 5 Level-0 table #357: 34839 bytes OK
+2025/04/10-04:35:27.346 5 Delete type=0 #354
+2025/04/10-04:51:27.326 5 Level-0 table #359: started
+2025/04/10-04:51:27.329 5 Level-0 table #359: 158766 bytes OK
+2025/04/10-04:51:27.331 5 Delete type=0 #356
+2025/04/10-04:51:46.568 5 Level-0 table #361: started
+2025/04/10-04:51:46.570 5 Level-0 table #361: 47758 bytes OK
+2025/04/10-04:51:46.571 5 Delete type=0 #358
+2025/04/10-04:51:46.571 5 Compacting 4@0 + 1@1 files
+2025/04/10-04:51:46.589 5 Generated table #362@0: 536 keys, 2207678 bytes
+2025/04/10-04:51:46.592 5 Generated table #363@0: 6117 keys, 190772 bytes
+2025/04/10-04:51:46.592 5 Compacted 4@0 + 1@1 files => 2398450 bytes
+2025/04/10-04:51:46.593 5 compacted to: files[ 0 2 1 0 0 0 0 ]
+2025/04/10-04:51:46.594 5 Delete type=2 #361
+2025/04/10-04:51:46.594 5 Delete type=2 #353
+2025/04/10-04:51:46.594 5 Delete type=2 #357
+2025/04/10-04:51:46.594 5 Delete type=2 #359
+2025/04/10-04:51:46.594 5 Delete type=2 #355
+2025/04/10-04:52:35.934 5 Level-0 table #365: started
+2025/04/10-04:52:35.939 5 Level-0 table #365: 372906 bytes OK
+2025/04/10-04:52:35.941 5 Delete type=0 #360
+2025/04/10-04:53:00.587 5 Level-0 table #367: started
+2025/04/10-04:53:00.590 5 Level-0 table #367: 191921 bytes OK
+2025/04/10-04:53:00.591 5 Delete type=0 #364
+2025/04/10-05:10:39.813 5 Level-0 table #369: started
+2025/04/10-05:10:39.814 5 Level-0 table #369: 19525 bytes OK
+2025/04/10-05:10:39.816 5 Delete type=0 #366

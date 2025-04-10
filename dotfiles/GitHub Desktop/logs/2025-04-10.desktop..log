@@ -1,0 +1,23 @@
+2025-04-10T05:58:42.479Z - info: [ui] [AppStore] loading 2 repositories from store
+2025-04-10T05:58:42.481Z - info: [ui] [AppStore] found account: kshitij-vk (Kshitij Koyande )
+2025-04-10T05:58:42.500Z - info: [ui] [BranchPruner] Last prune took place 20 hours ago - skipping
+2025-04-10T05:58:42.860Z - warn: [ui] Error refreshing account 'kshitij-vk'
+Error: Cannot update an account which doesn't have a token: kshitij-vk
+    at at (/home/roxor/webpack:/app/src/lib/fatal-error.ts:3:9)
+    at /home/roxor/webpack:/app/src/lib/stores/accounts-store.ts:216:12
+    at Lp.tryUpdateAccount (/home/roxor/webpack:/app/src/lib/stores/accounts-store.ts:135:20)
+    at /home/roxor/webpack:/app/src/lib/stores/accounts-store.ts:115:37
+    at Array.map (<anonymous>)
+    at Lp.refresh (/home/roxor/webpack:/app/src/lib/stores/accounts-store.ts:115:21)
+    at Lp.loadInitialState (/home/roxor/webpack:/app/src/lib/stores/app-store.ts:2259:24)
+2025-04-10T05:58:43.060Z - info: [ui] launching: 3.4.2-linux1 (Linux 6.12.15-xanmod1)
+2025-04-10T05:58:43.060Z - info: [ui] execPath: '/nix/store/6sndrkg2lkc6fxghykyc2vhzcyrjghvj-github-desktop-3.4.2/opt/github-desktop'
+2025-04-10T05:58:43.129Z - warn: [ui] Alive channel request failed: Error: Not Found
+2025-04-10T05:58:43.155Z - warn: [ui] Alive channel request failed: Error: Not Found
+2025-04-10T05:58:43.166Z - warn: [ui] Alive channel request failed: Error: Not Found
+2025-04-10T05:58:43.179Z - warn: [ui] Alive channel request failed: Error: Not Found
+2025-04-10T05:58:54.026Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 1 repositories took 0.9s of which 0.0s paused, total 0.9s
+2025-04-10T05:58:54.324Z - info: [ui] [AppStore] adding repository at /home/roxor/android to store
+2025-04-10T05:58:54.993Z - info: [ui] [BranchPruner] No branches to prune.
+2025-04-10T06:02:23.615Z - info: [ui] [Timing] Action 'create commit' for 'crdroidandroid/android' took 0.057s
+2025-04-10T06:02:32.869Z - info: [ui] [Timing] Action 'create commit' for 'crdroidandroid/android' took 0.054s

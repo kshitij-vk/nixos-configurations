@@ -1,0 +1,54 @@
+{
+   "icons": {
+      "128": "icon128.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAh3wPFhZDmdUY0qVnHBQtgClFF8oKvGqeMj51ARnzfL2c24p4borPN++k/w7bgDzuVA1MBuBGiUFsnHoZnKPw3f4Kf6Xe9G+PMPazRly/BjNNHyRGKEAkyDcQVIJVJ5NlTEAJSk0qNAjOFWY6/hB0NfmraLqPu8/bHeevlyVKEhyRuVLZZXZ2ThSWdUz2EQ8vTBTAcgEtVUHJfsVL612IyE0Zg5YavTmrovQ3evAcTRX9cSFmY/ClbfzNmzBgPazJFNbf5ULpywcPYFa+iYcICtRuA2tbPfG1JLAaOmVDZ42sG0sSwZbXam2a66dSs90BeL0CbxK1cVZgJdSjZYs/rwIDAQAB",
+   "manifest_version": 3,
+   "name": "Dark Angel",
+   "short_name": "Dark Angel",
+   "theme": {
+      "colors": {
+         "bookmark_text": [ 232, 232, 232 ],
+         "button_background": [ 7, 7, 7 ],
+         "control_background": [ 0, 0, 0 ],
+         "frame": [ 0, 0, 0 ],
+         "frame_inactive": [ 71, 71, 71 ],
+         "frame_incognito": [ 0, 0, 0 ],
+         "frame_incognito_inactive": [ 71, 71, 71 ],
+         "ntp_background": [ 9, 9, 5 ],
+         "ntp_header": [ 0, 0, 0 ],
+         "ntp_link": [ 255, 255, 255 ],
+         "ntp_link_underline": [ 255, 255, 255 ],
+         "ntp_section": [ 74, 74, 74 ],
+         "ntp_section_link": [ 6, 55, 116 ],
+         "ntp_section_link_underline": [ 255, 255, 255 ],
+         "ntp_section_text": [ 255, 255, 255 ],
+         "ntp_text": [ 64, 29, 80 ],
+         "tab_background_text": [ 255, 255, 255 ],
+         "tab_text": [ 255, 255, 255 ],
+         "toolbar": [ 7, 7, 7 ]
+      },
+      "images": {
+         "theme_button_background": "images/theme_button_background.png",
+         "theme_frame": "images/theme_frame.png",
+         "theme_ntp_background": "images/theme_ntp_background.png",
+         "theme_tab_background": "images/theme_tab_background.png",
+         "theme_toolbar": "images/theme_toolbar.png"
+      },
+      "properties": {
+         "ntp_background_alignment": "top",
+         "ntp_background_repeat": "no-repeat",
+         "ntp_logo_alternate": 0
+      },
+      "tints": {
+         "background_tab": [ -1.0, 0.5, 0.75 ],
+         "buttons": [ 1.0, 1.0, 1.0 ],
+         "frame": [ -255.0, 255.0, 0.44 ],
+         "frame_inactive": [ -1.0, 0.3, 0.6 ],
+         "frame_incognito": [ -1.0, 0.2, 0.35 ],
+         "frame_incognito_inactive": [ -1.0, 0.3, 0.6 ]
+      }
+   },
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.0"
+}

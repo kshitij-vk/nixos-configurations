@@ -1,0 +1,22 @@
+[Added Associations]
+application/json=code-2.desktop;
+font/ttf=font-manager-2.desktop;font-manager.desktop;
+text/plain=code-2.desktop;
+x-scheme-handler/tg=org.telegram.desktop.desktop;
+x-scheme-handler/tonsite=org.telegram.desktop.desktop;
+x-scheme-handler/x-github-client=github-desktop.desktop;GitHub Desktop.desktop;
+x-scheme-handler/x-github-desktop-auth=github-desktop.desktop;GitHub Desktop.desktop;
+
+[Default Applications]
+application/json=code-2.desktop;
+application/x-bittorrent=freedownloadmanager_torrent.desktop
+font/ttf=font-manager-2.desktop;
+text/plain=code-2.desktop;
+x-scheme-handler/fdm=freedownloadmanager_fdm_up.desktop
+x-scheme-handler/gitkraken=GitKraken.desktop
+x-scheme-handler/jetbrains=jetbrains-toolbox.desktop
+x-scheme-handler/magnet=freedownloadmanager_magnet_up.desktop
+x-scheme-handler/tg=org.telegram.desktop.desktop
+x-scheme-handler/tonsite=org.telegram.desktop.desktop
+x-scheme-handler/x-github-client=github-desktop.desktop
+x-scheme-handler/x-github-desktop-auth=github-desktop.desktop

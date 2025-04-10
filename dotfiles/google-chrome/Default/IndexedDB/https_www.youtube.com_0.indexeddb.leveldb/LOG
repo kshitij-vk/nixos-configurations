@@ -1,0 +1,21 @@
+2025/04/10-07:28:29.945 e23 Reusing MANIFEST /home/roxor/.config/google-chrome/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/04/10-07:28:29.945 e23 Recovering log #12
+2025/04/10-07:28:29.949 e23 Reusing old log /home/roxor/.config/google-chrome/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000012.log 
+2025/04/10-07:28:44.890 e15 Level-0 table #17: started
+2025/04/10-07:28:44.896 e15 Level-0 table #17: 1293083 bytes OK
+2025/04/10-07:28:44.898 e15 Delete type=0 #12
+2025/04/10-07:29:03.404 e15 Compacting 1@1 + 1@2 files
+2025/04/10-07:29:03.409 e15 Generated table #18@1: 344 keys, 78015 bytes
+2025/04/10-07:29:03.410 e15 Compacted 1@1 + 1@2 files => 78015 bytes
+2025/04/10-07:29:03.410 e15 compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/04/10-07:29:03.411 e15 Delete type=2 #14
+2025/04/10-07:29:03.411 e15 Delete type=2 #17
+2025/04/10-08:06:41.825 e15 Level-0 table #20: started
+2025/04/10-08:06:41.831 e15 Level-0 table #20: 1307674 bytes OK
+2025/04/10-08:06:41.833 e15 Delete type=0 #16
+2025/04/10-08:38:13.261 e14 Compacting 1@1 + 1@2 files
+2025/04/10-08:38:13.265 e14 Generated table #21@1: 381 keys, 91806 bytes
+2025/04/10-08:38:13.265 e14 Compacted 1@1 + 1@2 files => 91806 bytes
+2025/04/10-08:38:13.266 e14 compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/04/10-08:38:13.266 e14 Delete type=2 #18
+2025/04/10-08:38:13.266 e14 Delete type=2 #20

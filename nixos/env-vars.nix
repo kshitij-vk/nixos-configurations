@@ -7,7 +7,7 @@
 {
   environment.variables = {
     EDITOR = "nano";
-    BROWSER = "vivaldi";
+    BROWSER = "chromium";
     QT_QPA_PLATFORM = "xcb";
     #QT_QPA_PLATFORMTHEME = lib.mkForce "qt5ct";
   };
@@ -28,11 +28,6 @@
   environment.sessionVariables = {
     LIBVA_DRIVER_NAME="radeonsi";
     VDPAU_DRIVER = "radeonsi";
-  };
-
-  services.mysql = {
-    enable = true;
-    package = pkgs.mariadb;
   };
 
   programs.git = {

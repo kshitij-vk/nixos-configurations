@@ -1,0 +1,14 @@
+2025-04-07 11:08:19.105 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vscode.vscode-selfhost-test-provider' wants API proposal 'attributableCoverage' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-04-07 11:08:19.105 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.python' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-04-07 11:08:19.105 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.debugpy' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-04-07 11:08:19.105 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'redhat.java' wants API proposal 'documentPaste' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-04-07 11:08:19.302 [info] Started local extension host with pid 89683.
+2025-04-07 11:08:20.255 [info] Settings Sync: Token updated for the account kshitij-vk
+2025-04-07 11:08:20.265 [info] Settings Sync: Account status changed from uninitialized to available
+2025-04-07 11:08:22.417 [error] [/home/roxor/.vscode/extensions/github.copilot-1.282.0]: Extension is not compatible with Code 1.97.2. Extension requires: ^1.98.0.
+2025-04-07 11:08:22.417 [error] [/home/roxor/.vscode/extensions/github.copilot-1.288.0]: Extension is not compatible with Code 1.97.2. Extension requires: ^1.98.0.
+2025-04-07 11:08:22.436 [error] [/home/roxor/.vscode/extensions/github.copilot-1.293.0]: Extension is not compatible with Code 1.97.2. Extension requires: ^1.98.0.
+2025-04-07 11:08:22.437 [error] [/home/roxor/.vscode/extensions/github.copilot-1.296.0]: Extension is not compatible with Code 1.97.2. Extension requires: ^1.98.0.
+2025-04-07 11:08:22.479 [info] [perf] Render performance baseline is 19ms
+2025-04-07 11:08:51.621 [error] Cannot read the extension from /home/roxor/.vscode/extensions/github.copilot-1.296.0: ScanningExtension: Cannot read the extension from /home/roxor/.vscode/extensions/github.copilot-1.296.0
+    at dh.scanLocalExtension (file:///nix/store/09k7b0bhiz2rjd9980lwjj22750jrm58-vscode-1.97.2/lib/vscode/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:74:72155)

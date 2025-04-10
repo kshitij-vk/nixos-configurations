@@ -1,0 +1,18 @@
+2025/04/10-07:28:22.427 e15 Reusing MANIFEST /home/roxor/.config/google-chrome/Default/Sync Data/LevelDB/MANIFEST-000001
+2025/04/10-07:28:22.433 e15 Recovering log #121
+2025/04/10-07:28:22.435 e15 Reusing old log /home/roxor/.config/google-chrome/Default/Sync Data/LevelDB/000121.log 
+2025/04/10-07:55:17.239 e15 Level-0 table #125: started
+2025/04/10-07:55:17.241 e15 Level-0 table #125: 102870 bytes OK
+2025/04/10-07:55:17.242 e15 Delete type=0 #121
+2025/04/10-09:28:13.734 e15 Level-0 table #127: started
+2025/04/10-09:28:13.736 e15 Level-0 table #127: 103395 bytes OK
+2025/04/10-09:28:13.738 e15 Delete type=0 #124
+2025/04/10-09:28:13.738 e15 Compacting 4@0 + 1@1 files
+2025/04/10-09:28:13.741 e15 Generated table #128@0: 281 keys, 49755 bytes
+2025/04/10-09:28:13.741 e15 Compacted 4@0 + 1@1 files => 49755 bytes
+2025/04/10-09:28:13.741 e15 compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/04/10-09:28:13.741 e15 Delete type=2 #118
+2025/04/10-09:28:13.741 e15 Delete type=2 #127
+2025/04/10-09:28:13.741 e15 Delete type=2 #120
+2025/04/10-09:28:13.742 e15 Delete type=2 #125
+2025/04/10-09:28:13.742 e15 Delete type=2 #122

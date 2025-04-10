@@ -1,0 +1,115 @@
+2025-04-07T05:04:06.563Z - info: [ui] [AppStore] loading 1 repositories from store
+2025-04-07T05:04:06.582Z - info: [ui] [BranchPruner] Last prune took place 13 minutes ago - skipping
+2025-04-07T05:04:06.758Z - info: [ui] launching: 3.4.2-linux1 (Linux 6.12.15-xanmod1)
+2025-04-07T05:04:06.759Z - info: [ui] execPath: '/nix/store/6sndrkg2lkc6fxghykyc2vhzcyrjghvj-github-desktop-3.4.2/opt/github-desktop'
+2025-04-07T05:04:10.886Z - info: [ui] [SignInStore] initializing OAuth flow
+2025-04-07T05:04:10.890Z - info: [main] opening in browser: https://github.com/login/oauth/authorize?client_id=3a723b10ac5575cc5bb9&scope=repo%20user%20workflow&state=20aa16a8-b4ff-4dbc-85fe-e4f0f06fc880
+2025-04-07T05:04:10.890Z - info: [ui] [SignInStore] account resolved
+2025-04-07T05:04:15.624Z - info: [main] Received possible protocol arguments: 3
+2025-04-07T05:04:15.624Z - info: [main] Processing protocol url
+2025-04-07T05:04:15.710Z - info: [main] Received possible protocol arguments: 2
+2025-04-07T05:04:15.714Z - info: [main] Processing protocol url
+2025-04-07T05:04:16.685Z - info: [ui] [AppStore] adding account kshitij-vk (Kshitij Koyande ) to store
+2025-04-07T05:04:16.706Z - error: [ui] Error adding account 'kshitij-vk'
+Error: Object does not exist at path “/org/freedesktop/secrets/collection/login”
+2025-04-07T05:04:23.258Z - info: [ui] [SignInStore] initializing OAuth flow
+2025-04-07T05:04:23.261Z - info: [main] opening in browser: https://github.com/login/oauth/authorize?client_id=3a723b10ac5575cc5bb9&scope=repo%20user%20workflow&state=2687f0c9-0f2b-442a-9ff4-30b620cecbef
+2025-04-07T05:04:23.261Z - info: [ui] [SignInStore] account resolved
+2025-04-07T05:04:26.840Z - info: [main] Received possible protocol arguments: 3
+2025-04-07T05:04:26.840Z - info: [main] Processing protocol url
+2025-04-07T05:04:26.934Z - info: [main] Received possible protocol arguments: 2
+2025-04-07T05:04:26.937Z - info: [main] Processing protocol url
+2025-04-07T05:04:27.931Z - info: [ui] [AppStore] adding account kshitij-vk (Kshitij Koyande ) to store
+2025-04-07T05:04:27.940Z - error: [ui] Error adding account 'kshitij-vk'
+Error: Object does not exist at path “/org/freedesktop/secrets/collection/login”
+2025-04-07T05:12:35.723Z - info: [ui] [AppStore] loading 1 repositories from store
+2025-04-07T05:12:35.751Z - info: [ui] [BranchPruner] Last prune took place 21 minutes ago - skipping
+2025-04-07T05:12:35.830Z - info: [ui] launching: 3.4.2-linux1 (Linux 6.12.15-xanmod1)
+2025-04-07T05:12:35.831Z - info: [ui] execPath: '/nix/store/6sndrkg2lkc6fxghykyc2vhzcyrjghvj-github-desktop-3.4.2/opt/github-desktop'
+2025-04-07T05:13:09.232Z - info: [ui] [SignInStore] initializing OAuth flow
+2025-04-07T05:13:09.236Z - info: [main] opening in browser: https://github.com/login/oauth/authorize?client_id=3a723b10ac5575cc5bb9&scope=repo%20user%20workflow&state=9d3c3656-5b04-42b3-9e82-5480ef73cc7a
+2025-04-07T05:13:09.236Z - info: [ui] [SignInStore] account resolved
+2025-04-07T05:13:50.293Z - info: [ui] [SignInStore] OAuth error but session has changed: Error: cancelled
+2025-04-07T05:13:53.797Z - info: [ui] [SignInStore] initializing OAuth flow
+2025-04-07T05:13:53.802Z - info: [main] opening in browser: https://github.com/login/oauth/authorize?client_id=3a723b10ac5575cc5bb9&scope=repo%20user%20workflow&state=45102d3b-721c-4861-8135-ffbfc2d1f2f9
+2025-04-07T05:13:53.802Z - info: [ui] [SignInStore] account resolved
+2025-04-07T05:14:43.020Z - info: [ui] [SignInStore] initializing OAuth flow
+2025-04-07T05:14:43.024Z - info: [main] opening in browser: https://github.com/login/oauth/authorize?client_id=3a723b10ac5575cc5bb9&scope=repo%20user%20workflow&state=26f83344-96d3-4aec-8d65-6da46ad7e9c6
+2025-04-07T05:14:43.024Z - info: [ui] [SignInStore] account resolved
+2025-04-07T05:15:57.171Z - info: [ui] [AppStore] loading 1 repositories from store
+2025-04-07T05:15:57.198Z - info: [ui] [BranchPruner] Last prune took place 25 minutes ago - skipping
+2025-04-07T05:15:57.307Z - info: [ui] launching: 3.4.2-linux1 (Linux 6.12.15-xanmod1)
+2025-04-07T05:15:57.307Z - info: [ui] execPath: '/nix/store/6sndrkg2lkc6fxghykyc2vhzcyrjghvj-github-desktop-3.4.2/opt/github-desktop'
+2025-04-07T05:16:03.598Z - info: [ui] [SignInStore] initializing OAuth flow
+2025-04-07T05:16:03.601Z - info: [main] opening in browser: https://github.com/login/oauth/authorize?client_id=3a723b10ac5575cc5bb9&scope=repo%20user%20workflow&state=28d3fbf2-f2ea-495a-ac00-c1769e2276d4
+2025-04-07T05:16:03.601Z - info: [ui] [SignInStore] account resolved
+2025-04-07T05:16:12.350Z - info: [main] Received possible protocol arguments: 3
+2025-04-07T05:16:12.350Z - info: [main] Processing protocol url
+2025-04-07T05:16:12.442Z - info: [main] Received possible protocol arguments: 2
+2025-04-07T05:16:12.446Z - info: [main] Processing protocol url
+2025-04-07T05:16:13.450Z - info: [ui] [AppStore] adding account kshitij-vk (Kshitij Koyande ) to store
+2025-04-07T05:16:13.464Z - error: [ui] Error adding account 'kshitij-vk'
+Error: Object does not exist at path “/org/freedesktop/secrets/collection/login”
+2025-04-07T05:19:35.771Z - info: [ui] [SignInStore] initializing OAuth flow
+2025-04-07T05:19:35.775Z - info: [main] opening in browser: https://github.com/login/oauth/authorize?client_id=3a723b10ac5575cc5bb9&scope=repo%20user%20workflow&state=fcdd82ce-23b6-47ce-a01b-667756987aad
+2025-04-07T05:19:35.775Z - info: [ui] [SignInStore] account resolved
+2025-04-07T05:19:39.484Z - info: [main] Received possible protocol arguments: 3
+2025-04-07T05:19:39.484Z - info: [main] Processing protocol url
+2025-04-07T05:19:39.570Z - info: [main] Received possible protocol arguments: 2
+2025-04-07T05:19:39.574Z - info: [main] Processing protocol url
+2025-04-07T05:19:40.467Z - info: [ui] [AppStore] adding account kshitij-vk (Kshitij Koyande ) to store
+2025-04-07T05:19:40.479Z - error: [ui] Error adding account 'kshitij-vk'
+Error: Object does not exist at path “/org/freedesktop/secrets/collection/login”
+2025-04-07T05:25:13.281Z - info: [ui] [AppStore] loading 1 repositories from store
+2025-04-07T05:25:13.310Z - info: [ui] [BranchPruner] Last prune took place 34 minutes ago - skipping
+2025-04-07T05:25:13.422Z - info: [ui] launching: 3.4.2-linux1 (Linux 6.12.15-xanmod1)
+2025-04-07T05:25:13.422Z - info: [ui] execPath: '/nix/store/6sndrkg2lkc6fxghykyc2vhzcyrjghvj-github-desktop-3.4.2/opt/github-desktop'
+2025-04-07T05:25:16.998Z - info: [ui] [SignInStore] initializing OAuth flow
+2025-04-07T05:25:17.002Z - info: [main] opening in browser: https://github.com/login/oauth/authorize?client_id=3a723b10ac5575cc5bb9&scope=repo%20user%20workflow&state=b487cd4f-fafc-491e-a48c-96740311af24
+2025-04-07T05:25:17.002Z - info: [ui] [SignInStore] account resolved
+2025-04-07T05:25:27.614Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand origin (took 7.516s)
+2025-04-07T05:25:29.993Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a origin (took 2.378s)
+2025-04-07T05:26:15.498Z - info: [main] Received possible protocol arguments: 3
+2025-04-07T05:26:15.498Z - info: [main] Processing protocol url
+2025-04-07T05:26:15.586Z - info: [main] Received possible protocol arguments: 2
+2025-04-07T05:26:15.590Z - info: [main] Processing protocol url
+2025-04-07T05:26:16.854Z - info: [ui] [AppStore] adding account kshitij-vk (Kshitij Koyande ) to store
+2025-04-07T05:26:16.859Z - error: [ui] Error adding account 'kshitij-vk'
+Error: Error calling StartServiceByName for org.freedesktop.secrets: Failed to execute program org.freedesktop.secrets: No such file or directory
+2025-04-07T05:29:30.546Z - info: [ui] [AppStore] loading 1 repositories from store
+2025-04-07T05:29:30.575Z - info: [ui] [BranchPruner] Last prune took place 38 minutes ago - skipping
+2025-04-07T05:29:30.699Z - info: [ui] launching: 3.4.2-linux1 (Linux 6.12.15-xanmod1)
+2025-04-07T05:29:30.699Z - info: [ui] execPath: '/nix/store/6sndrkg2lkc6fxghykyc2vhzcyrjghvj-github-desktop-3.4.2/opt/github-desktop'
+2025-04-07T05:29:36.232Z - info: [ui] [SignInStore] initializing OAuth flow
+2025-04-07T05:29:36.236Z - info: [main] opening in browser: https://github.com/login/oauth/authorize?client_id=3a723b10ac5575cc5bb9&scope=repo%20user%20workflow&state=df30a173-fee8-4a0a-8bb9-1a51a5c6f7c8
+2025-04-07T05:29:36.236Z - info: [ui] [SignInStore] account resolved
+2025-04-07T05:29:40.244Z - info: [main] Received possible protocol arguments: 3
+2025-04-07T05:29:40.244Z - info: [main] Processing protocol url
+2025-04-07T05:29:40.330Z - info: [main] Received possible protocol arguments: 2
+2025-04-07T05:29:40.334Z - info: [main] Processing protocol url
+2025-04-07T05:29:41.306Z - info: [ui] [AppStore] adding account kshitij-vk (Kshitij Koyande ) to store
+2025-04-07T05:29:41.310Z - error: [ui] Error adding account 'kshitij-vk'
+Error: Error calling StartServiceByName for org.freedesktop.secrets: Failed to execute program org.freedesktop.secrets: No such file or directory
+2025-04-07T05:30:10.590Z - info: [ui] [AppStore] loading 1 repositories from store
+2025-04-07T05:30:10.617Z - info: [ui] [BranchPruner] Last prune took place 39 minutes ago - skipping
+2025-04-07T05:30:10.698Z - info: [ui] launching: 3.4.2-linux1 (Linux 6.12.15-xanmod1)
+2025-04-07T05:30:10.699Z - info: [ui] execPath: '/nix/store/6sndrkg2lkc6fxghykyc2vhzcyrjghvj-github-desktop-3.4.2/opt/github-desktop'
+2025-04-07T05:30:18.990Z - info: [ui] [SignInStore] initializing OAuth flow
+2025-04-07T05:30:18.993Z - info: [main] opening in browser: https://github.com/login/oauth/authorize?client_id=3a723b10ac5575cc5bb9&scope=repo%20user%20workflow&state=89b5f5eb-0789-463f-bd24-e6558c3725b3
+2025-04-07T05:30:18.993Z - info: [ui] [SignInStore] account resolved
+2025-04-07T05:33:10.687Z - info: [main] Received possible protocol arguments: 3
+2025-04-07T05:33:10.687Z - info: [main] Processing protocol url
+2025-04-07T05:33:10.777Z - info: [main] Received possible protocol arguments: 2
+2025-04-07T05:33:10.780Z - info: [main] Processing protocol url
+2025-04-07T05:33:11.768Z - info: [ui] [AppStore] adding account kshitij-vk (Kshitij Koyande ) to store
+2025-04-07T05:33:12.347Z - info: [ui] Subscribed 'kshitij-vk' to Alive channel
+2025-04-07T05:36:27.930Z - info: [ui] [AppStore] adding repository at /home/roxor/matrixx/frameworks/base to store
+2025-04-07T05:36:29.463Z - info: [ui] Executing isUsingLFS: git lfs track (took 1.525s)
+2025-04-07T05:36:29.941Z - error: [ui] Could not load old contents for syntax highlighting
+RangeError [ERR_CHILD_PROCESS_STDIO_MAXBUFFER]: stdout maxBuffer length exceeded
+    at Socket.onChildStdout (node:child_process:490:14)
+    at Socket.emit (node:events:531:35)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+    at Socket.Readable.push (node:internal/streams/readable:390:5)
+    at Pipe.onStreamRead (node:internal/stream_base_commons:191:23)

@@ -1,0 +1,30 @@
+2025/04/10-03:46:13.452 e2a Reusing MANIFEST /home/roxor/.config/google-chrome/Default/Sync Data/LevelDB/MANIFEST-000001
+2025/04/10-03:46:13.459 e2a Recovering log #106
+2025/04/10-03:46:13.460 e2a Reusing old log /home/roxor/.config/google-chrome/Default/Sync Data/LevelDB/000106.log 
+2025/04/10-04:22:24.607 e2a Level-0 table #111: started
+2025/04/10-04:22:24.610 e2a Level-0 table #111: 98769 bytes OK
+2025/04/10-04:22:24.611 e2a Delete type=0 #106
+2025/04/10-04:31:19.052 e29 Level-0 table #113: started
+2025/04/10-04:31:19.054 e29 Level-0 table #113: 96598 bytes OK
+2025/04/10-04:31:19.055 e29 Delete type=0 #110
+2025/04/10-04:58:09.570 e2a Level-0 table #115: started
+2025/04/10-04:58:09.572 e2a Level-0 table #115: 101190 bytes OK
+2025/04/10-04:58:09.573 e2a Delete type=0 #112
+2025/04/10-05:06:28.662 e39 Level-0 table #117: started
+2025/04/10-05:06:28.665 e39 Level-0 table #117: 83807 bytes OK
+2025/04/10-05:06:28.666 e39 Delete type=0 #114
+2025/04/10-05:06:28.666 e39 Compacting 4@0 + 1@1 files
+2025/04/10-05:06:28.668 e39 Generated table #118@0: 281 keys, 47822 bytes
+2025/04/10-05:06:28.668 e39 Compacted 4@0 + 1@1 files => 47822 bytes
+2025/04/10-05:06:28.669 e39 compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/04/10-05:06:28.669 e39 Delete type=2 #108
+2025/04/10-05:06:28.669 e39 Delete type=2 #111
+2025/04/10-05:06:28.669 e39 Delete type=2 #117
+2025/04/10-05:06:28.669 e39 Delete type=2 #115
+2025/04/10-05:06:28.669 e39 Delete type=2 #113
+2025/04/10-05:10:37.350 e39 Level-0 table #120: started
+2025/04/10-05:10:37.352 e39 Level-0 table #120: 77640 bytes OK
+2025/04/10-05:10:37.353 e39 Delete type=0 #116
+2025/04/10-05:51:24.632 e3b Level-0 table #122: started
+2025/04/10-05:51:24.634 e3b Level-0 table #122: 87430 bytes OK
+2025/04/10-05:51:24.635 e3b Delete type=0 #119

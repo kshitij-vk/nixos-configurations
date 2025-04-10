@@ -1,0 +1,40 @@
+2025-04-09 18:49:38.586 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vscode.vscode-selfhost-test-provider' wants API proposal 'attributableCoverage' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-04-09 18:49:38.586 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.python' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-04-09 18:49:38.587 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.debugpy' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-04-09 18:49:38.587 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'redhat.java' wants API proposal 'documentPaste' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-04-09 18:49:38.800 [info] Started local extension host with pid 427174.
+2025-04-09 18:49:38.941 [error] [/home/roxor/.vscode/extensions/github.copilot-1.282.0]: Extension is not compatible with Code 1.97.2. Extension requires: ^1.98.0.
+2025-04-09 18:49:38.941 [error] [/home/roxor/.vscode/extensions/github.copilot-1.288.0]: Extension is not compatible with Code 1.97.2. Extension requires: ^1.98.0.
+2025-04-09 18:49:38.941 [error] [/home/roxor/.vscode/extensions/github.copilot-1.293.0]: Extension is not compatible with Code 1.97.2. Extension requires: ^1.98.0.
+2025-04-09 18:49:38.943 [error] [/home/roxor/.vscode/extensions/github.copilot-1.296.0]: Extension is not compatible with Code 1.97.2. Extension requires: ^1.98.0.
+2025-04-09 18:49:38.968 [error] [/home/roxor/.vscode/extensions/github.copilot-1.297.0]: Extension is not compatible with Code 1.97.2. Extension requires: ^1.98.0.
+2025-04-09 18:49:39.184 [warning] [twxs.cmake]: Cannot register 'cmake.cmakePath'. This property is already registered.
+2025-04-09 18:49:39.820 [info] Settings Sync: Token updated for the account kshitij-vk
+2025-04-09 18:49:40.019 [info] Settings Sync: Account status changed from uninitialized to available
+2025-04-09 18:49:41.501 [info] [perf] Render performance baseline is 17ms
+2025-04-09 18:50:10.456 [error] Cannot read the extension from /home/roxor/.vscode/extensions/github.copilot-1.297.0: ScanningExtension: Cannot read the extension from /home/roxor/.vscode/extensions/github.copilot-1.297.0
+    at dh.scanLocalExtension (file:///nix/store/09k7b0bhiz2rjd9980lwjj22750jrm58-vscode-1.97.2/lib/vscode/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:74:72155)
+2025-04-09 18:50:14.281 [error] Cannot read the extension from /home/roxor/.vscode/extensions/github.copilot-1.297.0: ScanningExtension: Cannot read the extension from /home/roxor/.vscode/extensions/github.copilot-1.297.0
+    at dh.scanLocalExtension (file:///nix/store/09k7b0bhiz2rjd9980lwjj22750jrm58-vscode-1.97.2/lib/vscode/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:74:72155)
+2025-04-09 18:50:16.680 [error] Cannot read the extension from /home/roxor/.vscode/extensions/github.copilot-1.297.0: ScanningExtension: Cannot read the extension from /home/roxor/.vscode/extensions/github.copilot-1.297.0
+    at dh.scanLocalExtension (file:///nix/store/09k7b0bhiz2rjd9980lwjj22750jrm58-vscode-1.97.2/lib/vscode/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:74:72155)
+2025-04-09 18:50:19.020 [error] ScanningExtension: Cannot read the extension from /home/roxor/.vscode/extensions/github.copilot-1.297.0
+    at dh.scanLocalExtension (file:///nix/store/09k7b0bhiz2rjd9980lwjj22750jrm58-vscode-1.97.2/lib/vscode/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:74:72155)
+2025-04-09 18:50:19.034 [error] Cannot read the extension from /home/roxor/.vscode/extensions/github.copilot-1.297.0: ScanningExtension: Cannot read the extension from /home/roxor/.vscode/extensions/github.copilot-1.297.0
+    at dh.scanLocalExtension (file:///nix/store/09k7b0bhiz2rjd9980lwjj22750jrm58-vscode-1.97.2/lib/vscode/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:74:72155)
+2025-04-09 18:50:23.601 [error] Cannot read the extension from /home/roxor/.vscode/extensions/github.copilot-1.298.1493: ScanningExtension: Cannot read the extension from /home/roxor/.vscode/extensions/github.copilot-1.298.1493
+    at dh.scanLocalExtension (file:///nix/store/09k7b0bhiz2rjd9980lwjj22750jrm58-vscode-1.97.2/lib/vscode/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:74:72155)
+    at async ph.h (file:///nix/store/09k7b0bhiz2rjd9980lwjj22750jrm58-vscode-1.97.2/lib/vscode/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:74:77331)
+2025-04-09 18:50:34.655 [info] Started local extension host with pid 427906.
+2025-04-09 18:50:35.485 [info] Settings Sync: Token updated for the account kshitij-vk
+2025-04-09 18:50:39.021 [error] Cannot read the extension from /home/roxor/.vscode/extensions/github.copilot-1.297.0: ScanningExtension: Cannot read the extension from /home/roxor/.vscode/extensions/github.copilot-1.297.0
+    at dh.scanLocalExtension (file:///nix/store/09k7b0bhiz2rjd9980lwjj22750jrm58-vscode-1.97.2/lib/vscode/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:74:72155)
+    at async ph.h (file:///nix/store/09k7b0bhiz2rjd9980lwjj22750jrm58-vscode-1.97.2/lib/vscode/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:74:77331)
+2025-04-09 18:50:39.555 [error] No registered selector for ID: copilot-chat.fixWithCopilot
+2025-04-09 18:50:39.556 [error] No registered selector for ID: copilot-chat.generateCommitMessage
+2025-04-09 18:50:39.574 [error] No registered selector for ID: copilot-chat.terminalToDebugging
+2025-04-09 18:50:39.574 [error] No registered selector for ID: copilot-chat.terminalToDebuggingSuccess
+2025-04-09 19:03:12.560 [info] Extension host (LocalProcess pid: 427906) is unresponsive.
+2025-04-09 19:03:12.767 [info] Extension host (LocalProcess pid: 427906) is responsive.
+2025-04-09 19:03:13.261 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2025-04-09 19:03:14.854 [info] UNRESPONSIVE extension host: starting to profile NOW

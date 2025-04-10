@@ -1,0 +1,24 @@
+2025-04-09 14:26:35.228 [info] Using the Electron fetcher.
+2025-04-09 14:26:35.228 [info] Initializing Git extension service.
+2025-04-09 14:26:35.228 [info] Successfully activated the vscode.git extension.
+2025-04-09 14:26:35.228 [info] Enablement state of the vscode.git extension: true.
+2025-04-09 14:26:35.228 [info] Successfully registered Git commit message provider.
+2025-04-09 14:26:36.133 [info] Logged in as kshitij-vk
+2025-04-09 14:26:36.919 [info] Got Copilot token for kshitij-vk
+2025-04-09 14:26:36.962 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-04-09 14:26:36.962 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2025-04-09 14:26:36.968 [info] Registering default platform agent...
+2025-04-09 14:26:37.634 [info] Fetched model metadata in 707ms 93f8a394-1406-4d8a-9e34-e17deaaa73ca
+2025-04-09 14:26:37.824 [info] activationBlocker from 'languageModelAccess' took for 1596ms
+2025-04-09 14:51:36.925 [info] Logged in as kshitij-vk
+2025-04-09 14:51:38.399 [info] Got Copilot token for kshitij-vk
+2025-04-09 14:51:38.406 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-04-09 15:16:38.405 [info] Logged in as kshitij-vk
+2025-04-09 15:16:39.096 [info] Got Copilot token for kshitij-vk
+2025-04-09 15:16:39.103 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-04-09 15:41:39.100 [info] Logged in as kshitij-vk
+2025-04-09 15:41:39.803 [info] Got Copilot token for kshitij-vk
+2025-04-09 15:41:39.809 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-04-09 16:06:40.151 [info] Logged in as kshitij-vk
+2025-04-09 16:06:41.011 [info] Got Copilot token for kshitij-vk
+2025-04-09 16:06:41.229 [info] copilot token chat_enabled: true, sku: free_limited_copilot

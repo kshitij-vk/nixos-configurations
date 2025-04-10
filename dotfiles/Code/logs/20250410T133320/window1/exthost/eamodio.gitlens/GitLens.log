@@ -1,0 +1,15 @@
+2025-04-10 13:33:23.966 [info] GitLens v17.0.1 activating in Visual Studio Code (1.97.2) on the desktop; language='en', logLevel='warn', defaultDateLocale='null' (8e529b8ec143254314bef2517213865576e499918b56e00341d79aa36582a652|f8b0ad17-5886-4f77-86d3-bc9d00a86ea01744272200727)
+To enable debug logging, set `"gitlens.outputLevel": "debug"` or run "GitLens: Enable Debug Logging" from the Command Palette
+[2025-04-10 08:03:23.872] [GIT          ] [/home/roxor/sci/WebDev] git rev-parse --show-toplevel • Command failed: /run/current-system/sw/bin/git -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel • not a git repository (or any of the parent directories): .git [122ms]
+
+
+2025-04-10 13:33:24.835 [info] [2025-04-10 08:03:23.935] [GIT          ] [/home/roxor/sci/WebDev] git rev-parse --show-toplevel • Command failed: /run/current-system/sw/bin/git -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel • not a git repository (or any of the parent directories): .git [15ms]
+
+[2025-04-10 08:03:23.935] [GIT          ] [/home/roxor/sci/WebDev] git rev-parse --show-toplevel • Command failed: /run/current-system/sw/bin/git -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel • not a git repository (or any of the parent directories): .git [3ms] (waiting)
+
+[2025-04-10 08:03:23.935] [GIT          ] [/home/roxor/sci/WebDev] git rev-parse --show-toplevel • Command failed: /run/current-system/sw/bin/git -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel • not a git repository (or any of the parent directories): .git [3ms] (waiting)
+
+
+2025-04-10 14:45:45.645 [info] [2025-04-10 09:15:45.145] [GIT          ] [/home/roxor/sci/WebDev] git rev-parse --show-toplevel • Command failed: /run/current-system/sw/bin/git -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel • not a git repository (or any of the parent directories): .git [23ms]
+
+

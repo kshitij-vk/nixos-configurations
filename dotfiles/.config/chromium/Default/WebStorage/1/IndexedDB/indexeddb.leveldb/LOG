@@ -1,7 +1,0 @@
-2024/12/10-19:02:19.833 9c7a Reusing MANIFEST /home/roxor/.config/chromium/Default/WebStorage/1/IndexedDB/indexeddb.leveldb/MANIFEST-000001
-2024/12/10-19:02:19.834 9c7a Recovering log #3
-2024/12/10-19:02:19.834 9c7a Reusing old log /home/roxor/.config/chromium/Default/WebStorage/1/IndexedDB/indexeddb.leveldb/000003.log 
-2024/12/10-19:02:19.843 9c83 Level-0 table #5: started
-2024/12/10-19:02:19.844 9c83 Level-0 table #5: 51727 bytes OK
-2024/12/10-19:02:19.845 9c83 Delete type=0 #3
-2024/12/10-19:02:19.845 9c79 Manual compaction at level-0 from '\x00\x02\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x03\x00\x00\x00' @ 0 : 0; will stop at (end)

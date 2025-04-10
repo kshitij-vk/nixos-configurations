@@ -1,0 +1,29 @@
+2025/04/10-03:46:13.777 e29 Reusing MANIFEST /home/roxor/.config/google-chrome/Default/Local Extension Settings/cjpalhdlnbpafiamejdnhcphjbkeiagm/MANIFEST-000001
+2025/04/10-03:46:13.779 e29 Recovering log #156
+2025/04/10-03:46:13.779 e29 Reusing old log /home/roxor/.config/google-chrome/Default/Local Extension Settings/cjpalhdlnbpafiamejdnhcphjbkeiagm/000156.log 
+2025/04/10-03:46:52.407 e2a Level-0 table #160: started
+2025/04/10-03:46:52.416 e2a Level-0 table #160: 4103378 bytes OK
+2025/04/10-03:46:52.418 e2a Delete type=0 #156
+2025/04/10-03:46:52.419 e2a Compacting 4@0 + 3@1 files
+2025/04/10-03:46:52.427 e2a Generated table #161@0: 4 keys, 2297351 bytes
+2025/04/10-03:46:52.438 e2a Generated table #162@0: 7 keys, 2867811 bytes
+2025/04/10-03:46:52.465 e2a Generated table #163@0: 10 keys, 2100177 bytes
+2025/04/10-03:46:52.465 e2a Generated table #164@0: 2 keys, 296 bytes
+2025/04/10-03:46:52.465 e2a Compacted 4@0 + 3@1 files => 7265635 bytes
+2025/04/10-03:46:52.466 e2a compacted to: files[ 0 4 5 0 0 0 0 ]
+2025/04/10-03:46:52.466 e2a Delete type=2 #152
+2025/04/10-03:46:52.466 e2a Delete type=2 #147
+2025/04/10-03:46:52.466 e2a Delete type=2 #143
+2025/04/10-03:46:52.466 e2a Delete type=2 #160
+2025/04/10-03:46:52.466 e2a Delete type=2 #154
+2025/04/10-03:46:52.466 e2a Delete type=2 #157
+2025/04/10-03:46:52.466 e2a Delete type=2 #144
+2025/04/10-03:47:49.064 e29 Level-0 table #166: started
+2025/04/10-03:47:49.093 e29 Level-0 table #166: 9606893 bytes OK
+2025/04/10-03:47:49.095 e29 Delete type=0 #159
+2025/04/10-04:46:52.644 e2a Level-0 table #168: started
+2025/04/10-04:46:52.656 e2a Level-0 table #168: 4213665 bytes OK
+2025/04/10-04:46:52.658 e2a Delete type=0 #165
+2025/04/10-04:47:47.376 e2a Level-0 table #170: started
+2025/04/10-04:47:47.410 e2a Level-0 table #170: 8263393 bytes OK
+2025/04/10-04:47:47.412 e2a Delete type=0 #167

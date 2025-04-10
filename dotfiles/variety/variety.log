@@ -1,0 +1,329 @@
+INFO: 2025-04-05 11:13:38,725: main() 'Using profile folder /home/roxor/.config/variety/'
+INFO: 2025-04-05 11:13:38,728: perform_upgrade() 'Last run version was 0.8.12 or earlier, current version is 0.8.12'
+INFO: 2025-04-05 11:13:38,772: process_command() 'Received command: []'
+INFO: 2025-04-05 11:13:38,774: start() 'Using data_path /nix/store/5w87rsy0bmksgm30z017wd72h6a74039-variety-0.8.12/share/variety'
+INFO: 2025-04-05 11:13:38,774: load() 'Jumble loading'
+INFO: 2025-04-05 11:13:38,775: _walk_modules() 'Jumble loading module in __init__ from /nix/store/5w87rsy0bmksgm30z017wd72h6a74039-variety-0.8.12/lib/python3.12/site-packages/variety/plugins/builtin/__init__.py'
+INFO: 2025-04-05 11:13:38,775: _walk_modules() 'Jumble loading module in QuotationsPageSource from /nix/store/5w87rsy0bmksgm30z017wd72h6a74039-variety-0.8.12/lib/python3.12/site-packages/variety/plugins/builtin/quotes/QuotationsPageSource.py'
+INFO: 2025-04-05 11:13:38,149: load() 'Jumble found plugin class: <class 'QuotationsPageSource.QuotationsPageSource'>: {'name': 'TheQuotationsPage.com', 'description': 'Fetches quotes from TheQuotationsPage.com', 'author': 'Peter Levi', 'version': '0.1'}'
+INFO: 2025-04-05 11:13:38,149: _walk_modules() 'Jumble loading module in FortuneSource from /nix/store/5w87rsy0bmksgm30z017wd72h6a74039-variety-0.8.12/lib/python3.12/site-packages/variety/plugins/builtin/quotes/FortuneSource.py'
+INFO: 2025-04-05 11:13:38,150: load() 'Jumble found plugin class: <class 'FortuneSource.FortuneSource'>: {'name': 'UNIX fortune program', 'description': 'Displays quotes using the UNIX fortune program. You may want to install additional fortune packs, e.g. fortunes-bofh-excuses.', 'author': 'Dan Jones', 'version': '0.1'}'
+INFO: 2025-04-05 11:13:38,150: _walk_modules() 'Jumble loading module in UrbanDictionarySource from /nix/store/5w87rsy0bmksgm30z017wd72h6a74039-variety-0.8.12/lib/python3.12/site-packages/variety/plugins/builtin/quotes/UrbanDictionarySource.py'
+INFO: 2025-04-05 11:13:38,150: load() 'Jumble found plugin class: <class 'UrbanDictionarySource.UrbanDictionarySource'>: {'name': 'Urban Dictionary', 'description': 'Displays definitions from Urban Dictionary', 'author': 'James Miller', 'version': '0.1'}'
+INFO: 2025-04-05 11:13:38,150: _walk_modules() 'Jumble loading module in __init__ from /nix/store/5w87rsy0bmksgm30z017wd72h6a74039-variety-0.8.12/lib/python3.12/site-packages/variety/plugins/builtin/quotes/__init__.py'
+INFO: 2025-04-05 11:13:38,151: _walk_modules() 'Jumble loading module in LocalFilesSource from /nix/store/5w87rsy0bmksgm30z017wd72h6a74039-variety-0.8.12/lib/python3.12/site-packages/variety/plugins/builtin/quotes/LocalFilesSource.py'
+INFO: 2025-04-05 11:13:38,151: load() 'Jumble found plugin class: <class 'LocalFilesSource.LocalFilesSource'>: {'name': 'Local text files', 'description': 'Displays quotes, defined in local text files.\nPut your own txt files in: ~/.config/variety/pluginconfig/quotes/.\nThe file format is:\n\nquote -- author\n.\nsecond quote -- another author\n.\netc...\n\nExample: http://rvelthuis.de/zips/quotes.txt', 'author': 'Peter Levi', 'version': '0.1'}'
+INFO: 2025-04-05 11:13:38,151: _walk_modules() 'Jumble loading module in GoodreadsSource from /nix/store/5w87rsy0bmksgm30z017wd72h6a74039-variety-0.8.12/lib/python3.12/site-packages/variety/plugins/builtin/quotes/GoodreadsSource.py'
+INFO: 2025-04-05 11:13:38,152: load() 'Jumble found plugin class: <class 'GoodreadsSource.GoodreadsSource'>: {'name': 'Goodreads', 'description': 'Fetches quotes from Goodreads.com', 'author': 'Peter Levi', 'version': '0.1'}'
+INFO: 2025-04-05 11:13:38,152: _walk_modules() 'Jumble loading module in MediaRSSSource from /nix/store/5w87rsy0bmksgm30z017wd72h6a74039-variety-0.8.12/lib/python3.12/site-packages/variety/plugins/builtin/downloaders/MediaRSSSource.py'
+INFO: 2025-04-05 11:13:38,153: load() 'Jumble found plugin class: <class 'MediaRSSSource.MediaRSSSource'>: {'name': 'MediaRSSSource', 'description': 'Configurable source for fetching images from MediaRSS feeds', 'author': 'Peter Levi', 'version': '0.1'}'
+INFO: 2025-04-05 11:13:38,153: _walk_modules() 'Jumble loading module in RedditSource from /nix/store/5w87rsy0bmksgm30z017wd72h6a74039-variety-0.8.12/lib/python3.12/site-packages/variety/plugins/builtin/downloaders/RedditSource.py'
+INFO: 2025-04-05 11:13:38,154: load() 'Jumble found plugin class: <class 'RedditSource.RedditSource'>: {'name': 'RedditSource', 'description': 'Configurable source for fetching images from Reddit', 'author': 'Peter Levi', 'version': '0.1'}'
+INFO: 2025-04-05 11:13:38,154: _walk_modules() 'Jumble loading module in APODDownloader from /nix/store/5w87rsy0bmksgm30z017wd72h6a74039-variety-0.8.12/lib/python3.12/site-packages/variety/plugins/builtin/downloaders/APODDownloader.py'
+INFO: 2025-04-05 11:13:38,155: load() 'Jumble found plugin class: <class 'APODDownloader.APODDownloader'>: {'name': 'APODDownloader', 'description': 'NASA Astro Pic of the Day', 'author': 'Peter Levi', 'version': '0.1'}'
+INFO: 2025-04-05 11:13:38,155: _walk_modules() 'Jumble loading module in EarthviewDownloader from /nix/store/5w87rsy0bmksgm30z017wd72h6a74039-variety-0.8.12/lib/python3.12/site-packages/variety/plugins/builtin/downloaders/EarthviewDownloader.py'
+INFO: 2025-04-05 11:13:38,155: load() 'Jumble found plugin class: <class 'EarthviewDownloader.EarthviewDownloader'>: {'name': 'EarthviewDownloader', 'description': 'Google Earth View Wallpapers', 'author': 'Peter Levi', 'version': '0.1'}'
+INFO: 2025-04-05 11:13:38,155: _walk_modules() 'Jumble loading module in MediaRSSDownloader from /nix/store/5w87rsy0bmksgm30z017wd72h6a74039-variety-0.8.12/lib/python3.12/site-packages/variety/plugins/builtin/downloaders/MediaRSSDownloader.py'
+INFO: 2025-04-05 11:13:38,156: _walk_modules() 'Jumble loading module in ArtStationDownloader from /nix/store/5w87rsy0bmksgm30z017wd72h6a74039-variety-0.8.12/lib/python3.12/site-packages/variety/plugins/builtin/downloaders/ArtStationDownloader.py'
+INFO: 2025-04-05 11:13:38,156: _walk_modules() 'Jumble loading module in BingDownloader from /nix/store/5w87rsy0bmksgm30z017wd72h6a74039-variety-0.8.12/lib/python3.12/site-packages/variety/plugins/builtin/downloaders/BingDownloader.py'
+INFO: 2025-04-05 11:13:38,156: load() 'Jumble found plugin class: <class 'BingDownloader.BingDownloader'>: {'name': 'BingDownloader', 'description': 'Bing Photo of the Day', 'author': 'Peter Levi', 'version': '0.1'}'
+INFO: 2025-04-05 11:13:38,157: _walk_modules() 'Jumble loading module in ArtStationSource from /nix/store/5w87rsy0bmksgm30z017wd72h6a74039-variety-0.8.12/lib/python3.12/site-packages/variety/plugins/builtin/downloaders/ArtStationSource.py'
+INFO: 2025-04-05 11:13:38,157: load() 'Jumble found plugin class: <class 'ArtStationSource.ArtStationSource'>: {'name': 'ArtStationSource', 'description': 'Configurable source for fetching images from ArtStation', 'author': 'Denis Gordeev', 'version': '0.1'}'
+INFO: 2025-04-05 11:13:38,157: _walk_modules() 'Jumble loading module in UnsplashDownloader from /nix/store/5w87rsy0bmksgm30z017wd72h6a74039-variety-0.8.12/lib/python3.12/site-packages/variety/plugins/builtin/downloaders/UnsplashDownloader.py'
+INFO: 2025-04-05 11:13:38,158: load() 'Jumble found plugin class: <class 'UnsplashDownloader.UnsplashDownloader'>: {'name': 'UnsplashDownloader', 'description': 'High-resolution photos from Unsplash.com', 'author': 'Peter Levi', 'version': '0.1'}'
+INFO: 2025-04-05 11:13:38,158: _walk_modules() 'Jumble loading module in WallhavenSource from /nix/store/5w87rsy0bmksgm30z017wd72h6a74039-variety-0.8.12/lib/python3.12/site-packages/variety/plugins/builtin/downloaders/WallhavenSource.py'
+INFO: 2025-04-05 11:13:38,159: load() 'Jumble found plugin class: <class 'WallhavenSource.WallhavenSource'>: {'name': 'WallhavenSource', 'description': 'Configurable source for fetching images from Wallhaven.cc', 'author': 'Peter Levi', 'version': '0.1'}'
+INFO: 2025-04-05 11:13:38,159: _walk_modules() 'Jumble loading module in UnsplashConfigurableSource from /nix/store/5w87rsy0bmksgm30z017wd72h6a74039-variety-0.8.12/lib/python3.12/site-packages/variety/plugins/builtin/downloaders/UnsplashConfigurableSource.py'
+INFO: 2025-04-05 11:13:38,160: load() 'Jumble found plugin class: <class 'UnsplashConfigurableSource.UnsplashConfigurableSource'>: {'name': 'UnsplashConfigurableSource', 'description': 'Configurable source for fetching photos from Unsplash.com', 'author': 'Peter Levi', 'version': '0.1'}'
+INFO: 2025-04-05 11:13:38,160: _walk_modules() 'Jumble loading module in WallhavenLegacyDownloader from /nix/store/5w87rsy0bmksgm30z017wd72h6a74039-variety-0.8.12/lib/python3.12/site-packages/variety/plugins/builtin/downloaders/WallhavenLegacyDownloader.py'
+INFO: 2025-04-05 11:13:38,160: _walk_modules() 'Jumble loading module in NationalGeographicDownloader from /nix/store/5w87rsy0bmksgm30z017wd72h6a74039-variety-0.8.12/lib/python3.12/site-packages/variety/plugins/builtin/downloaders/NationalGeographicDownloader.py'
+INFO: 2025-04-05 11:13:38,160: load() 'Jumble found plugin class: <class 'NationalGeographicDownloader.NationalGeographicDownloader'>: {'name': 'NationalGeographicDownloader', 'description': "National Geographic's photo of the day", 'author': 'Eric Rösch', 'version': '0.1'}'
+INFO: 2025-04-05 11:13:38,161: _walk_modules() 'Jumble loading module in __init__ from /nix/store/5w87rsy0bmksgm30z017wd72h6a74039-variety-0.8.12/lib/python3.12/site-packages/variety/plugins/builtin/downloaders/__init__.py'
+INFO: 2025-04-05 11:13:38,161: _walk_modules() 'Jumble loading module in WallhavenDownloader from /nix/store/5w87rsy0bmksgm30z017wd72h6a74039-variety-0.8.12/lib/python3.12/site-packages/variety/plugins/builtin/downloaders/WallhavenDownloader.py'
+INFO: 2025-04-05 11:13:38,161: _walk_modules() 'Jumble loading module in RedditDownloader from /nix/store/5w87rsy0bmksgm30z017wd72h6a74039-variety-0.8.12/lib/python3.12/site-packages/variety/plugins/builtin/downloaders/RedditDownloader.py'
+INFO: 2025-04-05 11:13:38,161: _walk_modules() 'Jumble loading module in GnomeDisplayModesPlugin from /nix/store/5w87rsy0bmksgm30z017wd72h6a74039-variety-0.8.12/lib/python3.12/site-packages/variety/plugins/builtin/display_modes/GnomeDisplayModesPlugin.py'
+INFO: 2025-04-05 11:13:38,162: load() 'Jumble found plugin class: <class 'GnomeDisplayModesPlugin.GnomeDisplayModesPlugin'>: {'name': 'GnomeDisplayModesPlugin', 'description': 'Display modes relying on the underlying desktop environment', 'version': '1.0', 'author': 'Peter Levi'}'
+INFO: 2025-04-05 11:13:38,162: _walk_modules() 'Jumble loading module in ResizingDisplayModesPlugin from /nix/store/5w87rsy0bmksgm30z017wd72h6a74039-variety-0.8.12/lib/python3.12/site-packages/variety/plugins/builtin/display_modes/ResizingDisplayModesPlugin.py'
+INFO: 2025-04-05 11:13:38,162: load() 'Jumble found plugin class: <class 'ResizingDisplayModesPlugin.ResizingDisplayModesPlugin'>: {'name': 'ResizingDisplayModesPlugin', 'description': 'Display modes that use image resizing within Variety', 'version': '1.0', 'author': 'Peter Levi'}'
+INFO: 2025-04-05 11:13:38,163: _walk_modules() 'Jumble loading module in __init__ from /nix/store/5w87rsy0bmksgm30z017wd72h6a74039-variety-0.8.12/lib/python3.12/site-packages/variety/plugins/builtin/display_modes/__init__.py'
+INFO: 2025-04-05 11:13:38,163: _walk_modules() 'Jumble loading module in LegacyDisplayModesPlugin from /nix/store/5w87rsy0bmksgm30z017wd72h6a74039-variety-0.8.12/lib/python3.12/site-packages/variety/plugins/builtin/display_modes/LegacyDisplayModesPlugin.py'
+INFO: 2025-04-05 11:13:38,163: load() 'Jumble found plugin class: <class 'LegacyDisplayModesPlugin.LegacyDisplayModesPlugin'>: {'name': 'LegacyDisplayModesPlugin', 'description': 'Legacy display mode for compatibility with past Variety versions', 'version': '1.0', 'author': 'Peter Levi'}'
+WARNING: 2025-04-05 11:13:38,167: get_desktop_wallpaper() 'get_wallpaper script is missing or not executable: /home/roxor/.config/variety/scripts/get_wallpaper_arco'
+INFO: 2025-04-05 11:13:38,168: reload_config() 'Creating new downloader for type wallhaven, location https://wallhaven.cc/search?q=abstract&categories=110&purity=100&sorting=relevance&order=desc&ai_art_filter=1'
+INFO: 2025-04-05 11:13:38,170: log_options() 'Loaded options:'
+INFO: 2025-04-05 11:13:38,170: log_options() 'change_enabled = False'
+INFO: 2025-04-05 11:13:38,170: log_options() 'change_interval = 300'
+INFO: 2025-04-05 11:13:38,170: log_options() 'change_on_start = False'
+INFO: 2025-04-05 11:13:38,170: log_options() 'clipboard_enabled = False'
+INFO: 2025-04-05 11:13:38,170: log_options() 'clipboard_hosts = ['wallhaven.cc', 'wallpapers.net', 'flickr.com', 'imgur.com', 'deviantart.com', 'interfacelift.com', 'vladstudio.com', 'imageshack.us', 'deviantart.net', 'imageshack.com']'
+INFO: 2025-04-05 11:13:38,170: log_options() 'clipboard_use_whitelist = True'
+INFO: 2025-04-05 11:13:38,170: log_options() 'clock_date_font = Serif 30'
+INFO: 2025-04-05 11:13:38,170: log_options() 'clock_enabled = False'
+INFO: 2025-04-05 11:13:38,170: log_options() 'clock_filter = -density 100 -font `fc-match -f '%{file[0]}' '%CLOCK_FONT_NAME'` -pointsize %CLOCK_FONT_SIZE -gravity SouthEast -fill '#00000044' -annotate 0x0+[%HOFFSET+58]+[%VOFFSET+108] '%H:%M' -fill white -annotate 0x0+[%HOFFSET+60]+[%VOFFSET+110] '%H:%M' -font `fc-match -f '%{file[0]}' '%DATE_FONT_NAME'` -pointsize %DATE_FONT_SIZE -fill '#00000044' -annotate 0x0+[%HOFFSET+58]+[%VOFFSET+58] '%A, %B %d' -fill white -annotate 0x0+[%HOFFSET+60]+[%VOFFSET+60] '%A, %B %d''
+INFO: 2025-04-05 11:13:38,170: log_options() 'clock_font = Serif 70'
+INFO: 2025-04-05 11:13:38,170: log_options() 'configfile = /home/roxor/.config/variety/variety.conf'
+INFO: 2025-04-05 11:13:38,170: log_options() 'copyto_enabled = False'
+INFO: 2025-04-05 11:13:38,170: log_options() 'copyto_folder = Default'
+INFO: 2025-04-05 11:13:38,170: log_options() 'desired_color = [160, 160, 160]'
+INFO: 2025-04-05 11:13:38,170: log_options() 'desired_color_enabled = False'
+INFO: 2025-04-05 11:13:38,170: log_options() 'download_folder = /home/roxor/.config/variety/Downloaded'
+INFO: 2025-04-05 11:13:38,170: log_options() 'download_preference_ratio = 0.9'
+INFO: 2025-04-05 11:13:38,170: log_options() 'favorites_folder = /home/roxor/.config/variety/Favorites'
+INFO: 2025-04-05 11:13:38,170: log_options() 'favorites_operations = [['Downloaded', 'Copy'], ['Fetched', 'Move'], ['Others', 'Copy']]'
+INFO: 2025-04-05 11:13:38,170: log_options() 'fetched_folder = /home/roxor/.config/variety/Fetched'
+INFO: 2025-04-05 11:13:38,170: log_options() 'filters = [[False, 'Keep original', ''], [False, 'Grayscale', '-type Grayscale'], [False, 'Heavy blur', '-scale 20% -blur 0x10 -resize 500%'], [False, 'Soft blur', '-scale 20% -blur 0x2 -resize 500%'], [False, 'Oil painting', '-paint 8'], [False, 'Pointilism', '-spread 10 -noise 3'], [False, 'Pixellate', '-scale 3% -scale 3333%']]'
+INFO: 2025-04-05 11:13:38,170: log_options() 'get_wallpaper_script = /home/roxor/.config/variety/scripts/get_wallpaper_arco'
+INFO: 2025-04-05 11:13:38,170: log_options() 'icon = Light'
+INFO: 2025-04-05 11:13:38,170: log_options() 'internet_enabled = True'
+INFO: 2025-04-05 11:13:38,170: log_options() 'lightness_enabled = False'
+INFO: 2025-04-05 11:13:38,170: log_options() 'lightness_mode = 0'
+INFO: 2025-04-05 11:13:38,170: log_options() 'min_rating = 4'
+INFO: 2025-04-05 11:13:38,170: log_options() 'min_rating_enabled = False'
+INFO: 2025-04-05 11:13:38,170: log_options() 'min_size = 80'
+INFO: 2025-04-05 11:13:38,170: log_options() 'min_size_enabled = True'
+INFO: 2025-04-05 11:13:38,170: log_options() 'quota_enabled = True'
+INFO: 2025-04-05 11:13:38,170: log_options() 'quota_size = 1000'
+INFO: 2025-04-05 11:13:38,170: log_options() 'quotes_authors = '
+INFO: 2025-04-05 11:13:38,170: log_options() 'quotes_bg_color = [80, 80, 80]'
+INFO: 2025-04-05 11:13:38,170: log_options() 'quotes_bg_opacity = 55'
+INFO: 2025-04-05 11:13:38,170: log_options() 'quotes_change_enabled = False'
+INFO: 2025-04-05 11:13:38,170: log_options() 'quotes_change_interval = 300'
+INFO: 2025-04-05 11:13:38,170: log_options() 'quotes_disabled_sources = ['Urban Dictionary']'
+INFO: 2025-04-05 11:13:38,170: log_options() 'quotes_enabled = False'
+INFO: 2025-04-05 11:13:38,170: log_options() 'quotes_favorites_file = /home/roxor/.config/variety/favorite_quotes.txt'
+INFO: 2025-04-05 11:13:38,170: log_options() 'quotes_font = Serif 30'
+INFO: 2025-04-05 11:13:38,170: log_options() 'quotes_hpos = 100'
+INFO: 2025-04-05 11:13:38,170: log_options() 'quotes_max_length = 250'
+INFO: 2025-04-05 11:13:38,170: log_options() 'quotes_tags = '
+INFO: 2025-04-05 11:13:38,170: log_options() 'quotes_text_color = [255, 255, 255]'
+INFO: 2025-04-05 11:13:38,170: log_options() 'quotes_text_shadow = False'
+INFO: 2025-04-05 11:13:38,171: log_options() 'quotes_vpos = 40'
+INFO: 2025-04-05 11:13:38,171: log_options() 'quotes_width = 70'
+INFO: 2025-04-05 11:13:38,171: log_options() 'safe_mode = False'
+INFO: 2025-04-05 11:13:38,171: log_options() 'set_wallpaper_script = /home/roxor/.config/variety/scripts/set_wallpaper_arco'
+INFO: 2025-04-05 11:13:38,171: log_options() 'slideshow_custom_enabled = False'
+INFO: 2025-04-05 11:13:38,171: log_options() 'slideshow_custom_folder = /home/roxor/Pictures'
+INFO: 2025-04-05 11:13:38,171: log_options() 'slideshow_downloads_enabled = False'
+INFO: 2025-04-05 11:13:38,171: log_options() 'slideshow_fade = 0.4'
+INFO: 2025-04-05 11:13:38,171: log_options() 'slideshow_favorites_enabled = True'
+INFO: 2025-04-05 11:13:38,171: log_options() 'slideshow_mode = Fullscreen'
+INFO: 2025-04-05 11:13:38,171: log_options() 'slideshow_monitor = All'
+INFO: 2025-04-05 11:13:38,171: log_options() 'slideshow_pan = 0.05'
+INFO: 2025-04-05 11:13:38,171: log_options() 'slideshow_seconds = 6.0'
+INFO: 2025-04-05 11:13:38,171: log_options() 'slideshow_sort_order = Random'
+INFO: 2025-04-05 11:13:38,171: log_options() 'slideshow_sources_enabled = True'
+INFO: 2025-04-05 11:13:38,171: log_options() 'slideshow_zoom = 0.2'
+INFO: 2025-04-05 11:13:38,171: log_options() 'smart_enabled = False'
+INFO: 2025-04-05 11:13:38,171: log_options() 'smart_notice_shown = False'
+INFO: 2025-04-05 11:13:38,171: log_options() 'smart_register_shown = False'
+INFO: 2025-04-05 11:13:38,171: log_options() 'sources = [[False, 'favorites', 'The Favorites folder'], [False, 'fetched', 'The Fetched folder'], [False, 'folder', '/usr/share/backgrounds'], [False, 'flickr', 'user:www.flickr.com/photos/peter-levi/;user_id:93647178@N00;'], [False, 'apod', "NASA's Astronomy Picture of the Day"], [False, 'bing', 'Bing Photo of the Day'], [False, 'earthview', 'Google Earth View Wallpapers'], [False, 'natgeo', "National Geographic's photo of the day"], [False, 'unsplash', 'High-resolution photos from Unsplash.com'], [True, 'wallhaven', 'https://wallhaven.cc/search?q=abstract&categories=110&purity=100&sorting=relevance&order=desc&ai_art_filter=1']]'
+INFO: 2025-04-05 11:13:38,171: log_options() 'stats_enabled = True'
+INFO: 2025-04-05 11:13:38,171: log_options() 'stats_notice_shown = False'
+INFO: 2025-04-05 11:13:38,171: log_options() 'sync_enabled = True'
+INFO: 2025-04-05 11:13:38,171: log_options() 'use_landscape_enabled = True'
+INFO: 2025-04-05 11:13:38,171: log_options() 'wallhaven_api_key = '
+INFO: 2025-04-05 11:13:38,171: log_options() 'wallpaper_auto_rotate = True'
+INFO: 2025-04-05 11:13:38,171: log_options() 'wallpaper_display_mode = os'
+INFO: 2025-04-05 11:13:38,171: reload_config() 'No need to clear prepared queue'
+INFO: 2025-04-05 11:13:38,171: update_indicator() 'Setting file info to: /home/roxor/.config/variety/Downloaded/wallhaven_wallhaven_cc_search_q_abstract_categories_110_purity_100_sorting_relevance_order_desc_ai_art_filter_1/wallhaven-gjg137.png'
+INFO: 2025-04-05 11:13:38,171: load_banned() 'Missing or invalid banned URLs list, no URLs will be banned'
+INFO: 2025-04-05 11:13:38,171: load_last_change_time() 'Change interval < 6 hours, ignore persisted last_change_time, wait initially the whole interval: 300'
+INFO: 2025-04-05 11:13:38,171: update_indicator() 'Setting file info to: /home/roxor/.config/variety/Downloaded/wallhaven_wallhaven_cc_search_q_abstract_categories_110_purity_100_sorting_relevance_order_desc_ai_art_filter_1/wallhaven-gjg137.png'
+INFO: 2025-04-05 11:13:38,171: regular_change_thread() 'regular_change thread running'
+INFO: 2025-04-05 11:13:38,172: regular_change_thread() 'regular_change: waiting till user resumes'
+INFO: 2025-04-05 11:13:38,172: prepare_thread() 'Prepare thread running'
+INFO: 2025-04-05 11:13:38,172: prepare_thread() 'Prepared buffer contains 0 images'
+INFO: 2025-04-05 11:13:38,172: prepare_thread() 'Preparing some images'
+INFO: 2025-04-05 11:13:38,173: update_indicator_icon() 'Creating indicator'
+INFO: 2025-04-05 11:13:38,199: prepare_thread() 'After search prepared buffer contains 14 images'
+WARNING: 2025-04-05 11:13:38,206: create_menu() 'Variety Slideshow is not installed. This is an optional extension adding pan-and-zoom slideshows to Variety: see https://github.com/peterlevi/variety-slideshow for details'
+INFO: 2025-04-05 11:13:38,206: create_indicator() 'indicator backend: AyatanaAppIndicator3'
+INFO: 2025-04-05 11:13:38,216: set_from_theme_icon() 'Showing indicator icon variety-indicator from GTK theme'
+INFO: 2025-04-05 11:13:38,272: do_set_wp() 'Calling do_set_wp with /home/roxor/.config/variety/Downloaded/wallhaven_wallhaven_cc_search_q_abstract_categories_110_purity_100_sorting_relevance_order_desc_ai_art_filter_1/wallhaven-gjg137.png, time: 1743831818.2720299'
+INFO: 2025-04-05 11:13:38,273: apply_auto_rotate() 'ImageMagick auto-rotate cmd: convert /home/roxor/.config/variety/Downloaded/wallhaven_wallhaven_cc_search_q_abstract_categories_110_purity_100_sorting_relevance_order_desc_ai_art_filter_1/wallhaven-gjg137.png -auto-orient /home/roxor/.config/variety/wallpaper/wallpaper-auto-rotated-e0c6d9a811f16ea06bf1032f56acac93.jpg'
+WARNING: 2025-04-05 11:13:38,888: get_desktop_wallpaper() 'get_wallpaper script is missing or not executable: /home/roxor/.config/variety/scripts/get_wallpaper_arco'
+ERROR: 2025-04-05 11:13:38,888: set_desktop_wallpaper() 'set_wallpaper script is missing or not executable: /home/roxor/.config/variety/scripts/set_wallpaper_arco'
+INFO: 2025-04-05 11:13:38,888: update_indicator() 'Setting file info to: /home/roxor/.config/variety/Downloaded/wallhaven_wallhaven_cc_search_q_abstract_categories_110_purity_100_sorting_relevance_order_desc_ai_art_filter_1/wallhaven-gjg137.png'
+INFO: 2025-04-05 11:13:38,889: list_files() 'More than 1 files in the folders, stop listing'
+INFO: 2025-04-05 11:13:39,321: reload() 'Reloading preferences dialog'
+INFO: 2025-04-05 11:13:40,199: trigger_download() 'Triggering download thread to check if download needed and possible'
+INFO: 2025-04-05 11:13:58,172: server_options_thread() 'Fetching server options from http://tiny.cc/variety-options-063'
+ERROR: 2025-04-05 11:13:59,169: server_options_thread() 'Could not fetch Variety serverside options'
+Traceback (most recent call last):
+  File "/nix/store/d14zwjg53i4jhs7103fqgla5jbp9symf-python3.12-requests-2.32.3/lib/python3.12/site-packages/requests/models.py", line 974, in json
+    return complexjson.loads(self.text, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/nix/store/lhpwdis5hkyljz1d200bj1s6g51ljq9k-python3-3.12.8/lib/python3.12/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/nix/store/lhpwdis5hkyljz1d200bj1s6g51ljq9k-python3-3.12.8/lib/python3.12/json/decoder.py", line 338, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/nix/store/lhpwdis5hkyljz1d200bj1s6g51ljq9k-python3-3.12.8/lib/python3.12/json/decoder.py", line 356, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/nix/store/5w87rsy0bmksgm30z017wd72h6a74039-variety-0.8.12/lib/python3.12/site-packages/variety/VarietyWindow.py", line 1084, in server_options_thread
+    self.server_options = Util.fetch_json(VarietyWindow.SERVERSIDE_OPTIONS_URL)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/nix/store/5w87rsy0bmksgm30z017wd72h6a74039-variety-0.8.12/lib/python3.12/site-packages/variety/Util.py", line 684, in fetch_json
+    return Util.request(url, data, **request_kwargs).json()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/nix/store/d14zwjg53i4jhs7103fqgla5jbp9symf-python3.12-requests-2.32.3/lib/python3.12/site-packages/requests/models.py", line 978, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+INFO: 2025-04-05 11:14:29,171: server_options_thread() 'Fetching server options from http://tiny.cc/variety-options-063'
+ERROR: 2025-04-05 11:14:30,163: server_options_thread() 'Could not fetch Variety serverside options'
+Traceback (most recent call last):
+  File "/nix/store/d14zwjg53i4jhs7103fqgla5jbp9symf-python3.12-requests-2.32.3/lib/python3.12/site-packages/requests/models.py", line 974, in json
+    return complexjson.loads(self.text, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/nix/store/lhpwdis5hkyljz1d200bj1s6g51ljq9k-python3-3.12.8/lib/python3.12/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/nix/store/lhpwdis5hkyljz1d200bj1s6g51ljq9k-python3-3.12.8/lib/python3.12/json/decoder.py", line 338, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/nix/store/lhpwdis5hkyljz1d200bj1s6g51ljq9k-python3-3.12.8/lib/python3.12/json/decoder.py", line 356, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/nix/store/5w87rsy0bmksgm30z017wd72h6a74039-variety-0.8.12/lib/python3.12/site-packages/variety/VarietyWindow.py", line 1084, in server_options_thread
+    self.server_options = Util.fetch_json(VarietyWindow.SERVERSIDE_OPTIONS_URL)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/nix/store/5w87rsy0bmksgm30z017wd72h6a74039-variety-0.8.12/lib/python3.12/site-packages/variety/Util.py", line 684, in fetch_json
+    return Util.request(url, data, **request_kwargs).json()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/nix/store/d14zwjg53i4jhs7103fqgla5jbp9symf-python3.12-requests-2.32.3/lib/python3.12/site-packages/requests/models.py", line 978, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+INFO: 2025-04-05 11:15:00,164: server_options_thread() 'Fetching server options from http://tiny.cc/variety-options-063'
+ERROR: 2025-04-05 11:15:01,238: server_options_thread() 'Could not fetch Variety serverside options'
+Traceback (most recent call last):
+  File "/nix/store/d14zwjg53i4jhs7103fqgla5jbp9symf-python3.12-requests-2.32.3/lib/python3.12/site-packages/requests/models.py", line 974, in json
+    return complexjson.loads(self.text, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/nix/store/lhpwdis5hkyljz1d200bj1s6g51ljq9k-python3-3.12.8/lib/python3.12/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/nix/store/lhpwdis5hkyljz1d200bj1s6g51ljq9k-python3-3.12.8/lib/python3.12/json/decoder.py", line 338, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/nix/store/lhpwdis5hkyljz1d200bj1s6g51ljq9k-python3-3.12.8/lib/python3.12/json/decoder.py", line 356, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/nix/store/5w87rsy0bmksgm30z017wd72h6a74039-variety-0.8.12/lib/python3.12/site-packages/variety/VarietyWindow.py", line 1084, in server_options_thread
+    self.server_options = Util.fetch_json(VarietyWindow.SERVERSIDE_OPTIONS_URL)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/nix/store/5w87rsy0bmksgm30z017wd72h6a74039-variety-0.8.12/lib/python3.12/site-packages/variety/Util.py", line 684, in fetch_json
+    return Util.request(url, data, **request_kwargs).json()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/nix/store/d14zwjg53i4jhs7103fqgla5jbp9symf-python3.12-requests-2.32.3/lib/python3.12/site-packages/requests/models.py", line 978, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+INFO: 2025-04-05 11:15:31,240: server_options_thread() 'Fetching server options from http://tiny.cc/variety-options-063'
+ERROR: 2025-04-05 11:15:32,328: server_options_thread() 'Could not fetch Variety serverside options'
+Traceback (most recent call last):
+  File "/nix/store/d14zwjg53i4jhs7103fqgla5jbp9symf-python3.12-requests-2.32.3/lib/python3.12/site-packages/requests/models.py", line 974, in json
+    return complexjson.loads(self.text, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/nix/store/lhpwdis5hkyljz1d200bj1s6g51ljq9k-python3-3.12.8/lib/python3.12/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/nix/store/lhpwdis5hkyljz1d200bj1s6g51ljq9k-python3-3.12.8/lib/python3.12/json/decoder.py", line 338, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/nix/store/lhpwdis5hkyljz1d200bj1s6g51ljq9k-python3-3.12.8/lib/python3.12/json/decoder.py", line 356, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/nix/store/5w87rsy0bmksgm30z017wd72h6a74039-variety-0.8.12/lib/python3.12/site-packages/variety/VarietyWindow.py", line 1084, in server_options_thread
+    self.server_options = Util.fetch_json(VarietyWindow.SERVERSIDE_OPTIONS_URL)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/nix/store/5w87rsy0bmksgm30z017wd72h6a74039-variety-0.8.12/lib/python3.12/site-packages/variety/Util.py", line 684, in fetch_json
+    return Util.request(url, data, **request_kwargs).json()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/nix/store/d14zwjg53i4jhs7103fqgla5jbp9symf-python3.12-requests-2.32.3/lib/python3.12/site-packages/requests/models.py", line 978, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+INFO: 2025-04-05 11:16:02,329: server_options_thread() 'Fetching server options from http://tiny.cc/variety-options-063'
+ERROR: 2025-04-05 11:16:03,333: server_options_thread() 'Could not fetch Variety serverside options'
+Traceback (most recent call last):
+  File "/nix/store/d14zwjg53i4jhs7103fqgla5jbp9symf-python3.12-requests-2.32.3/lib/python3.12/site-packages/requests/models.py", line 974, in json
+    return complexjson.loads(self.text, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/nix/store/lhpwdis5hkyljz1d200bj1s6g51ljq9k-python3-3.12.8/lib/python3.12/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/nix/store/lhpwdis5hkyljz1d200bj1s6g51ljq9k-python3-3.12.8/lib/python3.12/json/decoder.py", line 338, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/nix/store/lhpwdis5hkyljz1d200bj1s6g51ljq9k-python3-3.12.8/lib/python3.12/json/decoder.py", line 356, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/nix/store/5w87rsy0bmksgm30z017wd72h6a74039-variety-0.8.12/lib/python3.12/site-packages/variety/VarietyWindow.py", line 1084, in server_options_thread
+    self.server_options = Util.fetch_json(VarietyWindow.SERVERSIDE_OPTIONS_URL)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/nix/store/5w87rsy0bmksgm30z017wd72h6a74039-variety-0.8.12/lib/python3.12/site-packages/variety/Util.py", line 684, in fetch_json
+    return Util.request(url, data, **request_kwargs).json()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/nix/store/d14zwjg53i4jhs7103fqgla5jbp9symf-python3.12-requests-2.32.3/lib/python3.12/site-packages/requests/models.py", line 978, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+INFO: 2025-04-05 19:08:48,237: prepare_thread() 'Prepared buffer contains 14 images'
+INFO: 2025-04-05 19:08:48,239: set_wallpaper() 'Calling set_wallpaper with /home/roxor/.config/variety/Downloaded/wallhaven_wallhaven_cc_search_q_abstract_categories_110_purity_100_sorting_relevance_order_desc_ai_art_filter_1/wallhaven-g7jpze.png'
+INFO: 2025-04-05 19:08:48,276: do_set_wp() 'Calling do_set_wp with /home/roxor/.config/variety/Downloaded/wallhaven_wallhaven_cc_search_q_abstract_categories_110_purity_100_sorting_relevance_order_desc_ai_art_filter_1/wallhaven-g7jpze.png, time: 1743860328.276609'
+INFO: 2025-04-05 19:08:48,285: apply_auto_rotate() 'ImageMagick auto-rotate cmd: convert /home/roxor/.config/variety/Downloaded/wallhaven_wallhaven_cc_search_q_abstract_categories_110_purity_100_sorting_relevance_order_desc_ai_art_filter_1/wallhaven-g7jpze.png -auto-orient /home/roxor/.config/variety/wallpaper/wallpaper-auto-rotated-09600914b4fdb8ab300b849a50f05df1.jpg'
+WARNING: 2025-04-05 19:08:48,617: get_desktop_wallpaper() 'get_wallpaper script is missing or not executable: /home/roxor/.config/variety/scripts/get_wallpaper_arco'
+INFO: 2025-04-05 19:08:48,626: update_indicator() 'Setting file info to: /home/roxor/.config/variety/Downloaded/wallhaven_wallhaven_cc_search_q_abstract_categories_110_purity_100_sorting_relevance_order_desc_ai_art_filter_1/wallhaven-g7jpze.png'
+ERROR: 2025-04-05 19:08:48,626: set_desktop_wallpaper() 'set_wallpaper script is missing or not executable: /home/roxor/.config/variety/scripts/set_wallpaper_arco'
+INFO: 2025-04-05 19:08:48,645: list_files() 'More than 1 files in the folders, stop listing'
+INFO: 2025-04-05 19:08:50,260: trigger_download() 'Triggering download thread to check if download needed and possible'
+INFO: 2025-04-05 19:08:50,262: get_throttling() 'Wallhaven.cc: parsing serverside options'
+INFO: 2025-04-05 19:08:50,263: get_throttling() 'Could not parse Wallhaven.cc serverside options, using defaults 360, 40'
+INFO: 2025-04-05 19:08:50,263: get_throttling() 'Wallhaven.cc: parsing serverside options'
+INFO: 2025-04-05 19:08:50,263: get_throttling() 'Could not parse Wallhaven.cc serverside options, using defaults 360, 40'
+INFO: 2025-04-05 19:08:50,264: download_one() 'Wallhaven.cc: Downloading an image, config: https://wallhaven.cc/search?q=abstract&categories=110&purity=100&sorting=relevance&order=desc&ai_art_filter=1'
+INFO: 2025-04-05 19:08:50,264: download_one() 'Wallhaven.cc: Queue size: 0'
+INFO: 2025-04-05 19:08:50,264: get_throttling() 'Wallhaven.cc: parsing serverside options'
+INFO: 2025-04-05 19:08:50,264: get_throttling() 'Could not parse Wallhaven.cc serverside options, using defaults 360, 40'
+INFO: 2025-04-05 19:08:50,265: download_one() 'Wallhaven.cc: Filling queue'
+INFO: 2025-04-05 19:08:50,265: search() 'Performing wallhaven search: url=https://wallhaven.cc/api/v1/search?q=abstract&categories=110&purity=100&sorting=relevance&order=desc&ai_art_filter=1'
+INFO: 2025-04-05 19:08:50,277: trigger_download() 'Triggering download thread to check if download needed and possible'
+INFO: 2025-04-05 19:08:51,473: fill_queue() '13925 wallpapers in result, using page 4'
+INFO: 2025-04-05 19:08:51,473: search() 'Performing wallhaven search: url=https://wallhaven.cc/api/v1/search?q=abstract&categories=110&purity=100&sorting=relevance&order=desc&ai_art_filter=1&page=4'
+INFO: 2025-04-05 19:08:52,209: download_one() 'Wallhaven.cc: Queue populated with 12 URLs'
+INFO: 2025-04-05 19:08:52,210: download_queue_item() 'Wallpaper URL: https://wallhaven.cc/w/z8ro3y'
+INFO: 2025-04-05 19:08:52,210: download_queue_item() 'Image src URL: https://w.wallhaven.cc/full/z8/wallhaven-z8ro3y.jpg'
+INFO: 2025-04-05 19:08:53,124: save_locally() 'Origin URL: https://wallhaven.cc/w/z8ro3y'
+INFO: 2025-04-05 19:08:53,124: save_locally() 'Image URL: https://w.wallhaven.cc/full/z8/wallhaven-z8ro3y.jpg'
+INFO: 2025-04-05 19:08:53,124: save_locally() 'Local path: /home/roxor/.config/variety/Downloaded/wallhaven_wallhaven_cc_search_q_abstract_categories_110_purity_100_sorting_relevance_order_desc_ai_art_filter_1/wallhaven-z8ro3y.jpg'
+ERROR: 2025-04-05 19:08:54,829: write_metadata() 'Could not write metadata directly in file, trying json metadata: /home/roxor/.config/variety/Downloaded/wallhaven_wallhaven_cc_search_q_abstract_categories_110_purity_100_sorting_relevance_order_desc_ai_art_filter_1/wallhaven-z8ro3y.jpg.partial'
+Traceback (most recent call last):
+  File "/nix/store/5w87rsy0bmksgm30z017wd72h6a74039-variety-0.8.12/lib/python3.12/site-packages/variety/Util.py", line 464, in write_metadata
+    m = VarietyMetadata(filename)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/nix/store/5w87rsy0bmksgm30z017wd72h6a74039-variety-0.8.12/lib/python3.12/site-packages/variety/Util.py", line 173, in __init__
+    super(VarietyMetadata, self).__init__(path=path)
+TypeError: gobject `variety+Util+VarietyMetadata' doesn't support property `path'
+INFO: 2025-04-05 19:08:54,842: save_locally() 'Download complete'
+INFO: 2025-04-05 19:08:54,842: update_indicator() 'Setting file info to: /home/roxor/.config/variety/Downloaded/wallhaven_wallhaven_cc_search_q_abstract_categories_110_purity_100_sorting_relevance_order_desc_ai_art_filter_1/wallhaven-g7jpze.png'
+INFO: 2025-04-05 19:08:54,843: list_files() 'More than 1 files in the folders, stop listing'
+INFO: 2025-04-05 19:08:54,843: download_one_from() 'Adding downloaded file /home/roxor/.config/variety/Downloaded/wallhaven_wallhaven_cc_search_q_abstract_categories_110_purity_100_sorting_relevance_order_desc_ai_art_filter_1/wallhaven-z8ro3y.jpg to unseen_downloads'

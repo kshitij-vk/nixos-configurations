@@ -463,3 +463,8 @@ source ~/powerlevel10k/powerlevel10k.zsh-theme
 # bun
 export BUN_INSTALL="$HOME/.bun"
 export PATH="$BUN_INSTALL/bin:$PATH"
+source ~/powerlevel10k/powerlevel10k.zsh-theme
+
+export SSH_AUTH_SOCK="$XDG_RUNTIME_DIR/keyring/ssh"
+export DBUS_SESSION_BUS_ADDRESS="unix:path=$XDG_RUNTIME_DIR/bus"
+export GNOME_KEYRING_CONTROL="$XDG_RUNTIME_DIR/keyring"

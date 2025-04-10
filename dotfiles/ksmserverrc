@@ -1,0 +1,12 @@
+[LegacySession: saved at previous logout]
+clientMachine1=localhost
+command1=firefox
+count=1
+
+[Session: saved at previous logout]
+clientId1=10e169786f000174400275000000280730006
+count=1
+program1=/run/current-system/sw/bin/kalendarac
+restartCommand1=/run/current-system/sw/bin/kalendarac,-session,10e169786f000174400275000000280730006_1744002931_273049,-name,kalendarac
+restartStyleHint1=0
+userId1=roxor

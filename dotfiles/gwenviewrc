@@ -1,0 +1,16 @@
+[General]
+LastUsedVersion=210800
+
+[ImageView]
+ThumbnailSplitterSizes=330,94
+
+[MainWindow]
+MenuBar=Disabled
+ToolBarsMovable=Disabled
+
+[Recent Files]
+File1[$e]=$HOME/Downloads/Win11OS-dark/Win11OS-dark.svg
+Name1[$e]=Win11OS-dark.svg
+
+[SideBar]
+InformationSplitterSizes=0,0
