@@ -11,10 +11,8 @@
       ./core.nix
       ./desktop.nix
       ./desktops/hyprland.nix
-      ./desktops/hyprland.nix
       ./env-vars.nix
     ];
-
 
   # Bootloader.
   boot.loader.systemd-boot.enable = false;
@@ -39,16 +37,13 @@
   boot.kernel.sysctl = { "vm.swappiness" = 10;};
 
   # Kernel
-  boot.kernelPackages = pkgs.linuxPackages_xanmod_latest;
+  boot.kernelPackages = pkgs.linuxPackages_latest;
   hardware.cpu.amd.updateMicrocode = true;
 
   # Nix-Expermental
   nix.settings.experimental-features = [ "nix-command" "flakes" ];
   nix.settings.auto-optimise-store = true;
   security.pam.services.login.enableGnomeKeyring = true;
-
-  # Steam
-  # programs.steam.enable = true;
 
   networking.hostName = "nixos"; # Define your hostname.
   # networking.wireless.enable = true;  # Enables wireless support via wpa_supplicant.
@@ -59,7 +54,6 @@
 
   # Enable networking
   networking.networkmanager.enable = true;
-  networking.nameservers = [ "94.140.14.14" "94.140.15.15" ];
 
   # Set your time zone.
   time.timeZone = "Asia/Kolkata";
@@ -88,6 +82,7 @@
   enable = true;
   theme = "catppuccin-mocha";
   wayland.enable = true;
+  autoLogin.enable = false;
   };
   services.desktopManager.plasma6.enable = true;
 
@@ -101,7 +96,7 @@
   services.printing.enable = true;
 
   # Enable sound with pipewire.
-  hardware.pulseaudio.enable = false;
+  services.pulseaudio.enable = false;
   security.rtkit.enable = true;
   services.pipewire = {
     enable = true;
@@ -130,7 +125,9 @@
     ];
   };
 
-  # List packages installed in system profile. To search, run:
+  # Enable automatic login for the user.
+  services.displayManager.autoLogin.enable = true;
+  services.displayManager.autoLogin.user = "roxor";
 
   # Kde-Connect
   programs.kdeconnect.enable = true;
@@ -176,6 +173,30 @@
   dates = "weekly";
   options = "--delete-older-than 7d";
   };
+
+  # List packages installed in system profile. To search, run:
+  # $ nix search wget
+  environment.systemPackages = with pkgs; [
+  #  vim # Do not forget to add an editor to edit configuration.nix! The Nano editor is also installed by default.
+  #  wget
+  ];
+
+  # Git Configuration
+  programs.git = {
+    enable = true;
+#    userName = "Kshitij Koyande";
+#    userEmail = "koyande72@gmail.com";
+  };
+
+  # Some programs need SUID wrappers, can be configured further or are
+  # started in user sessions.
+  # programs.mtr.enable = true;
+  # programs.gnupg.agent = {
+  #   enable = true;
+  #   enableSSHSupport = true;
+  # };
+
+  # List services that you want to enable:
 
   # Bluetooth
   hardware.bluetooth.enable = true; # enables support for Bluetooth
@@ -231,30 +252,6 @@
       };
     };
 
-  # List packages installed in system profile. To search, run:
-  # $ nix search wget
-  environment.systemPackages = with pkgs; [
-  #  vim # Do not forget to add an editor to edit configuration.nix! The Nano editor is also installed by default.
-  #  wget
-  ];
-
-  # Some programs need SUID wrappers, can be configured further or are
-  # started in user sessions.
-  # programs.mtr.enable = true;
-  # programs.gnupg.agent = {
-  #   enable = true;
-  #   enableSSHSupport = true;
-  # };
-
-  # List services that you want to enable:
-
-  # Git Configuration
-  programs.git = {
-    enable = true;
-#    userName = "Kshitij Koyande";
-#    userEmail = "koyande72@gmail.com";
-  };
-
   # Enable the OpenSSH daemon.
   # services.openssh.enable = true;
 
@@ -270,7 +267,7 @@
   # this value at the release version of the first install of this system.
   # Before changing this value read the documentation for this option
   # (e.g. man configuration.nix or on https://nixos.org/nixos/options.html).
-  system.stateVersion = "24.11"; # Did you read the comment?
+  system.stateVersion = "25.05"; # Did you read the comment?
 
   nixpkgs.config.permittedInsecurePackages = [
         "openssl-1.1.1w" "electron-19.1.9" "python3.11-youtube-dl-2021.12.17"

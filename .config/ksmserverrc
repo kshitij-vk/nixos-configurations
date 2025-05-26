@@ -1,0 +1,10 @@
+[LegacySession: saved at previous logout]
+count=0
+
+[Session: saved at previous logout]
+clientId1=10e169786f000174809211500000021770006
+count=1
+program1=/run/current-system/sw/bin/kalendarac
+restartCommand1=/run/current-system/sw/bin/kalendarac,-session,10e169786f000174809211500000021770006_1748092151_512369,-name,kalendarac
+restartStyleHint1=0
+userId1=roxor

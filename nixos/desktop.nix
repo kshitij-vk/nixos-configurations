@@ -31,7 +31,6 @@
     i3lock-fancy-rapid
     imlib2
     jetbrains-mono
-    kate
     ksuperkey
     libgtop
     libnotify
@@ -50,7 +49,6 @@
     pavucontrol
     picom
     python312Packages.sparklines
-    python312Packages.gpustat
     pywal
     poppins
     rofi-wayland

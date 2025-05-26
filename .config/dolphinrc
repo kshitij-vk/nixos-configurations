@@ -1,0 +1,14 @@
+[ExtractDialog]
+1920x1080 screen: Window-Maximized=true
+DirHistory[$e]=$HOME/Downloads/,$HOME/Downloads/Telegram Desktop/log/
+
+[General]
+Version=202
+ViewPropsTimestamp=2025,4,10,20,27,56.762
+
+[KFileDialog Settings]
+Places Icons Auto-resize=false
+Places Icons Static Size=22
+
+[MainWindow]
+MenuBar=Disabled

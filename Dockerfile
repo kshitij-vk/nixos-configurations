@@ -5,7 +5,7 @@ RUN pacman -Sy --noconfirm reflector && \
     reflector --latest 10 --protocol https --sort rate --save /etc/pacman.d/mirrorlist
 
 # Enable multilib repo
-RUN sed -i '/\[multilib\]/,/Include/s/^#//' /etc/pacman.conf && \
+RUN sed -i '/^\[multilib\]$/,/^Include/ s/^#//' /etc/pacman.conf && \
     pacman -Sy
 
 # Now update system & install packages

@@ -29,7 +29,6 @@
     chromium
     curl
     dex
-    discord
     dmenu
     docker
     docker-compose
@@ -46,6 +45,7 @@
     gitFull
     git-lfs
     github-desktop
+    google-chrome
     gparted
     dconf-editor
     gcc
