@@ -36,9 +36,4 @@
     config.credential.helper = "libsecret";
   };
 
-  nixpkgs.config = {
-    chromium = {
-    enableWideVine = true;
-    };
-  };
 }

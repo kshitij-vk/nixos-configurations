@@ -20,8 +20,6 @@
     font-awesome_4
     font-awesome_5
     file-roller
-    gnome-keyring
-    gnome-tweaks
     gnumake
     gpustat
     grim
@@ -35,8 +33,6 @@
     libgtop
     libnotify
     libsecret
-    libsForQt5.qt5ct
-    lightly-boehs
     lolcat
     lxappearance
     matugen
@@ -44,7 +40,6 @@
     meslo-lgs-nf
     micro
     nitrogen
-    numix-icon-theme
     ocs-url
     pavucontrol
     picom

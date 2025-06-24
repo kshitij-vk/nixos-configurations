@@ -26,7 +26,6 @@
     btop
     cacert
     ccache
-    chromium
     curl
     dex
     dmenu
@@ -39,7 +38,6 @@
     feh
     filezilla
     firefox
-    flameshot
     font-manager
     fsearch
     gitFull
@@ -65,14 +63,12 @@
     jdk
     jetbrains.pycharm-professional
     jq
-    kdePackages.sddm-kcm
     killall
     kubectl
     lact
     libtool
     libGL
     libGLU
-    libsForQt5.kglobalaccel
     libxcrypt
     libxml2
     lm_sensors
@@ -87,8 +83,6 @@
     networkmanager
     networkmanagerapplet
     ninja
-    nixos-generators
-    nomacs
     numlockx
     nwg-look
     platinum-searcher
@@ -96,7 +90,6 @@
     polybar
     pipx
     python3Full
-    qt6Packages.qtstyleplugin-kvantum
     ripgrep
     rxvt-unicode
     scrot
@@ -131,13 +124,13 @@
       libva-vdpau-driver
     ];
     # For 32 bit applications
-    extraPackages32 = with pkgs.driversi686Linux; [
-      libvdpau-va-gl
-      libva-vdpau-driver
-    ];
-    enable = true;
-    # driSupport = true;
-    driSupport32Bit = true;
+#    extraPackages32 = with pkgs.driversi686Linux; [
+#      libvdpau-va-gl
+#      libva-vdpau-driver
+#    ];
+#    enable = true;
+#    # driSupport = true;
+#    driSupport32Bit = true;
   };
 
 }
