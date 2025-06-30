@@ -9,10 +9,10 @@
     [ # Include the results of the hardware scan.
       ./hardware-configuration.nix
       ./core.nix
+#      ./cyber.nix
       ./desktop.nix
-      ./desktops/hyprland.nix
-      ./desktops/hyprland.nix
       ./env-vars.nix
+      ./desktops/hyprland.nix
     ];
 
 
@@ -39,16 +39,14 @@
   boot.kernel.sysctl = { "vm.swappiness" = 10;};
 
   # Kernel
-  boot.kernelPackages = pkgs.linuxPackages_xanmod_latest;
+  boot.kernelPackages = pkgs.linuxPackages_latest;
   hardware.cpu.amd.updateMicrocode = true;
+
 
   # Nix-Expermental
   nix.settings.experimental-features = [ "nix-command" "flakes" ];
   nix.settings.auto-optimise-store = true;
   security.pam.services.login.enableGnomeKeyring = true;
-
-  # Steam
-  # programs.steam.enable = true;
 
   networking.hostName = "nixos"; # Define your hostname.
   # networking.wireless.enable = true;  # Enables wireless support via wpa_supplicant.
@@ -59,13 +57,12 @@
 
   # Enable networking
   networking.networkmanager.enable = true;
-  networking.nameservers = [ "94.140.14.14" "94.140.15.15" ];
 
   # Set your time zone.
   time.timeZone = "Asia/Kolkata";
 
   # Select internationalisation properties.
-  i18n.defaultLocale = "en_US.UTF-8";
+  i18n.defaultLocale = "en_IN";
 
   i18n.extraLocaleSettings = {
     LC_ADDRESS = "en_IN";
@@ -80,16 +77,11 @@
   };
 
   # Enable the X11 windowing system.
-  # You can disable this if you're only using the Wayland session.
   services.xserver.enable = true;
 
-  # Enable the KDE Plasma Desktop Environment.
-  services.displayManager.sddm = {
-  enable = true;
-  theme = "catppuccin-mocha";
-  wayland.enable = true;
-  };
-  services.desktopManager.plasma6.enable = true;
+  # Enable the GNOME Desktop Environment.
+  services.displayManager.gdm.enable = true;
+  services.desktopManager.gnome.enable = true;
 
   # Configure keymap in X11
   services.xserver.xkb = {
@@ -101,7 +93,7 @@
   services.printing.enable = true;
 
   # Enable sound with pipewire.
-  hardware.pulseaudio.enable = false;
+  services.pulseaudio.enable = false;
   security.rtkit.enable = true;
   services.pipewire = {
     enable = true;
@@ -125,12 +117,30 @@
     description = "Roxor";
     extraGroups = [ "networkmanager" "wheel" "docker" "jenkins" ];
     packages = with pkgs; [
-      kdePackages.kate
     #  thunderbird
     ];
   };
 
+  # Enable automatic login for the user.
+  services.displayManager.autoLogin.enable = false;
+  services.displayManager.autoLogin.user = "roxor";
+
+  # Workaround for GNOME autologin: https://github.com/NixOS/nixpkgs/issues/103746#issuecomment-945091229
+  systemd.services."getty@tty1".enable = false;
+  systemd.services."autovt@tty1".enable = false;
+
+  # Install firefox.
+  programs.firefox.enable = true;
+
+  # Allow unfree packages
+  nixpkgs.config.allowUnfree = true;
+
   # List packages installed in system profile. To search, run:
+  # $ nix search wget
+  environment.systemPackages = with pkgs; [
+  #  vim # Do not forget to add an editor to edit configuration.nix! The Nano editor is also installed by default.
+  #  wget
+  ];
 
   # Kde-Connect
   programs.kdeconnect.enable = true;
@@ -164,12 +174,6 @@
     serviceConfig.Restart = "always";
   };
 
-  # Install firefox.
-  programs.firefox.enable = true;
-
-  # Allow unfree packages
-  nixpkgs.config.allowUnfree = true;
-
   # Automatic Garbage Collection
   nix.gc = {
   automatic = true;
@@ -177,6 +181,27 @@
   options = "--delete-older-than 7d";
   };
 
+  # Git Configuration
+  programs.git = {
+    enable = true;
+#    userName = "Kshitij Koyande";
+#    userEmail = "koyande72@gmail.com";
+  };
+
+  # Steam
+  programs.steam = {
+   enable = true;
+  };
+
+  # Some programs need SUID wrappers, can be configured further or are
+  # started in user sessions.
+  # programs.mtr.enable = true;
+  # programs.gnupg.agent = {
+  #   enable = true;
+  #   enableSSHSupport = true;
+  # };
+
+  # List services that you want to enable:
   # Bluetooth
   hardware.bluetooth.enable = true; # enables support for Bluetooth
   hardware.bluetooth.powerOnBoot = true; # powers up the default Bluetooth controller on boot
@@ -231,30 +256,6 @@
       };
     };
 
-  # List packages installed in system profile. To search, run:
-  # $ nix search wget
-  environment.systemPackages = with pkgs; [
-  #  vim # Do not forget to add an editor to edit configuration.nix! The Nano editor is also installed by default.
-  #  wget
-  ];
-
-  # Some programs need SUID wrappers, can be configured further or are
-  # started in user sessions.
-  # programs.mtr.enable = true;
-  # programs.gnupg.agent = {
-  #   enable = true;
-  #   enableSSHSupport = true;
-  # };
-
-  # List services that you want to enable:
-
-  # Git Configuration
-  programs.git = {
-    enable = true;
-#    userName = "Kshitij Koyande";
-#    userEmail = "koyande72@gmail.com";
-  };
-
   # Enable the OpenSSH daemon.
   # services.openssh.enable = true;
 
@@ -270,9 +271,10 @@
   # this value at the release version of the first install of this system.
   # Before changing this value read the documentation for this option
   # (e.g. man configuration.nix or on https://nixos.org/nixos/options.html).
-  system.stateVersion = "24.11"; # Did you read the comment?
+  system.stateVersion = "25.05"; # Did you read the comment?
 
   nixpkgs.config.permittedInsecurePackages = [
         "openssl-1.1.1w" "electron-19.1.9" "python3.11-youtube-dl-2021.12.17"
   ];
+
 }

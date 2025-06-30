@@ -6,8 +6,8 @@
 
 {
   environment.variables = {
-    EDITOR = "nano";
-    BROWSER = "chromium";
+    EDITOR = "code";
+    BROWSER = "google-chrome-stable";
     QT_QPA_PLATFORM = "xcb";
     #QT_QPA_PLATFORMTHEME = lib.mkForce "qt5ct";
   };
@@ -36,9 +36,4 @@
     config.credential.helper = "libsecret";
   };
 
-  nixpkgs.config = {
-    chromium = {
-    enableWideVine = true;
-    };
-  };
 }

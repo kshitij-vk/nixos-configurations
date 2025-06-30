@@ -8,7 +8,6 @@
 
 {
   environment.systemPackages = with pkgs; [
-    alacritty
     android-file-transfer
     ansible
     amdvlk
@@ -26,10 +25,8 @@
     btop
     cacert
     ccache
-    chromium
     curl
     dex
-    discord
     dmenu
     docker
     docker-compose
@@ -40,12 +37,13 @@
     feh
     filezilla
     firefox
-    flameshot
     font-manager
     fsearch
+    gh
     gitFull
     git-lfs
     github-desktop
+    google-chrome
     gparted
     dconf-editor
     gcc
@@ -65,14 +63,13 @@
     jdk
     jetbrains.pycharm-professional
     jq
-    kdePackages.sddm-kcm
     killall
     kubectl
     lact
     libtool
     libGL
     libGLU
-    libsForQt5.kglobalaccel
+    libsForQt5.polkit-qt
     libxcrypt
     libxml2
     lm_sensors
@@ -87,16 +84,14 @@
     networkmanager
     networkmanagerapplet
     ninja
-    nixos-generators
-    nomacs
     numlockx
     nwg-look
     platinum-searcher
+    polkit
     polkit_gnome
     polybar
     pipx
     python3Full
-    qt6Packages.qtstyleplugin-kvantum
     ripgrep
     rxvt-unicode
     scrot
@@ -123,7 +118,7 @@
   ];
 
   #amdgpu
-  hardware.opengl = {
+  hardware.graphics = {
     extraPackages = with pkgs; [
       rocmPackages.clr.icd
       libvdpau-va-gl
@@ -131,13 +126,13 @@
       libva-vdpau-driver
     ];
     # For 32 bit applications
-    extraPackages32 = with pkgs.driversi686Linux; [
-      libvdpau-va-gl
-      libva-vdpau-driver
-    ];
-    enable = true;
-    # driSupport = true;
-    driSupport32Bit = true;
+#    extraPackages32 = with pkgs.driversi686Linux; [
+#      libvdpau-va-gl
+#      libva-vdpau-driver
+#    ];
+#    enable = true;
+#    # driSupport = true;
+#    driSupport32Bit = true;
   };
 
 }
