@@ -35,5 +35,35 @@
     package = pkgs.gitFull;
     config.credential.helper = "libsecret";
   };
+  # Set your time zone.
+  time.timeZone = "Asia/Kolkata";
+
+  # Select internationalisation properties.
+  i18n.defaultLocale = "en_IN";
+
+  i18n.extraLocaleSettings = {
+    LC_ADDRESS = "en_IN";
+    LC_IDENTIFICATION = "en_IN";
+    LC_MEASUREMENT = "en_IN";
+    LC_MONETARY = "en_IN";
+    LC_NAME = "en_IN";
+    LC_NUMERIC = "en_IN";
+    LC_PAPER = "en_IN";
+    LC_TELEPHONE = "en_IN";
+    LC_TIME = "en_IN";
+  };
+  # Define a user account. Don't forget to set a password with ‘passwd’.
+  users.users.roxor = {
+    isNormalUser = true;
+    description = "Roxor";
+    extraGroups = [ "networkmanager" "wheel" "docker" "jenkins" ];
+    packages = with pkgs; [
+    #  thunderbird
+    ];
+  };
+
+  # Enable automatic login for the user.
+  services.displayManager.autoLogin.enable = false;
+  services.displayManager.autoLogin.user = "roxor";
 
 }
