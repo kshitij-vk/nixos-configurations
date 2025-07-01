@@ -4,17 +4,17 @@
 
 { config, pkgs, ... }:
 
-{
-  imports =
-    [ # Include the results of the hardware scan.
-      ./hardware-configuration.nix
-      ./core.nix
-#      ./cyber.nix
-      ./desktop.nix
-      ./env-vars.nix
-      ./desktops/hyprland.nix
-    ];
-
+let
+  maybeHardware = if builtins.pathExists "/etc/nixos/hardware-configuration.nix"
+                  then [ /etc/nixos/hardware-configuration.nix ]
+                  else [];
+in {
+  imports = maybeHardware ++ [
+    ../modules/core.nix
+    ../modules/desktop.nix
+    ../modules/env-vars.nix
+    ../modules/desktops/hyprland.nix
+  ];
 
   # Bootloader.
   boot.loader.systemd-boot.enable = false;
