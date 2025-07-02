@@ -11,10 +11,10 @@ let
 in {
   imports = maybeHardware ++ [
     ../modules/services.nix
-    ../modules/core.nix
-    ../modules/desktop.nix
     ../modules/env-vars.nix
     ../modules/desktops/hyprland.nix
+    ../modules/packages/core.nix
+    ../modules/packages/desktop.nix
   ];
 
   # Bootloader.
