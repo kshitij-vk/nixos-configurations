@@ -39,6 +39,11 @@
   # Allow unfree packages
   nixpkgs.config.allowUnfree = true;
 
+  # VirtualBox
+  virtualisation.virtualbox.host.enable = true;
+  users.extraGroups.vboxusers.members = [ "roxor" ];
+  boot.kernelModules = [ "vboxdrv" "vboxnetflt" "vboxnetadp" ];
+
   # Bluetooth
   hardware.bluetooth.enable = true; # enables support for Bluetooth
   hardware.bluetooth.powerOnBoot = true; # powers up the default Bluetooth controller on boot

@@ -92,6 +92,7 @@
     polybar
     pipx
     python3Full
+    p7zip
     ripgrep
     rxvt-unicode
     scrot
