@@ -1,21 +1,6 @@
 #!/bin/bash
 #set -e
-##################################################################################################################
-# Author    : Erik Dubois
-# Website   : https://www.erikdubois.be
-# Website   : https://www.alci.online
-# Website   : https://www.ariser.eu
-# Website   : https://www.arcolinux.info
-# Website   : https://www.arcolinux.com
-# Website   : https://www.arcolinuxd.com
-# Website   : https://www.arcolinuxb.com
-# Website   : https://www.arcolinuxiso.com
-# Website   : https://www.arcolinuxforum.com
-##################################################################################################################
-#
-#   DO NOT JUST RUN THIS. EXAMINE AND JUDGE. RUN AT YOUR OWN RISK.
-#
-##################################################################################################################
+
 #tput setaf 0 = black
 #tput setaf 1 = red
 #tput setaf 2 = green
@@ -64,15 +49,15 @@ git pull
 # cp -r /tmp/input/etc/skel/.config/Thunar/* dotfiles/.config/Thunar
 # rm -rf /tmp/input
 
-# echo"Variety"
-# git clone https://github.com/arcolinux/arcolinux-variety --depth=1  /tmp/input
-# cp -r /tmp/input/etc/skel/.config/* dotfiles/.config/
-# rm -rf /tmp/input
+echo"Variety"
+git clone https://github.com/arcolinux/arcolinux-variety --depth=1  /tmp/input
+cp -r /tmp/input/etc/skel/.config/* dotfiles/.config/
+rm -rf /tmp/input
 
-# echo"Variety"
-# git clone https://github.com/arcolinux/arcolinux-variety-autostart --depth=1  /tmp/input
-# cp -r /tmp/input/etc/skel/.config/* dotfiles/.config/
-# rm -rf /tmp/input
+echo"Variety"
+git clone https://github.com/arcolinux/arcolinux-variety-autostart --depth=1  /tmp/input
+cp -r /tmp/input/etc/skel/.config/* dotfiles/.config/
+rm -rf /tmp/input
 
 # echo"btop"
 # git clone https://github.com/arcolinux/arcolinux-btop --depth=1  /tmp/input
