@@ -86,6 +86,7 @@
     ninja
     numlockx
     nwg-look
+    papirus-icon-theme
     platinum-searcher
     polkit
     polkit_gnome
@@ -97,6 +98,8 @@
     rxvt-unicode
     scrot
     simplescreenrecorder
+    tela-icon-theme
+    tela-circle-icon-theme
     telegram-desktop
     tree
     unzip
