@@ -61,7 +61,7 @@
     insync
     inxi
     jdk
-    jetbrains.pycharm-professional
+    #jetbrains.pycharm-professional
     jq
     killall
     kubectl
@@ -101,7 +101,7 @@
     tree
     unzip
     vlc
-    volumeicon
+    #volumeicon
     vscode
     wget
     widevine-cdm
