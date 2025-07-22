@@ -14,8 +14,10 @@
 
 Open up your Documents folder and open a terminal there and type:
 
+```bash
 nix-env -i git 
 
+```
 This will install git. It might take a while to install it. Be patient.
 
 Then you get this github project via this command in the same terminal:
@@ -33,14 +35,19 @@ nix build .
 nix profile install .
 ```
 
+Upgrade System
+```bash
+sudo nix flake update
+sudo nixos-rebuild switch --flake ~/Programs/nixos-configurations/nixos#runtime --impure --show-trace --upgrade
+```
+
+Rebuild System
+```bash
+sudo nixos-rebuild switch --flake ~/Programs/nixos-configurations/nixos#runtime --impure --show-trace
+```
+
 # Desktops
 
  - gnome(Base for apps + Services)
 
  - hyprland
-
-
-
-
-
-

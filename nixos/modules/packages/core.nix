@@ -62,6 +62,7 @@
     inxi
     jdk
     #jetbrains.pycharm-professional
+    jetbrains-toolbox
     jq
     killall
     kubectl
