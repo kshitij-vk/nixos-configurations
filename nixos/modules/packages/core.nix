@@ -42,7 +42,9 @@
     gh
     gitFull
     git-lfs
+    git-credential-manager
     github-desktop
+    gnupg
     google-chrome
     gparted
     dconf-editor
