@@ -97,6 +97,7 @@
     polkit_gnome
     polybar
     pipx
+    ps_mem
     python3Full
     p7zip
     ripgrep
