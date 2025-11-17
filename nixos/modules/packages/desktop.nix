@@ -44,10 +44,10 @@
     ocs-url
     pavucontrol
     picom
-    python312Packages.sparklines
+    python313Packages.sparklines
     pywal
     poppins
-    rofi-wayland
+    rofi
     slstatus
     st
     swaylock

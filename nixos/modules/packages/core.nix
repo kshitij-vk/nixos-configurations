@@ -8,9 +8,10 @@
 
 {
   environment.systemPackages = with pkgs; [
+    android-tools
     android-file-transfer
     ansible
-    amdvlk
+#    amdvlk
     arandr
     arc-theme
     avahi
@@ -90,7 +91,7 @@
     numlockx
     nwg-look
     papirus-icon-theme
-    pinentry
+    pinentry-gnome3
     pinentry-tty
     platinum-searcher
     polkit
@@ -98,7 +99,7 @@
     polybar
     pipx
     ps_mem
-    python3Full
+    python315
     p7zip
     ripgrep
     rxvt-unicode
