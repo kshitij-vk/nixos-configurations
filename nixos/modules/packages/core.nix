@@ -85,6 +85,7 @@
     minikube
     most
     fastfetch
+    net-tools
     networkmanager
     networkmanagerapplet
     ninja
