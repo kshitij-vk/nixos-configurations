@@ -40,7 +40,7 @@ in {
   boot.kernel.sysctl = { "vm.swappiness" = 10;};
 
   # Kernel
-  boot.kernelPackages = pkgs.linuxPackages_latest;
+  boot.kernelPackages = pkgs.linuxPackages_xanmod_latest;
   hardware.cpu.amd.updateMicrocode = true;
 
   # Workaround for GNOME autologin: https://github.com/NixOS/nixpkgs/issues/103746#issuecomment-945091229
