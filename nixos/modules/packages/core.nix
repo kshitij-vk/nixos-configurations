@@ -102,6 +102,7 @@
     ps_mem
     python315
     p7zip
+    quickshell
     ripgrep
     rxvt-unicode
     scrot
