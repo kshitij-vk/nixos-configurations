@@ -13,6 +13,7 @@ in {
     ../modules/services.nix
     ../modules/env-vars.nix
     ../modules/desktops/hyprland.nix
+    ../modules/desktops/niri.nix
     ../modules/packages/core.nix
     ../modules/packages/desktop.nix
   ];

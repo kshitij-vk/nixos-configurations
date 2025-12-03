@@ -8,7 +8,6 @@
   environment.variables = {
     EDITOR = "code";
     BROWSER = "google-chrome-stable";
-    QT_QPA_PLATFORM = "xcb";
     #QT_QPA_PLATFORMTHEME = lib.mkForce "qt5ct";
   };
 
@@ -28,6 +27,7 @@
   environment.sessionVariables = {
     LIBVA_DRIVER_NAME="radeonsi";
     VDPAU_DRIVER = "radeonsi";
+    QT_QPA_PLATFORM = "wayland";
   };
 
   programs.git = {
