@@ -41,7 +41,8 @@ in {
   boot.kernel.sysctl = { "vm.swappiness" = 10;};
 
   # Kernel
-  boot.kernelPackages = pkgs.linuxPackages_lqx;
+#  boot.kernelPackages = pkgs.linuxPackages_lqx;
+  boot.kernelPackages = pkgs.linuxPackages_xanmod_stable;
   hardware.cpu.amd.updateMicrocode = true;
 
   # Workaround for GNOME autologin: https://github.com/NixOS/nixpkgs/issues/103746#issuecomment-945091229
@@ -55,6 +56,8 @@ in {
   #  wget
   ];
 
+  # Add NTFS Support
+  boot.supportedFilesystems = [ "ntfs" ];
 
   # Some programs need SUID wrappers, can be configured further or are
   # started in user sessions.

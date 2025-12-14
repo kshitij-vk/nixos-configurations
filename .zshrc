@@ -143,6 +143,7 @@ fi
 ### ALIASES ###
 
 #list
+alias coder= 'code --enable-features=UseOzonePlatform --ozone-platform=wayland --verbose'
 alias ls='ls --color=auto'
 alias la='ls -a'
 alias ll='ls -alFh'
@@ -446,6 +447,7 @@ alias awa="arcolinux-welcome-app"
 alias rmgitcache="rm -r ~/.cache/git"
 alias grh="git reset --hard"
 
+alias clr= clear;
 #moving your personal files and folders from /personal to ~
 alias personal='cp -Rf /personal/* ~'
 
@@ -468,3 +470,12 @@ source ~/powerlevel10k/powerlevel10k.zsh-theme
 export SSH_AUTH_SOCK="$XDG_RUNTIME_DIR/keyring/ssh"
 export DBUS_SESSION_BUS_ADDRESS="unix:path=$XDG_RUNTIME_DIR/bus"
 export GNOME_KEYRING_CONTROL="$XDG_RUNTIME_DIR/keyring"
+
+
+
+# example mappings (adjust sequences to whatever cat -v showed)
+bindkey "^[[H" beginning-of-line     # Home
+bindkey "^[[F" end-of-line           # End
+bindkey "^[[3~" delete-char           # Delete
+bindkey "^[[5~" history-search-backward # PgUp
+bindkey "^[[6~" history-search-forward  # PgDn

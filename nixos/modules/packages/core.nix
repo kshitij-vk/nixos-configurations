@@ -31,6 +31,7 @@
     dmenu
     docker
     docker-compose
+    discord
     distrobox
     duf
     edid-decode

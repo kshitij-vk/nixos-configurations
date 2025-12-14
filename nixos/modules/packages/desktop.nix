@@ -64,6 +64,8 @@
     xorg.libXft
     xorg.libXinerama
     xorg.libxcb.dev
+    xwayland
+    xwayland-satellite
     yad
 ];
 }

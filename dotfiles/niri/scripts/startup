@@ -1,0 +1,52 @@
+#!/bin/bash
+
+#wallpaper fetcher and wallpaper rotator
+#type "var" in a terminal to change settings - example
+#variety &
+swww-daemon &
+swww img .config/background &
+SCRIPTSDIR=$HOME/.config/hypr/scripts
+
+# polkit agent
+if [[ ! 'pidof polkit-gnome-authentication-agent-1' ]];then
+	/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
+fi
+polkit.addRule(function(action, subject) {
+    if (action.id == "org.freedesktop.timeshift.run" &&
+        subject.isInGroup("wheel")) {
+        return polkit.Result.YES;
+    }
+});
+
+# Apply themes
+${SCRIPTSDIR}/gtkthemes &
+
+# Lauch notification daemon (mako)
+${SCRIPTSDIR}/notifications &
+
+# Xauthority
+${SCRIPTSDIR}/xauthority &
+
+
+#######################
+### Network Manager ###
+#######################
+
+# Export full systemd env vars into user session
+dbus-update-activation-environment --systemd --all
+export $(systemctl --user show-environment | grep ^DBUS_SESSION_BUS_ADDRESS=)
+
+# Optional: export XDG vars again for good measure
+export XDG_SESSION_TYPE=wayland
+export XDG_CURRENT_DESKTOP=Hyprland
+
+# Start GNOME keyring if you want (optional)
+eval $(gnome-keyring-daemon --start)
+
+# Start polkit agent (recommended: lxpolkit)
+pkill lxpolkit
+lxpolkit &
+
+# Restart NetworkManager applet
+pkill nm-applet
+nm-applet --indicator &

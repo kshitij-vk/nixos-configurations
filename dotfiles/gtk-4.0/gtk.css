@@ -1,1 +1,23 @@
-/usr/share/themes/Catppuccin-Macchiato/gtk-4.0/gtk.css
+/*
+* GTK Colors
+* Generated with Matugen
+*/
+
+@define-color accent_color #ffb1c1;
+@define-color accent_bg_color #ffb1c1;
+@define-color accent_fg_color #66002a;
+@define-color window_bg_color #1d0f12;
+@define-color window_fg_color #f8dce0;
+@define-color headerbar_bg_color #1d0f12;
+@define-color headerbar_fg_color #f8dce0;
+@define-color popover_bg_color #5a4045;
+@define-color popover_fg_color #e1bec3;
+@define-color view_bg_color #1d0f12;
+@define-color view_fg_color #f8dce0;
+@define-color card_bg_color #1d0f12;
+@define-color card_fg_color #f8dce0;
+
+@define-color sidebar_bg_color #2b1b1e;
+@define-color sidebar_fg_color #f8dce0;
+@define-color sidebar_border_color @window_bg_color;
+@define-color sidebar_backdrop_color @window_bg_color;
